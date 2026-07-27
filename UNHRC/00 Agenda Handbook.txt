@@ -1,0 +1,83 @@
+================================================================
+UNHRC AGENDA HANDBOOK: AI, SURVEILLANCE & DATA PRIVACY
+================================================================
+
+COMMITTEE: United Nations Human Rights Council (UNHRC)
+AGENDA: Human Rights Implications of Artificial Intelligence, Mass Digital Surveillance, and Data Privacy
+
+----------------------------------------------------------------
+1. TOPIC OVERVIEW
+----------------------------------------------------------------
+The rapid advancement of Artificial Intelligence (AI) and digital technology has revolutionized public services, security operations, and global communications. However, it has also created unprecedented challenges for human rights, particularly the right to privacy (Article 12 of the UDHR and Article 17 of the ICCPR). 
+
+Mass digital surveillance, biometric profiling, and algorithmic decision-making are increasingly deployed by state security apparatuses and private corporations without adequate oversight. This handbook provides delegates with a strategic overview of the agenda, legal frameworks, and debate sub-issues.
+
+----------------------------------------------------------------
+2. KEY CONCEPTS & DEFINITIONS
+----------------------------------------------------------------
+• Artificial Intelligence (AI): Systems displaying intelligent behavior by analyzing their environment and taking actions—with some degree of autonomy—to achieve specific goals.
+• Mass Digital Surveillance: The subjection of a population or significant component of a population to systematic monitoring, interception, or collection of digital communications.
+• Data Privacy: The right of individuals to control how their personal information is collected, stored, processed, and shared.
+• Biometric Profiling: The automated processing of physiological or behavioral data (e.g., facial structure, fingerprints, iris patterns) to identify or categorize individuals.
+• Data Minimization: The principle that personal data collected must be limited to what is necessary in relation to the purposes for which they are processed.
+• Cyber Sovereignty: The concept that states have the right to govern and regulate the digital space and internet traffic within their borders.
+
+----------------------------------------------------------------
+3. MAIN SUB-ISSUES IN DEBATE
+----------------------------------------------------------------
+
+A. Biometric Surveillance in Public Spaces
+- The deployment of real-time Facial Recognition Technology (FRT) in public transit, parks, and protests.
+- Focus: Balance between public safety (preventing crime, counter-terrorism) and the right to peaceful assembly and privacy.
+- Controversy: Documented racial and gender biases in FRT systems, leading to false arrests and chilling effects on protests.
+
+B. Warrantless Interception & Encryption Backdoors
+- States demanding "backdoor" access to end-to-end encrypted messaging platforms to monitor potential criminal activity.
+- Focus: Protect civilian communication integrity vs. intercepting threat plans.
+- Controversy: Weakening encryption for state oversight creates vulnerabilities that can be exploited by hostile cyber actors.
+
+C. Commercial Data Harvesting & Corporate Surveillance
+- Private tech monopolies harvesting massive user datasets to build behavioral profiles, which are often sold to third-party data brokers or accessed by state intelligence agencies.
+- Focus: Lack of comprehensive national privacy laws and corporate accountability.
+
+D. Algorithmic Discrimination in Public Services
+- The use of automated systems to allocate social benefits, target tax audits, or determine criminal sentencing.
+- Focus: Opacity of "black-box" algorithms, replicating historical economic and racial biases.
+
+E. Border Security & Migration Tracking
+- Deploying biometric scans, predictive AI, and tracking apps to monitor refugee and migrant movement at border zones.
+- Focus: Lack of data protections for non-citizens and vulnerable groups.
+
+----------------------------------------------------------------
+4. BLOC ALIGNMENTS
+----------------------------------------------------------------
+
+• Western & Liberal Democracies (e.g., USA, EU Members, UK, Japan)
+  - Core Position: Prioritize individual privacy, human rights impact assessments, and strict regulations on state surveillance.
+  - Key Demands: Banning biometric social scoring, preserving end-to-end encryption, and enforcing corporate data accountability.
+
+• Sovereign & Centralized States (e.g., China, Russia, Iran, Syria, North Korea)
+  - Core Position: Prioritize national security, state stability, and cyber sovereignty.
+  - Key Demands: Rejecting international oversight of domestic surveillance systems. Framing internet regulation as a sovereign right.
+
+• Developing & Global South States (e.g., India, Pakistan, Egypt, African States)
+  - Core Position: Focus on bridging the digital divide, tech transfer, and digital public infrastructure.
+  - Key Demands: Balancing national security with consumer privacy, seeking funding for technology development, and resisting rules that block access to AI.
+
+----------------------------------------------------------------
+5. RESOLUTION DESIGN GUIDANCE
+----------------------------------------------------------------
+To write a successful UNHRC draft resolution, delegates should focus on:
+1. Mandating Human Rights Impact Assessments (HRIAs) before states deploy AI in public services.
+2. Establishing national, independent data protection authorities to oversee private and public databases.
+3. Defining limits on the export of dual-use surveillance technologies to regimes with poor human rights records.
+4. Promoting digital literacy and global technology transfer to close the digital divide.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• Office of the High Commissioner for Human Rights (OHCHR)
+• UN Human Rights Council Resolutions (e.g., HRC 48/4)
+• United Nations General Assembly Resolutions (e.g., A/RES/68/167)
+• General Data Protection Regulation (GDPR) Texts
+================================================================

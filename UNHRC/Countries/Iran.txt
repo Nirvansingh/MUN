@@ -1,0 +1,297 @@
+﻿================================================================
+🇮🇷 IRAN | UNHRC BATTLE CARD
+================================================================
+
+BASIC INFORMATION
+-----------------
+Official Name: Islamic Republic of Iran
+Capital: Tehran
+Government: Islamic Republic (Theocratic Republic)
+Head of State: Supreme Leader Ayatollah Ali Khamenei
+Head of Government: President Masoud Pezeshkian
+Population: ~90 Million
+UNSC P5 Member: No
+
+---------------------------------------------------------------
+
+MAJOR ALLIES
+------------
+• Russia
+• China
+• Syria
+• Iraq (close relations)
+• Hezbollah (non-state actor)
+• Hamas (non-state actor)
+
+---------------------------------------------------------------
+
+MAJOR RIVALS
+------------
+• United States
+• Israel
+• Saudi Arabia (relations have improved but strategic rivalry remains)
+• United Kingdom
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Universal healthcare coverage
+✓ High literacy rate
+✓ Strong scientific and technological research
+✓ Significant regional diplomatic influence
+✓ Large higher education system
+✓ Strong disaster response capabilities
+✓ Constitutional recognition of certain religious minorities
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Restrictions on freedom of expression
+✗ Women's rights concerns
+✗ Death penalty
+✗ Restrictions on political opposition
+✗ Internet censorship
+✗ Restrictions on independent media
+✗ Arbitrary detention allegations
+✗ Religious minority concerns
+
+---------------------------------------------------------------
+
+HOT TOPICS
+----------
+• Women's Rights
+• Freedom of Expression
+• Internet Restrictions
+• Nuclear Programme
+• Death Penalty
+• Regional Security
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Respect for national sovereignty.
+• Human rights should not be politicized.
+• Iran's legal system reflects its Constitution and domestic laws.
+• Iran supports regional stability through dialogue.
+• Unilateral sanctions negatively affect economic and social rights.
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST IRAN
+-----------------------------
+
+Q1. How does Iran address concerns regarding women's rights?
+
+Q2. Why are restrictions placed on freedom of expression?
+
+Q3. What reforms are being made regarding the death penalty?
+
+Q4. How are religious minorities protected?
+
+Q5. How does Iran respond to allegations of arbitrary detention?
+
+---------------------------------------------------------------
+
+QUESTIONS IRAN CAN ASK OTHER COUNTRIES
+--------------------------------------
+
+To USA:
+• How do unilateral sanctions impact the human rights of ordinary civilians?
+
+To Israel:
+• How does Israel ensure proportionality during military operations?
+
+To Saudi Arabia:
+• What legal protections exist for migrant workers?
+
+To UK:
+• How does the UK address discrimination against minority communities?
+
+To France:
+• How does France balance secularism with religious freedom?
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Focus on sovereignty and non-interference.
+✓ Highlight the humanitarian impact of sanctions.
+✓ Avoid ideological arguments.
+✓ Emphasize dialogue and diplomacy.
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• United Nations
+• OHCHR
+• Ministry of Foreign Affairs (Iran)
+• Amnesty International
+• Human Rights Watch
+• World Bank
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Iran
+
+1. Country Overview
+- Government: Islamic Theocratic Republic
+- Political System: Centralized system with executive power held by the President and clerical oversight led by the Supreme Leader
+- Global Influence: Moderate (Regional actor, active partnerships with Russia and China)
+- Technology Sector: Specialized (focus on domestic software, national intranet networks, and cyber warfare capabilities)
+
+2. Official Position on AI
+Emphasizes cyber sovereignty and defense against foreign cultural and political influence. Rejects Western frameworks of digital rights, privacy, and free speech as politically motivated tools of intervention. Advocates for state-controlled internet systems to protect national identity and public order.
+
+3. National AI Strategy
+- National AI plans: Currently drafting a National AI Strategy under state research councils.
+- Government initiatives: Support for domestic technology self-reliance, local university AI labs, and state-backed computing infrastructure.
+- AI priorities: Developing domestic software, administrative automation, and national security applications.
+
+4. AI Governance
+- AI regulation: Coordinated by the Supreme Council of Cyberspace, aligning technology policies with Islamic values and state security.
+- AI ethics: Focuses on preservation of domestic cultural values, data sovereignty, and protecting the state.
+- Government oversight: Managed directly through clerical and security apparatuses.
+
+5. Data Privacy
+- Privacy laws: No comprehensive personal data privacy legislation exists; data access is controlled under state security directives.
+- Data protection authority: Supreme Council of Cyberspace holds provisional authority.
+- Citizen protections: Extremely limited; communications and personal records are subject to direct state monitoring.
+- Cross-border data rules: Restricts data flows outside the country, routing traffic through state-controlled gateways.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed extensively in urban centers and public transport hubs.
+- Facial recognition: Integrated into urban camera networks, used for policing and enforcing social codes.
+- Internet monitoring: Conducted through the National Information Network, filtering internet traffic and blocking global websites.
+- Government surveillance: Security forces monitor telecommunications traffic and digital metadata.
+- Public justification: Essential for counter-terrorism, national security, and maintaining public morality.
+- International criticism: Criticized by the UN, CSOs, and Western states for using facial recognition to identify and penalize dissidents.
+
+7. AI in Public Services
+- Education: Automated administration in state universities and domestic online learning platforms.
+- Healthcare: Basic diagnostic support tools and medical database management in public clinics.
+- Transportation: Camera-based traffic enforcement systems and automated toll tracking.
+- Judiciary: Automated document indexing and case file management in state courts.
+- Public administration: E-government portals automating identity registration and public distribution.
+
+8. AI in Defence
+- Military AI: Research focused on unmanned aerial vehicle (UAV) navigation, target identification, and missile guidance.
+- Autonomous systems: Drone technology integrated into tactical border security.
+- Cyber defence: State-led automated threat detection and critical network defense.
+- National security applications: Cryptological monitoring, digital interception, and threat prediction.
+
+9. Cybersecurity
+- National cyber strategy: Focuses on defending critical energy infrastructure and managing the National Information Network.
+- Cyber agencies: Cyber Police (FATA) and specialized cyber commands.
+- Cyber threats: State-sponsored cyber sabotage (e.g., utility attacks) and foreign intelligence operations.
+
+10. Major Technology Companies
+State research laboratories and domestic services platforms (e.g., Snapp, Cafe Bazaar).
+
+11. International Cooperation
+- UN: Participates in UNGA and UNHRC discussions.
+- UNESCO: Contributes to cultural preservation tracks.
+- OECD: Not a member; opposes Western-dominated guidelines.
+- Bilateral agreements: Technology and cyber security agreements with Russia and China.
+- Regional initiatives: Participates in regional technology tracks.
+
+12. Human Rights Strengths
+- High domestic capacity for engineering education and technological self-reliance.
+- Independent national internet infrastructure, protecting state networks from external blocks.
+- Specialized cybersecurity defense programs protecting civilian public services.
+- Successful digitization of basic health and educational records.
+- Support for domestic startup initiatives in the software services sector.
+
+13. Human Rights Concerns
+- Use of public facial recognition cameras to enforce dress codes and target political dissidents.
+- Broad internet filtering, blocking of global communication platforms, and online censorship.
+- Absence of independent data privacy laws to protect citizens from state monitoring.
+- Complete lack of independent judicial oversight for state electronic surveillance.
+- Threat of total communication shutdowns during domestic public protests.
+
+14. Likely Questions Against This Country
+- How does Iran justify the use of public facial recognition cameras to enforce domestic dress codes and target activists?
+- Why has Iran blocked access to major global communications platforms and isolated its citizens on the National Information Network?
+- What safeguards protect citizens from surveillance abuses by state intelligence units?
+- How is the National Information Network reconciled with the right to seek and impart information under the ICCPR?
+- What independent oversight exists for FATA's cyber monitoring operations?
+- How are domestic databases protected from unauthorized access by local authorities?
+- Does the military's use of AI in drone operations comply with international humanitarian law?
+- How is digital profiling of citizens used in state security files?
+- Why are there no independent data protection authorities in Iran?
+- How does the state respond to reports of cyber attacks targeting foreign institutions?
+
+15. Questions Iran Can Ask Others
+- How do Western states justify unilateral sanctions that restrict civilian access to educational AI resources and scientific databases?
+- What measures are in place to prevent state-sponsored cyber sabotage against civilian infrastructure like power plants?
+- How do states with private data markets prevent corporate profiling of citizens?
+- Why should global AI safety standards be dictated by Western nations rather than the UN?
+- What actions prevent tech monopolies from manipulating sovereign national elections?
+- How do states protect child privacy on commercial platforms?
+- What mechanisms prevent foreign intelligence from using digital networks for espionage?
+- How do states address the digital divide affecting developing countries?
+- Why should the export of digital monitoring tools not be subject to international human rights audits?
+- How do states balance the freedom of expression with the need to combat online hate speech?
+
+16. Strong Defence Arguments
+- Cyberspace regulation is a sovereign right necessary to preserve national culture and protect against foreign-backed espionage and instability.
+- Mobile networks and internet systems are regulated to counter active security threats and terrorist propaganda.
+- The National Information Network ensures that critical public services remain operational during external network blockades.
+- Tech development is directed toward national self-reliance in the face of unilateral economic sanctions.
+- Cybersecurity units successfully defend national utility grids from foreign-sponsored cyber sabotage.
+- The state works to ensure all digital systems align with the values and laws of the country.
+
+17. Red Lines
+- Will not support international regulations that restrict national cyber sovereignty or internet monitoring.
+- Rejects any binding treaty that bans military AI or drone navigation systems.
+
+18. Likely Allies
+Russia, China, Syria, Belarus, North Korea, Venezuela.
+
+19. Likely Opponents
+United States, Israel, United Kingdom, France, Saudi Arabia.
+
+20. Suggested Bloc
+Sovereign Internet Bloc / Like-Minded Group.
+
+21. Negotiation Strategy
+Focus on cyber sovereignty and national security. Resist Western rules. Align with Russia and China. Condemn unilateral sanctions as obstacles to technology access.
+
+22. Important Statistics
+Iran's National Information Network hosts over 50 million users, allowing state authorities to manage internal network traffic.
+
+23. Quick Facts
+- Supreme Council of Cyberspace coordinates national tech policy.
+- National Information Network allows complete isolation of domestic traffic.
+- FATA is the national cyber police force.
+- Facial recognition used to enforce hijab laws.
+- Strong focus on drone navigation AI.
+- Lacks independent data privacy laws.
+- Heavy target of foreign cyber operations (e.g., Stuxnet).
+- Snapp is the leading domestic ride-sharing app.
+- Cyber capabilities are managed by IRGC.
+- Internet penetration is around 75% for domestic services.
+- Highly developed cryptographic research sectors.
+- Co-sponsored declarations on technology and sovereignty.
+
+24. Executive Summary
+Iran prioritizes cyber sovereignty and defense against foreign cultural and political influence. Rejects Western frameworks of digital rights, advocating for state-controlled internet systems.
+
+25. SOURCES
+- Supreme Council of Cyberspace
+- Ministry of Information and Communications Technology
+- Cyber Police (FATA)
+- Office of the High Commissioner for Human Rights (OHCHR)
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

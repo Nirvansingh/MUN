@@ -1,0 +1,293 @@
+﻿================================================================
+🇵🇸 PALESTINE | UNHRC BATTLE CARD
+================================================================
+
+BASIC INFORMATION
+-----------------
+Official Name: State of Palestine
+Capital: East Jerusalem (Claimed)
+Government: Semi-Presidential Administration
+Head of State: President Mahmoud Abbas
+Population: ~5.5 Million
+UNSC P5 Member: No
+
+---------------------------------------------------------------
+
+MAJOR ALLIES
+------------
+• Jordan
+• Egypt
+• Qatar
+• Türkiye
+• Saudi Arabia
+• Algeria
+• Many Arab League members
+
+---------------------------------------------------------------
+
+MAJOR RIVALS
+------------
+• Israel
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Broad international support for Palestinian self-determination.
+✓ Active engagement with UN bodies.
+✓ Strong humanitarian assistance from international organizations.
+✓ Cultural and historical significance.
+✓ Advocacy for a negotiated two-state solution.
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Ongoing humanitarian crisis in Gaza.
+✗ Internal political divisions (Fatah–Hamas).
+✗ Limited control over parts of its claimed territory.
+✗ Dependence on international aid.
+✗ Governance challenges.
+✗ Allegations of arbitrary detention by Palestinian authorities.
+✗ Restrictions on political freedoms in some areas.
+
+---------------------------------------------------------------
+
+HOT TOPICS
+----------
+• Gaza Humanitarian Crisis
+• Occupation
+• West Bank
+• Settlements
+• Refugees
+• Two-State Solution
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Palestinians have the right to self-determination.
+• Civilian protection is essential under international humanitarian law.
+• Settlement expansion undermines prospects for peace.
+• Humanitarian aid must reach civilians without obstruction.
+• A negotiated two-state solution remains the preferred path to lasting peace.
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST PALESTINE
+----------------------------------
+
+Q1. How does Palestine address concerns regarding governance and political freedoms?
+
+Q2. What measures are being taken to prevent attacks against civilians?
+
+Q3. How can humanitarian aid be distributed effectively?
+
+Q4. What steps are being taken toward political unity?
+
+Q5. How does Palestine promote long-term peace and stability?
+
+---------------------------------------------------------------
+
+QUESTIONS PALESTINE CAN ASK OTHER COUNTRIES
+-------------------------------------------
+
+To Israel:
+• What concrete steps are being taken to minimize civilian casualties and facilitate humanitarian access?
+
+To USA:
+• How does the United States support an impartial and lasting peace process?
+
+To UK:
+• What role can the UK play in advancing a negotiated two-state solution?
+
+To France:
+• How can the international community better protect civilians during armed conflict?
+
+To India:
+• How does India support peaceful dialogue while respecting international law?
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Focus on humanitarian law.
+✓ Emphasize civilian protection.
+✓ Support peaceful negotiations.
+✓ Highlight the importance of international cooperation.
+✓ Avoid inflammatory rhetoric.
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• United Nations
+• OHCHR
+• State of Palestine Mission to the UN
+• Amnesty International
+• Human Rights Watch
+• World Bank
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Palestine
+
+1. Country Overview
+- Government: De Jure Sovereign State
+- Political System: Administrative control split between Palestinian Authority in West Bank and local authorities
+- Global Influence: Moderate-Low (Non-member observer state at UN, member of Arab League)
+- Technology Sector: Restricted (lacks infrastructure sovereignty, dependent on external telecom networks)
+
+2. Official Position on AI
+Advocates for the protection of digital rights, privacy, and free speech under military occupation. Stresses that mass digital surveillance, biometric tracking, and communication interception violate international law and human rights. Calls for sovereign control over national telecommunications and electromagnetic spectrum as essential digital rights.
+
+3. National AI Strategy
+- National AI plans: Lacks a formalized national AI strategy due to political division and infrastructure limits.
+- Government initiatives: Local IT training and digital literacy programs supported by international NGOs.
+- AI priorities: Bridging the digital divide and securing basic telecommunications infrastructure (4G/5G).
+
+4. AI Governance
+- AI regulation: No active regulatory framework for AI.
+- AI ethics: Supports international guidelines on ethics, emphasizing non-discrimination and human rights protection.
+- Government oversight: Limited to administrative oversight of local telecommunication operators.
+
+5. Data Privacy
+- Privacy laws: No comprehensive, modern data privacy legislation exists.
+- Data protection authority: Governed provisionally by the Ministry of Telecom and Information Technology (MTIT).
+- Citizen protections: Basic protections under domestic law, but enforcement is virtually impossible in occupied areas.
+- Cross-border data rules: Dependent on external telecom networks, preventing independent data border control.
+
+6. Mass Digital Surveillance
+- CCTV: Pervasively deployed in public transit and security points by external authorities.
+- Facial recognition: Citizens are subject to extensive biometric monitoring (e.g., Blue Wolf and Red Wolf).
+- Internet monitoring: Telecom traffic is intercepted by external intelligence agencies at gateways.
+- Government surveillance: Limited domestic monitoring; PA security forces monitor local networks for public order.
+- Public justification: PA justifies local regulations as necessary for civil order and administrative services.
+- International criticism: Supported by global CSOs criticizing mass surveillance and online censorship.
+
+7. AI in Public Services
+- Education: Basic e-learning portals, youth IT classes, and digital curriculum initiatives.
+- Healthcare: Relying on international NGO support for diagnostic equipment and medical databases.
+- Transportation: Restricted transport networks with basic automated ticketing.
+- Judiciary: Basic administrative court filing databases.
+- Public administration: Electronic civil registry and tax records managed under high restrictions.
+
+8. AI in Defence
+- Military AI: None.
+- Autonomous systems: None.
+- Cyber defence: Limited incident response capacity under the MTIT.
+- National security applications: Basic database security.
+
+9. Cybersecurity
+- National cyber strategy: Weak cybersecurity infrastructure due to import restrictions on high-tech hardware.
+- Cyber agencies: Ministry of Telecom and Information Technology.
+- Cyber threats: Infiltration of utility networks, digital surveillance, and database leaks.
+
+10. Major Technology Companies
+Not applicable (limited startup sector in software development).
+
+11. International Cooperation
+- UN: Active observer, presenting reports on digital rights violations.
+- UNESCO: Member; supports cultural preservation and ethical technology discussions.
+- OECD: Not a member.
+- Bilateral agreements: Cooperation with Arab League states and regional telecom networks.
+- Regional initiatives: Participates in the OIC computer emergency response tracks.
+
+12. Human Rights Strengths
+- Active civil society groups (e.g., 7amleh) documenting digital rights violations.
+- High digital literacy among youth despite severe infrastructural barriers.
+- International solidarity and support from digital rights organizations.
+- Recognition of the right to privacy in Basic Law frameworks.
+- Resilience of local software developers in building basic digital resources.
+
+13. Human Rights Concerns
+- Pervasive external biometric surveillance and facial recognition tracking.
+- Absence of sovereign control over the telecommunications spectrum.
+- Lack of domestic data privacy laws to protect citizens from commercial exploitation.
+- Frequent online censorship of political content on global social platforms.
+- Vulnerability to total communications shutdowns during active conflicts.
+
+14. Likely Questions Against This Country
+- What steps is the Palestinian Authority taking to draft basic data privacy guidelines in areas under its civilian administration?
+- How does the PA protect citizen data from unauthorized access by local security forces?
+- What measures are in place to address digital literacy gaps?
+- How does the PA regulate online content under its jurisdiction?
+- What checks prevent administrative bias in PA service delivery?
+- How are local developers supported in accessing advanced tools?
+- What steps ensure digital transparency in PA institutions?
+- How does the PA coordinate cybersecurity incident response?
+- What measures protect children online within Palestinian schools?
+- How does the PA respond to allegations of monitoring political opposition online?
+
+15. Questions Palestine Can Ask Others
+- How can the UNHRC allow the deployment of military target generation and facial recognition systems on civilian populations under occupation?
+- What responsibilities do global tech companies have when their platforms censor human rights advocates in conflict zones?
+- How can states protect their digital sovereignty when all communication gateways are controlled by an occupying power?
+- Why are international human rights standards not applied to state-sponsored surveillance of civilian populations?
+- What measures should be taken to ban the export of military-grade spyware used to target civil activists?
+- How can developing states close the digital divide when access to basic telecommunications hardware is restricted?
+- What mechanisms protect digital archives from deletion during active conflict?
+- How do states prevent algorithms from amplifying bias against occupied peoples?
+- What checks ensure that global tech platforms do not monetize data harvested from conflict zones?
+- Why should the UN not mandate sovereign control of electromagnetic spectrum as a fundamental digital right?
+
+16. Strong Defence Arguments
+- The lack of sovereign control over the telecommunications spectrum and physical infrastructure prevents the PA from establishing independent digital safety frameworks.
+- Palestinian civil society is highly active in documenting digital rights violations despite severe constraints.
+- Digital development is blocked by external import controls on basic communications equipment (like 4G/5G hardware).
+- The right to privacy is recognized as a fundamental element of human dignity under Palestinian basic laws.
+- Palestine seeks international support to build sovereign, peaceful tech capacity.
+- The PA works within its limits to provide secure digital identities for e-government services.
+
+17. Red Lines
+- Opposes resolutions that validate external surveillance networks or biometric databases under the guise of security.
+- Rejects proposals that permit occupying powers to control electromagnetic spectrum or internet gateways.
+
+18. Likely Allies
+Arab League members, OIC members, South South cooperation nations, South Africa, Ireland.
+
+19. Likely Opponents
+Israel, United States.
+
+20. Suggested Bloc
+G77 / Arab League Bloc.
+
+21. Negotiation Strategy
+Focus on human rights violations under occupation. Highlight the moral and legal challenges of automated warfare and biometric tracking. Mobilize G77 and OIC support.
+
+22. Important Statistics
+Over 90% of Palestinian telecommunications infrastructure is controlled or restricted by external authorities, delaying mobile network upgrades.
+
+23. Quick Facts
+- PA lacks control over the electromagnetic spectrum.
+- Internet gateways are routed through external networks.
+- Mobile networks in many areas are restricted to older technologies (2G/3G).
+- Biometric databases are compiled by external security forces.
+- Checkpoints utilize automated facial recognition.
+- Digital rights NGOs (like 7amleh) document online censorship.
+- Lacks a national cybersecurity agency.
+- High percentage of youth are digitally literate despite barriers.
+- Dependent on external aid for tech hardware.
+- Member of the OIC computer emergency response team.
+- Co-sponsored reports on digital rights at the UNHRC.
+- Palestinian IT sector is based primarily in Ramallah.
+
+24. Executive Summary
+Palestine advocates for digital rights, privacy, and free speech under occupation. Stresses that mass digital surveillance, biometric tracking, and communication interception violate international law, while lacking sovereign control over telecommunication infrastructure.
+
+25. SOURCES
+- Ministry of Telecom and Information Technology (Palestine)
+- Palestinian Central Bureau of Statistics (PCBS)
+- 7amleh - The Arab Center for the Advancement of Social Media
+- Office of the High Commissioner for Human Rights (OHCHR)
+- UN HRC reports
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

@@ -1,0 +1,48 @@
+================================================================
+UNHRC RESOURCE GUIDE: GLOBAL CASE STUDIES
+================================================================
+
+These four case studies serve as excellent evidence in debate when arguing for or against digital regulations.
+
+----------------------------------------------------------------
+CASE STUDY 1: THE SNOWDEN LEAKS & PRISM (2013)
+----------------------------------------------------------------
+• Description: Former NSA contractor Edward Snowden leaked classified documents revealing that the US government, in partnership with other P5 intelligence networks, operated mass metadata and communication collection programs (PRISM).
+• Impact:
+  - Proven collection of telephone metadata and internet communications of hundreds of millions of citizens without individual warrants.
+  - Led to global legal challenges and the creation of the UN Special Rapporteur on the right to privacy.
+• Debate Use: Cite to argue that Western democracies also engage in mass surveillance, proving the need for domestic and international judicial checks.
+
+----------------------------------------------------------------
+CASE STUDY 2: CAMBRIDGE ANALYTICA & DATA SCRAPING (2018)
+----------------------------------------------------------------
+• Description: Political consulting firm Cambridge Analytica harvested personal data from over 87 million Facebook profiles without users' consent to create targeted political profiles.
+• Impact:
+  - Demonstrated how unregulated commercial data collection can be used to manipulate democratic elections.
+  - Accelerated the implementation of the EU GDPR and global data protection bills.
+• Debate Use: Cite when arguing for strict limits on data brokers, corporate data harvesting, and the need for explicit consumer consent.
+
+----------------------------------------------------------------
+CASE STUDY 3: PEGASUS SPYWARE DEPLOYMENTS (2021)
+----------------------------------------------------------------
+• Description: Investigations revealed that the Pegasus military-grade spyware developed by a private Israeli security firm (NSO Group) was sold to governments and used to infect the phones of journalists, human rights defenders, and heads of state.
+• Impact:
+  - Highlighted the unchecked global trade in dual-use surveillance tools.
+  - Pegasus uses "zero-click" exploits to bypass device security and access all communications.
+• Debate Use: Cite when calling for international moratoriums or strict licensing of dual-use technology exports.
+
+----------------------------------------------------------------
+CASE STUDY 4: SOCIAL CREDIT SYSTEM PILOTS
+----------------------------------------------------------------
+• Description: Centralized governments have piloted credit systems that score citizens based on digital records, traffic infractions, and online behavior, which can restrict access to high-speed rail, flights, and employment.
+• Impact:
+  - Demonstrates the potential for predictive profiling and facial recognition to restrict freedom of movement and access to public services.
+• Debate Use: Cite when calling for UN-led bans on automated social scoring and real-time biometric profiling.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• OHCHR Reports on Surveillance and Spyware
+• European Data Protection Board Case Reviews
+• Citizen Lab Research (University of Toronto)
+================================================================

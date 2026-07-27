@@ -1,0 +1,70 @@
+================================================================
+UNSC AGENDA HANDBOOK: MARITIME SECURITY & SUPPLY CHAINS
+================================================================
+
+COMMITTEE: United Nations Security Council (UNSC)
+AGENDA: Impact of Ongoing Geopolitical Conflicts on Global Supply Chains, Maritime Security, and Free Trade
+
+----------------------------------------------------------------
+1. TOPIC OVERVIEW
+----------------------------------------------------------------
+Global commerce relies heavily on maritime transit corridors, which carry over 80% of global trade volume. However, the stability of these trade networks is increasingly threatened by geopolitical conflicts, state-sponsored cyber actions, piracy, and attacks on civilian vessels near key choke points. 
+
+Disruptions in transit corridors like the Red Sea, the Black Sea, and the Persian Gulf directly fuel global inflation, threaten food and energy security, and impact free trade. This handbook outlines key concepts, transit choke points, and debates for Security Council delegates.
+
+----------------------------------------------------------------
+2. KEY CRITICAL TRANSIT CHOKE POINTS
+----------------------------------------------------------------
+• Bab-el-Mandeb & Suez Canal: Links the Indian Ocean to the Mediterranean. Currently disrupted by Houthi missile attacks, forcing ships to route around Africa (Cape of Good Hope), raising transit costs by 30-40%.
+• Strait of Hormuz: Choke point between the Persian Gulf and Arabian Sea, carrying 20% of global oil supplies. Subject to seizures and naval tensions.
+• Strait of Malacca: Crucial gateway linking the Indian Ocean to the Pacific, carrying 25% of global shipping. Highly vulnerable to shipping congestion and piracy.
+• Turkish Straits (Bosporus & Dardanelles): Regulated under the Montreux Convention, controlling access between the Black Sea and the Mediterranean.
+
+----------------------------------------------------------------
+3. MAIN ISSUES IN DEBATE
+----------------------------------------------------------------
+
+A. Naval Coalitions vs. Regional Sovereignty
+- Focus: Use of international coalitions (Operation Prosperity Guardian, EU Operation Aspides) to secure shipping lanes.
+- Debate: High-intensity security patrols vs. claims that Western-led operations escalate tensions and violate sovereign boundaries.
+
+B. The Environmental and Security Risks of Shadow Fleets
+- Focus: The rise of older, unregistered, and un-insured tankers ("shadow fleet") transporting sanctioned Russian oil.
+- Debate: Banning these ships to enforce sanctions vs. arguments that sanctions themselves disrupt global free trade.
+
+C. Protection of Undersea Critical Infrastructure
+- Focus: Safeguarding fiber-optic communication cables and gas pipelines (e.g., Nord Stream) from sabotage.
+- Debate: Implementing cooperative monitoring networks vs. state sovereignty over EEZ zones.
+
+D. Technology Supply Chains and "Friend-Shoring"
+- Focus: Decoupling semiconductor and rare earth supply chains due to national security.
+- Debate: Relocating production to allied states vs. criticisms of protectionism violating WTO free trade rules.
+
+E. Legality and Enforcement of Unilateral Sanctions
+- Focus: Sanctions imposed outside of the UNSC (e.g., US/EU sanctions on Russia).
+- Debate: Sanctions as peaceful legal tools vs. claims they represent illegal economic warfare that fragments global trade.
+
+----------------------------------------------------------------
+4. BLOC ALIGNMENTS
+----------------------------------------------------------------
+
+• Western Maritime Alliance (e.g., USA, UK, France, Japan, South Korea, G7, NATO)
+  - Core Position: Defend freedom of navigation, enforce sanctions on Russia and Iran, and protect shipping via coalitions.
+  - Key Demands: Full compliance with UNCLOS, condemnation of Houthi attacks, and securing high-tech supply chains.
+
+• Sovereign & Eurasian Bloc (e.g., Russia, China, Iran)
+  - Core Position: Oppose Western naval hegemony and unilateral sanctions. Promote national sovereignty and alternative routes (Middle Corridor, Northern Sea Route).
+  - Key Demands: Respect for sovereign territorial waters, lifting of financial blockades, and condemnation of Western pipeline sabotage.
+
+• Transit & Coastal States (e.g., Egypt, Turkey, Saudi Arabia, UAE, Qatar)
+  - Core Position: Maintain regional stability to protect transit revenues (e.g., Suez Canal fees) while avoiding military escalation.
+  - Key Demands: Peaceful dialogue, de-escalation, and non-military maritime safety coordination.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• International Maritime Organization (IMO) Reports
+• UN Conference on Trade and Development (UNCTAD) Maritime Transport Review
+• United Nations Convention on the Law of the Sea (UNCLOS)
+• World Trade Organization (WTO) Global Trade Outlook
+================================================================

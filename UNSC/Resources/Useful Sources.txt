@@ -1,0 +1,42 @@
+================================================================
+UNSC RESOURCE GUIDE: USEFUL SOURCES & TRADE WATCHDOGS
+================================================================
+
+This document lists the most reliable organizations and databases to monitor for real-time shipping and trade data during committee.
+
+----------------------------------------------------------------
+1. INTERGOVERNMENTAL MARITIME BODIES
+----------------------------------------------------------------
+• International Maritime Organization (IMO):
+  - Website: https://www.imo.org
+  - Focus: The specialized UN agency responsible for the safety and security of shipping and prevention of marine pollution.
+• UN Conference on Trade and Development (UNCTAD):
+  - Website: https://unctad.org
+  - Focus: Publishes the annual Review of Maritime Transport, the definitive statistical analysis on global fleet sizes, container volumes, and transit costs.
+
+----------------------------------------------------------------
+2. TRADE & ECONOMIC WATCHDOGS
+----------------------------------------------------------------
+• World Trade Organization (WTO):
+  - Website: https://www.wto.org
+  - Focus: Tracks global trade disputes, tariff changes, and trade restrictive measures under national security exceptions.
+• World Bank Group - Global Trade Portal:
+  - Website: https://www.worldbank.org
+  - Focus: Tracks food security indices, fertilizer supply chains, and infrastructure development loans.
+
+----------------------------------------------------------------
+3. INDUSTRY INTELLIGENCE & RESEARCH ORGS
+----------------------------------------------------------------
+• Lloyd's List Intelligence:
+  - Website: https://lloydslistintelligence.com
+  - Focus: Provides real-time tracking of merchant shipping, vessel registrations, insurance status, and port delays.
+• ICC International Maritime Bureau (IMB):
+  - Website: https://www.icc-ccs.org/icc/imb
+  - Focus: Tracks global piracy incidents and acts of armed robbery against ships in real-time.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• United Nations General Assembly Maritime Affairs Database
+• International Energy Agency (IEA) Oil Market Reports
+================================================================

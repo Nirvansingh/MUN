@@ -1,0 +1,40 @@
+================================================================
+UNSC RESOURCE GUIDE: SHIPPING & SUPPLY CHAIN STATISTICS
+================================================================
+
+Use these statistics in the Security Council to quantify the impact of geopolitical conflicts on global trade.
+
+----------------------------------------------------------------
+1. RED SEA & SUEZ CANAL DISRUPTIONS (2023-2024)
+----------------------------------------------------------------
+• Suez Canal Transit Drop: Daily transit volume through the Suez Canal dropped by over 45% following Houthi attacks in the Bab-el-Mandeb.
+• Transit Cost Spikes: Rerouting container ships around the Cape of Good Hope (Africa) adds 10-14 days to journey times and increases fuel costs by over $1 million per round trip.
+• Global Container Rates: Spot freight rates from Shanghai to Europe increased by over 250% between December 2023 and February 2024.
+
+----------------------------------------------------------------
+2. STRAIT OF HORMUZ ENERGY FLOWS
+----------------------------------------------------------------
+• Oil Volume: Approximately 20.5 million barrels of oil per day pass through the Strait of Hormuz (representing 20% of global petroleum consumption).
+• LNG Shipments: Over 20% of global liquefied natural gas (LNG) shipments transit through Hormuz, primarily sourced from Qatar.
+• Choke Point Dependency: Over 75% of crude oil transiting Hormuz is destined for Asian markets (China, India, Japan, South Korea).
+
+----------------------------------------------------------------
+3. THE RUSSIAN SHADOW FLEET
+----------------------------------------------------------------
+• Tanker Count: Estimates indicate the Russian shadow fleet consists of over 600 aging tankers (many older than 15 years, nearing decommissioning).
+• Insurance Deficit: Over 90% of these vessels operate without verified Protection and Indemnity (P&I) insurance from major Western clubs.
+
+----------------------------------------------------------------
+4. SEMICONDUCTOR & RAW MATERIAL CONCENTRATIONS
+----------------------------------------------------------------
+• Advanced Chips: Over 90% of the world's most advanced semiconductors (under 10nm) are manufactured in Taiwan, highlighting the supply chain risk of regional conflict.
+• Rare Earth Elements: China processes over 85% of global rare earth elements, critical for electric vehicles and defense systems.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• UNCTAD Maritime Transport Review
+• International Energy Agency (IEA) Energy Statistics
+• World Bank Food Security and Trade Bulletins
+• Lloyd's List Intelligence Reports
+================================================================

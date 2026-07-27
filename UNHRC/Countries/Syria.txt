@@ -1,0 +1,290 @@
+﻿================================================================
+🇸🇾 SYRIA | UNHRC BATTLE CARD
+================================================================
+
+BASIC INFORMATION
+-----------------
+Official Name: Syrian Arab Republic
+Capital: Damascus
+Government: Transitional authorities (following the 2024 change in government)
+Head of State: Transitional leadership (verify current officeholder before your MUN)
+Population: ~25 Million
+UNSC P5 Member: No
+
+---------------------------------------------------------------
+
+MAJOR ALLIES
+------------
+• Russia
+• Iran
+
+---------------------------------------------------------------
+
+MAJOR RIVALS
+------------
+• Israel
+• United States (policy disagreements)
+• Türkiye (border/security issues)
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Rich historical and cultural heritage
+✓ Strategic regional importance
+✓ Ongoing reconstruction efforts
+✓ Cooperation with humanitarian agencies in some areas
+✓ Significant agricultural potential
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Long-running armed conflict
+✗ Large refugee and internally displaced population
+✗ Humanitarian crisis
+✗ Allegations of arbitrary detention
+✗ Freedom of expression concerns
+✗ Infrastructure destruction
+✗ Civilian protection concerns
+✗ Economic hardship
+
+---------------------------------------------------------------
+
+HOT TOPICS
+----------
+• Humanitarian Crisis
+• Refugees
+• Reconstruction
+• Civilian Protection
+• Humanitarian Access
+• Accountability
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Syria emphasizes sovereignty and territorial integrity.
+• Reconstruction is essential for long-term stability.
+• Humanitarian aid should be delivered impartially.
+• Dialogue and political reconciliation are necessary.
+• International cooperation should support recovery efforts.
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST SYRIA
+------------------------------
+
+Q1. How is Syria improving humanitarian access?
+
+Q2. What measures protect civilians during ongoing security operations?
+
+Q3. What is being done to facilitate the safe return of refugees?
+
+Q4. How does Syria respond to allegations regarding arbitrary detention?
+
+Q5. What reforms are planned to strengthen human rights protections?
+
+---------------------------------------------------------------
+
+QUESTIONS SYRIA CAN ASK OTHER COUNTRIES
+---------------------------------------
+
+To USA:
+• How have sanctions affected access to healthcare and humanitarian assistance?
+
+To Israel:
+• What measures are taken to avoid harm to civilians during military operations?
+
+To UK:
+• How does the UK support long-term refugee solutions?
+
+To France:
+• What role should reconstruction play in protecting human rights?
+
+To Türkiye:
+• How can regional cooperation improve civilian protection and border stability?
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Focus on humanitarian recovery and reconstruction.
+✓ Emphasize sovereignty and dialogue.
+✓ Avoid escalating political rhetoric.
+✓ Advocate for increased humanitarian assistance.
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• United Nations
+• OHCHR
+• UNHCR
+• OCHA
+• Amnesty International
+• Human Rights Watch
+• World Bank
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Syria
+
+1. Country Overview
+- Government: Presidential Republic
+- Political System: Centralized system with executive power held by the President
+- Global Influence: Moderate-Low (Regional actor, active partnerships with Russia and Iran)
+- Technology Sector: Highly damaged (focused on basic telecom rehabilitation and communication security)
+
+2. Official Position on AI
+Focuses on national security, state survival, and counter-terrorism after more than a decade of conflict. Rejects Western criticism of its digital policies as violations of sovereignty and claims that all telecommunications regulations are designed to combat terrorism and foreign intervention.
+
+3. National AI Strategy
+- National AI plans: No national AI policy or development strategy due to conflict.
+- Government initiatives: Focuses on digital infrastructure reconstruction and security monitoring in government-controlled areas.
+- AI priorities: Public safety, database security, and counter-terrorism monitoring.
+
+4. AI Governance
+- AI regulation: No active regulatory framework for AI.
+- AI ethics: Supports international guidelines on ethics, emphasizing security and state stability.
+- Government oversight: Managed directly through the Ministry of Communications and Technology.
+
+5. Data Privacy
+- Privacy laws: Data privacy laws are subordinate to national security laws and emergency decrees.
+- Data protection authority: Governed provisionally by the Ministry of Communications and Technology.
+- Citizen protections: Extremely limited; communications and personal records are subject to direct state monitoring under security mandates.
+- Cross-border data rules: Restricts data flows outside the country, routing traffic through state-controlled gateways.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed in metropolitan public transit and border zones by security forces.
+- Facial recognition: Limited deployment at government checkpoints and border crossings.
+- Internet monitoring: Telecommunications traffic is intercepted by security services under national security laws.
+- Government surveillance: Coordinated by intelligence directorates under national security decrees.
+- Public justification: Essential for counter-terrorism, national security, and maintaining public order.
+- International criticism: Criticized by CSOs and international bodies for electronic interception and tracking of opposition members.
+
+7. AI in Public Services
+- Education: Basic e-learning portals, youth IT classes, and digital curriculum initiatives in government schools.
+- Healthcare: Basic public health database support in state hospitals and clinics.
+- Transportation: Camera-based traffic security tracking.
+- Judiciary: Automated case indexing and case scheduling platforms.
+- Public administration: E-government portals automating identity registration and tax collections.
+
+8. AI in Defence
+- Military AI: None.
+- Autonomous systems: None.
+- Cyber defence: Coordinated under the Ministry of Communications and Technology, securing state portals.
+- National security applications: Cryptological monitoring, digital interception, and threat prediction.
+
+9. Cybersecurity
+- National cyber strategy: Guided by emergency decrees focusing on network security.
+- Cyber agencies: Ministry of Communications and Technology.
+- Cyber threats: Opposition cyber groups, database breaches, and state-sponsored espionage.
+
+10. Major Technology Companies
+Not applicable.
+
+11. International Cooperation
+- UN: Active participant in UNGA and UNHRC discussions.
+- UNESCO: Contributes to cultural preservation tracks.
+- OECD: Not a member; opposes Western-dominated guidelines.
+- Bilateral agreements: Technology and cyber security agreements with Russia and Iran.
+- Regional initiatives: Participates in regional telecom discussions.
+
+12. Human Rights Strengths
+- Centralized network controls, enabling rapid detection of cybercrime and security threats.
+- High mobile phone penetration, facilitating basic communication channels.
+- State-backed efforts to maintain basic telecommunication services during conflict.
+- Digital literacy initiatives in state training centers.
+- Effective protection of state portals from hostile cyber sabotage.
+
+13. Human Rights Concerns
+- Widespread electronic surveillance and interception of private communication data.
+- Complete lack of data privacy laws to protect citizens from state monitoring.
+- Lack of independent judicial oversight for state surveillance activities.
+- Digital censorship and blocking of independent news portals.
+- Potential for automated surveillance to target human rights defenders.
+
+14. Likely Questions Against This Country
+- How does Syria justify the tracking and targeting of political opposition members through communication intercepts?
+- What safeguards exist to protect civilian communication from warrantless state monitoring?
+- How do emergency decrees affecting digital privacy align with international standards?
+- What checks prevent state-backed cyber groups from launching attacks against civilian networks?
+- How is biometric data collected at checkpoints secured from misuse?
+- Why is there no independent data protection regulator in Syria?
+- How does the state address criticisms of censorship of independent media?
+- Does the use of foreign surveillance technologies in policing violate citizen privacy?
+- How is digital profiling of citizens used in security files?
+- What measures protect children's data in the state's registry systems?
+
+15. Questions Syria Can Ask Others
+- How can states defend their digital space when foreign powers use cyber operations to support rebel groups?
+- Why do international sanctions continue to block the import of medical and educational technologies, including basic software?
+- What measures protect developing states from foreign cyber espionage targeting state ministries?
+- How do states with private data markets prevent corporate exploitation of civilian databases?
+- Why should global tech companies not be held accountable for harboring channels that promote state instability?
+- How do states ensure AI safety standards do not become barriers to developmental technology?
+- What steps protect children from digital profiling on global educational networks?
+- How do states balance national security with communication privacy?
+- What steps support technology transfer to developing countries?
+- How can algorithmic bias in global datasets be corrected?
+
+16. Strong Defence Arguments
+- The Syrian government operates under a mandate to defend the state against foreign-backed armed groups.
+- Any communication monitoring is conducted within the scope of counter-terrorism and national security laws.
+- Cyber security strategies protect state infrastructure from external sabotage and cyber warfare.
+- Reconstruction of communication networks is focused on restoring basic public utility access for citizens.
+- State regulations comply with national emergency decrees designed to restore sovereignty.
+- Biometric checks at borders are necessary for national defense and counter-terrorism.
+
+17. Red Lines
+- Will not support international regulations that restrict national security operations or internet gateways.
+- Rejects any resolution that singles out Syria's security apparatus for criticism.
+
+18. Likely Allies
+Russia, Iran, Belarus, China, North Korea, Venezuela.
+
+19. Likely Opponents
+United States, United Kingdom, France, Turkey, Saudi Arabia.
+
+20. Suggested Bloc
+Sovereign Bloc / Russia-China aligned.
+
+21. Negotiation Strategy
+Emphasize national sovereignty, counter-terrorism, and the negative impact of Western unilateral sanctions. Align with Russia and China to resist binding internet regulations.
+
+22. Important Statistics
+Over 60% of Syria's telecommunications infrastructure has been damaged or destroyed since 2011, limiting regular digital access.
+
+23. Quick Facts
+- Ministry of Communications and Technology coordinates digital reconstruction.
+- Syrian Electronic Army coordinates offensive cyber actions.
+- Telecom networks are heavily dependent on state-run backbones.
+- Lacks independent data privacy watchdogs.
+- Facial recognition deployed at government checkpoints.
+- Communications are heavily monitored under national security laws.
+- Import of high-tech hardware is restricted by sanctions.
+- Dependent on Russian and Iranian tech support.
+- Lacks a formalized national AI strategy.
+- Internet penetration is around 35%.
+- Co-sponsored declarations on technology and sovereignty.
+- Active in regional telecommunication tracks.
+
+24. Executive Summary
+Syria focuses on national security, state survival, and counter-terrorism. Rejects Western criticism of its digital policies as violations of sovereignty, claiming telecommunication control is vital for state defense.
+
+25. SOURCES
+- Ministry of Communications and Technology
+- Syrian Telecommunications and Post Regulatory Authority
+- Office of the High Commissioner for Human Rights (OHCHR)
+- UN HRC reports
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

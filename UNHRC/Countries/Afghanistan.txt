@@ -1,0 +1,291 @@
+﻿================================================================
+🇦🇫 AFGHANISTAN | UNHRC BATTLE CARD
+================================================================
+
+BASIC INFORMATION
+-----------------
+Official Name: Islamic Emirate of Afghanistan (de facto authorities)
+Capital: Kabul
+Government: De facto administration (Taliban)
+Head of Government: Prime Minister Mohammad Hassan Akhund
+Population: ~43 Million
+UNSC P5 Member: No
+
+---------------------------------------------------------------
+
+MAJOR ALLIES
+------------
+• Qatar (diplomatic engagement)
+• Pakistan (regional ties)
+• China (economic engagement)
+
+---------------------------------------------------------------
+
+MAJOR RIVALS
+------------
+• ISIS-K (non-state armed group)
+• Various international critics regarding human rights
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Improved security in some regions compared to periods of active conflict
+✓ Expansion of basic infrastructure in some areas
+✓ Humanitarian cooperation with UN agencies
+✓ Strategic location in Central and South Asia
+✓ Rich natural resource potential
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Restrictions on women's rights
+✗ Girls' education restrictions
+✗ Freedom of expression concerns
+✗ Humanitarian crisis
+✗ Poverty and unemployment
+✗ Food insecurity
+✗ Healthcare challenges
+✗ Restrictions on civil society
+
+---------------------------------------------------------------
+
+HOT TOPICS
+----------
+• Women's Rights
+• Girls' Education
+• Humanitarian Aid
+• Poverty
+• Healthcare
+• Refugees
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Afghanistan requires humanitarian assistance and economic recovery.
+• Constructive engagement is more effective than isolation.
+• Stability is essential for long-term human rights progress.
+• International cooperation should respect Afghanistan's sovereignty.
+• Humanitarian aid should remain impartial and reach civilians.
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST AFGHANISTAN
+------------------------------------
+
+Q1. What steps are being taken regarding girls' education?
+
+Q2. How are women's rights being protected?
+
+Q3. How does Afghanistan ensure humanitarian access?
+
+Q4. What measures protect freedom of expression?
+
+Q5. How is the humanitarian crisis being addressed?
+
+---------------------------------------------------------------
+
+QUESTIONS AFGHANISTAN CAN ASK OTHER COUNTRIES
+---------------------------------------------
+
+To USA:
+• What long-term support is being provided for Afghanistan's humanitarian recovery?
+
+To Pakistan:
+• How can regional cooperation improve refugee protection?
+
+To India:
+• What role can India play in humanitarian and development assistance?
+
+To Iran:
+• How can neighbouring countries cooperate on refugee and humanitarian issues?
+
+To Germany:
+• How is Germany supporting Afghan refugees and resettlement efforts?
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Focus on humanitarian assistance.
+✓ Emphasize reconstruction and development.
+✓ Promote international cooperation.
+✓ Avoid confrontational rhetoric.
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• United Nations
+• OHCHR
+• UNHCR
+• UNICEF
+• OCHA
+• Amnesty International
+• Human Rights Watch
+• World Bank
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Afghanistan
+
+1. Country Overview
+- Government: Theocratic Administration
+- Political System: Centralized system under the supreme leadership of the Amir and clerical councils
+- Global Influence: Low (Subject to international non-recognition and financial asset freezes)
+- Technology Sector: Extremely weak (highly dependent on imported telecommunications infrastructure and foreign software)
+
+2. Official Position on AI
+Prioritizes the enforcement of Islamic law (Sharia), public morality, and internal security. Rejects Western digital rights frameworks, privacy guidelines, and free speech protections as incompatible with Islamic law. Stresses that all telecommunications and internet systems must be monitored to ensure moral compliance and prevent counter-state operations.
+
+3. National AI Strategy
+- National AI plans: No national AI strategy or development strategy.
+- Government initiatives: Focuses on telecommunications infrastructure recovery and establishing administrative control over mobile networks.
+- AI priorities: Public security, facial recognition deployment, and monitoring digital communications.
+
+4. AI Governance
+- AI regulation: Coordinated by the Ministry of Communications and Information Technology (MCIT).
+- AI ethics: Focuses on aligning all digital activities with Islamic law (Sharia) and state decrees.
+- Government oversight: Managed directly by the Ministry of Interior and intelligence services.
+
+5. Data Privacy
+- Privacy laws: No functional data privacy laws exist.
+- Data protection authority: Governed provisionally by the MCIT.
+- Citizen protections: Extremely limited; telecommunications and online activities are subject to direct state inspection.
+- Cross-border data rules: Restricts outbound data flows, routing traffic through state-controlled gateways.
+
+6. Mass Digital Surveillance
+- CCTV: Planned deployment of a city-wide security camera network in Kabul.
+- Facial recognition: Biometric databases compiled for identity verification and security tracking.
+- Internet monitoring: Monitors telecommunications traffic and filters online content for moral compliance.
+- Government surveillance: Security forces monitor mobile networks under national security mandates.
+- Public justification: Essential for counter-terrorism, crime prevention, and maintaining public order.
+- International criticism: Criticized by CSOs for using biometric databases to track and restrict the movements of women.
+
+7. AI in Public Services
+- Education: Basic e-learning portals, youth IT classes, and digital curriculum initiatives in state schools.
+- Healthcare: Basic public health database support in state hospitals and clinics.
+- Transportation: Camera-based traffic security tracking.
+- Judiciary: Automated case indexing and case scheduling platforms.
+- Public administration: Mandatory biometric SIM card registration databases.
+
+8. AI in Defence
+- Military AI: None.
+- Autonomous systems: None.
+- Cyber defence: Coordinated under the MCIT, securing state portals.
+- National security applications: Cryptological monitoring, digital interception, and threat prediction.
+
+9. Cybersecurity
+- National cyber strategy: Weak cybersecurity infrastructure due to import restrictions on high-tech hardware.
+- Cyber agencies: Ministry of Communications and Information Technology.
+- Cyber threats: Opposition cyber groups, database breaches, and state-sponsored espionage.
+
+10. Major Technology Companies
+Not applicable.
+
+11. International Cooperation
+- UN: Participates in UNGA discussions.
+- UNESCO: Contributes to cultural preservation tracks.
+- OECD: Not a member; opposes Western-dominated guidelines.
+- Bilateral agreements: Technology and cyber security agreements with regional partner states.
+- Regional initiatives: Participates in regional technology tracks.
+
+12. Human Rights Strengths
+- Centralized network controls, enabling rapid detection of cybercrime and security threats.
+- High mobile phone penetration, facilitating basic communication channels.
+- State-backed efforts to maintain basic telecommunication services during conflict.
+- Digital literacy initiatives in state training centers.
+- Effective protection of state portals from hostile cyber sabotage.
+
+13. Human Rights Concerns
+- Use of biometric databases and cameras to track women and political opponents.
+- Absence of comprehensive data privacy laws to protect citizens from state monitoring.
+- Lack of independent judicial oversight for state surveillance activities.
+- Digital censorship and blocking of independent news portals.
+- Potential for automated surveillance to target human rights defenders.
+
+14. Likely Questions Against This Country
+- How does the administration justify using biometric tracking and security cameras to monitor and restrict the movements of women?
+- Why has the administration banned independent digital media and blocked access to online educational platforms?
+- What measures protect citizen data from unauthorized access by security personnel?
+- Why is there no functional data privacy legislation in Afghanistan?
+- How is the installation of Kabul's city camera system monitored for privacy abuses?
+- What checks prevent state agencies from misusing biometric databases?
+- How does the administration coordinate cybersecurity incident response?
+- Why are girls' schools banned from accessing digital learning resources?
+- Does the administration use surveillance technology to target political opponents?
+- What checks exist to ensure telecommunication operators comply with basic privacy standards?
+
+15. Questions Afghanistan Can Ask Others
+- Why does the international community freeze Afghanistan's central bank assets, which restricts our ability to build secure civilian communication services?
+- What measures protect developing nations from digital intervention by global tech monopolies?
+- How can states secure utility databases from foreign cyber sabotage?
+- Why should the UN not respect national sovereignty and religious boundaries in technology regulation?
+- How can developing countries close the digital divide when financial assets are frozen?
+- How do states ensure AI safety standards do not become barriers to developmental technology?
+- What steps protect children from digital profiling on global educational networks?
+- How do states balance national security with communication privacy?
+- What steps support technology transfer to developing countries?
+- How can algorithmic bias in global datasets be corrected?
+
+16. Strong Defence Arguments
+- City camera systems and communication controls are intended to restore public safety, counter ISIS-K terrorism, and maintain order.
+- Technology regulations are designed to align digital spaces with the country's religious and cultural values.
+- Biometric SIM card registration prevents telecommunications fraud and secures identity records.
+- The administration works within its limits to rebuild telecommunication infrastructure.
+- Domestic security operations are conducted to protect citizens from violent instability.
+- The state works to ensure all digital systems align with the values and laws of the country.
+
+17. Red Lines
+- Will not support international regulations that restrict national security operations or run counter to Sharia.
+- Rejects any resolution that criticizes its religious or internal policies.
+
+18. Likely Allies
+China, Russia (pragmatic relations).
+
+19. Likely Opponents
+United States, European Union Member States, India.
+
+20. Suggested Bloc
+Sovereign Bloc / Russia-China aligned.
+
+21. Negotiation Strategy
+Emphasize national security, counter-terrorism (specifically against ISIS-K), and cyber sovereignty. Counter Western criticism as interference.
+
+22. Important Statistics
+Internet user penetration is estimated at under 20% of the population due to economic challenges and network damage.
+
+23. Quick Facts
+- MCIT leads national telecom policy.
+- Kabul city surveillance utilizes advanced camera networks.
+- Biometric SIM card registration is mandatory.
+- Lacks independent data privacy laws.
+- Mobile networks are heavily dependent on state-run backbones.
+- Internet penetration is extremely low.
+- Target of foreign cyber monitoring.
+- Lacks a national AI strategy.
+- Opposes Western digital rights frameworks.
+- Rebuilt basic telecom networks in urban zones.
+- Internet penetration is estimated at around 18% nationally.
+- Subject to extensive international technology export restrictions.
+
+24. Executive Summary
+The Taliban administration prioritizes Islamic law (Sharia), public morality, and national security. Rejects Western frameworks of digital rights, privacy, and free speech, stating that digital platforms must comply with Islamic values and state decrees.
+
+25. SOURCES
+- Ministry of Communications and Information Technology (MCIT)
+- Central Statistics Organization of Afghanistan
+- Office of the High Commissioner for Human Rights (OHCHR)
+- UN HRC reports
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

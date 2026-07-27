@@ -1,0 +1,50 @@
+================================================================
+UNHRC RESOURCE GUIDE: INTERNATIONAL LAW FRAMEWORKS
+================================================================
+
+This document reviews the primary international treaties, legal principles, and regional frameworks governing data privacy and state surveillance.
+
+----------------------------------------------------------------
+1. CORE INTERNATIONAL TREATIES
+----------------------------------------------------------------
+
+• Universal Declaration of Human Rights (UDHR) - Article 12:
+  - "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks."
+
+• International Covenant on Civil and Political Rights (ICCPR) - Article 17:
+  - Establishes a legally binding obligation on state parties to protect individuals from arbitrary or unlawful interference with their privacy, family, home, or correspondence.
+  - Requires states to enact domestic legislation that offers statutory remedies against unauthorized surveillance.
+
+• Convention on the Rights of the Child (UNCRC) - Article 16:
+  - Extends explicit privacy protections to children, emphasizing safety from commercial profiling and school monitoring databases.
+
+----------------------------------------------------------------
+2. THE THREE-PART TEST FOR PRIVACY INTERFERENCE
+----------------------------------------------------------------
+For any state interference in privacy (such as electronic communication interception) to be considered lawful under international human rights law, it must meet the three-part test:
+
+1. Legality: The surveillance measure must have a clear, precise, and publicly accessible statutory basis in domestic law. Executive decrees without statutory review do not meet this standard.
+2. Necessity: The measure must be essential for achieving a legitimate security objective (e.g., preventing an imminent terrorist attack). It cannot be used for general intelligence gathering.
+3. Proportionality: The measure must be the least intrusive means available to achieve the objective. Mass, warrantless bulk collection of metadata is inherently disproportionate.
+
+----------------------------------------------------------------
+3. REGIONAL DATA PRIVACY AGREEMENTS
+----------------------------------------------------------------
+
+• General Data Protection Regulation (GDPR) - European Union:
+  - Model framework for consumer data rights globally. Establishes the principles of data minimization, purpose limitation, right to be forgotten, and consent.
+  - Imposes strict fines on private corporations and public bodies for violations.
+
+• Malabo Convention - African Union:
+  - Establishes unified standards for electronic transactions, cybersecurity, and personal data protection across member states.
+
+• Budapest Convention on Cybercrime (Council of Europe):
+  - Facilitates international cooperation on cyber investigations, though criticized by some sovereignty-focused states for permitting cross-border database access under warrants.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• Office of the High Commissioner for Human Rights (OHCHR)
+• International Covenant on Civil and Political Rights (ICCPR) Text
+• General Data Protection Regulation (GDPR) Portal
+================================================================

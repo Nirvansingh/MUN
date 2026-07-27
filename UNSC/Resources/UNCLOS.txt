@@ -1,0 +1,50 @@
+================================================================
+UNSC RESOURCE GUIDE: UNCLOS NAVIGATION & TRANSIT RIGHTS
+================================================================
+
+This document reviews the primary articles of the United Nations Convention on the Law of the Sea (UNCLOS) governing commercial transit and maritime security.
+
+----------------------------------------------------------------
+1. ARTICLE 17 - RIGHT OF INNOCENT PASSAGE
+----------------------------------------------------------------
+• Summary: Ships of all states, whether coastal or land-locked, enjoy the right of innocent passage through the territorial sea (up to 12 nautical miles from baseline).
+• Key Constraint:
+  - Passage is innocent so long as it is not prejudicial to the peace, good order, or security of the coastal state.
+  - Activities like military drilling, surveillance, or pollution violate innocent passage.
+
+----------------------------------------------------------------
+2. ARTICLE 38 - RIGHT OF TRANSIT PASSAGE
+----------------------------------------------------------------
+• Summary: In straits used for international navigation (e.g., Strait of Hormuz, Strait of Malacca), all ships and aircraft enjoy the right of transit passage.
+• Key Constraint:
+  - Transit passage is the exercise of freedom of navigation solely for the purpose of continuous and expeditious transit.
+  - Coastal states border-lining the straits cannot suspend or restrict transit passage.
+
+----------------------------------------------------------------
+3. ARTICLE 56 - RIGHTS IN THE EXCLUSIVE ECONOMIC ZONE (EEZ)
+----------------------------------------------------------------
+• Summary: In the EEZ (up to 200 nautical miles), the coastal state has sovereign rights for exploring and managing natural resources (fish, gas).
+• Key Constraint:
+  - Other states retain freedoms of navigation, overflight, and laying undersea cables (Article 58).
+  - Subject of debate regarding whether foreign navies can conduct military drills in another state's EEZ without notice.
+
+----------------------------------------------------------------
+4. ARTICLE 87 - FREEDOM OF THE HIGH SEAS
+----------------------------------------------------------------
+• Summary: The high seas are open to all states. Freedoms include navigation, overflight, laying undersea cables, fishing, and scientific research.
+• Key Constraint:
+  - High seas must be reserved for peaceful purposes (Article 88).
+
+----------------------------------------------------------------
+5. ARTICLE 110 - RIGHT OF VISIT
+----------------------------------------------------------------
+• Summary: A warship may board a foreign merchant ship on the high seas if there is reasonable ground for suspecting that the ship is engaged in piracy, slave trade, unauthorized broadcasting, or is without nationality.
+• Key Constraint:
+  - Does not authorize boarding based solely on cargo destination or unilateral sanctions compliance without specific UN security mandates.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• United Nations Convention on the Law of the Sea (1982)
+• Division for Ocean Affairs and the Law of the Sea (DOALOS)
+================================================================

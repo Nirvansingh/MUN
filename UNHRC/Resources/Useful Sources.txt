@@ -1,0 +1,44 @@
+================================================================
+UNHRC RESOURCE GUIDE: USEFUL SOURCES & RESEARCH ORGS
+================================================================
+
+This document lists the most reliable sources and organizations to reference when looking for up-to-date data during committee.
+
+----------------------------------------------------------------
+1. INTERGOVERNMENTAL BODIES
+----------------------------------------------------------------
+• Office of the High Commissioner for Human Rights (OHCHR):
+  - Website: https://www.ohchr.org
+  - Key Publications: The Right to Privacy in the Digital Age Report series, Special Rapporteur on Privacy mandates.
+• International Telecommunication Union (ITU):
+  - Website: https://www.itu.int
+  - Key Publications: Global Cybersecurity Index (GCI), Facts and Figures on digital connectivity.
+
+----------------------------------------------------------------
+2. CIVIL SOCIETY & ADVOCACY GROUPS (NGOs)
+----------------------------------------------------------------
+• Privacy International (PI):
+  - Website: https://privacyinternational.org
+  - Focus: Leading NGO investigating state surveillance, data brokers, and biometric tracking globally.
+• Access Now:
+  - Website: https://www.accessnow.org
+  - Focus: Tracks global internet shutdowns (KeepItOn coalition), digital rights violations, and encryption policy.
+• Electronic Frontier Foundation (EFF):
+  - Website: https://www.eff.org
+  - Focus: Leading US-based digital rights group focusing on surveillance self-defense and technological liberty.
+
+----------------------------------------------------------------
+3. ACADEMIC & INDEPENDENT RESEARCH HUBS
+----------------------------------------------------------------
+• The Citizen Lab (Munk School of Global Affairs, University of Toronto):
+  - Website: https://citizenlab.ca
+  - Focus: Leading researchers exposing spyware deployments (Pegasus) and state-sponsored digital espionage.
+• Center for Internet and Society (CIS):
+  - Focus: Analyzes the intersection of technology, policy, and human rights in developing economies.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• United Nations General Assembly Digital Rights Library
+• World Bank Group Open Data Portal
+================================================================

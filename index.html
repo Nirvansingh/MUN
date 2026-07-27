@@ -138,6 +138,60 @@
         </div>
     </div>
 
+    <!-- MUN Fact Widget -->
+    <div id="munFactBtn" class="widget-fab widget-fab-tr" title="MUN Fact">💡 MUN Fact</div>
+    <div id="munFactOverlay" class="widget-overlay" style="display:none;">
+        <div id="munFactPopup" class="widget-popup">
+            <div class="widget-popup-header">
+                <span class="widget-popup-title">💡 MUN Fact</span>
+                <button id="munFactClose" class="widget-popup-close" title="Close">✕</button>
+            </div>
+            <div id="munFactBody" class="widget-popup-body"></div>
+            <div class="widget-popup-footer">
+                <button id="munFactNext" class="widget-btn">Next Fact</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Speech Timer Widget -->
+    <div id="speechTimerBtn" class="widget-fab widget-fab-br" title="Speech Timer">⏱</div>
+    <div id="speechTimerOverlay" class="widget-overlay" style="display:none;">
+        <div id="speechTimerPopup" class="widget-popup timer-popup">
+            <div class="widget-popup-header">
+                <span class="widget-popup-title">⏱ Speech Timer</span>
+                <button id="speechTimerClose" class="widget-popup-close" title="Close">✕</button>
+            </div>
+            <div class="widget-popup-body">
+                <div class="timer-display-wrap">
+                    <svg class="timer-ring" viewBox="0 0 160 160">
+                        <circle class="timer-ring-bg" cx="80" cy="80" r="70"/>
+                        <circle id="timerRingProgress" class="timer-ring-progress" cx="80" cy="80" r="70" stroke-dasharray="439.8" stroke-dashoffset="0"/>
+                    </svg>
+                    <div id="timerDisplay" class="timer-display">00:00</div>
+                </div>
+                <div id="timerStatus" class="timer-status"></div>
+                <div class="timer-presets">
+                    <button class="timer-preset-btn" data-seconds="120">2 Minutes</button>
+                    <button class="timer-preset-btn" data-seconds="90">90 Seconds</button>
+                    <button class="timer-preset-btn" data-seconds="60">60 Seconds</button>
+                    <button class="timer-preset-btn" data-seconds="0">Custom</button>
+                </div>
+                <div id="timerCustomInput" class="timer-custom-input" style="display:none;">
+                    <input type="number" id="timerCustomMinutes" class="timer-input" placeholder="MM" min="0" max="99" value="1">
+                    <span class="timer-input-sep">:</span>
+                    <input type="number" id="timerCustomSeconds" class="timer-input" placeholder="SS" min="0" max="59" value="0">
+                    <button id="timerCustomSet" class="widget-btn">Set</button>
+                </div>
+                <div class="timer-controls">
+                    <button id="timerStartBtn" class="widget-btn timer-start">▶ Start</button>
+                    <button id="timerPauseBtn" class="widget-btn timer-pause" style="display:none;">⏸ Pause</button>
+                    <button id="timerResumeBtn" class="widget-btn timer-resume" style="display:none;">▶ Resume</button>
+                    <button id="timerResetBtn" class="widget-btn timer-reset">↺ Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

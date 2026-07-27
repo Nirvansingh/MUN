@@ -1351,3 +1351,370 @@ html, body {
     opacity: 0.3;
     cursor: default;
 }
+
+/* ==========================================================================
+   Floating Action Buttons (Widget FABs)
+   ========================================================================== */
+
+.widget-fab {
+    position: fixed;
+    z-index: 9997;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+}
+
+.widget-fab-tr {
+    top: 56px;
+    right: 16px;
+    background: var(--bg-header);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 12px;
+    color: var(--text-primary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.widget-fab-tr:hover {
+    border-color: var(--accent-blue);
+    color: var(--text-heading);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    transform: translateY(-1px);
+}
+
+.widget-fab-br {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--bg-header);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.widget-fab-br:hover {
+    border-color: var(--accent-blue);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Widget Overlay & Popup (shared)
+   ========================================================================== */
+
+.widget-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: widgetOverlayIn 0.2s ease-out;
+}
+
+@keyframes widgetOverlayIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.widget-popup {
+    background: var(--bg-header);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    width: 400px;
+    max-width: 90vw;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    animation: widgetPopupIn 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes widgetPopupIn {
+    from {
+        opacity: 0;
+        transform: scale(0.92) translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.widget-popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.widget-popup-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-heading);
+}
+
+.widget-popup-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+    line-height: 1;
+}
+
+.widget-popup-close:hover {
+    color: var(--text-heading);
+    background: var(--bg-item-hover);
+}
+
+.widget-popup-body {
+    padding: 16px 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.widget-popup-footer {
+    padding: 12px 20px 16px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.widget-btn {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 7px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.widget-btn:hover {
+    background: var(--bg-item-hover);
+    border-color: var(--accent-blue);
+    color: var(--text-heading);
+}
+
+/* ==========================================================================
+   MUN Fact Widget
+   ========================================================================== */
+
+#munFactBody {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-primary);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.mun-fact-text {
+    animation: factFadeIn 0.3s ease-out;
+}
+
+@keyframes factFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   Speech Timer Widget
+   ========================================================================== */
+
+.timer-popup {
+    width: 360px;
+}
+
+.timer-display-wrap {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 12px;
+}
+
+.timer-ring {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.timer-ring-bg {
+    fill: none;
+    stroke: var(--border-color);
+    stroke-width: 6;
+}
+
+.timer-ring-progress {
+    fill: none;
+    stroke: #22c55e;
+    stroke-width: 6;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.3s ease, stroke 0.3s ease;
+}
+
+.timer-display {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-heading);
+    font-family: var(--font-mono);
+}
+
+.timer-status {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    min-height: 20px;
+    margin-bottom: 12px;
+}
+
+.timer-status.time-up {
+    color: #ef4444;
+    animation: timerPulse 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes timerPulse {
+    from { opacity: 0.6; }
+    to { opacity: 1; }
+}
+
+.timer-presets {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.timer-preset-btn {
+    flex: 1;
+    min-width: 60px;
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    text-align: center;
+}
+
+.timer-preset-btn:hover {
+    background: var(--bg-item-hover);
+    border-color: var(--accent-blue);
+    color: var(--text-heading);
+}
+
+.timer-preset-btn.active {
+    border-color: var(--accent-blue);
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--accent-blue);
+}
+
+.timer-custom-input {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.timer-input {
+    width: 60px;
+    background: var(--bg-input);
+    color: var(--text-heading);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    text-align: center;
+    outline: none;
+    transition: var(--transition-smooth);
+}
+
+.timer-input:focus {
+    border-color: var(--accent-blue);
+}
+
+.timer-input-sep {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.timer-controls {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timer-start { border-color: #22c55e; color: #22c55e; }
+.timer-start:hover { background: rgba(34, 197, 94, 0.1); border-color: #22c55e; }
+
+.timer-pause { border-color: #eab308; color: #eab308; }
+.timer-pause:hover { background: rgba(234, 179, 8, 0.1); border-color: #eab308; }
+
+.timer-resume { border-color: var(--accent-blue); color: var(--accent-blue); }
+.timer-resume:hover { background: rgba(59, 130, 246, 0.1); border-color: var(--accent-blue); }
+
+.timer-reset { border-color: var(--border-color); color: var(--text-muted); }
+.timer-reset:hover { border-color: #ef4444; color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+
+/* ==========================================================================
+   Widget Responsive
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .widget-fab-tr {
+        top: 52px;
+        right: 10px;
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+    .widget-fab-br {
+        bottom: 14px;
+        right: 14px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .widget-popup {
+        width: 92vw;
+        max-height: 85vh;
+    }
+    .timer-popup {
+        width: 92vw;
+    }
+}

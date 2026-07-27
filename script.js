@@ -887,7 +887,20 @@
         const lines = content.split('\n');
         const viewer = elements.fileViewer;
 
-        // Extract key sections
+        // Detect file type: battle card (UNHRC/UNSC country) vs. global reference
+        const isGlobalRef = file.path.startsWith('Global Reference');
+        const isBattleCard = !isGlobalRef && (
+            content.includes('STRENGTHS') ||
+            content.includes('GSL TALKING POINTS') ||
+            content.includes('BATTLE CARD')
+        );
+
+        if (isGlobalRef) {
+            renderGlobalRefRevision(file, lines, viewer);
+            return;
+        }
+
+        // ── Battle card revision (UNHRC/UNSC) ──
         const sections = {
             'Position': [],
             'Strengths': [],
@@ -908,7 +921,6 @@
         let currentSection = '';
         for (const line of lines) {
             const t = line.trim();
-            const lower = t.toLowerCase();
             if (t.startsWith('GSL TALKING POINTS') || t.startsWith('GENERAL SPEAKER')) { currentSection = 'GSL'; continue; }
             if (t.startsWith('MODERATED CAUCUS')) { currentSection = 'Talking Points'; continue; }
             if (t.startsWith('RESOLUTION IDEAS') || t.startsWith('Resoltuion Ideas')) { currentSection = 'Resolutions'; continue; }
@@ -938,6 +950,82 @@
                     if (line.startsWith('•') || line.startsWith('✓') || line.startsWith('✗')) {
                         html += `<span class="rv-tag">${line}</span> `;
                     } else if (line.startsWith('CURRENT AFFAIR')) {
+                        html += `<strong style="color:var(--text-heading)">${line}</strong><br>`;
+                    } else {
+                        html += line + '<br>';
+                    }
+                });
+                html += `</div></div>`;
+            }
+        });
+
+        html += '</div>';
+        viewer.innerHTML = html;
+        viewer.style.animation = 'none';
+        void viewer.offsetWidth;
+        viewer.style.animation = 'fadeIn 0.2s ease-out';
+    }
+
+    // ── Global Reference Revision ──
+    function renderGlobalRefRevision(file, lines, viewer) {
+        // Map Global Reference section headers to display labels
+        const sectionMap = {
+            'QUICK SUMMARY': 'Quick Summary',
+            'BASIC INFORMATION': 'Basic Information',
+            'ECONOMY': 'Economy',
+            'MILITARY & SECURITY': 'Military & Security',
+            'GEOGRAPHY & INFLUENCE': 'Geography & Influence',
+            'ENERGY & RESOURCES': 'Energy & Resources',
+            'SOCIETY': 'Society',
+            'FOREIGN POLICY': 'Foreign Policy',
+            'ALLIANCES & RIVALRIES': 'Alliances & Rivalries',
+            'NATIONAL INTERESTS & CHALLENGES': 'National Interests & Challenges',
+            'INTERESTING FACTS': 'Interesting Facts',
+            'SOURCES': 'Sources',
+        };
+
+        const sections = {};
+        for (const key of Object.keys(sectionMap)) {
+            sections[key] = [];
+        }
+
+        let currentSection = '';
+        for (const line of lines) {
+            const t = line.trim();
+            // Detect ==== section headers
+            if (/^={2,}\s*$/.test(t)) continue;
+            const upper = t.toUpperCase();
+            if (sectionMap[upper]) {
+                currentSection = upper;
+                continue;
+            }
+            if (currentSection && sections[currentSection]) {
+                if (t && !t.startsWith('===') && !t.startsWith('---')) {
+                    sections[currentSection].push(t);
+                }
+            }
+        }
+
+        let html = '<div class="revision-view">';
+        html += `<div class="rv-section"><div class="rv-label">📋 Country Profile</div><div class="rv-content" style="font-size:12px;color:var(--text-muted);">${file.displayName} · Global Reference</div></div>`;
+
+        const order = ['QUICK SUMMARY', 'BASIC INFORMATION', 'ECONOMY', 'MILITARY & SECURITY', 'GEOGRAPHY & INFLUENCE', 'ENERGY & RESOURCES', 'SOCIETY', 'FOREIGN POLICY', 'ALLIANCES & RIVALRIES', 'NATIONAL INTERESTS & CHALLENGES', 'INTERESTING FACTS'];
+        order.forEach(key => {
+            if (sections[key] && sections[key].length) {
+                const label = sectionMap[key];
+                // Filter out empty or separator lines
+                const contentLines = sections[key].filter(l => l && !l.startsWith('=') && !l.startsWith('-'));
+                if (!contentLines.length) return;
+
+                html += `<div class="rv-section"><div class="rv-label">${label}</div><div class="rv-content">`;
+                contentLines.slice(0, 10).forEach(line => {
+                    if (line.startsWith('•') || line.startsWith('✓') || line.startsWith('✗')) {
+                        html += `<span class="rv-tag">${line}</span> `;
+                    } else if (line.includes(':') && line.length < 60) {
+                        // Key-value pairs like "Capital: Washington, D.C."
+                        const parts = line.split(':');
+                        html += `<strong style="color:var(--text-heading)">${parts[0]}:</strong>${parts.slice(1).join(':')}<br>`;
+                    } else if (line.startsWith('Relations With:') || line.startsWith('Major ')) {
                         html += `<strong style="color:var(--text-heading)">${line}</strong><br>`;
                     } else {
                         html += line + '<br>';

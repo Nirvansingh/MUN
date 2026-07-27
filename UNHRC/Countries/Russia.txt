@@ -2,134 +2,218 @@
 🇷🇺 RUSSIA | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Russian Federation
-Capital: Moscow
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• Sovereign Internet Law & SORM surveillance system — major case study in digital sovereignty
+• Leading advocate for UN-led cyber governance, opposing Western frameworks
+• P5 member — veto power over UNHRC resolutions referred to UNSC
+• Active in BRICS+ data sovereignty and AI cooperation initiatives
+• Heavy domestic surveillance infrastructure (Safe City, Face Pay)
+
+Hot Topics
+• Sovereign Internet Law & internet filtering
+• SORM surveillance & FSB access to telecom networks
+• Facial recognition & political protest tracking
+• AI ethics code vs state control
+• Data localization mandates
+• Disinformation & media regulation
+• Digital sovereignty vs Western internet governance
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
 Government: Federal Semi-Presidential Republic
-Head of State: President Vladimir Putin
-Population: ~144 Million
-P5 Member: Yes (Permanent Member of UNSC)
+Head: President Vladimir Putin
+UNSC P5: Yes
+Tech Sector: Strong in cybersecurity, software engineering, import substitution
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• China
-• Belarus
-• Iran
-• North Korea
-• Syria
-• Kazakhstan (strategic partner)
-• BRICS members (economic cooperation)
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Digital sovereignty — every state has the right to control its internet space
+• Rejects Western digital rights frameworks as tools of geopolitical dominance
+• "Sovereign Internet" — Russia's model for national network control
+• Advocates for international AI governance through UN, not OECD/G7
+• Data localization is essential for national security
+• Opposes Western Big Tech monopolies and cross-border data exploitation
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• United States
-• United Kingdom
-• France
-• Germany
-• Ukraine
-• NATO
+NATIONAL INTERESTS
+------------------
+• Assert digital sovereignty against Western tech dominance
+• Promote BRICS+ alternative to Western AI governance models
+• Maintain state control over information space
+• Protect critical infrastructure from foreign cyber threats
+• Develop domestic AI capabilities through import substitution
+• Counter Western narratives on internet freedom
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Permanent Member of the UN Security Council.
-✓ Major contributor to global energy markets.
-✓ Strong scientific and space research capabilities.
-✓ Significant military and strategic influence.
-✓ Active participant in BRICS and SCO.
-✓ Large humanitarian assistance in certain conflict regions.
-✓ Strong emphasis on state sovereignty.
-✓ Extensive diplomatic influence in Eurasia.
+✓ Sovereign Internet Law — fully operational national network control
+✓ SORM system enables comprehensive lawful interception
+✓ First major country to implement data localization for all citizen data
+✓ National AI Ethics Code signed by all major tech companies
+✓ Kaspersky, Yandex — strong domestic tech ecosystem
+✓ Leading voice in UN cybercrime & AI governance debates
+✓ Active in BRICS digital cooperation frameworks
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ International criticism over the Russia–Ukraine conflict.
-✗ Restrictions on freedom of speech and independent media.
-✗ Treatment of political opposition.
-✗ Human rights concerns in occupied territories.
-✗ Allegations of arbitrary detention.
-✗ Restrictions on civil society organizations.
-✗ Concerns regarding freedom of assembly.
-✗ International sanctions affecting the economy.
+✗ SORM allows warrantless FSB access to all communications
+✗ Facial recognition used to track and arrest political protesters
+✗ Strict media censorship & foreign agent laws
+✗ Internet filtering blocks independent news & social platforms
+✗ No independent oversight of surveillance agencies
+✗ Limited judicial recourse for privacy violations
+✗ Sanctions limiting access to AI hardware & semiconductors
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Russia emphasizes state sovereignty and non-interference.
-• National security is a legitimate responsibility of every state.
-• Russia supports a multipolar international order.
-• Human rights discussions should remain impartial and free from political bias.
-• International law should be applied equally to all countries.
-• Dialogue is preferable to sanctions and confrontation.
+• Every state has the right to protect its information space from foreign interference
+• Sovereign Internet Law mirrors measures taken by many countries — Russia is transparent about it
+• SORM is lawful interception — Western agencies (NSA, GCHQ) do the same without legal transparency
+• Data localization protects Russian citizens from foreign surveillance
+• AI development is a sovereign right — no country should dictate AI ethics to others
+• Western internet freedom is a myth — US has PRISM, UK has Investigatory Powers Act
+• Russia proposes multilateral AI governance — West wants monopoly
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST RUSSIA
 -------------------------------
-
-Q1. How does Russia respond to allegations of human rights violations related to the Russia–Ukraine conflict?
-
-Q2. Why are independent media organizations subject to restrictions?
-
-Q3. How does Russia ensure political freedoms and fair participation for opposition groups?
-
-Q4. What measures are being taken to protect freedom of expression?
-
-Q5. How does Russia respond to concerns regarding arbitrary detention and civil society restrictions?
+Q1. How does Russia justify the SORM system's warrantless access to communications?
+Q2. Why does Russia block independent media and social media platforms?
+Q3. How is facial recognition used to target political protesters in Russia?
+Q4. How does Russia's AI Ethics Code reconcile with state surveillance practices?
+Q5. What independent oversight exists for Russia's surveillance agencies?
 
 ---------------------------------------------------------------
 
-QUESTIONS RUSSIA CAN ASK OTHER DELEGATIONS
-------------------------------------------
-
+QUESTIONS RUSSIA CAN ASK
+-----------------------
 To USA:
-• How does the United States address racial discrimination, police violence, and mass incarceration while promoting itself as a global human rights leader?
+• How does the US justify PRISM, NSA bulk collection, and surveillance under Executive Order 12333?
 
 To UK:
-• What steps has the United Kingdom taken to address concerns regarding asylum seekers and immigration detention?
+• How does the UK's Investigatory Powers Act (Snoopers' Charter) comply with privacy rights?
 
 To France:
-• How does France ensure religious freedom while maintaining national security policies?
+• How does France reconcile its expanded video surveillance powers (VSA) with privacy?
 
-To Ukraine:
-• What measures has Ukraine taken to protect civilians and uphold humanitarian obligations during the ongoing conflict?
+To China:
+• How can Russia and China jointly promote a UN-led AI governance framework?
 
-To Germany:
-• How does Germany address rising hate crimes and discrimination against minority communities?
+To India:
+• Why does India resist a comprehensive data protection law with strong government oversight?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Sovereign Internet Expansion
+Date: 2025–2026
+• Russia completed DPI (Deep Packet Inspection) deployment nationwide
+• Independent social media platforms blocked or throttled
+• Criticism from UNHRC Special Rapporteur on freedom of expression
+Why it matters: Central example in debates on digital sovereignty vs human rights
+
+CURRENT AFFAIR — AI Import Substitution
+Date: 2025–2026
+• Western sanctions limiting AI chip access
+• Russia accelerating domestic LLM & AI hardware development
+• Partnerships with China for AI technology transfer
+Why it matters: Fuels Russia's argument for non-Western AI governance
+
+CURRENT AFFAIR — Facial Recognition & Protest Tracking
+Date: 2024–2026
+• Moscow's Face Pay system linked to law enforcement databases
+• Reports of protesters identified via facial recognition
+• Debate on proportionality of surveillance for public order
+Why it matters: Key attack point from Western delegates
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Russia champions the principle of digital sovereignty — every nation has the right to govern its internet according to its own laws and cultural values."
+• "Western calls for internet freedom ring hollow when the NSA spies on world leaders. Russia proposes transparent, multilateral governance under the UN."
+• "Data localization is not a violation of rights — it is a protection against foreign exploitation. Russia has one of the strongest data protection frameworks in the world."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Defining digital sovereignty in international law
+• UN-led AI governance vs Western-dominated frameworks
+• Data localization as a sovereign right
+• Balancing national security with privacy rights
+• Cyber sovereignty and the prevention of foreign interference
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UN Framework Convention on Digital Sovereignty
+• International legal standards for lawful interception
+• BRICS+ alternative data governance framework
+• Recognition of states' rights to regulate foreign digital platforms
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Russia will NOT support:
+• Resolutions condemning internet filtering or content moderation by sovereign states
+• Binding cross-border data flow mandates
+• Independent international audits of domestic surveillance systems
+• Any framework based on Western liberal internet values
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: China, Iran, North Korea, Syria, Belarus, Cuba, Venezuela, BRICS partners
+Likely Opponents: USA, UK, France, Germany, Ukraine, NATO members, Japan
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Stay calm under pressure—Russia often receives the most criticism.
-✓ Base arguments on international law and state sovereignty.
-✓ Avoid emotional exchanges.
-✓ Redirect discussions toward diplomacy and peaceful dialogue.
-✓ Acknowledge humanitarian concerns while defending your country's official position.
-✓ Emphasize equal application of international law to all states.
+✓ Stay cold and composed — Russia is attacked frequently
+✓ Turn every criticism back on the accuser: "What about PRISM? What about GCHQ?"
+✓ Use "digital sovereignty" as your shield — it's a legitimate international law concept
+✓ Propose UN-led solutions to position Russia as constructive diplomat
+✓ Frame Western digital rights advocacy as neo-colonial interference
+✓ Ally with China on every procedural vote
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations (UN)
-• Office of the High Commissioner for Human Rights (OHCHR)
-• Universal Periodic Review (UPR)
-• Ministry of Foreign Affairs of the Russian Federation
-• Kremlin (President of Russia)
-• Amnesty International
-• Human Rights Watch
-• Freedom House
-• World Bank
+• Sovereign Internet Law (Federal Law No. 90-FZ, 2019)
+• SORM legislative framework
+• National Strategy for AI Development until 2030
+• AI Ethics Code (Russian Federation)
+• Ministry of Foreign Affairs — UNHRC statements
+• Roskomnadzor — Internet regulation reports
+• Amnesty International — Digital Rights Reports
 
 ================================================================
 

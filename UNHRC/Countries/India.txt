@@ -2,140 +2,216 @@
 🇮🇳 INDIA | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Republic of India
-Capital: New Delhi
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• Major digital economy with 850M+ internet users — directly affected by AI & data privacy rules
+• Frequent internet shutdowns face repeated UNHRC scrutiny
+• Strong voice of the Global South in AI governance debates
+• DPDP Act 2023 positions India as a key case study in data protection
+
+Hot Topics
+• Internet shutdowns (Jammu & Kashmir, protests)
+• Aadhaar biometric system & privacy concerns
+• AI regulation vs innovation balance
+• Cross-border data flows & data localization
+• Big Tech accountability
+• Algorithmic bias in public services
+• Facial recognition & surveillance
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
 Government: Federal Parliamentary Democratic Republic
-Head of State: President Droupadi Murmu
-Head of Government: Prime Minister Narendra Modi
-Population: ~1.4 Billion
-UNSC P5 Member: No
+Head: PM Narendra Modi
+UNSC P5: No
+Tech Sector: Major global IT exporter, fastest-growing digital public infrastructure
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• United States
-• France
-• Russia
-• Japan
-• Australia
-• UAE
-• Israel
-• Bhutan
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• "AI for All" — promoting AI for social development, not just profit
+• Strong advocate for data localization (DPDP Act 2023)
+• Supports responsible AI but opposes rigid Western-style regulation
+• Views internet shutdowns as temporary security measures
+• Champions digital public goods (UPI, Aadhaar, DIKSHA) as models for developing nations
+• Opposes cross-border data flow rules that favour Big Tech over sovereign rights
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• Pakistan
-• China (Border disputes)
+NATIONAL INTERESTS
+------------------
+• Protect sovereignty over citizen data
+• Maintain control over internet governance for national security
+• Position India as a leader in AI for development (Global South)
+• Secure technology transfer & investment for domestic AI infrastructure
+• Prevent Big Tech monopolies from dominating Indian digital market
+• Balance counter-terrorism needs with privacy rights
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ World's largest democracy
-✓ Independent judiciary
-✓ Regular free elections
-✓ Constitutional protection of fundamental rights
-✓ Large peacekeeping contributor to the UN
-✓ Rapid economic growth
-✓ Strong digital governance initiatives
-✓ Major humanitarian assistance in South Asia
-✓ Religious freedom guaranteed by the Constitution
+✓ World's largest digital identity system (Aadhaar)
+✓ DPDP Act 2023 — comprehensive data protection law
+✓ IndiaAI Mission ($1.2B budget)
+✓ Digital Personal Data Protection Board established
+✓ Strong IT export sector
+✓ Active in GPAI & Global South AI forums
+✓ Constitutional right to privacy (Puttaswamy judgment)
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Kashmir-related human rights concerns
-✗ Religious tensions and communal violence
-✗ Internet shutdowns
-✗ Press freedom concerns
-✗ Prison overcrowding
-✗ Gender-based violence
-✗ Air pollution affecting health rights
-✗ Child labour concerns in some sectors
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Jammu & Kashmir
-• Religious Freedom
-• Citizenship issues
-• Internet Shutdowns
-• Freedom of Press
-• Women's Safety
+✗ Repeated internet shutdowns (highest globally in recent years)
+✗ No dedicated AI regulation — only guidelines
+✗ Broad state exemptions in DPDP Act
+✗ Aadhaar security & data breach concerns
+✗ Facial recognition use lacks legal framework
+✗ Pegasus spyware allegations
+✗ Surveillance laws (CMS, NETRA) lack transparency
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• India is the world's largest democracy.
-• Independent Supreme Court ensures judicial oversight.
-• Human rights concerns are addressed through constitutional institutions.
-• Security measures are taken against terrorism while respecting the rule of law.
-• India supports dialogue, development, and democratic governance.
+• Internet shutdowns are temporary, legally justified, and necessary for public order
+• DPDP Act balances innovation with privacy — one of the first in the Global South
+• Aadhaar is voluntary and has reduced corruption in welfare delivery
+• India leads the Global South on AI ethics & governance
+• Privacy is a constitutionally recognized fundamental right
+• Data localization empowers developing economies against Big Tech exploitation
+• AI regulation must be contextual — one size does not fit all
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST INDIA
 ------------------------------
-
-Q1. How does India respond to concerns regarding Jammu & Kashmir?
-
-Q2. What steps are being taken to protect religious minorities?
-
-Q3. Why has India imposed internet shutdowns in certain regions?
-
-Q4. How is India improving women's safety and gender equality?
-
-Q5. What measures are being taken to strengthen press freedom?
+Q1. Why has India imposed more internet shutdowns than any other democracy?
+Q2. How does India justify broad state surveillance exemptions in the DPDP Act?
+Q3. What legal framework governs the use of facial recognition by Indian police?
+Q4. How does India respond to Pegasus spyware allegations?
+Q5. Why has India not enacted a dedicated AI law, only non-binding guidelines?
 
 ---------------------------------------------------------------
 
-QUESTIONS INDIA CAN ASK OTHER COUNTRIES
----------------------------------------
-
-To Pakistan:
-• What concrete measures has Pakistan taken to eliminate terrorism and prevent cross-border militancy?
-
+QUESTIONS INDIA CAN ASK
+-----------------------
 To China:
-• How does China protect freedom of expression and minority rights?
+• How does China justify the Great Firewall and mass surveillance of ethnic minorities?
 
 To USA:
-• How does the United States address systemic racial discrimination?
+• Why has the US failed to enact a federal data privacy law like India's DPDP Act?
 
-To UK:
-• What measures are being taken to address asylum and refugee concerns?
+To Russia:
+• How does Russia's SORM system comply with due process and privacy rights?
 
-To Afghanistan:
-• How are women's rights and girls' education being protected?
+To Saudi Arabia:
+• What legal protections exist for data privacy under Saudi's PDPL?
+
+To France:
+• How does France balance AI-powered video surveillance with privacy rights?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — IndiaAI Mission Rollout
+Date: 2025–2026
+• $1.2B mission funding supercomputing & AI startups
+• India developing indigenous AI models (Bhashini, etc.)
+• Debates on whether AI regulation should be legislated or voluntary
+Why it matters: Shapes India's stance on binding vs non-binding AI frameworks
+
+CURRENT AFFAIR — Internet Shutdowns in 2025
+Date: 2025–2026
+• Over 70 shutdowns reported in 2025 (protest zones, exams)
+• Supreme Court criticized blanket shutdowns as unconstitutional
+• Government defends as temporary & proportionate
+Why it matters: India will be attacked on this — need defence ready
+
+CURRENT AFFAIR — DPDP Act Implementation
+Date: 2024–2026
+• Data Protection Board operational since 2025
+• First enforcement actions against data brokers
+• Concerns over exemptions for government agencies
+Why it matters: Key example for India's data privacy leadership vs criticism
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "India is the world's largest democracy and the first in the Global South to enact a comprehensive data protection law. We invite all nations to learn from our DPDP Act."
+• "AI must be a tool for development, not domination. India's 'AI for All' vision ensures technology reaches the poorest."
+• "Internet shutdowns are never our first choice — but national security cannot be left defenceless in the digital age."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Data localization vs free flow of data — finding the balance
+• Regulating facial recognition in public spaces
+• Big Tech accountability and Algorithmic bias
+• Digital public infrastructure as a human right
+• Children's online safety in the age of AI
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Global framework for responsible AI in public services
+• Data localization rights for developing economies
+• Mandatory human rights impact assessments for surveillance tech
+• International standards for internet shutdown transparency
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+India will NOT support:
+• Binding AI regulations that restrict innovation and technology transfer to developing nations
+• Resolutions equating all internet shutdowns with human rights violations
+• Cross-border data flow mandates that favour multinational Big Tech
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: Russia, China (on data sovereignty), South Africa (Global South), UAE, France (on digital sovereignty)
+Likely Opponents: USA, UK (on internet shutdowns & surveillance), Pakistan, China (on human rights)
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Emphasize democracy and constitutional values.
-✓ Mention India's UN peacekeeping contributions.
-✓ Focus on development and inclusive growth.
-✓ Defend security policies using legal and constitutional arguments.
+✓ Lead with "world's largest democracy + constitutional right to privacy"
+✓ Defend shutdowns as temporary, cite Supreme Court oversight
+✓ Showcase DPDP Act as Global South leadership
+✓ Attack China on surveillance, not the other way around
+✓ Propose "AI for development" narrative to avoid defensive posture
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• Ministry of External Affairs (India)
-• National Human Rights Commission (India)
-• Amnesty International
-• Human Rights Watch
-• Freedom House
-• World Bank
+• DPDP Act 2023 (Gazette of India)
+• IndiaAI Mission (MeitY)
+• Puttaswamy v. Union of India (Supreme Court)
+• SRS Lee v. Union of India (Internet shutdowns)
+• Ministry of External Affairs — UNHRC statements
+• NITI Aayog — National Strategy for AI
+• Freedom House — Internet Freedom Reports
+• Amnesty International — Surveillance Reports
 
 ================================================================
 

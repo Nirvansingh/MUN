@@ -2,134 +2,225 @@
 🇸🇦 SAUDI ARABIA | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Kingdom of Saudi Arabia
-Capital: Riyadh
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Vision 2030 driving massive AI & smart city investment (NEOM, Alat)
+• PDPL enacted 2021 — first comprehensive data law in Gulf region
+• SDAIA — dedicated national AI & data authority
+• Absher platform — one of world's most advanced e-government systems
+• Facial recognition & CCTV extensively deployed
+• G20 member — influential voice in global AI governance debates
+• Broad state exemptions in PDPL criticized by human rights groups
+
+Hot Topics
+• PDPL & state security exemptions
+• Facial recognition in smart cities (NEOM)
+• Absher biometric database & privacy
+• AI regulation vs state authority
+• Women's rights & technology access
+• Migrant worker data protection
+• Internet censorship & freedom of expression
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
 Government: Absolute Monarchy
-Head of State & Government: King Salman bin Abdulaziz Al Saud
-Crown Prince: Mohammed bin Salman
-Population: ~38 Million
-UNSC P5 Member: No
+Head: King Salman / Crown Prince MBS
+UNSC P5: No
+Tech Sector: Rapidly expanding under Vision 2030 — SDAIA, Alat, NEOM
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• United States
-• UAE
-• Bahrain
-• Egypt
-• Pakistan
-• GCC Members
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Vision 2030 — positioning Saudi as global AI & data hub
+• PDPL protects citizen data while allowing state security access
+• AI development must align with Islamic values & national security
+• Absher e-government balances efficiency with data protection
+• Surveillance for public safety & counter-terrorism is legitimate
+• Supports international AI governance through G20 & UN
+• Rejects Western imposition of digital rights standards
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• Iran
-• Houthi Movement (non-state armed group)
+NATIONAL INTERESTS
+------------------
+• Become global AI leader under Vision 2030
+• Attract $20B+ in AI & tech investment
+• Maintain state authority over data & surveillance
+• Develop smart city infrastructure (NEOM) with AI integration
+• Balance modernization with traditional governance
+• Position Saudi as bridge between Western tech & Islamic values
+• Secure cyber defense for critical energy infrastructure
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Vision 2030 social and economic reforms
-✓ Expanding women's workforce participation
+✓ PDPL — first comprehensive data law in the Gulf
+✓ SDAIA — dedicated national AI authority with significant budget
+✓ Vision 2030 driving massive tech transformation
+✓ Absher — world-class e-government platform
+✓ G20 seat — influence on global AI governance
+✓ NEOM — ambitious smart city AI integration
+✓ Expanding women's workforce in tech sector
 ✓ Major humanitarian aid donor
-✓ Strong healthcare investment
-✓ Significant regional diplomatic influence
-✓ Custodian of Islam's two holiest cities
-✓ Large economic diversification programme
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Freedom of expression concerns
-✗ Restrictions on political participation
-✗ Death penalty
-✗ Migrant workers' rights concerns
-✗ Women's rights concerns (despite reforms)
-✗ Arbitrary detention allegations
-✗ Restrictions on civil society
-✗ Yemen conflict-related criticisms
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Women's Rights
-• Vision 2030
-• Migrant Workers
-• Freedom of Expression
-• Yemen Conflict
-• Death Penalty
+✗ Broad state security exemptions in PDPL reduce effectiveness
+✗ Absher platform linked to surveillance of activists
+✗ No independent data protection authority
+✗ Internet filtering blocks news & human rights websites
+✗ Facial recognition used without specific legal framework
+✗ Migrant workers digitally monitored through kafala system
+✗ Freedom of expression severely restricted
+✗ Death penalty includes digital crimes
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Significant reforms under Vision 2030.
-• Women's participation in education and employment has increased.
-• Judicial and economic reforms are ongoing.
-• Saudi Arabia supports regional stability and humanitarian assistance.
-• Reforms should be understood within national traditions and legal systems.
+• PDPL is one of the first comprehensive data laws in the Middle East — progressive step
+• State security exemptions exist in every country's data laws — US, UK, China all have them
+• Absher has transformed government services — 10M+ daily users benefit from digitalization
+• Saudi Arabia is transparent about AI ambitions — Vision 2030 is publicly documented
+• Internet content filtering is standard in many countries — protects cultural values
+• Facial recognition reduces crime in major cities — same as London, Beijing, New York
+• Migrant worker digital systems are being reformed under Vision 2030
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST SAUDI ARABIA
 -------------------------------------
-
-Q1. How does Saudi Arabia respond to concerns regarding freedom of expression?
-
-Q2. What reforms have been implemented to improve women's rights?
-
-Q3. How are migrant workers protected?
-
-Q4. What is Saudi Arabia's response to criticism regarding the Yemen conflict?
-
-Q5. What steps are being taken regarding judicial reforms and the death penalty?
+Q1. How does the PDPL protect citizens when the government has broad exemptions?
+Q2. What independent oversight exists for Saudi surveillance programs?
+Q3. How does Absher platform data protect individual privacy?
+Q4. Why does Saudi Arabia block news websites and restrict digital expression?
+Q5. How is facial recognition regulated in smart city projects?
 
 ---------------------------------------------------------------
 
-QUESTIONS SAUDI ARABIA CAN ASK OTHER COUNTRIES
-----------------------------------------------
-
+QUESTIONS SAUDI ARABIA CAN ASK
+-------------------------------
 To Iran:
-• What steps is Iran taking to improve freedom of expression and protect women's rights?
+• How does Iran justify using facial recognition to arrest women for dress code violations?
+
+To China:
+• How can Saudi and China cooperate on ethical AI development aligned with shared values?
 
 To USA:
-• How does the United States address gun violence and racial discrimination?
-
-To Israel:
-• What measures are being taken to ensure civilian protection during military operations?
+• Why does the US lack a federal privacy law when Saudi Arabia has enacted PDPL?
 
 To France:
-• How does France address discrimination against religious minorities?
+• How does France's algorithmic video surveillance balance security with privacy?
 
-To India:
-• What initiatives strengthen communal harmony and minority rights?
+To Israel:
+• How does Israel regulate the export of Pegasus spyware technology globally?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — SDAIA & AI Leadership
+Date: 2025–2026
+• Saudi hosting international AI summits & conferences
+• Alat — $100B tech investment fund operational
+• Data centers & cloud infrastructure expanding rapidly
+Why it matters: Saudi positioning as AI leader gives it influence in committee
+
+CURRENT AFFAIR — PDPL Implementation
+Date: 2025–2026
+• First enforcement actions under PDPL
+• Businesses adjusting to data localization requirements
+• Concerns about broad government access exemptions
+Why it matters: PDPL is Saudi's key credential in privacy debates
+
+CURRENT AFFAIR — Absher & Migrant Worker Rights
+Date: 2025–2026
+• Absher platform reforms under Vision 2030
+• Kafala system changes affecting migrant data rights
+• Digital tracking of migrant workers criticized by HR groups
+Why it matters: Vulnerability on migrant worker digital rights
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Saudi Arabia's Vision 2030 is transforming our nation into a global AI and data hub. Our PDPL was one of the first comprehensive data laws in the region — we are leading, not following."
+• "We believe in AI that serves humanity while respecting our values. Saudi Arabia bridges Eastern traditions with Western technology — this is the future of global AI governance."
+• "Every country has national security exemptions in its data laws. Saudi Arabia's PDPL is no different — and we are more transparent about it than most."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Data protection laws in developing nations — the Saudi model
+• AI for smart cities and the right to privacy
+• Balancing national security with data protection
+• Technology transfer and Vision 2030 as a development model
+• Islamic values in AI governance
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Framework for AI governance that respects cultural diversity
+• Data protection capacity building for developing nations
+• International standards for smart city data governance
+• Technology transfer partnerships for AI development
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Saudi Arabia will NOT support:
+• Resolutions criticizing internet content filtering based on cultural/religious values
+• Binding AI regulations that ignore developing country perspectives
+• Any framework that restricts sovereign AI development
+• Criticism of Vision 2030 or Saudi modernization efforts
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: UAE, Bahrain, GCC members, Egypt, Pakistan, China (on AI governance)
+Likely Opponents: Iran, Qatar (on some issues), Western human rights critics
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Highlight ongoing reforms rather than claiming perfection.
-✓ Emphasize humanitarian assistance and regional diplomacy.
-✓ Acknowledge challenges while focusing on progress.
-✓ Use respectful and measured language.
+✓ Lead with Vision 2030 & PDPL as evidence of progress
+✓ Acknowledge challenges but frame as "reforms in progress"
+✓ Compare PDPL favorably to US (no federal law) and China (PIPL exemptions)
+✓ Use "cultural values" to deflect on censorship & expression
+✓ Coordinate with UAE and GCC allies
+✓ Avoid defending death penalty or specific cases — redirect to reforms
+✓ Position Saudi as bridge between developing and developed worlds
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• Ministry of Foreign Affairs (Saudi Arabia)
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• PDPL (Personal Data Protection Law) 2021
+• SDAIA — National Strategy for Data & AI
+• Vision 2030 — digital transformation reports
+• Ministry of Communications & IT — policy statements
+• UNHRC UPR — Saudi Arabia
+• Amnesty International — digital rights reports
+• Freedom House — internet freedom reports
 
 ================================================================
 

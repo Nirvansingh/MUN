@@ -1,6 +1,11 @@
 ================================================================
-UNHRC RESOURCE GUIDE: LEGAL & TECHNICAL DEFINITIONS
+UNHRC RESOURCE GUIDE: LEGAL & TECHNICAL DEFINITIONS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Use precise terms to win clause debates — "Mass Surveillance" ≠ "Targeted Interception"
+           Cite "Three-Part Test" (Legality → Necessity → Proportionality) to challenge any surveillance program
 
 This document provides clear definitions of key terms to prevent semantic disputes during debate and resolution drafting.
 

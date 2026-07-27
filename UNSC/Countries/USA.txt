@@ -1,6 +1,32 @@
 ================================================================
-UNITED STATES
+USA | UNSC BATTLE CARD
 ================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• World's largest economy & leading global trade power
+• Leading Operation Prosperity Guardian in the Red Sea
+• P5 member — veto power over UNSC resolutions
+• Dollar dominance provides leverage in international trade & sanctions
+• Central role in semiconductor supply chains & technology decoupling
+• Largest network of military bases near global maritime choke points
+
+Hot Topics
+• Houthi Red Sea attacks & Operation Prosperity Guardian
+• Russian shadow fleet & oil price cap enforcement
+• Taiwan Strait security & freedom of navigation
+• China semiconductor export controls & decoupling
+• Undersea cable security (North Sea, Baltic, Pacific)
+• Panama Canal drought & shipping disruptions
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
 
 BASIC INFORMATION
 -----------------
@@ -144,6 +170,67 @@ NEGOTIATION STRATEGY
 • Countries to avoid confronting first: China (focus on shared interests in trade stability first).
 • Possible compromises: Support funding for developing countries to modernize port security.
 • Main objectives: Secure condemnation of Red Sea attacks, call out the Russian shadow fleet, and promote joint maritime patrols.
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Operation Prosperity Guardian
+Date: 2025–2026
+• US-led coalition defending Red Sea commercial shipping from Houthi attacks
+• Debates on effectiveness & escalation risks
+• International shipping costs affected by ongoing tensions
+Why it matters: Central to US leadership narrative in committee
+
+CURRENT AFFAIR — US-China Tech Decoupling
+Date: 2025–2026
+• Semiconductor export controls on China expanding
+• CHIPS Act funding domestic fabrication plants
+• Debate on whether decoupling strengthens or weakens global supply chains
+Why it matters: Key point of contention in supply chain debates
+
+CURRENT AFFAIR — Russian Shadow Fleet Sanctions
+Date: 2025–2026
+• US Treasury sanctioning shadow fleet tankers & insurers
+• Environmental & safety risks from aging vessels
+• G7 coordination on oil price cap enforcement
+Why it matters: Central to sanctions enforcement & maritime security
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "The United States will not allow a single non-state actor to hold global trade hostage. Operation Prosperity Guardian is defending freedom of navigation for every nation represented here."
+• "Our sanctions target the aggressors, not global commerce. The Russian shadow fleet is a threat to maritime safety and environmental security — it must be stopped."
+• "America believes in open markets — but not at the expense of national security. Targeted export controls protect our technological edge without fragmenting global supply chains."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Protecting Red Sea shipping lanes from non-state actor threats
+• Balancing national security export controls with free trade principles
+• Shadow fleet regulation and maritime environmental safety
+• Undersea cable protection frameworks
+• Supply chain resilience through friend-shoring vs multilateral cooperation
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UNSC resolution condemning Houthi attacks on civilian shipping
+• Framework for transparency & safety standards for shadow fleet vessels
+• International cooperation on undersea cable protection
+• Standards for semiconductor supply chain security
+• Joint maritime patrol coordination for choke point security
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: UK, France, Japan, South Korea, Germany, Italy, Canada, Australia, Israel, NATO members
+Likely Opponents: China, Russia, Iran, North Korea, Syria
 
 ---------------------------------------------------------------
 

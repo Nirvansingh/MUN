@@ -2,133 +2,218 @@
 🇵🇰 PAKISTAN | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Islamic Republic of Pakistan
-Capital: Islamabad
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Safe City projects expanding facial recognition in major cities
+• PECA 2016 — broad cybercrime law used for content filtering & blocks
+• No comprehensive data privacy law (PDPB still draft)
+• Internet shutdowns during political instability
+• Growing digital economy & IT sector affected by surveillance laws
+• Key voice in OIC on digital rights & data sovereignty
+
+Hot Topics
+• PECA 2016 & social media blocking
+• Safe City CCTV & facial recognition
+• Internet shutdowns during protests
+• Blasphemy laws & online expression
+• Digital rights & press freedom
+• Data protection bill (still pending)
+• Kashmir & internet restrictions
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
 Government: Federal Parliamentary Republic
-Head of State: President Asif Ali Zardari
-Head of Government: Prime Minister Shehbaz Sharif
-Population: ~255 Million
-UNSC P5 Member: No
+Head: PM Shehbaz Sharif
+UNSC P5: No
+Tech Sector: Growing IT outsourcing, freelancer economy, CPEC digital infrastructure
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• China
-• Türkiye
-• Saudi Arabia
-• Azerbaijan
-• Qatar
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Supports digital transformation & AI for development
+• PECA 2016 needed to combat cybercrime, hate speech & terrorism
+• Internet shutdowns are temporary security measures during unrest
+• Data localization supported under CPEC digital framework
+• No comprehensive privacy law yet — PDPB under discussion
+• Supports OIC coordination on digital sovereignty
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• India
+NATIONAL INTERESTS
+------------------
+• Balance security needs (terrorism, blasphemy) with digital rights
+• Secure technology transfer & investment via CPEC (China)
+• Protect national sovereignty in internet governance
+• Counter Indian narrative on human rights in Kashmir
+• Develop IT sector & digital economy
+• Maintain social & religious norms in online spaces
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
+✓ Safe City projects improving public safety monitoring
+✓ Growing IT sector & digital economy
 ✓ Active UN peacekeeping contributor
-✓ Constitutional recognition of fundamental rights
-✓ Major role in regional diplomacy
-✓ Large humanitarian support for Afghan refugees
-✓ Strategic importance in South Asia
-✓ Growing digital economy
+✓ NADRA — world-class digital identity system
+✓ Constitutional fundamental rights framework
+✓ Large youth population driving digital adoption
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Blasphemy laws
-✗ Religious minority rights concerns
-✗ Freedom of press concerns
-✗ Enforced disappearance allegations
-✗ Gender inequality
-✗ Child marriage concerns
-✗ Terrorism and extremism challenges
-✗ Political instability
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Blasphemy Laws
-• Religious Minorities
-• Terrorism
-• Freedom of Press
-• Women's Rights
-• Kashmir
+✗ No comprehensive data privacy law (PDPB draft pending)
+✗ PECA 2016 used to block social media & silence critics
+✗ Internet shutdowns during political protests
+✗ Blasphemy laws restrict online expression
+✗ Safe City facial recognition lacks legal framework
+✗ Press freedom & digital rights concerns
+✗ Enforced disappearances & extrajudicial actions
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Pakistan has strengthened counter-terrorism efforts.
-• Constitutional institutions exist to protect citizens' rights.
-• Pakistan has hosted millions of Afghan refugees over several decades.
-• Judicial reforms and human rights initiatives continue.
-• Pakistan supports peaceful dialogue and international cooperation.
+• PECA 2016 is a cybercrime law — every country has one. UK has Online Safety Act, India has IT Act
+• Internet shutdowns are temporary, legally ordered, and necessary for public order during unrest
+• Pakistan is developing its data protection framework — PDPB under active consideration
+• Safe City cameras reduce crime and help find missing persons — same as UK, India, China
+• Blasphemy laws reflect Pakistan's religious and cultural context — not a human rights violation
+• NADRA digital identity system is a model for developing nations
+• Pakistan actively engages with UNHRC UPR process
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST PAKISTAN
 ---------------------------------
-
-Q1. How does Pakistan address concerns regarding blasphemy laws?
-
-Q2. What protections exist for religious minorities?
-
-Q3. What measures are being taken against terrorism and extremism?
-
-Q4. How is Pakistan improving freedom of the press?
-
-Q5. What steps are being taken to improve women's rights?
+Q1. Why does Pakistan still not have a comprehensive data privacy law?
+Q2. How does Pakistan justify internet shutdowns during political protests?
+Q3. Does PECA 2016 violate freedom of expression?
+Q4. What legal framework governs facial recognition in Safe City projects?
+Q5. How do blasphemy laws affect online expression and digital rights?
 
 ---------------------------------------------------------------
 
-QUESTIONS PAKISTAN CAN ASK OTHER COUNTRIES
-------------------------------------------
-
+QUESTIONS PAKISTAN CAN ASK
+-------------------------
 To India:
-• How does India address allegations concerning human rights in Jammu & Kashmir?
+• How does India justify the highest number of internet shutdowns globally?
 
-To Israel:
-• What measures are being taken to ensure civilian protection in conflict areas?
+To China:
+• How can CPEC support Pakistan's data protection framework development?
 
 To USA:
-• How does the United States reconcile gun violence and racial discrimination with its human rights commitments?
+• How does the US justify warrantless surveillance under Section 702 while criticizing other nations?
 
-To France:
-• How does France balance secularism with freedom of religion?
+To Israel:
+• How does Israel regulate the use of Pegasus spyware against journalists?
 
 To Myanmar:
-• What actions are being taken to protect ethnic minorities?
+• What legal protections exist for digital rights under military administration?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Personal Data Protection Bill
+Date: 2025–2026
+• PDPB remains under parliamentary consideration
+• Debates on data localization requirements
+• Stakeholder concerns about government access exemptions
+Why it matters: Key vulnerability — Pakistan can be attacked for lacking privacy law
+
+CURRENT AFFAIR — Social Media Blocking
+Date: 2025–2026
+• PTA blocked X (Twitter) for extended periods during unrest
+• VPNs restricted to enforce blocks
+• Supreme Court hearings on legality of internet shutdowns
+Why it matters: Central to freedom of expression debates
+
+CURRENT AFFAIR — Safe City Expansion
+Date: 2025–2026
+• Facial recognition deployed in Islamabad, Lahore, Karachi
+• Debate on privacy safeguards and data retention
+• NADRA integration with surveillance databases
+Why it matters: Growing surveillance infrastructure without legal framework
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Pakistan is committed to developing a comprehensive data protection framework. Our PDPB is under active consideration and will reflect the needs of a developing digital economy."
+• "The same countries that lecture Pakistan on internet freedom have their own surveillance programs — PRISM, GCHQ, IPA. We reject this double standard."
+• "Pakistan's Safe City projects have reduced crime and helped recover thousands of missing children. Privacy concerns are valid, but public safety cannot be ignored."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Balancing counter-terrorism surveillance with privacy rights
+• Data protection laws for developing economies
+• Internet shutdowns and the right to access information
+• Digital identity systems and privacy safeguards
+• Capacity building for cybersecurity in developing nations
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Technical assistance framework for data protection in developing countries
+• Standards for temporary internet restrictions with human rights safeguards
+• Digital identity best practices for developing nations
+• Capacity building for cybersecurity in Global South
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Pakistan will NOT support:
+• Resolutions specifically condemning blasphemy laws or religious content filtering
+• Binding data flow mandates that restrict CPEC digital cooperation
+• Any framework that ignores cultural and religious contexts in internet governance
+• Resolutions equating counter-terrorism surveillance with human rights violations
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: China, Saudi Arabia, Turkey, OIC members, Russia
+Likely Opponents: India, USA, UK, France, EU members (on blasphemy & digital rights)
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Highlight Pakistan's role in UN peacekeeping.
-✓ Mention its long-standing support for Afghan refugees.
-✓ Defend security policies while acknowledging reforms.
-✓ Avoid emotional exchanges with the Indian delegation; stay factual and diplomatic.
+✓ Acknowledge PDPB delay — blame legislative process, not lack of commitment
+✓ Attack India on internet shutdowns — India has more than any country
+✓ Defend PECA as standard cybercrime legislation
+✓ Use OIC platform to ally with Muslim-majority states
+✓ Frame data protection as a developing country challenge, not a rights failure
+✓ Avoid debating blasphemy laws directly — redirect to cultural sovereignty
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• Ministry of Foreign Affairs (Pakistan)
-• National Commission for Human Rights (Pakistan)
-• Amnesty International
-• Human Rights Watch
-• Freedom House
-• World Bank
+• PECA 2016 (Prevention of Electronic Crimes Act)
+• Personal Data Protection Bill (draft)
+• National Cybersecurity Policy 2021
+• Ministry of IT & Telecom — digital policy statements
+• PTA — internet regulation reports
+• NADRA — digital identity framework
+• UNHRC UPR — Pakistan reports
 
 ================================================================
 

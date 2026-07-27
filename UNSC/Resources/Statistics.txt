@@ -1,6 +1,11 @@
 ================================================================
-UNSC RESOURCE GUIDE: SHIPPING & SUPPLY CHAIN STATISTICS
+UNSC RESOURCE GUIDE: SHIPPING & SUPPLY CHAIN STATISTICS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNSC — Agenda: Geopolitical Conflicts, Supply Chains & Maritime Security
+   Power Stats: "Suez transit down 45%" / "Freight rates up 250%" / "20.5M barrels/day through Hormuz"
+           "600+ shadow fleet tankers" / "90% of advanced chips from Taiwan" / "85% rare earths from China"
 
 Use these statistics in the Security Council to quantify the impact of geopolitical conflicts on global trade.
 

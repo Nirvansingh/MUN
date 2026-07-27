@@ -2,138 +2,220 @@
 🇮🇱 ISRAEL | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: State of Israel
-Capital: Jerusalem (Status disputed internationally)
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• Global cyber surveillance leader — NSO Group (Pegasus spyware)
+• AI in military targeting — Lavender & Habsora AI systems in Gaza
+• Extensive facial recognition at checkpoints & border crossings
+• Protection of Privacy Law (1981) — outdated, criticized as inadequate
+• Major exporter of surveillance technology to other states
+• Blue Wolf biometric database in occupied territories heavily criticized
+
+Hot Topics
+• Pegasus spyware & surveillance exports
+• AI-powered targeting in military operations (Lavender, Habsora)
+• Facial recognition at checkpoints & biometric databases
+• Privacy law reform & GDPR compatibility
+• Surveillance in occupied Palestinian territories
+• Cybersecurity & cyber defense capabilities
+• Big Tech & Israeli surveillance industry
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
 Government: Parliamentary Democracy
-Head of State: President Isaac Herzog
-Head of Government: Prime Minister Benjamin Netanyahu
-Population: ~10 Million
-UNSC P5 Member: No
+Head: PM Benjamin Netanyahu
+UNSC P5: No
+Tech Sector: World-leading cybersecurity, AI startups, NSO Group, Mobileye
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• United States
-• Germany
-• United Kingdom
-• France
-• Canada
-• India
-• UAE (through normalization agreements)
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Surveillance essential for national security & counter-terrorism
+• AI in defence is lawful under international humanitarian law
+• Supports flexible, industry-led AI regulation — not heavy-handed laws
+• Privacy Law (1981) being updated to modern standards
+• Defends surveillance exports as lawful cyber security tools
+• Biometric databases at borders are standard security practice
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• Iran
-• Hamas (non-state armed group)
-• Hezbollah (non-state armed group)
-• Syria
+NATIONAL INTERESTS
+------------------
+• Maintain technological edge in surveillance & cybersecurity
+• Protect NSO Group & defense tech exports from restrictions
+• Balance counter-terrorism needs with international privacy standards
+• Prevent UNHRC from restricting AI in military operations
+• Secure intelligence capabilities against Iran & proxies
+• Protect cyber defense industry as economic asset
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Strong democratic institutions
-✓ Independent judiciary
-✓ Freedom of religion legally protected
-✓ Advanced healthcare system
-✓ Global leader in technology and innovation
-✓ Strong disaster relief and humanitarian assistance
-✓ High gender equality in many sectors
-✓ Free elections
+✓ World leader in cybersecurity & surveillance technology
+✓ Advanced AI capabilities (Lavender, Habsora — targeting systems)
+✓ Strong democratic institutions & independent judiciary
+✓ Unit 8200 — elite intelligence & cyber unit
+✓ INCD — National Cyber Directorate protecting critical infrastructure
+✓ Active civil society debating surveillance oversight
+✓ Strong US strategic alliance on tech & security
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Allegations regarding military operations in Gaza
-✗ Expansion of settlements in the West Bank
-✗ Restrictions on movement in Palestinian territories
-✗ Civilian casualties during armed conflicts
-✗ Humanitarian access concerns
-✗ Administrative detention criticisms
-✗ Excessive use of force allegations
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Gaza Conflict
-• West Bank Settlements
-• Humanitarian Access
-• Civilian Protection
-• Hostage Crisis
-• Two-State Solution
+✗ Pegasus spyware used against journalists, activists, lawyers globally
+✗ AI targeting systems (Lavender) criticized for civilian casualty risk
+✗ Blue Wolf biometric database tracks Palestinians in West Bank
+✗ Privacy Law (1981) outdated — no comprehensive data protection
+✗ No independent oversight of intelligence surveillance
+✗ Facial recognition at checkpoints without legal framework
+✗ Administrative detention without charge
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Israel has the right to self-defense under international law.
-• Security measures are aimed at protecting civilians from terrorism.
-• Israel supports the release of all hostages.
-• Humanitarian aid should reach civilians while preventing diversion by armed groups.
-• Peace requires direct negotiations and recognition of Israel's right to exist.
+• Israel's surveillance is lawful, necessary, and proportionate for counter-terrorism
+• Pegasus is exported only to vetted governments for legitimate law enforcement
+• AI targeting systems follow international humanitarian law — human oversight maintained
+• Biometric databases at borders are standard international practice
+• Every country faces the same security-privacy balance — Israel is transparent about it
+• US, UK, France all use similar technologies — why is Israel singled out?
+• Privacy Law reform is underway to meet modern standards
+• Israel's cybersecurity industry protects global critical infrastructure
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST ISRAEL
 -------------------------------
-
-Q1. How does Israel justify military operations causing civilian casualties?
-
-Q2. What is Israel's position on West Bank settlements?
-
-Q3. How does Israel ensure humanitarian aid reaches Gaza?
-
-Q4. What measures are taken to protect civilians during military operations?
-
-Q5. How does Israel respond to allegations of disproportionate use of force?
+Q1. How does Israel regulate the export of Pegasus spyware to other countries?
+Q2. How does Israel ensure AI targeting systems (Lavender) comply with IHL?
+Q3. What legal framework governs the Blue Wolf biometric database?
+Q4. Why is Israel's Privacy Law still not updated to GDPR standards?
+Q5. How does Israel balance counter-terrorism surveillance with privacy rights?
 
 ---------------------------------------------------------------
 
-QUESTIONS ISRAEL CAN ASK OTHER COUNTRIES
-----------------------------------------
-
+QUESTIONS ISRAEL CAN ASK
+-----------------------
 To Iran:
-• How does Iran respond to concerns regarding support for armed groups in the region?
+• How does Iran justify using facial recognition to identify and arrest women for dress code violations?
 
-To Syria:
-• What measures are being taken to protect civilians during ongoing conflicts?
+To China:
+• How does China justify exporting facial recognition technology to authoritarian regimes?
 
 To Russia:
-• How does Russia ensure civilian protection in armed conflicts?
+• How does Russia's SORM system provide any judicial oversight for surveillance?
 
-To Pakistan:
-• How does Pakistan address terrorism and extremist violence?
+To Saudi Arabia:
+• How does Saudi Arabia ensure PDPL protections are not undermined by state security exemptions?
 
-To Palestine:
-• What measures are being taken to prevent attacks targeting Israeli civilians?
+To France:
+• How does France's algorithmic video surveillance differ from Israel's security measures?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Pegasus Spyware Controversy
+Date: 2025–2026
+• New reports of Pegasus targeting journalists & human rights defenders
+• Israel defense ministry reviewing export licenses
+• International calls for stronger controls on surveillance tech exports
+Why it matters: Central to UNHRC attacks on Israel — need strong defence
+
+CURRENT AFFAIR — AI Targeting Systems (Lavender)
+Date: 2024–2026
+• IDF confirmed use of AI-generated targeting lists in Gaza operations
+• Debates on human oversight of autonomous targeting
+• UN investigations into civilian casualty algorithms
+Why it matters: Key debate on AI in warfare — Israel is at center
+
+CURRENT AFFAIR — Privacy Law Reform
+Date: 2025–2026
+• Knesset debating amendments to Protection of Privacy Law
+• Push for GDPR-compatible data protection
+• Opposition from security establishment on oversight provisions
+Why it matters: Shows Israel is addressing privacy concerns
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Israel is a democracy defending itself on multiple fronts — our surveillance technologies save lives and prevent terrorist attacks."
+• "AI and cybersecurity are tools. In Israel's hands, they protect democracy. In Iran's hands, they oppress women. The difference is our legal framework and democratic oversight."
+• "Every nation has the right to develop AI for national security. Israel's systems comply with international law and include human oversight."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Regulating the export of surveillance technology
+• AI in military targeting and international humanitarian law
+• Biometric databases & the right to privacy
+• Updating privacy laws for the digital age
+• Cybersecurity as a human rights issue
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• International transparency standards for surveillance tech exports
+• Human oversight requirements for AI in military targeting
+• Legal frameworks for biometric data collection
+• Cybersecurity capacity building for developing nations
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Israel will NOT support:
+• Resolutions restricting the right to self-defense through technology
+• Bans on surveillance technology exports (supports regulation, not bans)
+• Any framework equating counter-terrorism surveillance with repression
+• UNHRC investigations singling out Israel under Agenda Item 7
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: US, UK, Germany, France, Canada, India, UAE (Abraham Accords)
+Likely Opponents: Iran, Syria, Palestine, Pakistan, Turkey, Russia, China
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Emphasize security and self-defense.
-✓ Acknowledge humanitarian concerns.
-✓ Support humanitarian assistance.
-✓ Promote negotiations and peaceful coexistence.
-✓ Avoid appearing indifferent to civilian suffering.
+✓ Pre-empt attacks — acknowledge AI targeting concerns, emphasize human oversight
+✓ Attack Iran on surveillance of women & China on export of surveillance tech
+✓ Don't defend Pegasus broadly — say "exports are licensed and regulated"
+✓ Point to Privacy Law reform as evidence of democratic accountability
+✓ Use "democracy defending itself" narrative — contrasts with authoritarian critics
+✓ Avoid getting drawn into Gaza debate — redirect to technology & privacy
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• Ministry of Foreign Affairs (Israel)
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• Protection of Privacy Law (1981) & amendments
+• INCD — National Cyber Strategy
+• Ministry of Defense — Defense export controls
+• IDF — AI targeting protocols
+• UNHRC — Reports on surveillance in occupied territories
+• Amnesty International — Pegasus reports
+• Privacy Protection Authority (PPA) — guidelines
 
 ================================================================
 

@@ -2,136 +2,217 @@
 🇮🇷 IRAN | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Islamic Republic of Iran
-Capital: Tehran
-Government: Islamic Republic (Theocratic Republic)
-Head of State: Supreme Leader Ayatollah Ali Khamenei
-Head of Government: President Masoud Pezeshkian
-Population: ~90 Million
-UNSC P5 Member: No
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• One of the world's most aggressive internet censorship regimes
+• National Information Network —完全的state-controlled internet
+• Widespread facial recognition used to identify & arrest dissidents
+• Mahsa Amini protests (2022) — surveillance used to track protesters
+• Leading voice against Western digital frameworks in UNHRC
+• Strict data localization & state monitoring of all communications
+
+Hot Topics
+• Internet censorship & National Information Network
+• Facial recognition & protest surveillance
+• Social media blocking (Instagram, WhatsApp, Telegram, Twitter/X)
+• Women's rights & technology-facilitated gender-based violence
+• Cyber attacks & critical infrastructure protection
+• Death penalty & digital rights
+• Sanctions impact on technology access
+
+Expected Debate Frequency: Very High
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• Russia
-• China
-• Syria
-• Iraq (close relations)
-• Hezbollah (non-state actor)
-• Hamas (non-state actor)
+BASIC INFO
+----------
+Government: Islamic Theocratic Republic
+Head: Supreme Leader Ayatollah Khamenei / President Pezeshkian
+UNSC P5: No
+Tech Sector: Domestic software, national intranet, cyber warfare capabilities
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• United States
-• Israel
-• Saudi Arabia (relations have improved but strategic rivalry remains)
-• United Kingdom
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Cyber sovereignty — rejects Western digital rights frameworks as neo-colonial
+• State-controlled internet (National Information Network) protects cultural identity
+• Internet filtering blocks "immoral" content and foreign political influence
+• All telecommunications subject to state monitoring for national security
+• AI must align with Islamic values and state security
+• Opposes UNHRC resolutions criticizing domestic internet policies
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain state control over information & communication
+• Block foreign political influence through internet filtering
+• Protect National Information Network as alternative to global internet
+• Use surveillance to maintain internal security & public morality
+• Develop domestic AI without Western technology dependency
+• Oppose UNHRC digital rights resolutions targeting Iran
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Universal healthcare coverage
-✓ High literacy rate
-✓ Strong scientific and technological research
-✓ Significant regional diplomatic influence
-✓ Large higher education system
-✓ Strong disaster response capabilities
-✓ Constitutional recognition of certain religious minorities
+✓ National Information Network — fully sovereign internet infrastructure
+✓ Extensive facial recognition & CCTV in urban centers
+✓ Strong cyber warfare & defensive capabilities
+✓ Domestic tech ecosystem (Snapp, Cafe Bazaar) despite sanctions
+✓ Constitutional recognition of religious minorities
+✓ High literacy rate & strong STEM education
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Restrictions on freedom of expression
-✗ Women's rights concerns
-✗ Death penalty
-✗ Restrictions on political opposition
-✗ Internet censorship
-✗ Restrictions on independent media
-✗ Arbitrary detention allegations
-✗ Religious minority concerns
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Women's Rights
-• Freedom of Expression
-• Internet Restrictions
-• Nuclear Programme
-• Death Penalty
-• Regional Security
+✗ Social media & news websites extensively blocked
+✗ Facial recognition used to identify & arrest protesters without warrant
+✗ National Information Network restricts access to global internet
+✗ No data privacy law — all communications subject to state monitoring
+✗ Mahsa Amini protests highlighted surveillance-enabled repression
+✗ Death penalty includes digital crimes & online expression
+✗ VPNs blocked — citizens cannot access open internet
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Respect for national sovereignty.
-• Human rights should not be politicized.
-• Iran's legal system reflects its Constitution and domestic laws.
-• Iran supports regional stability through dialogue.
-• Unilateral sanctions negatively affect economic and social rights.
+• Every sovereign state has the right to regulate its internet according to its culture and laws
+• National Information Network protects Iranians from foreign cyber attacks and cultural corruption
+• Western internet freedom is a myth — US tech companies harvest data, NSA spies on everyone
+• Iran's internet policies are no different from China's, Russia's — why is Iran singled out?
+• Sanctions prevent Iranians from accessing global technology — that's the real human rights violation
+• Iran's constitutional framework recognizes privacy rights within Islamic law
+• Internet filtering protects children and families from harmful content
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST IRAN
 -----------------------------
-
-Q1. How does Iran address concerns regarding women's rights?
-
-Q2. Why are restrictions placed on freedom of expression?
-
-Q3. What reforms are being made regarding the death penalty?
-
-Q4. How are religious minorities protected?
-
-Q5. How does Iran respond to allegations of arbitrary detention?
+Q1. Why does Iran block social media platforms used by millions of Iranians?
+Q2. How is facial recognition used to identify and arrest protesters?
+Q3. How does the National Information Network violate the right to access information?
+Q4. Why does Iran execute people for online expression?
+Q5. What independent oversight exists for Iran's surveillance programs?
 
 ---------------------------------------------------------------
 
-QUESTIONS IRAN CAN ASK OTHER COUNTRIES
---------------------------------------
-
+QUESTIONS IRAN CAN ASK
+-----------------------
 To USA:
-• How do unilateral sanctions impact the human rights of ordinary civilians?
-
-To Israel:
-• How does Israel ensure proportionality during military operations?
-
-To Saudi Arabia:
-• What legal protections exist for migrant workers?
+• How do unilateral sanctions prevent Iranian citizens from accessing essential technology and medicine?
 
 To UK:
-• How does the UK address discrimination against minority communities?
+• How does the UK's Investigatory Powers Act differ from Iran's internet regulation?
+
+To Saudi Arabia:
+• How does Saudi Arabia's PDPL protect citizens when broad state exemptions apply?
+
+To Israel:
+• How does Israel regulate the export of Pegasus spyware used against journalists?
 
 To France:
-• How does France balance secularism with religious freedom?
+• How does France's algorithmic video surveillance differ from Iran's facial recognition?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — National Information Network Expansion
+Date: 2025–2026
+• Iran accelerating shift to domestic internet platform
+• International internet speeds throttled, domestic platforms promoted
+• VPN detection & blocking technology upgraded
+Why it matters: Central example in debates on internet fragmentation
+
+CURRENT AFFAIR — Facial Recognition & Protest Surveillance
+Date: 2024–2026
+• Security forces using facial recognition to identify protesters
+• Reports of AI-powered surveillance targeting women not wearing hijab
+• UNHRC special procedures highlighting surveillance-enabled repression
+Why it matters: Key attack point from Western delegates
+
+CURRENT AFFAIR — Sanctions & Technology Access
+Date: 2025–2026
+• US sanctions limiting Iran's access to AI chips & cloud services
+• Iran developing domestic AI infrastructure
+• Debate on whether sanctions violate right to technological development
+Why it matters: Iran's key counter-argument — sanctions cause digital divide
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Iran exercises its sovereign right to regulate the internet according to our culture and laws — the same right every nation in this room possesses."
+• "Western countries lecture us on internet freedom while their tech giants harvest our data and their governments spy on the world. We reject this hypocrisy."
+• "Unilateral sanctions are the real human rights violation — they deny Iranians access to medicine, technology, and the digital economy."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Defining cultural rights in internet governance
+• Sanctions and the digital divide
+• State sovereignty over domestic internet regulation
+• Children's online safety vs government censorship
+• Cyber sovereignty and non-interference principles
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Recognition of states' rights to regulate internet per national laws
+• Framework on sanctions and technology access
+• Cultural exceptions in international digital rights frameworks
+• Cyber sovereignty as a principle of international law
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Iran will NOT support:
+• Resolutions criticizing internet filtering or content moderation by sovereign states
+• Binding international standards on digital rights that override national laws
+• Any framework based on Western liberal internet values
+• UNHRC mandates for independent investigation of Iran's internet policies
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: China, Russia, Syria, North Korea, Cuba, Venezuela, Belarus
+Likely Opponents: USA, UK, France, Germany, Canada, Israel, Saudi Arabia
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Focus on sovereignty and non-interference.
-✓ Highlight the humanitarian impact of sanctions.
-✓ Avoid ideological arguments.
-✓ Emphasize dialogue and diplomacy.
+✓ Frame all internet regulation as sovereign right — use "cultural protection" language
+✓ Attack US sanctions as the real human rights violation
+✓ Attack US/UK surveillance (PRISM, GCHQ) — "you do the same, just more secretly"
+✓ Coordinate closely with China and Russia on cyber sovereignty language
+✓ Never defend specific cases (protesters, executions) — redirect to sovereignty
+✓ Use "double standards" argument against Western delegates
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• Ministry of Foreign Affairs (Iran)
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• Supreme Council of Cyberspace — Internet policy documents
+• National Information Network framework
+• Ministry of Foreign Affairs — UNHRC statements
+• UNHRC Universal Periodic Review — Iran
+• Amnesty International — Iran digital rights reports
+• Freedom House — Iran internet freedom reports
 
 ================================================================
 

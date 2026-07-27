@@ -1,6 +1,11 @@
 ================================================================
-UNSC GENERAL SPEAKER'S LIST (GSL) TEMPLATES
+UNSC GENERAL SPEAKER'S LIST (GSL) TEMPLATES | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Impact of Geopolitical Conflicts on Global Supply Chains, Maritime Security & Free Trade
+   Use Case: Pick your bloc template below → Fill in [Country Name] → Deliver in 60-90 sec
+   Key Hook Options: "Freedom of navigation is a right" (Western) / "Sanctions fragment trade" (Sovereign) / "Our economies are bleeding" (Transit)
 
 This document provides three general GSL templates designed for different bloc alignments in the UNSC. Fill in the bracketed info [like this] before speaking.
 

@@ -2,130 +2,210 @@
 🇦🇫 AFGHANISTAN | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Islamic Emirate of Afghanistan (de facto authorities)
-Capital: Kabul
-Government: De facto administration (Taliban)
-Head of Government: Prime Minister Mohammad Hassan Akhund
-Population: ~43 Million
-UNSC P5 Member: No
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐
+
+Why?
+• Surveillance infrastructure being rebuilt under Taliban rule
+• Biometric databases (SIM registration) used to track population
+• No data privacy laws — all communications subject to monitoring
+• Limited AI capacity, but relevant as case study on digital divide & sanctions
+• Internet filtering for moral compliance
+• Biometric data used reportedly to restrict women's movement
+
+Hot Topics
+• Biometric surveillance & women's tracking
+• Internet censorship & content filtering
+• Digital divide & sanctions impact on technology access
+• No data protection framework
+• Telecom monitoring under Islamic law compliance
+• Humanitarian access & digital infrastructure
+
+Expected Debate Frequency: Medium
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• Qatar (diplomatic engagement)
-• Pakistan (regional ties)
-• China (economic engagement)
+BASIC INFO
+----------
+Government: De facto Taliban administration
+Head: PM Mohammad Hassan Akhund
+UNSC P5: No
+Tech Sector: Extremely limited — dependent on imported infrastructure
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• ISIS-K (non-state armed group)
-• Various international critics regarding human rights
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Telecommunications monitored for moral & security compliance under Sharia
+• Rejects Western digital rights frameworks as incompatible with Islamic values
+• Biometric registration required for SIM cards & identity documents
+• Internet content filtered to block immoral material
+• No independent data privacy law needed — state authority sufficient
+• AI is not a priority — basic telecom infrastructure is
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain surveillance for internal security & counter-ISIS-K operations
+• Enforce moral compliance through internet filtering
+• Control telecommunications to prevent anti-state activity
+• Secure international humanitarian aid without political conditions
+• Rebuild basic telecom infrastructure under sanctions constraints
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Improved security in some regions compared to periods of active conflict
-✓ Expansion of basic infrastructure in some areas
-✓ Humanitarian cooperation with UN agencies
-✓ Strategic location in Central and South Asia
-✓ Rich natural resource potential
+✓ Improved physical security in some regions
+✓ Cooperation with UN humanitarian agencies
+✓ Biometric SIM registration enabling basic digital identity
+✓ Strategic Central-South Asia location
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Restrictions on women's rights
-✗ Girls' education restrictions
-✗ Freedom of expression concerns
-✗ Humanitarian crisis
-✗ Poverty and unemployment
-✗ Food insecurity
-✗ Healthcare challenges
-✗ Restrictions on civil society
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Women's Rights
-• Girls' Education
-• Humanitarian Aid
-• Poverty
-• Healthcare
-• Refugees
+✗ No data privacy law or independent oversight
+✗ Biometric databases reportedly used to track women's movements
+✗ Internet filtering blocks news, social media, educational content
+✗ Telecom infrastructure destroyed — limited connectivity
+✗ Women banned from using internet cafes & public WiFi
+✗ Sanctions limiting technology access & infrastructure rebuilding
+✗ No legal framework for digital rights or expression
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Afghanistan requires humanitarian assistance and economic recovery.
-• Constructive engagement is more effective than isolation.
-• Stability is essential for long-term human rights progress.
-• International cooperation should respect Afghanistan's sovereignty.
-• Humanitarian aid should remain impartial and reach civilians.
+• Afghanistan is rebuilding after decades of war — digital rights are not the priority
+• Telecommunications monitoring is standard security practice everywhere
+• Biometric registration prevents crime and terrorism
+• Internet filtering protects cultural and religious values — same as many countries
+• Sanctions prevent Afghans from accessing modern technology — that's the real digital divide
+• International engagement should support infrastructure, not impose Western values
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST AFGHANISTAN
 ------------------------------------
-
-Q1. What steps are being taken regarding girls' education?
-
-Q2. How are women's rights being protected?
-
-Q3. How does Afghanistan ensure humanitarian access?
-
-Q4. What measures protect freedom of expression?
-
-Q5. How is the humanitarian crisis being addressed?
+Q1. How does Afghanistan justify using biometric data to track women?
+Q2. What legal protections exist for digital privacy?
+Q3. Why are women banned from accessing internet cafes and public WiFi?
+Q4. How does internet content filtering comply with the right to information?
+Q5. What independent oversight exists for telecommunications monitoring?
 
 ---------------------------------------------------------------
 
-QUESTIONS AFGHANISTAN CAN ASK OTHER COUNTRIES
----------------------------------------------
-
+QUESTIONS AFGHANISTAN CAN ASK
+-----------------------------
 To USA:
-• What long-term support is being provided for Afghanistan's humanitarian recovery?
+• How do sanctions on Afghanistan prevent citizens from accessing digital technology & services?
+
+To China:
+• How can China support Afghanistan's digital infrastructure rebuilding?
 
 To Pakistan:
-• How can regional cooperation improve refugee protection?
-
-To India:
-• What role can India play in humanitarian and development assistance?
+• How can regional cooperation improve digital connectivity for Afghan refugees?
 
 To Iran:
-• How can neighbouring countries cooperate on refugee and humanitarian issues?
+• How can neighboring countries coordinate to prevent the digital divide in the region?
 
-To Germany:
-• How is Germany supporting Afghan refugees and resettlement efforts?
+To Qatar:
+• How can Qatar facilitate technology transfer for Afghanistan's reconstruction?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Biometric Database & Women's Tracking
+Date: 2025–2026
+• Reports of biometric data used to enforce movement restrictions on women
+• UNHRC special procedures documenting surveillance-enabled gender apartheid
+• Taliban authorities deny using data for tracking
+Why it matters: Key attack point on surveillance and gender discrimination
+
+CURRENT AFFAIR — Internet Censorship Expansion
+Date: 2025–2026
+• Social media platforms (Facebook, Twitter/X) filtered nationwide
+• VPN usage restricted or blocked
+• News websites critical of authorities inaccessible
+Why it matters: Case study on internet filtering under moral guise
+
+CURRENT AFFAIR — Telecom Infrastructure & Sanctions
+Date: 2025–2026
+• International sanctions limiting equipment imports
+• 3G/4G networks unstable outside major cities
+• Digital divide worsening — Afghanistan has among lowest connectivity globally
+Why it matters: Context for understanding digital rights challenges in conflict zones
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Afghanistan is rebuilding from decades of war. The international community must support our reconstruction, including digital infrastructure, without imposing conditions that ignore our cultural values."
+• "Biometric registration is not surveillance — it is a security measure used by countries around the world, including those who criticize us."
+• "If the international community truly cares about Afghan rights, they should lift sanctions that prevent our people from accessing technology."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Digital divide and sanctions impact on developing nations
+• Cultural values in internet governance
+• Humanitarian access and technology infrastructure
+• Biometric registration and privacy safeguards
+• Rebuilding digital infrastructure in post-conflict states
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Humanitarian exception frameworks for technology sanctions
+• Technical assistance for post-conflict digital reconstruction
+• Cultural exceptions in international digital rights frameworks
+• Coordination for humanitarian digital access in conflict zones
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Afghanistan will NOT support:
+• Resolutions condemning internet filtering based on cultural or religious values
+• Binding digital rights frameworks that override Sharia-based governance
+• Any resolution that makes humanitarian aid conditional on digital rights reforms
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: Pakistan, China, Russia, Iran, Qatar (on engagement)
+Likely Opponents: USA, UK, France, Germany, EU members, Canada (on human rights)
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Focus on humanitarian assistance.
-✓ Emphasize reconstruction and development.
-✓ Promote international cooperation.
-✓ Avoid confrontational rhetoric.
+✓ Focus on humanitarian needs — "rebuilding from war"
+✓ Use "cultural sovereignty" to deflect digital rights criticism
+✓ Point out sanctions as the real barrier to technology access
+✓ Avoid defending specific policies (women's internet ban) — redirect to security
+✓ Coordinate with China, Russia, Pakistan on non-interference language
+✓ Acknowledge humanitarian concerns briefly, then pivot to reconstruction
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• UNHCR
-• UNICEF
-• OCHA
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• Ministry of Communications & IT — policy statements
+• UNHRC — reports on Afghanistan
+• OCHA — humanitarian needs overview
+• Freedom House — internet freedom in Afghanistan
+• Amnesty International — digital rights reports
 
 ================================================================
 

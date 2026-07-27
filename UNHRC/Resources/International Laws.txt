@@ -1,6 +1,12 @@
 ================================================================
-UNHRC RESOURCE GUIDE: INTERNATIONAL LAW FRAMEWORKS
+UNHRC RESOURCE GUIDE: INTERNATIONAL LAW FRAMEWORKS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: UDHR Art 12 + ICCPR Art 17 = your privacy rights foundation
+           Three-Part Test (Legality → Necessity → Proportionality) = challenge ANY surveillance law
+           GDPR = model framework for operative clauses on data protection
 
 This document reviews the primary international treaties, legal principles, and regional frameworks governing data privacy and state surveillance.
 

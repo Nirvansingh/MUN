@@ -1,6 +1,11 @@
 ================================================================
-UNHRC DRAFT RESOLUTION CLAUSES: AI & DATA PRIVACY
+UNHRC DRAFT RESOLUTION CLAUSES: AI & DATA PRIVACY | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Pick 3-4 preambular clauses → Add 4-6 operative clauses → Merge with allies
+   Key Battlegrounds: Clause 3 (ban FRT) vs sovereignty bloc / Clause 5 (Global South sandboxes)
 
 This document provides formal, technical preambular and operative clauses suitable for final draft resolutions in the UNHRC.
 

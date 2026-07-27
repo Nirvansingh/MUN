@@ -1,6 +1,11 @@
 ================================================================
-UNHRC RESOURCE GUIDE: KEY UN RESOLUTIONS
+UNHRC RESOURCE GUIDE: KEY UN RESOLUTIONS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Key Resolutions to Cite: A/RES/68/167 (privacy in digital age) + HRC 48/4 (AI & biometrics)
+           HRC 34/7 (encryption protection) + A/RES/73/179 (data brokers regulation)
 
 This document lists the most important UN General Assembly (UNGA) and Human Rights Council (UNHRC) resolutions regarding digital privacy, artificial intelligence, and mass surveillance.
 

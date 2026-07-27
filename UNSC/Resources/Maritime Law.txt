@@ -1,6 +1,11 @@
 ================================================================
-UNSC RESOURCE GUIDE: KEY MARITIME LAW CONVENTIONS
+UNSC RESOURCE GUIDE: KEY MARITIME LAW CONVENTIONS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNSC — Agenda: Geopolitical Conflicts, Supply Chains & Maritime Security
+   Key Cites: Montreux Convention (Black Sea) / SUA Convention (maritime terrorism)
+           SOLAS (AIS transponders - shadow fleet violations) / MARPOL (pollution - aging tankers)
 
 This document outlines key conventions in international maritime law that govern strait transit, shipping safety, and pollution prevention.
 

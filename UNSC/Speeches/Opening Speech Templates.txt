@@ -1,6 +1,11 @@
 ================================================================
-UNSC OPENING SPEECH TEMPLATES (QUICK DRAFTS)
+UNSC OPENING SPEECH TEMPLATES (QUICK DRAFTS) | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Impact of Geopolitical Conflicts on Global Supply Chains, Maritime Security & Free Trade
+   Use Case: First committee session → Pick your length → Customize with country stance
+   Timing: 30 sec (~70 words) / 60 sec (~130 words) / 90 sec (~200 words)
 
 This document provides quick-draft opening speech templates of varying lengths (30, 60, and 90 seconds) to adapt during the opening session of the Security Council.
 

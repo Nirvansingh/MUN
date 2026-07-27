@@ -1,6 +1,32 @@
 ================================================================
-UNITED KINGDOM
+UNITED KINGDOM | UNSC BATTLE CARD
 ================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• P5 member — permanent UNSC seat & strong diplomatic influence
+• Global leader in maritime services, marine insurance (Lloyd's) & maritime law
+• Host to IMO headquarters in London
+• Active in Red Sea defense operations (HMS Diamond, Operation Prosperity Guardian)
+• Leading voice on Russian shadow fleet sanctions
+• CPTPP accession expanding Indo-Pacific trade presence
+
+Hot Topics
+• Red Sea security & Royal Navy operations against Houthi attacks
+• Russian shadow fleet & insurance sector regulation
+• Undersea cable security in the North Sea & North Atlantic
+• CPTPP accession & Indo-Pacific trade expansion
+• Post-Brexit trade alignment & supply chain diversification
+• Climate impacts on maritime transit routes
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
 
 BASIC INFORMATION
 -----------------
@@ -143,6 +169,67 @@ NEGOTIATION STRATEGY
 • Countries to avoid confronting first: Regional transit states (Egypt, Saudi Arabia).
 • Possible compromises: Support international funding for maritime security training in transit zones.
 • Main objectives: Build consensus on protecting shipping from non-state actors, condemn the shadow fleet.
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Royal Navy Red Sea Deployments
+Date: 2025–2026
+• HMS Diamond & HMS Lancaster defending Red Sea shipping from Houthi attacks
+• UK participating in Operation Prosperity Guardian
+• Debates on naval resource sustainability
+Why it matters: Central to UK's maritime security credentials
+
+CURRENT AFFAIR — Shadow Fleet Insurance Crackdown
+Date: 2025–2026
+• UK targeting marine insurers facilitating Russian shadow fleet
+• London insurance market key leverage point
+• International coordination on sanctioning violators
+Why it matters: UK's unique leverage through Lloyd's & London maritime insurance market
+
+CURRENT AFFAIR — CPTPP Accession
+Date: 2025–2026
+• UK formally joined CPTPP, expanding Indo-Pacific trade
+• New supply chain diversification opportunities
+• Balancing EU trade relations with new partnerships
+Why it matters: UK's post-Brexit trade strategy & supply chain diversification
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "The United Kingdom stands firm in defending freedom of navigation. Our Royal Navy is actively protecting Red Sea shipping — not for ourselves, but for global trade that feeds billions."
+• "London is the capital of global maritime law and insurance. We are using every tool — from UNCLOS to Lloyd's — to hold the Russian shadow fleet accountable."
+• "Free trade and maritime security are two sides of the same coin. The UK's CPTPP accession proves we are committed to open, rules-based trade even as we protect our security."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Regulating shadow fleet operations through maritime insurance law
+• Protecting undersea cables as critical global infrastructure
+• Balancing naval deployment resources across global hotspots
+• Climate adaptation for port infrastructure & shipping routes
+• Strengthening IMO enforcement of maritime safety standards
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Mandatory insurance transparency requirements for international shipping
+• UNCLOS implementation framework for undersea cable protection
+• International standards for Red Sea maritime safety corridors
+• UNSC resolution on Russian shadow fleet environmental risks
+• Capacity building for developing nations' port cybersecurity
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: US, France, NATO members, G7 partners, Japan, Australia, Canada, Commonwealth states
+Likely Opponents: Russia, China (on trade), Iran, North Korea
 
 ---------------------------------------------------------------
 

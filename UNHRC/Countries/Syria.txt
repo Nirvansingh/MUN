@@ -2,129 +2,216 @@
 🇸🇾 SYRIA | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: Syrian Arab Republic
-Capital: Damascus
-Government: Transitional authorities (following the 2024 change in government)
-Head of State: Transitional leadership (verify current officeholder before your MUN)
-Population: ~25 Million
-UNSC P5 Member: No
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐
+
+Why?
+• Telecommunications monitoring by security forces under emergency laws
+• Internet filtering & content blocking in government-controlled areas
+• No data privacy framework — all communications subject to state inspection
+• Limited AI capacity due to conflict & sanctions
+• Russian & Iranian tech partnerships for surveillance infrastructure
+• Case study on digital rights in conflict-affected states
+• Reconstruction raises questions about tech imports & surveillance
+
+Hot Topics
+• State monitoring of communications under emergency laws
+• Internet filtering & social media blocks
+• No data protection framework
+• Sanctions impact on technology access & reconstruction
+• Russian/Iranian tech partnerships & surveillance
+• Digital rights during post-conflict transition
+• Refugee connectivity & digital access
+
+Expected Debate Frequency: Medium
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• Russia
-• Iran
+BASIC INFO
+----------
+Government: Transitional authorities
+Head: Transitional leadership (verify before MUN)
+UNSC P5: No
+Tech Sector: Severely damaged — focused on telecom rehabilitation
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• Israel
-• United States (policy disagreements)
-• Türkiye (border/security issues)
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Telecommunications monitoring necessary for counter-terrorism & national security
+• Internet content filtering protects national unity & prevents foreign interference
+• No independent data privacy framework — security takes priority during reconstruction
+• AI & advanced technology not priorities — basic telecom infrastructure is
+• Rejects Western digital rights criticism as politically motivated
+• Cooperates with Russia & Iran for technology infrastructure
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain surveillance capabilities for internal security
+• Control information flow to prevent opposition mobilization
+• Secure technology partnerships with Russia & Iran
+• Rebuild basic telecom infrastructure under sanctions
+• Block UNHRC resolutions criticizing internet policies
+• Prioritize reconstruction over digital rights reforms
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Rich historical and cultural heritage
-✓ Strategic regional importance
-✓ Ongoing reconstruction efforts
-✓ Cooperation with humanitarian agencies in some areas
-✓ Significant agricultural potential
+✓ Cooperation with Russian/Iranian technology partners for infrastructure rebuilding
+✓ Strategic location in Middle East
+✓ Centralized state control over telecom networks
+✓ Experience managing information during prolonged conflict
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Long-running armed conflict
-✗ Large refugee and internally displaced population
-✗ Humanitarian crisis
-✗ Allegations of arbitrary detention
-✗ Freedom of expression concerns
-✗ Infrastructure destruction
-✗ Civilian protection concerns
-✗ Economic hardship
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Humanitarian Crisis
-• Refugees
-• Reconstruction
-• Civilian Protection
-• Humanitarian Access
-• Accountability
+✗ No data privacy law or independent oversight
+✗ All communications subject to state monitoring under emergency laws
+✗ Internet filtering blocks news, social media, opposition content
+✗ Telecom infrastructure severely damaged by conflict
+✗ Sanctions limiting technology imports & reconstruction
+✗ Russian/Iranian tech partnerships criticized by UNHRC
+✗ No legal framework for digital rights or expression
+✗ Large refugee population with limited digital access
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Syria emphasizes sovereignty and territorial integrity.
-• Reconstruction is essential for long-term stability.
-• Humanitarian aid should be delivered impartially.
-• Dialogue and political reconciliation are necessary.
-• International cooperation should support recovery efforts.
+• Syria has been fighting terrorism for over a decade — surveillance is a security necessity
+• Emergency laws exist in many countries during crises — Syria is transparent about it
+• Internet filtering prevents foreign-backed terrorism coordination
+• Sanctions are the real barrier to technology access and digital rights
+• Reconstruction requires stable governance first — digital rights come after
+• Russian and Iranian technology partnerships are commercial — not political
+• Syria cooperates with UN humanitarian agencies despite criticism
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST SYRIA
 ------------------------------
-
-Q1. How is Syria improving humanitarian access?
-
-Q2. What measures protect civilians during ongoing security operations?
-
-Q3. What is being done to facilitate the safe return of refugees?
-
-Q4. How does Syria respond to allegations regarding arbitrary detention?
-
-Q5. What reforms are planned to strengthen human rights protections?
+Q1. What legal framework governs surveillance of communications in Syria?
+Q2. How does internet filtering comply with the right to access information?
+Q3. What independent oversight exists for Syria's surveillance programs?
+Q4. How do Russian and Iranian technology partnerships affect digital rights?
+Q5. What plans exist for data protection law during reconstruction?
 
 ---------------------------------------------------------------
 
-QUESTIONS SYRIA CAN ASK OTHER COUNTRIES
----------------------------------------
-
+QUESTIONS SYRIA CAN ASK
+-----------------------
 To USA:
-• How have sanctions affected access to healthcare and humanitarian assistance?
+• How do unilateral sanctions prevent Syrian civilians from accessing technology and humanitarian aid?
 
 To Israel:
-• What measures are taken to avoid harm to civilians during military operations?
+• How does Israel justify airstrikes that destroy telecommunications infrastructure in Syria?
 
 To UK:
-• How does the UK support long-term refugee solutions?
+• How does the UK's surveillance framework under IPA 2016 differ from Syria's emergency measures?
 
 To France:
-• What role should reconstruction play in protecting human rights?
+• How does France support reconstruction without imposing conditions on technology access?
 
 To Türkiye:
-• How can regional cooperation improve civilian protection and border stability?
+• How can Türkiye and Syria cooperate on border telecommunications stability?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Telecom Reconstruction
+Date: 2025–2026
+• Basic telecom infrastructure being rebuilt in government-controlled areas
+• Russian & Iranian companies involved in network restoration
+• International sanctions limiting equipment imports
+Why it matters: Context for understanding digital rights challenges in post-conflict states
+
+CURRENT AFFAIR — Internet Censorship
+Date: 2025–2026
+• Social media platforms & news websites blocked in government areas
+• VPNs restricted or monitored
+• Civil society limited digital space for advocacy
+Why it matters: Case study on internet control during transition
+
+CURRENT AFFAIR — Sanctions & Technology Access
+Date: 2025–2026
+• US & EU sanctions limiting technology imports for reconstruction
+• Debate on humanitarian exceptions for telecom equipment
+• Syria arguing sanctions violate right to development
+Why it matters: Links digital rights debate to sanctions & development
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Syria is rebuilding after more than a decade of war. Our priority is basic infrastructure and security — not Western digital rights standards that ignore our reality."
+• "The same countries that impose sanctions preventing Syrians from accessing technology lecture us about internet freedom. This is the height of hypocrisy."
+• "Every nation fighting terrorism has the right to monitor communications. Syria is transparent about its security needs."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Digital rights in post-conflict reconstruction
+• Sanctions and the right to technology access
+• Balancing security with privacy during transitions
+• Telecommunications infrastructure as humanitarian need
+• International cooperation for post-conflict digital rebuilding
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Humanitarian exceptions for telecommunications in sanctioned states
+• Technical assistance for post-conflict digital reconstruction
+• Standards for digital rights during transitional periods
+• International coordination for refugee connectivity
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Syria will NOT support:
+• Resolutions criticizing domestic security monitoring during post-conflict transition
+• Binding digital rights frameworks that ignore conflict realities
+• Any framework that legitimizes interference in sovereign internet governance
+• Criticism of technology partnerships with Russia or Iran
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: Russia, Iran, China, North Korea, Cuba, Venezuela, Belarus
+Likely Opponents: USA, UK, France, Germany, EU members, Canada, Türkiye
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Focus on humanitarian recovery and reconstruction.
-✓ Emphasize sovereignty and dialogue.
-✓ Avoid escalating political rhetoric.
-✓ Advocate for increased humanitarian assistance.
+✓ Frame everything around "reconstruction" and "post-conflict transition"
+✓ Use "we are rebuilding from war" to deflect digital rights criticism
+✓ Attack sanctions as the real barrier to technology access
+✓ Coordinate with Russia and Iran on all procedural and substantive votes
+✓ Avoid defending specific surveillance practices — redirect to security context
+✓ Keep statements focused on humanitarian needs, not digital rights theory
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• UNHCR
-• OCHA
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• Ministry of Communications & Technology — policy statements
+• UNHRC — reports on Syria
+• OCHA — humanitarian needs overview
+• Amnesty International — digital rights reports
+• Freedom House — internet freedom reports
 
 ================================================================
 

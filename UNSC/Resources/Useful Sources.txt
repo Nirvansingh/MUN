@@ -1,6 +1,11 @@
 ================================================================
-UNSC RESOURCE GUIDE: USEFUL SOURCES & TRADE WATCHDOGS
+UNSC RESOURCE GUIDE: USEFUL SOURCES & TRADE WATCHDOGS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNSC — Agenda: Geopolitical Conflicts, Supply Chains & Maritime Security
+   Quick Cites: IMO (maritime law) / UNCTAD (trade data) / WTO (disputes) / Lloyd's List (ship tracking)
+           ICC IMB (piracy incidents) / IEA (energy markets) / World Bank (food security)
 
 This document lists the most reliable organizations and databases to monitor for real-time shipping and trade data during committee.
 

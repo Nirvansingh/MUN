@@ -1,6 +1,34 @@
 ================================================================
-SOUTH KOREA
+SOUTH KOREA | UNSC BATTLE CARD
 ================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• Global leader in semiconductor & battery supply chains
+• 9th largest trading nation — heavily dependent on maritime routes
+• Major shipbuilding industry (container ships, LNG carriers, naval vessels)
+• Key US ally in Indo-Pacific maritime security
+• Critical supply chain partner for US, EU, Japan
+• Heavy dependence on Middle Eastern energy imports
+• Active in CPTPP & RCEP trade frameworks
+
+Hot Topics
+• Semiconductor supply chain security & export controls
+• Red Sea impact on energy imports & export routes
+• North Korean maritime provocations & cybersecurity threats
+• US-Korea-Japan trilateral security cooperation
+• Shipbuilding industry & maritime technology leadership
+• Critical mineral supply chains for battery production
+• CPTPP accession & trade diversification
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
 
 BASIC INFORMATION
 -----------------
@@ -142,6 +170,67 @@ NEGOTIATION STRATEGY
 • Countries to avoid confronting first: China (maintain commercial cooperation).
 • Possible compromises: Support international funding for global semiconductor research safety.
 • Main objectives: Secure high-tech supply chains, protect shipping lanes, counter North Korea.
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Semiconductor Supply Chain Leadership
+Date: 2025–2026
+• Samsung & SK Hynix dominating global memory chip market
+• US CHIPS Act incentives for Korean semiconductor investment in US
+• Export controls on advanced chips & equipment to China
+Why it matters: South Korea at center of tech supply chain security debate
+
+CURRENT AFFAIR — Red Sea Impact on Korean Trade
+Date: 2025–2026
+• South Korea heavily dependent on Suez route for European exports
+• Shipping cost increases affecting automotive & electronics industries
+• Exploring Arctic Northern Sea Route as alternative
+Why it matters: Direct impact on Korea's export-dependent economy
+
+CURRENT AFFAIR — North Korean Maritime Provocations
+Date: 2025–2026
+• North Korean cyber attacks on shipping & port infrastructure
+• GPS jamming affecting commercial maritime navigation
+• Naval tensions around Northern Limit Line
+Why it matters: Maritime security threat from neighboring state
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "South Korea is the world's semiconductor factory — our memory chips power the global digital economy. When our supply chains are disrupted, every industry from cars to cloud computing feels it."
+• "The Red Sea crisis proves that maritime security is indivisible. Korea's trade routes pass through the Suez Canal, and we call on this council to protect freedom of navigation everywhere."
+• "We are building the ships of the future — from LNG carriers to autonomous vessels. South Korea's shipbuilding industry is ready to lead the green maritime transition."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Semiconductor supply chain security & concentration risk
+• Shipbuilding technology & green maritime transition
+• North Korean cyber threats to global shipping
+• Arctic route development & environmental safeguards
+• US-Korea-Japan trilateral supply chain coordination
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Semiconductor supply chain diversification & transparency
+• Cybersecurity standards for port & maritime operations
+• Framework for green shipbuilding technology transfer
+• Arctic shipping route environmental & safety standards
+• Trilateral supply chain early warning mechanism (US-ROK-Japan)
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: US, Japan, Australia, India, UK, France, Germany, EU members
+Likely Opponents: North Korea, China (on some trade issues), Russia
 
 ---------------------------------------------------------------
 

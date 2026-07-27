@@ -1,133 +1,221 @@
 ﻿================================================================
-🇺🇸 UNITED STATES OF AMERICA (USA) | UNHRC BATTLE CARD
+🇺🇸 USA | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: United States of America
-Capital: Washington, D.C.
-Government: Federal Presidential Constitutional Republic
-Head of State: President Donald J. Trump
-Population: ~340 Million
-P5 Member: Yes (Permanent Member of UNSC)
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• Home to world's largest AI companies (OpenAI, Google, Meta, Microsoft)
+• No comprehensive federal data privacy law — major target for criticism
+• NSA surveillance (PRISM, Section 702) — central to surveillance debates
+• P5 member driving UNHRC digital rights resolutions
+• Global leader in AI regulation debates (AI Safety Institute, Executive Order)
+
+Hot Topics
+• No federal privacy law (sectoral regulation only)
+• NSA Section 702 surveillance & FISA reform
+• Facial recognition bans vs police use
+• Algorithmic bias in criminal justice
+• Big Tech accountability & content moderation
+• AI safety regulation vs innovation
+• Children's online safety (COPPA reform)
+
+Expected Debate Frequency: Very High
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• United Kingdom
-• France
-• Germany
-• Canada
-• Australia
-• Japan
-• South Korea
-• Israel
+BASIC INFO
+----------
+Government: Federal Presidential Constitutional Republic
+Head: President Donald J. Trump
+UNSC P5: Yes
+Tech Sector: World-leading AI research, cloud infrastructure, Big Tech
 
-MAJOR RIVALS
-------------
-• China
-• Russia
-• Iran
-• North Korea
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Pro-innovation, safety-focused AI regulation — not heavy-handed
+• Supports democratic values in AI governance (G7 Hiroshima Process)
+• No federal privacy law — sectoral approach (HIPAA, COPPA, state laws)
+• Defends surveillance programs as necessary for national security
+• Pushes back against Chinese/Russian models of state-controlled internet
+• Champions free flow of data across borders (opposes data localization)
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain technological leadership in AI & computing
+• Protect national security surveillance capabilities (Section 702)
+• Prevent Chinese/Russian models of internet governance from becoming global norm
+• Ensure Big Tech can operate globally with minimal data localization barriers
+• Promote "democratic AI" as alternative to authoritarian AI models
+• Protect intellectual property in AI and emerging technologies
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Strong constitutional protection of free speech
-✓ Independent judiciary
-✓ Democratic elections
-✓ Freedom of religion
-✓ Active civil society
-✓ Major humanitarian aid donor
-✓ Significant funding to UN agencies
-✓ Scientific & technological leadership
-✓ Strong anti-human trafficking initiatives
+✓ Home to world's leading AI research labs & companies
+✓ First country with AI Safety Institute & Executive Order on AI
+✓ Strong First Amendment free speech protections
+✓ Independent judiciary reviewing surveillance programs
+✓ Active civil society & press exposing privacy violations
+✓ NIST AI Risk Management Framework — global reference
+✓ Blueprint for an AI Bill of Rights
+✓ Sectoral privacy laws (HIPAA, COPPA, FCRA)
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Police brutality
-✗ Racial discrimination
-✗ Death penalty
-✗ Gun violence
-✗ Mass incarceration
-✗ Immigration detention
-✗ Surveillance & privacy concerns
-✗ Healthcare inequality
-✗ Criticism over foreign military interventions
+✗ No comprehensive federal data privacy law
+✗ NSA Section 702 allows warrantless surveillance of non-US persons
+✗ Facial recognition used by police without federal regulation
+✗ Algorithmic bias in criminal risk assessment tools
+✗ Big Tech self-regulation model criticized globally
+✗ Mass incarceration & predictive policing bias
+✗ Death penalty & racial disparities in justice system
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• No nation is without challenges.
-• Independent courts provide accountability.
-• Free media exposes problems openly.
-• Democratic institutions allow reform.
-• Ongoing policy changes address domestic concerns.
-• The U.S. supports international cooperation and rule of law.
+• The US leads the world in responsible AI development — AI Safety Institute sets global standards
+• Sectoral privacy approach allows targeted, effective protection rather than one-size-fits-all
+• Section 702 is subject to FISA court oversight and congressional reauthorization
+• Facial recognition debates happen openly in public — that's democracy in action
+• Blueprint for an AI Bill of Rights is a global first for civil rights in AI
+• No country has perfect privacy laws — the US is actively debating reform
+• Big Tech accountability is increasing through FTC enforcement
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST USA
 ----------------------------
-
-Q1. Why does the United States still allow the death penalty?
-
-Q2. How does the U.S. justify recurring concerns about police brutality and racial discrimination?
-
-Q3. How does the U.S. reconcile immigration detention with international human rights standards?
-
-Q4. What measures is the U.S. taking to reduce gun violence while protecting constitutional rights?
-
-Q5. How does the U.S. respond to criticism of foreign military interventions and their humanitarian impact?
+Q1. Why does the US still have no federal data privacy law?
+Q2. How does the US justify NSA Section 702 warrantless surveillance?
+Q3. What federal regulation exists for facial recognition used by police?
+Q4. How does the US address algorithmic bias in criminal sentencing AI?
+Q5. Why does the US block global data localization efforts while protecting its own data?
 
 ---------------------------------------------------------------
 
-QUESTIONS USA CAN ASK OTHER DELEGATIONS
----------------------------------------
-
+QUESTIONS USA CAN ASK
+-----------------------
 To China:
-• How does China address international concerns regarding freedom of expression and independent media?
+• How does China justify the Great Firewall and mass surveillance of 1.4 billion people?
 
 To Russia:
-• What steps is Russia taking to safeguard civil society and political freedoms?
+• How does Russia's SORM system provide any due process for surveillance targets?
 
 To Iran:
-• What reforms has Iran implemented to strengthen women's rights and freedom of expression?
+• Why does Iran block social media and restrict internet access for its citizens?
 
 To North Korea:
-• How does the DPRK ensure independent monitoring of its human rights commitments?
+• How can the international community verify any digital rights in the DPRK?
 
-To Syria:
-• What measures are being taken to improve humanitarian access and protect civilians?
+To Saudi Arabia:
+• How does Saudi Arabia's PDPL protect citizens when the government has broad exemptions?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — AI Safety Institute & Regulation
+Date: 2025–2026
+• US AI Safety Institute testing frontier AI models for risks
+• Debate on whether federal AI law is needed vs voluntary commitments
+• State-level AI regulations creating patchwork (California, Colorado)
+Why it matters: US position on binding vs voluntary AI regulation shapes global norms
+
+CURRENT AFFAIR — Section 702 Reauthorization
+Date: 2025–2026
+• Congress debating reforms to FISA Section 702
+• Privacy vs security debate intensifies
+• International implications for EU-US Data Privacy Framework
+Why it matters: Central to US surveillance criticism in UNHRC
+
+CURRENT AFFAIR — Federal Privacy Law Push
+Date: 2025–2026
+• Bipartisan discussions on American Privacy Rights Act (APRA)
+• State laws (CCPA, CPA) creating compliance complexity
+• Opposition from data-driven industries
+Why it matters: US vulnerability on no federal privacy law
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "The United States is the world's leader in responsible AI innovation. Our AI Safety Institute is setting the global standard for testing and transparency."
+• "We believe in democratic AI — built with human rights, not state control. America rejects both the Chinese surveillance model and Russian censorship."
+• "Yes, we are still debating a federal privacy law. That's called democracy — our debates are public, our courts are independent, and our press is free."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• International standards for AI safety testing
+• Algorithmic bias and civil rights protections
+• Cross-border data flows vs data localization
+• Big Tech accountability and content moderation
+• Facial recognition regulation — finding the balance
+• Children's online safety in the age of generative AI
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• International framework for AI safety testing and transparency
+• Principles for democratic AI governance
+• Cross-border data flow agreements with privacy safeguards
+• Standards for algorithmic impact assessments
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+USA will NOT support:
+• Resolutions endorsing data localization or internet sovereignty (Chinese/Russian model)
+• Binding AI regulations that restrict US technological leadership
+• Any framework legitimizing state-controlled internet models
+• Restrictions on lawful surveillance for national security
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: UK, France, Germany, Japan, Canada, Australia, South Korea, Israel
+Likely Opponents: China, Russia, Iran, North Korea, Syria, Cuba
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Be confident but not arrogant.
-✓ Admit challenges where appropriate.
-✓ Redirect debate toward solutions.
-✓ Build alliances with democratic countries.
-✓ Support practical, implementable resolutions.
-✓ Avoid appearing dismissive of legitimate criticism.
+✓ Lead with AI Safety Institute & democratic AI narrative
+✓ Admit no federal privacy law but frame as active democratic debate
+✓ Attack China on Great Firewall & Russia on SORM before they attack you
+✓ Defend Section 702 as lawful, court-overseen, and necessary
+✓ Acknowledge facial recognition concerns but point to ongoing regulation
+✓ Don't get defensive on Big Tech — pivot to "innovation vs authoritarian control"
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations (UN)
-• Office of the High Commissioner for Human Rights (OHCHR)
-• Universal Periodic Review (UPR)
-• U.S. Department of State
-• Amnesty International
-• Human Rights Watch
-• Freedom House
-• World Bank
+• Executive Order 14110 (Safe, Secure, and Trustworthy AI)
+• Blueprint for an AI Bill of Rights
+• NIST AI Risk Management Framework
+• Section 702 of FISA Amendments Act
+• FTC enforcement actions on data privacy
+• US Department of State — UNHRC statements
+• ACLU — Surveillance & Privacy Reports
 
 ================================================================
 ====================================================================

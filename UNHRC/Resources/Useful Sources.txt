@@ -1,6 +1,11 @@
 ================================================================
-UNHRC RESOURCE GUIDE: USEFUL SOURCES & RESEARCH ORGS
+UNHRC RESOURCE GUIDE: USEFUL SOURCES & RESEARCH ORGS | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Quick Cites: OHCHR (official) / Privacy International (NGO stats) / Citizen Lab (spyware evidence)
+           Access Now (internet shutdowns) / EFF (encryption advocacy)
 
 This document lists the most reliable sources and organizations to reference when looking for up-to-date data during committee.
 

@@ -1,6 +1,33 @@
 ================================================================
-JAPAN
+JAPAN | UNSC BATTLE CARD
 ================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐⭐
+
+Why?
+• 99% of trade depends on maritime shipping — extremely vulnerable to disruptions
+• Quad member — central to Indo-Pacific maritime security architecture
+• Free and Open Indo-Pacific (FOIP) vision — key maritime framework
+• Global leader in semiconductor & high-tech supply chains
+• CPTPP & RCEP — major free trade agreement leadership
+• Energy & food import-dependent — deeply affected by supply chain shocks
+
+Hot Topics
+• East China Sea disputes (Senkaku/Diaoyu Islands)
+• Taiwan Strait security & freedom of navigation
+• Semiconductor supply chain security (Chip 4 Alliance)
+• Red Sea shipping disruptions & energy import costs
+• Quad cooperation & Indo-Pacific maritime security
+• North Korean maritime provocations & GPS jamming
+• Export controls on advanced technology to China
+
+Expected Debate Frequency: Very High
+
+---------------------------------------------------------------
 
 BASIC INFORMATION
 -----------------
@@ -143,6 +170,67 @@ NEGOTIATION STRATEGY
 • Countries to avoid confronting first: China (focus on shared interests in trade rules first).
 • Possible compromises: Support funding for maritime environment protection programs.
 • Main objectives: Promote FOIP, defend UNCLOS, secure high-tech supply chains.
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Taiwan Strait Tensions
+Date: 2025–2026
+• Increased Chinese military activity around Taiwan
+• Japan reinforcing Southwestern Islands defense
+• US-Japan joint patrols in East China Sea
+Why it matters: Central to Japan's maritime security narrative
+
+CURRENT AFFAIR — Semiconductor Supply Chain Security
+Date: 2025–2026
+• Japan leading Chip 4 Alliance with US, South Korea, Taiwan
+• Domestic semiconductor fabrication expansion (Rapidus)
+• Export controls on advanced chipmaking equipment to China
+Why it matters: Key to Japan's high-tech supply chain strategy
+
+CURRENT AFFAIR — Red Sea Impact on Energy Imports
+Date: 2025–2026
+• Japan heavily dependent on Middle Eastern oil & LNG
+• Shipping disruptions increasing energy costs
+• Diversifying energy sources & routes
+Why it matters: Direct vulnerability in supply chain debates
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Japan's Free and Open Indo-Pacific vision is a commitment to rules-based maritime order. We fund port security, we train coast guards, and we defend UNCLOS — not through words, but through action."
+• "As a nation that imports 99% of its trade by sea, Japan understands that supply chain security is national security. No country is more invested in freedom of navigation than Japan."
+• "Semiconductor supply chains are not just about technology — they are about security. Japan's export controls are targeted, transparent, and necessary to prevent military diversion."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Protecting semiconductor & critical technology supply chains
+• Freedom of navigation in the East & South China Seas
+• Quad coordination for Indo-Pacific maritime security
+• Energy supply chain diversification for import-dependent nations
+• CPTPP expansion & rules-based trade architecture
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UNCLOS implementation framework for the Indo-Pacific
+• Semiconductor supply chain security & transparency standards
+• Quad maritime domain awareness coordination mechanism
+• Energy supply chain diversification fund for vulnerable states
+• Standards for responsible technology export controls
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: US, South Korea, Australia, India, UK, France, EU members, CPTPP partners
+Likely Opponents: China, North Korea, Russia
 
 ---------------------------------------------------------------
 

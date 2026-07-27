@@ -1,6 +1,11 @@
 ================================================================
-UNHRC WORKING PAPER CLAUSES: AI & DATA PRIVACY
+UNHRC WORKING PAPER CLAUSES: AI & DATA PRIVACY | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Start with 5-6 preambular clauses → Add 5 operative → Refine into final draft
+   Tip: Use these as your opening merge document to control the drafting process
 
 This document provides sample preambular and operative clauses for use during the initial drafting phase of working papers in the UNHRC.
 

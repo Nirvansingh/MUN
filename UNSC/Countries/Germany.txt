@@ -1,6 +1,32 @@
 ================================================================
-GERMANY
+GERMANY | UNSC BATTLE CARD
 ================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Largest European economy — central to EU industrial supply chains
+• Major exporter of machinery, automobiles, & chemicals
+• Energy supply chain diversification (Russian gas phase-out)
+• Leading voice on EU supply chain due diligence laws
+• Active in EU maritime operations (Operation Aspides)
+• Supply Chain Due Diligence Act (Lieferkettengesetz) global model
+
+Hot Topics
+• Energy transition & LNG supply chain security
+• Undersea pipeline & cable security in Baltic Sea
+• Red Sea shipping delays impacting industrial production
+• EU-China trade & automotive tariffs
+• Supply chain due diligence & human rights standards
+• Cybersecurity of port logistics & manufacturing databases
+
+Expected Debate Frequency: High
+
+---------------------------------------------------------------
 
 BASIC INFORMATION
 -----------------
@@ -140,6 +166,67 @@ NEGOTIATION STRATEGY
 • Countries to avoid confronting first: China (seek cooperation on climate and trade rules first).
 • Possible compromises: Support technical assistance for developing states' port security.
 • Main objectives: Promote European-led maritime initiatives, defend UNCLOS, secure supply routes.
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Nord Stream Investigations
+Date: 2025–2026
+• Ongoing investigations into Baltic Sea pipeline sabotage
+• Germany leading European energy infrastructure protection
+• Debates on critical undersea infrastructure security
+Why it matters: Key to energy supply chain & maritime security debates
+
+CURRENT AFFAIR — Red Sea Impact on Industry
+Date: 2025–2026
+• German industrial production affected by Red Sea shipping delays
+• Volkswagen, BMW, BASF reporting supply chain disruptions
+• Push for alternative transport corridors
+Why it matters: Direct link between maritime security & German economy
+
+CURRENT AFFAIR — EU-China Trade Tensions
+Date: 2025–2026
+• EU tariffs on Chinese EVs affecting German automakers
+• Germany balancing economic ties with de-risking strategy
+• Debate on protectionism vs free trade principles
+Why it matters: Central to Germany's free trade advocacy vs domestic protection
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Germany is the industrial heart of Europe — our supply chains are your supply chains. When shipping is disrupted in the Red Sea, German factories slow down, and the global economy feels it."
+• "We believe in free trade — but free trade must be fair trade. Our supply chain due diligence law sets global standards for human rights and environmental protection."
+• "Energy security is national security. Germany's transition to diversified energy supplies proves that resilience and sustainability go hand in hand."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Supply chain due diligence and human rights standards
+• Protecting undersea critical infrastructure (pipelines, cables)
+• Energy transition and critical mineral supply chains
+• EU-China trade balance and WTO reform
+• Cybersecurity for industrial supply chains
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• International standards for supply chain human rights due diligence
+• Framework for undersea pipeline & cable protection
+• Critical mineral supply chain diversification framework
+• WTO reform for sustainable trade practices
+• Cybersecurity standards for manufacturing supply chains
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: France, EU members, US, UK, Canada, Japan, South Korea
+Likely Opponents: Russia, China (on trade), Iran
 
 ---------------------------------------------------------------
 

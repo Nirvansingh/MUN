@@ -1,6 +1,11 @@
 ================================================================
-UNHRC SOLUTIONS PORTFOLIO: AI & PRIVACY
+UNHRC SOLUTIONS PORTFOLIO: AI & PRIVACY | BATTLE CARD
 ================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Propose 1-2 solutions → Gauge bloc support → Incorporate into operative clauses
+   Easiest Consensus: Solution 2 (Global AI Registry) — broadest support across blocs
 
 This document details four debate-ready solutions for resolutions addressing digital privacy and artificial intelligence.
 

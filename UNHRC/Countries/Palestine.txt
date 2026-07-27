@@ -2,131 +2,218 @@
 🇵🇸 PALESTINE | UNHRC BATTLE CARD
 ================================================================
 
-BASIC INFORMATION
------------------
-Official Name: State of Palestine
-Capital: East Jerusalem (Claimed)
-Government: Semi-Presidential Administration
-Head of State: President Mahmoud Abbas
-Population: ~5.5 Million
-UNSC P5 Member: No
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Palestinians subjected to pervasive Israeli surveillance (Blue Wolf, facial recognition)
+• No sovereign telecom infrastructure — dependent on Israeli networks
+• Mass digital surveillance in occupied territories a key UNHRC concern
+• Biometric monitoring at checkpoints & border crossings
+• Gaza communications blackouts during military operations
+• Strong moral voice on digital rights under occupation
+• Advocate for sovereign control over telecommunications & spectrum
+
+Hot Topics
+• Blue Wolf & Red Wolf biometric surveillance databases
+• Facial recognition at checkpoints & border crossings
+• Communications blackouts in Gaza during conflicts
+• No sovereign telecom infrastructure
+• Digital rights under military occupation
+• Gaza Marine gas field & maritime sovereignty
+• Palestinian Authority surveillance of domestic opposition
+
+Expected Debate Frequency: High
 
 ---------------------------------------------------------------
 
-MAJOR ALLIES
-------------
-• Jordan
-• Egypt
-• Qatar
-• Türkiye
-• Saudi Arabia
-• Algeria
-• Many Arab League members
+BASIC INFO
+----------
+Government: Semi-Presidential Administration (PA)
+Head: President Mahmoud Abbas
+UNSC P5: No (Observer State)
+Tech Sector: Restricted — dependent on Israeli-controlled networks & spectrum
 
 ---------------------------------------------------------------
 
-MAJOR RIVALS
-------------
-• Israel
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Mass digital surveillance by Israel violates international law & privacy rights
+• Biometric databases (Blue Wolf) used for collective punishment & repression
+• Palestinians have right to sovereign telecom infrastructure & spectrum
+• Communications blackouts in Gaza violate right to information & humanitarian access
+• PA monitors communications for public order — limited capacity
+• Supports UNHRC resolutions on digital rights in occupied territories
+• Advocates for international protection of digital rights under occupation
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Secure sovereign control over Palestinian telecommunications & spectrum
+• End Israeli surveillance & biometric tracking of Palestinians
+• End communications blackouts in Gaza
+• Develop sovereign digital infrastructure & data governance
+• Hold Israel accountable for surveillance violations under international law
+• Secure international support for digital rights in occupied territories
 
 ---------------------------------------------------------------
 
 STRENGTHS (PROS)
 ----------------
-✓ Broad international support for Palestinian self-determination.
-✓ Active engagement with UN bodies.
-✓ Strong humanitarian assistance from international organizations.
-✓ Cultural and historical significance.
-✓ Advocacy for a negotiated two-state solution.
+✓ Strong moral & legal case against occupation-era surveillance
+✓ Broad international support in UNGA & UNHRC
+✓ Active documentation of digital rights violations by local CSOs
+✓ Diplomatic backing from Arab League, OIC, G77
+✓ Advocacy for sovereign telecom rights gaining international traction
 
 ---------------------------------------------------------------
 
 WEAKNESSES (CONS)
 -----------------
-✗ Ongoing humanitarian crisis in Gaza.
-✗ Internal political divisions (Fatah–Hamas).
-✗ Limited control over parts of its claimed territory.
-✗ Dependence on international aid.
-✗ Governance challenges.
-✗ Allegations of arbitrary detention by Palestinian authorities.
-✗ Restrictions on political freedoms in some areas.
-
----------------------------------------------------------------
-
-HOT TOPICS
-----------
-• Gaza Humanitarian Crisis
-• Occupation
-• West Bank
-• Settlements
-• Refugees
-• Two-State Solution
+✗ No sovereign control over telecom infrastructure or spectrum
+✗ Palestinians subject to pervasive Israeli surveillance without legal recourse
+✗ PA security forces also engage in surveillance & political repression
+✗ Internal division (Fatah-Hamas) weakens negotiating position
+✗ No independent data privacy framework
+✗ Dependent on international aid for digital infrastructure
+✗ Limited capacity to regulate digital space in areas under PA control
 
 ---------------------------------------------------------------
 
 KEY DEFENCE POINTS
 ------------------
-• Palestinians have the right to self-determination.
-• Civilian protection is essential under international humanitarian law.
-• Settlement expansion undermines prospects for peace.
-• Humanitarian aid must reach civilians without obstruction.
-• A negotiated two-state solution remains the preferred path to lasting peace.
+• Palestinians have the right to privacy and digital sovereignty under international law
+• Blue Wolf biometric database is illegal collective punishment under Geneva Conventions
+• Facial recognition at checkpoints violates human dignity & proportionality
+• Gaza communications blackouts cut civilians off from emergency services
+• Palestine seeks technology — not surveillance — from the international community
+• Every occupied people has the right to resist digital colonization
+• The PA regulates digital space for public order, not political repression
 
 ---------------------------------------------------------------
 
 LIKELY QUESTIONS AGAINST PALESTINE
 ----------------------------------
-
-Q1. How does Palestine address concerns regarding governance and political freedoms?
-
-Q2. What measures are being taken to prevent attacks against civilians?
-
-Q3. How can humanitarian aid be distributed effectively?
-
-Q4. What steps are being taken toward political unity?
-
-Q5. How does Palestine promote long-term peace and stability?
+Q1. How does the Palestinian Authority regulate digital rights and freedom of expression?
+Q2. What measures are being taken to prevent surveillance of political opposition by PA security?
+Q3. How does Palestine address internal division affecting digital governance?
+Q4. What checks prevent misuse of humanitarian aid for digital infrastructure?
+Q5. How does Palestine balance security concerns with privacy rights in areas under PA control?
 
 ---------------------------------------------------------------
 
-QUESTIONS PALESTINE CAN ASK OTHER COUNTRIES
--------------------------------------------
-
+QUESTIONS PALESTINE CAN ASK
+---------------------------
 To Israel:
-• What concrete steps are being taken to minimize civilian casualties and facilitate humanitarian access?
+• When will Israel dismantle the Blue Wolf biometric database used against Palestinian civilians?
 
 To USA:
-• How does the United States support an impartial and lasting peace process?
+• How does US funding of Israeli surveillance technology align with human rights commitments?
 
-To UK:
-• What role can the UK play in advancing a negotiated two-state solution?
+To Egypt:
+• How can Egypt support Palestinian telecom sovereignty and spectrum rights?
 
-To France:
-• How can the international community better protect civilians during armed conflict?
+To China:
+• How can China support Palestinian digital infrastructure development?
 
-To India:
-• How does India support peaceful dialogue while respecting international law?
+To Qatar:
+• How can Qatar facilitate technology transfer for Palestine's digital sovereignty?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Blue Wolf Biometric Database
+Date: 2025–2026
+• Reports of AI-powered biometric tracking of Palestinians in West Bank
+• UNHRC special rapporteur documenting surveillance-enabled violations
+• Israeli authorities expanding database despite international criticism
+Why it matters: Central case study on surveillance under occupation
+
+CURRENT AFFAIR — Gaza Communications Blackouts
+Date: 2025–2026
+• Repeated telecom blackouts during military operations
+• Civilian access to emergency services severely impacted
+• International calls for protection of telecommunications infrastructure
+Why it matters: Key example of digital rights during armed conflict
+
+CURRENT AFFAIR — Telecom Sovereignty Struggle
+Date: 2025–2026
+• Palestine pursuing 4G/5G spectrum rights under Oslo framework
+• Israeli restrictions on equipment imports & infrastructure development
+• International advocacy for Palestinian digital sovereignty
+Why it matters: Future of Palestinian digital infrastructure
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Palestinians are the most surveilled people on earth. Every check we cross, every call we make, every step we take is tracked. This is not security — it is collective punishment."
+• "While others debate AI ethics, our children are identified by biometric algorithms at checkpoints. Palestine demands the same digital rights as every nation in this room."
+• "Communications blackouts in Gaza are not technical failures — they are deliberate weaponization of technology against civilians."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Digital rights under military occupation
+• Biometric surveillance & international humanitarian law
+• Communications blackouts and the right to humanitarian access
+• Telecommunications sovereignty for occupied peoples
+• Surveillance technology exports and human rights
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Prohibition of biometric mass surveillance in occupied territories
+• Protection of telecommunications infrastructure during armed conflict
+• Framework for telecom sovereignty under occupation
+• International monitoring of digital rights in occupied territories
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Palestine will NOT support:
+• Any resolution legitimizing surveillance in occupied territories
+• Resolutions that equate PA security monitoring with Israeli occupation surveillance
+• Frameworks that ignore the specific context of military occupation
+• Normalization of biometric mass surveillance under security pretexts
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: Arab League, OIC members, South Africa, China, Russia, G77, Ireland
+Likely Opponents: Israel, USA (veto), UK (on some votes), Canada
 
 ---------------------------------------------------------------
 
 MUN TIPS
 --------
-✓ Focus on humanitarian law.
-✓ Emphasize civilian protection.
-✓ Support peaceful negotiations.
-✓ Highlight the importance of international cooperation.
-✓ Avoid inflammatory rhetoric.
+✓ Lead with the moral authority of an occupied people
+✓ Focus on specific violations (Blue Wolf, blackouts) — not general rhetoric
+✓ Call for international protection mechanisms
+✓ Coordinate with Arab League and OIC allies
+✓ Acknowledge PA limitations but blame occupation for lack of sovereignty
+✓ Demand equal application of international law to all states
 
 ---------------------------------------------------------------
 
 OFFICIAL SOURCES
 ----------------
-• United Nations
-• OHCHR
-• State of Palestine Mission to the UN
-• Amnesty International
-• Human Rights Watch
-• World Bank
+• UNHRC — Reports on human rights in occupied Palestinian territory
+• Amnesty International — surveillance reports
+• Human Rights Watch — biometric tracking reports
+• State of Palestine Mission to the UN — statements
+• Al-Haq — digital rights documentation
+• B'Tselem — surveillance & human rights
 
 ================================================================
 

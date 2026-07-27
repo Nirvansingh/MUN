@@ -42,12 +42,15 @@
             <!-- General Scratchpad Toggle -->
             <button id="scratchpadToggle" class="btn scratchpad-toggle-btn" title="Open Scratchpad">📝</button>
 
-            <!-- Search filenames only -->
-            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search filenames..." autocomplete="off">
+            <!-- Search filenames & content -->
+            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search files & content (Ctrl+K)..." autocomplete="off">
 
             <!-- Dark / Light Mode Toggle -->
             <button id="themeToggle" class="btn">🌙 Dark Mode</button>
             
+            <!-- Quick Revision Toggle -->
+            <button id="revisionToggle" class="btn" title="Quick Revision Mode (Ctrl+R)">📋 Revise</button>
+
             <!-- Re-fetch manifest.js to pick up newly added local files -->
             <button id="syncBtn" class="btn" title="Reload files from manifest.js">📁 Sync</button>
         </div>
@@ -57,7 +60,7 @@
     <div class="container">
         
         <!-- Sidebar Explorer -->
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
             <div class="sidebar-title">📁 File Explorer</div>
             <div id="fileTree" class="file-tree"></div>
         </aside>
@@ -65,14 +68,28 @@
         <!-- Main Content Viewer -->
         <main class="main-content">
             <div class="content-header">
-                <h2 id="fileTitle">No file selected</h2>
-                <span id="filePath" class="file-path">MUN/</span>
+                <h2 id="fileTitle">MUN Research Hub</h2>
+                <span id="filePath" class="file-path" style="display:none;">MUN/</span>
+                <div class="content-header-actions" id="contentHeaderActions" style="display:none;">
+                    <button id="pinBtn" class="inline-btn" title="Pin document">📌</button>
+                    <button id="revisionBtn" class="inline-btn" title="Quick Revision">📋 Revise</button>
+                </div>
             </div>
             <div class="content-body" id="contentBody">
+                <!-- Home Dashboard -->
+                <div id="homeDashboard"></div>
+
+                <!-- Search Results -->
+                <div id="searchResults" class="search-results" style="display:none;"></div>
+
                 <!-- File Content Viewer -->
-                <pre id="fileViewer" class="file-viewer">Select a file from the left sidebar to view its content.</pre>
+                <pre id="fileViewer" class="file-viewer" style="display:none;"></pre>
 
+                <!-- Country Summary Card -->
+                <div id="countryCard" class="country-card" style="display:none;"></div>
 
+                <!-- Related Content -->
+                <div id="relatedContent" class="related-content" style="display:none;"></div>
 
                 <!-- General Scratchpad (toggled by header button) -->
                 <div id="scratchpadSection" class="scratchpad-section" style="display:none;">
@@ -93,6 +110,32 @@
             </div>
         </main>
 
+        <!-- Right Panel -->
+        <aside class="right-panel" id="rightPanel">
+            <div class="right-panel-content" id="rightPanelContent">
+                <div class="right-panel-placeholder">
+                    <span class="right-panel-icon">📋</span>
+                    <span>Select a file to see details</span>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Keyboard shortcut hints overlay -->
+    <div id="shortcutHints" class="shortcut-hints" style="display:none;">
+        <div class="shortcut-hints-card">
+            <div class="shortcut-hints-title">Keyboard Shortcuts</div>
+            <div class="shortcut-hints-grid">
+                <div><kbd>Ctrl+K</kbd> <span>Search files & content</span></div>
+                <div><kbd>Ctrl+B</kbd> <span>Toggle sidebar</span></div>
+                <div><kbd>Ctrl+R</kbd> <span>Quick revision mode</span></div>
+                <div><kbd>Ctrl+.</kbd> <span>Toggle right panel</span></div>
+                <div><kbd>Esc</kbd> <span>Close search / hints</span></div>
+                <div><kbd>Alt+←</kbd> <span>Back</span></div>
+                <div><kbd>Alt+→</kbd> <span>Forward</span></div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

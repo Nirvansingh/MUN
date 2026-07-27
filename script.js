@@ -1349,9 +1349,10 @@
     // ─── Password Auth ────────────────────────────────────────────
 
     const PASSWORD = '$Waheguru1';
+    let isAuthenticated = false;
 
     function checkAuth() {
-        if (sessionStorage.getItem('mun_auth') === 'true') {
+        if (isAuthenticated) {
             hideLogin();
             init();
             return;
@@ -1373,7 +1374,7 @@
         function submitPassword() {
             const value = input.value;
             if (value === PASSWORD) {
-                sessionStorage.setItem('mun_auth', 'true');
+                isAuthenticated = true;
                 hideLogin();
                 init();
             } else {

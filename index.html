@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUN Research Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="manifest.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="brand">
+            <div class="brand-badge">🌐</div>
+            <h1>MUN Research Hub</h1>
+        </div>
+
+        <div class="header-controls">
+            <!-- Committee Selector -->
+            <select id="committeeSelect" class="select-input" title="Filter by Committee">
+                <option value="all">🌐 All Committees</option>
+                <option value="UNHRC">🕊️ UNHRC Mode</option>
+                <option value="UNSC">⚓ UNSC Mode</option>
+            </select>
+
+            <!-- General Scratchpad Toggle -->
+            <button id="scratchpadToggle" class="btn scratchpad-toggle-btn" title="Open Scratchpad">📝</button>
+
+            <!-- Search filenames only -->
+            <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search filenames..." autocomplete="off">
+
+            <!-- Dark / Light Mode Toggle -->
+            <button id="themeToggle" class="btn">🌙 Dark Mode</button>
+            
+            <!-- Re-fetch manifest.js to pick up newly added local files -->
+            <button id="syncBtn" class="btn" title="Reload files from manifest.js">📁 Sync</button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Sidebar Explorer -->
+        <aside class="sidebar">
+            <div class="sidebar-title">📁 File Explorer</div>
+            <div id="fileTree" class="file-tree"></div>
+        </aside>
+
+        <!-- Main Content Viewer -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2 id="fileTitle">No file selected</h2>
+                <span id="filePath" class="file-path">MUN/</span>
+            </div>
+            <div class="content-body" id="contentBody">
+                <!-- File Content Viewer -->
+                <pre id="fileViewer" class="file-viewer">Select a file from the left sidebar to view its content.</pre>
+
+
+
+                <!-- General Scratchpad (toggled by header button) -->
+                <div id="scratchpadSection" class="scratchpad-section" style="display:none;">
+                    <div class="scratchpad-header">
+                        <div class="scratchpad-header-left">
+                            <span class="scratchpad-icon">📋</span>
+                            <span class="scratchpad-label">Scratchpad</span>
+                            <span id="scratchpadStatus" class="scratchpad-status"></span>
+                        </div>
+                        <div class="scratchpad-header-right">
+                            <button id="scratchpadSaveBtn" class="inline-btn save-btn" title="Save scratchpad">💾 Save</button>
+                            <button id="scratchpadDeleteBtn" class="inline-btn delete-btn" title="Clear scratchpad">🗑️ Clear</button>
+                            <button id="scratchpadCloseBtn" class="inline-btn close-btn" title="Close scratchpad">✖</button>
+                        </div>
+                    </div>
+                    <textarea id="scratchpadTextarea" class="scratchpad-textarea" placeholder="Write anything here — this is your personal scratchpad, not tied to any file." spellcheck="true"></textarea>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

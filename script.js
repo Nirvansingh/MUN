@@ -971,17 +971,16 @@
         // Map Global Reference section headers to display labels
         const sectionMap = {
             'QUICK SUMMARY': 'Quick Summary',
-            'BASIC INFORMATION': 'Basic Information',
+            'BASIC INFORMATION': 'Basic Info',
             'ECONOMY': 'Economy',
             'MILITARY & SECURITY': 'Military & Security',
-            'GEOGRAPHY & INFLUENCE': 'Geography & Influence',
+            'GEOGRAPHY & INFLUENCE': 'Geography',
             'ENERGY & RESOURCES': 'Energy & Resources',
             'SOCIETY': 'Society',
             'FOREIGN POLICY': 'Foreign Policy',
-            'ALLIANCES & RIVALRIES': 'Alliances & Rivalries',
-            'NATIONAL INTERESTS & CHALLENGES': 'National Interests & Challenges',
-            'INTERESTING FACTS': 'Interesting Facts',
-            'SOURCES': 'Sources',
+            'ALLIANCES & RIVALRIES': 'Alliances & Rivals',
+            'NATIONAL INTERESTS & CHALLENGES': 'Interests & Challenges',
+            'INTERESTING FACTS': 'Facts',
         };
 
         const sections = {};
@@ -992,7 +991,6 @@
         let currentSection = '';
         for (const line of lines) {
             const t = line.trim();
-            // Detect ==== section headers
             if (/^={2,}\s*$/.test(t)) continue;
             const upper = t.toUpperCase();
             if (sectionMap[upper]) {
@@ -1013,24 +1011,30 @@
         order.forEach(key => {
             if (sections[key] && sections[key].length) {
                 const label = sectionMap[key];
-                // Filter out empty or separator lines
-                const contentLines = sections[key].filter(l => l && !l.startsWith('=') && !l.startsWith('-'));
+                const contentLines = sections[key].filter(l => l && !l.startsWith('=') && !l.startsWith('-') && !l.startsWith('SOURCES'));
                 if (!contentLines.length) return;
 
                 html += `<div class="rv-section"><div class="rv-label">${label}</div><div class="rv-content">`;
-                contentLines.slice(0, 10).forEach(line => {
+
+                contentLines.slice(0, 14).forEach(line => {
+                    // Bullet points → tags (same as battle card style)
                     if (line.startsWith('•') || line.startsWith('✓') || line.startsWith('✗')) {
                         html += `<span class="rv-tag">${line}</span> `;
-                    } else if (line.includes(':') && line.length < 60) {
-                        // Key-value pairs like "Capital: Washington, D.C."
-                        const parts = line.split(':');
-                        html += `<strong style="color:var(--text-heading)">${parts[0]}:</strong>${parts.slice(1).join(':')}<br>`;
-                    } else if (line.startsWith('Relations With:') || line.startsWith('Major ')) {
-                        html += `<strong style="color:var(--text-heading)">${line}</strong><br>`;
-                    } else {
+                    }
+                    // Long comma-separated lists → split into chips
+                    else if (line.includes(', ') && line.length > 60) {
+                        const items = line.split(', ').slice(0, 8);
+                        items.forEach(item => {
+                            const cleaned = item.replace(/^•\s*/, '').trim();
+                            if (cleaned) html += `<span class="rv-tag">${cleaned}</span> `;
+                        });
+                    }
+                    // Regular text (including key:value pairs) → plain text like battle cards
+                    else {
                         html += line + '<br>';
                     }
                 });
+
                 html += `</div></div>`;
             }
         });

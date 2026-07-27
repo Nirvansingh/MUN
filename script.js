@@ -400,7 +400,73 @@
         }
     });
 
-    // Start application
-    document.addEventListener('DOMContentLoaded', init);
+    // ─── Password Auth ────────────────────────────────────────────
+
+    const PASSWORD = '$Waheguru1';
+
+    function checkAuth() {
+        if (sessionStorage.getItem('mun_auth') === 'true') {
+            hideLogin();
+            init();
+            return;
+        }
+        showLogin();
+    }
+
+    function showLogin() {
+        const overlay = document.getElementById('loginOverlay');
+        const card = document.getElementById('loginCard');
+        const input = document.getElementById('passwordInput');
+        const toggleBtn = document.getElementById('togglePassword');
+        const unlockBtn = document.getElementById('unlockBtn');
+        const errorEl = document.getElementById('loginError');
+
+        overlay.classList.remove('hidden');
+        input.focus();
+
+        function submitPassword() {
+            const value = input.value;
+            if (value === PASSWORD) {
+                sessionStorage.setItem('mun_auth', 'true');
+                hideLogin();
+                init();
+            } else {
+                errorEl.textContent = 'Incorrect password. Please try again.';
+                card.classList.remove('shake');
+                void card.offsetWidth;
+                card.classList.add('shake');
+                input.value = '';
+                input.focus();
+            }
+        }
+
+        function toggleVisibility() {
+            if (input.type === 'password') {
+                input.type = 'text';
+                toggleBtn.textContent = '🙈';
+                toggleBtn.title = 'Hide Password';
+            } else {
+                input.type = 'password';
+                toggleBtn.textContent = '👁️';
+                toggleBtn.title = 'Show Password';
+            }
+        }
+
+        unlockBtn.addEventListener('click', submitPassword);
+        input.addEventListener('keydown', function handler(e) {
+            if (e.key === 'Enter') {
+                submitPassword();
+            }
+        });
+        toggleBtn.addEventListener('click', toggleVisibility);
+    }
+
+    function hideLogin() {
+        const overlay = document.getElementById('loginOverlay');
+        overlay.classList.add('hidden');
+    }
+
+    // Start application (auth check runs first)
+    document.addEventListener('DOMContentLoaded', checkAuth);
 
 })();

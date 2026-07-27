@@ -9,6 +9,21 @@
 </head>
 <body>
 
+    <!-- Login Overlay -->
+    <div id="loginOverlay" class="login-overlay">
+        <div class="login-card" id="loginCard">
+            <div class="login-icon">🔒</div>
+            <div class="login-title">MUN Research Hub</div>
+            <div class="login-subtitle">Enter Password</div>
+            <div class="login-input-group">
+                <input type="password" id="passwordInput" class="login-input" placeholder="Password" autocomplete="off">
+                <button id="togglePassword" class="login-toggle-btn" title="Show Password">👁️</button>
+            </div>
+            <button id="unlockBtn" class="login-unlock-btn">Unlock</button>
+            <div id="loginError" class="login-error"></div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="header">
         <div class="brand">

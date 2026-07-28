@@ -1380,6 +1380,24 @@
             elements.themeToggle.textContent = nextTheme === 'dark' ? '🌙 Dark Mode' : '☀️ Light Mode';
         });
 
+        // Brand click → return to home dashboard
+        document.querySelector('.brand')?.addEventListener('click', () => {
+            currentFile = null;
+            revisionMode = false;
+            elements.searchInput.value = '';
+            searchQuery = '';
+            elements.searchResults.style.display = 'none';
+            elements.fileViewer.style.display = 'none';
+            elements.countryCard.style.display = 'none';
+            elements.relatedContent.style.display = 'none';
+            elements.filePath.style.display = 'none';
+            elements.contentHeaderActions.style.display = 'none';
+            elements.fileTitle.textContent = 'MUN Research Hub';
+            renderDashboard();
+            renderTree();
+            closeMobileSidebar();
+        });
+
         // Committee selector
         elements.committeeSelect.addEventListener('change', (e) => {
             selectedCommittee = e.target.value;

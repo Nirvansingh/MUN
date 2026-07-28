@@ -638,9 +638,18 @@
         elements.filePath.style.display = 'none';
         elements.contentHeaderActions.style.display = 'none';
 
-        // Determine greeting based on time
-        const h = new Date().getHours();
-        const greeting = h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
+        // Rotating greeting
+        const greetings = [
+            'Welcome back, Delegate.',
+            'Ready for committee?',
+            "Today's agenda awaits.",
+            'Research smarter.',
+            "Let's draft a resolution.",
+            'Committee starts soon.',
+            'Back to diplomacy.',
+        ];
+        const dayIndex = new Date().getDate() + new Date().getMonth() * 31;
+        const greeting = greetings[dayIndex % greetings.length];
 
         const countryFiles = files.filter(f => f.isCountry);
         const unhrcCount = countryFiles.filter(f => f.committee === 'UNHRC').length;

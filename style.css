@@ -1268,45 +1268,357 @@ html, body {
 }
 
 /* ==========================================================================
+   Mobile Menu Button
+   ========================================================================== */
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: var(--transition-smooth);
+    line-height: 1;
+}
+
+.mobile-menu-btn:hover {
+    background: var(--bg-item-hover);
+    color: var(--text-heading);
+}
+
+/* Mobile overlay backdrop */
+.mobile-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    animation: fadeIn 0.15s ease-out;
+}
+
+.mobile-overlay.active {
+    display: block;
+}
+
+/* ==========================================================================
    Responsive Design
    ========================================================================== */
 
+/* Tablet and below */
 @media (max-width: 1024px) {
-    .right-panel { display: none; }
-    .dashboard-grid { grid-template-columns: 1fr; }
+    .right-panel {
+        position: fixed;
+        top: 48px;
+        right: 0;
+        bottom: 0;
+        width: 280px;
+        z-index: 100;
+        transform: translateX(100%);
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+    }
+    .right-panel.open {
+        transform: translateX(0);
+    }
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    .header-controls .select-input {
+        max-width: 140px;
+    }
 }
 
+/* Medium screens */
 @media (max-width: 768px) {
-    .sidebar { width: 220px; }
-    .content-body { padding: 20px; }
-    .search-input { width: 140px; }
-    .country-card-grid { grid-template-columns: 1fr; }
-    .dashboard-committees { flex-direction: column; }
-    .header-controls { gap: 6px; }
-}
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-@media (max-width: 600px) {
     .sidebar {
         position: fixed;
-        inset: 48px 0 0 0;
-        width: 100%;
+        top: 48px;
+        left: 0;
+        bottom: 0;
+        width: 280px;
         z-index: 100;
         transform: translateX(-100%);
-        transition: transform 0.25s ease;
+        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.3);
     }
-    .sidebar.open { transform: translateX(0); }
-    .search-input { width: 100px; }
-    .content-body { padding: 16px; }
-    .file-viewer { font-size: 13.5px; }
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .content-body {
+        padding: 20px;
+    }
+    .search-input {
+        width: 120px;
+    }
+    .country-card-grid {
+        grid-template-columns: 1fr;
+    }
+    .dashboard-committees {
+        flex-direction: column;
+    }
+    .header-controls {
+        gap: 6px;
+    }
+    .brand h1 {
+        font-size: 13px;
+    }
+    .content-header h2 {
+        font-size: 14px;
+    }
+    .content-header {
+        padding: 0 16px;
+    }
+    .file-viewer {
+        font-size: 14px;
+    }
+    .country-card {
+        padding: 16px;
+    }
+    .country-card-name {
+        font-size: 16px;
+    }
+    .dashboard-welcome h2 {
+        font-size: 18px;
+    }
+    .right-panel {
+        width: 260px;
+    }
+    .widget-popup {
+        width: 92vw;
+        max-height: 85vh;
+    }
+    .timer-popup {
+        width: 92vw;
+    }
+    .shortcut-hints-card {
+        min-width: auto;
+        width: 90vw;
+        padding: 20px;
+    }
 }
 
-/* Sidebar toggle button for mobile */
-.sidebar-toggle-btn {
-    display: none;
+/* Small screens / phones */
+@media (max-width: 480px) {
+    .header {
+        padding: 0 10px;
+        gap: 6px;
+    }
+    .brand h1 {
+        display: none;
+    }
+    .header-controls {
+        gap: 4px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding-right: 4px;
+        flex-shrink: 1;
+        min-width: 0;
+    }
+    .header-controls::-webkit-scrollbar {
+        display: none;
+    }
+    .header-controls .select-input {
+        max-width: 100px;
+        font-size: 11px;
+        padding: 4px 6px;
+        flex-shrink: 0;
+    }
+    .search-input {
+        width: 80px;
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    .btn {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    .content-body {
+        padding: 12px;
+    }
+    .file-viewer {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .right-panel {
+        width: 100%;
+    }
+    .dashboard-card {
+        padding: 12px 14px;
+    }
+    .dashboard-committee-card {
+        padding: 14px;
+    }
+    .dashboard-committee-card .dc-icon {
+        font-size: 20px;
+    }
+    .country-card {
+        padding: 12px 14px;
+    }
+    .country-card-grid {
+        gap: 8px;
+    }
+    .country-card-name {
+        font-size: 15px;
+    }
+    .country-card-flag {
+        font-size: 24px;
+    }
+    .search-results {
+        padding: 0;
+    }
+    .search-result-line {
+        font-size: 12px;
+        padding: 2px 8px;
+    }
+    .revision-view .rv-content {
+        font-size: 12px;
+    }
+    .revision-view .rv-tag {
+        font-size: 10px;
+    }
+    .related-grid {
+        gap: 6px;
+    }
+    .related-chip {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+    .login-card {
+        padding: 28px 20px 24px;
+        width: 90vw;
+    }
+    .login-title {
+        font-size: 16px;
+    }
+    .login-icon {
+        font-size: 30px;
+    }
+    .widget-fab-tr {
+        top: 50px;
+        right: 8px;
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+    .widget-fab-br {
+        bottom: 12px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+    .timer-display {
+        font-size: 28px;
+    }
+    .timer-display-wrap {
+        width: 130px;
+        height: 130px;
+    }
+    .timer-preset-btn {
+        font-size: 10px;
+        padding: 4px 6px;
+        min-width: 50px;
+    }
+    .timer-input {
+        width: 50px;
+        font-size: 14px;
+    }
+    .scratchpad-textarea {
+        min-height: 120px;
+        font-size: 12px;
+    }
+    .scratchpad-section {
+        margin: 20px auto 0;
+        padding-top: 14px;
+    }
+    .content-header-actions {
+        gap: 4px;
+    }
+    .inline-btn {
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+    .right-panel-item {
+        font-size: 11px;
+    }
+    .right-panel-outline-item {
+        font-size: 11px;
+    }
+    .file-metadata {
+        gap: 6px;
+    }
+    .metadata-tag {
+        font-size: 10px;
+        padding: 2px 8px;
+    }
+    .shortcut-hints-grid > div {
+        font-size: 12px;
+    }
+    .shortcut-hints-grid kbd {
+        font-size: 10px;
+        min-width: 50px;
+    }
+    .scratchpad-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .scratchpad-header-right {
+        width: 100%;
+        justify-content: flex-start;
+    }
 }
 
-@media (max-width: 600px) {
-    .sidebar-toggle-btn { display: flex; }
+/* Very small phones */
+@media (max-width: 360px) {
+    .header-controls .select-input {
+        max-width: 70px;
+        font-size: 10px;
+        padding: 3px 4px;
+    }
+    .search-input {
+        width: 55px;
+        font-size: 10px;
+        padding: 3px 4px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 3px 4px;
+    }
+    .content-body {
+        padding: 8px;
+    }
+    .file-viewer {
+        font-size: 12px;
+    }
+    .dashboard-card-title {
+        font-size: 10px;
+    }
+    .dashboard-card-item {
+        font-size: 12px;
+    }
+    .timer-display-wrap {
+        width: 110px;
+        height: 110px;
+    }
+    .timer-display {
+        font-size: 24px;
+    }
 }
 
 /* ==========================================================================

@@ -20,6 +20,12 @@
     let recentFiles = [];
     let folderStates = {};
 
+    // Mobile / touch state
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchStartTime = 0;
+    let isMobile = false;
+
     // DOM Elements
     const elements = {
         themeToggle: document.getElementById('themeToggle'),
@@ -341,7 +347,10 @@
                     const displayText = file.isCountry ? file.displayName.replace(/^.*?\s/, '') : file.displayName;
                     fileEl.innerHTML = `<span>${fileBadge}</span><span>${displayText}</span>`;
 
-                    fileEl.addEventListener('click', () => openFile(file.path));
+                    fileEl.addEventListener('click', () => {
+                        openFile(file.path);
+                        closeMobileSidebar();
+                    });
                     container.appendChild(fileEl);
                 });
             }
@@ -538,7 +547,10 @@
         rc.querySelectorAll('.related-chip').forEach(el => {
             el.addEventListener('click', () => {
                 const path = el.dataset.path;
-                if (path) openFile(path);
+                if (path) {
+                    openFile(path);
+                    closeMobileSidebar();
+                }
             });
         });
     }
@@ -599,13 +611,17 @@
         panel.querySelectorAll('.right-panel-item[data-path]').forEach(el => {
             el.addEventListener('click', () => {
                 const p = el.dataset.path;
-                if (p) openFile(p);
+                if (p) {
+                    openFile(p);
+                    closeMobileRightPanel();
+                }
             });
         });
         panel.querySelectorAll('.right-panel-outline-item').forEach(el => {
             el.addEventListener('click', () => {
                 // Scroll to section - simple approach: scroll to top
                 elements.contentBody.scrollTop = 0;
+                closeMobileRightPanel();
             });
         });
     }
@@ -682,6 +698,7 @@
                     elements.committeeSelect.value = committee;
                     selectedCommittee = committee;
                     renderTree();
+                    closeMobileSidebar();
                 }
             });
         });
@@ -690,7 +707,10 @@
         dashboard.querySelectorAll('.dashboard-card-item').forEach(el => {
             el.addEventListener('click', () => {
                 const p = el.dataset.path;
-                if (p) openFile(p);
+                if (p) {
+                    openFile(p);
+                    closeMobileSidebar();
+                }
             });
         });
 
@@ -824,6 +844,7 @@
                 const p = el.dataset.path;
                 if (p) {
                     openFile(p);
+                    closeMobileSidebar();
                     elements.searchInput.value = '';
                     searchQuery = '';
                     elements.searchResults.style.display = 'none';
@@ -1197,7 +1218,150 @@
 
     // ─── Event Listeners ──────────────────────────────────────────
 
+    // ─── Mobile / Touch Gesture Support ──────────────────────────
+
+    function checkMobile() {
+        isMobile = window.innerWidth <= 768;
+        return isMobile;
+    }
+
+    function createMobileOverlay() {
+        let overlay = document.querySelector('.mobile-overlay');
+        if (overlay) return overlay;
+
+        overlay = document.createElement('div');
+        overlay.className = 'mobile-overlay';
+        overlay.addEventListener('click', () => {
+            closeMobileSidebar();
+            closeMobileRightPanel();
+        });
+        document.body.appendChild(overlay);
+        return overlay;
+    }
+
+    function toggleMobileSidebar() {
+        if (!checkMobile()) return;
+        const sidebar = elements.sidebar;
+        const overlay = createMobileOverlay();
+        const isOpen = sidebar.classList.toggle('open');
+        overlay.classList.toggle('active', isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMobileSidebar() {
+        if (!checkMobile()) return;
+        elements.sidebar.classList.remove('open');
+        const overlay = document.querySelector('.mobile-overlay');
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function toggleMobileRightPanel() {
+        if (!checkMobile()) return;
+        const panel = elements.rightPanel;
+        const overlay = createMobileOverlay();
+        const isOpen = panel.classList.toggle('open');
+        overlay.classList.toggle('active', isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMobileRightPanel() {
+        if (!checkMobile()) return;
+        elements.rightPanel.classList.remove('open');
+        const overlay = document.querySelector('.mobile-overlay');
+        if (overlay) overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function createMobileMenuButton() {
+        const existing = document.querySelector('.mobile-menu-btn');
+        if (existing) return existing;
+
+        const btn = document.createElement('button');
+        btn.className = 'mobile-menu-btn';
+        btn.innerHTML = '☰';
+        btn.title = 'Toggle file explorer';
+        btn.setAttribute('aria-label', 'Toggle file explorer');
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMobileSidebar();
+        });
+
+        const brand = document.querySelector('.brand');
+        if (brand && brand.parentNode) {
+            brand.parentNode.insertBefore(btn, brand);
+        }
+        return btn;
+    }
+
+    function setupTouchGestures() {
+        const container = document.querySelector('.container');
+        if (!container) return;
+
+        let touchTarget = null;
+
+        container.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+            touchStartTime = Date.now();
+            touchTarget = e.target;
+        }, { passive: true });
+
+        container.addEventListener('touchend', (e) => {
+            if (!checkMobile()) return;
+
+            const deltaX = e.changedTouches[0].clientX - touchStartX;
+            const deltaY = e.changedTouches[0].clientY - touchStartY;
+            const elapsed = Date.now() - touchStartTime;
+
+            // Only horizontal swipes, minimum distance, not too slow
+            if (Math.abs(deltaX) < 60 || Math.abs(deltaX) < Math.abs(deltaY) * 1.5 || elapsed > 500) return;
+
+            const target = touchTarget;
+            const inSidebar = elements.sidebar.contains(target);
+            const inRightPanel = elements.rightPanel.contains(target);
+            const sidebarOpen = elements.sidebar.classList.contains('open');
+            const rightPanelOpen = elements.rightPanel.classList.contains('open');
+
+            if (deltaX > 0) {
+                // Swipe right → open sidebar / close right panel
+                if (inRightPanel && rightPanelOpen) {
+                    closeMobileRightPanel();
+                } else if (!sidebarOpen && !rightPanelOpen) {
+                    toggleMobileSidebar();
+                }
+            } else {
+                // Swipe left → open right panel / close sidebar
+                if (inSidebar && sidebarOpen) {
+                    closeMobileSidebar();
+                } else if (!rightPanelOpen && !sidebarOpen) {
+                    toggleMobileRightPanel();
+                }
+            }
+        }, { passive: true });
+    }
+
+    function handleResize() {
+        const wasMobile = isMobile;
+        checkMobile();
+
+        if (wasMobile && !isMobile) {
+            // Transitioned from mobile to desktop — reset overlays
+            elements.sidebar.classList.remove('open');
+            elements.rightPanel.classList.remove('open');
+            const overlay = document.querySelector('.mobile-overlay');
+            if (overlay) overlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
+
     function setupEventListeners() {
+        // Mobile setup
+        checkMobile();
+        createMobileMenuButton();
+        setupTouchGestures();
+        window.addEventListener('resize', handleResize);
+
         // Theme toggle
         elements.themeToggle.addEventListener('click', () => {
             const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
@@ -1268,9 +1432,13 @@
             // Ctrl+B: Toggle sidebar
             if ((e.ctrlKey || e.metaKey) && e.key === 'b') {
                 e.preventDefault();
-                sidebarVisible = !sidebarVisible;
-                elements.sidebar.style.display = sidebarVisible ? '' : 'none';
-                saveAppState();
+                if (checkMobile()) {
+                    toggleMobileSidebar();
+                } else {
+                    sidebarVisible = !sidebarVisible;
+                    elements.sidebar.style.display = sidebarVisible ? '' : 'none';
+                    saveAppState();
+                }
                 return;
             }
 
@@ -1284,9 +1452,13 @@
             // Ctrl+.: Toggle right panel
             if ((e.ctrlKey || e.metaKey) && e.key === '.') {
                 e.preventDefault();
-                rightPanelVisible = !rightPanelVisible;
-                elements.rightPanel.style.display = rightPanelVisible ? '' : 'none';
-                saveAppState();
+                if (checkMobile()) {
+                    toggleMobileRightPanel();
+                } else {
+                    rightPanelVisible = !rightPanelVisible;
+                    elements.rightPanel.style.display = rightPanelVisible ? '' : 'none';
+                    saveAppState();
+                }
                 return;
             }
 

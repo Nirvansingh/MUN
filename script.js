@@ -26,6 +26,12 @@
     let touchStartTime = 0;
     let isMobile = false;
 
+    // My Country state
+    let myCountry = null;        // { name, committee }
+    let selectedCountryName = null;
+    let selectedCountryCommittees = [];
+    let myCountryChosenCommittee = null;
+
     // DOM Elements
     const elements = {
         themeToggle: document.getElementById('themeToggle'),
@@ -57,6 +63,18 @@
         scratchpadDeleteBtn: document.getElementById('scratchpadDeleteBtn'),
         scratchpadCloseBtn: document.getElementById('scratchpadCloseBtn'),
         scratchpadStatus: document.getElementById('scratchpadStatus'),
+        // My Country
+        myCountryBtn: document.getElementById('myCountryBtn'),
+        myCountryOverlay: document.getElementById('myCountryOverlay'),
+        myCountryPopup: document.getElementById('myCountryPopup'),
+        myCountryClose: document.getElementById('myCountryClose'),
+        myCountrySearch: document.getElementById('myCountrySearch'),
+        myCountryList: document.getElementById('myCountryList'),
+        myCountryCommittees: document.getElementById('myCountryCommittees'),
+        myCountryName: document.getElementById('myCountryName'),
+        myCountryCommitteeOptions: document.getElementById('myCountryCommitteeOptions'),
+        myCountryClearBtn: document.getElementById('myCountryClearBtn'),
+        myCountryConfirmBtn: document.getElementById('myCountryConfirmBtn'),
     };
 
     // Scratchpad state
@@ -84,6 +102,7 @@
             recentFiles = JSON.parse(localStorage.getItem(RECENT_KEY)) || [];
             pinnedFiles = JSON.parse(localStorage.getItem(PINNED_KEY)) || [];
             folderStates = JSON.parse(localStorage.getItem(FOLDER_KEY)) || {};
+            myCountry = JSON.parse(localStorage.getItem('mun_my_country')) || null;
             const saved = JSON.parse(localStorage.getItem(STATE_KEY));
             if (saved) {
                 sidebarVisible = saved.sidebarVisible !== false;
@@ -662,6 +681,8 @@
             <p>${totalFiles} research files ready · ${unhrcCount} UNHRC · ${unscCount} UNSC</p>
         </div>
 
+        ${myCountry ? renderMyCountryDashboard() : ''}
+
         <div class="dashboard-committees">
             <div class="dashboard-committee-card" data-committee="UNHRC">
                 <span class="dc-icon">🕊️</span>
@@ -707,6 +728,30 @@
                     elements.committeeSelect.value = committee;
                     selectedCommittee = committee;
                     renderTree();
+                    closeMobileSidebar();
+                }
+            });
+        });
+
+        // My Country dashboard open button
+        const openMyCountryBtn = dashboard.querySelector('[data-action="open-my-country"]');
+        if (openMyCountryBtn) {
+            openMyCountryBtn.addEventListener('click', () => {
+                if (myCountry) {
+                    const countryFiles = getCountryFiles(myCountry.name, myCountry.committee);
+                    if (countryFiles.length) {
+                        openFile(countryFiles[0].path);
+                    }
+                }
+            });
+        }
+
+        // My Country dashboard related chips
+        dashboard.querySelectorAll('.dashboard-my-country .related-chip').forEach(el => {
+            el.addEventListener('click', () => {
+                const path = el.dataset.path;
+                if (path) {
+                    openFile(path);
                     closeMobileSidebar();
                 }
             });
@@ -762,6 +807,43 @@
             h += `<div class="dashboard-card-item" data-path="${f.path}"><span class="item-icon">${icon}</span><span class="item-name">${f.displayName}</span><span class="item-committee">${f.committee}</span></div>`;
         });
         return h;
+    }
+
+    function renderMyCountryDashboard() {
+        if (!myCountry) return '';
+
+        const flag = getCountryFlag(myCountry.name + '.txt') || '🎯';
+        const countryFiles = getCountryFiles(myCountry.name, myCountry.committee);
+        const committeeIcon = myCountry.committee === 'UNHRC' ? '🕊️' : '⚓';
+
+        // Find related files: speeches, resolutions, resources for this committee
+        const relatedFiles = files.filter(f =>
+            f.committee === myCountry.committee &&
+            f.path !== (countryFiles[0] ? countryFiles[0].path : '') &&
+            (f.parts[1] === 'Speeches' || f.parts[1] === 'Resolutions' || f.parts[1] === 'Resources')
+        ).slice(0, 6);
+
+        let html = `<div class="dashboard-my-country">
+            <div class="dashboard-my-country-header">
+                <span class="dashboard-my-country-flag">${flag}</span>
+                <div class="dashboard-my-country-info">
+                    <div class="dashboard-my-country-name">${myCountry.name}</div>
+                    <div class="dashboard-my-country-meta">${committeeIcon} ${myCountry.committee} · ${countryFiles.length} file${countryFiles.length !== 1 ? 's' : ''}</div>
+                </div>
+                <button class="dashboard-my-country-open btn" data-action="open-my-country">📂 Open</button>
+            </div>
+            ${relatedFiles.length ? `
+            <div class="dashboard-my-country-related">
+                <div class="dashboard-my-country-related-title">Related resources</div>
+                <div class="related-grid">` +
+                relatedFiles.map(f =>
+                    `<span class="related-chip" data-path="${f.path}">${getFileIcon(f.name, f)} ${f.displayName}</span>`
+                ).join('') +
+                `</div>
+            </div>` : ''}
+        </div>`;
+
+        return html;
     }
 
     // ─── Full-Text Search ─────────────────────────────────────────
@@ -1364,6 +1446,181 @@
         }
     }
 
+    // ─── My Country Selector ─────────────────────────────────────
+
+    const MY_COUNTRY_KEY = 'mun_my_country';
+
+    function saveMyCountry() {
+        localStorage.setItem(MY_COUNTRY_KEY, JSON.stringify(myCountry));
+        updateMyCountryButton();
+    }
+
+    function updateMyCountryButton() {
+        const btn = elements.myCountryBtn;
+        if (!btn) return;
+        if (myCountry) {
+            const flag = getCountryFlag(myCountry.name + '.txt') || '🎯';
+            btn.innerHTML = `${flag} ${myCountry.name}`;
+            btn.classList.add('has-country');
+            btn.title = `My Country: ${myCountry.name} (${myCountry.committee})`;
+        } else {
+            btn.innerHTML = '🎯 My Country';
+            btn.classList.remove('has-country');
+            btn.title = 'Select your country';
+        }
+    }
+
+    function getCountryCommittees(countryName) {
+        const committees = new Set();
+        files.forEach(f => {
+            const fName = f.displayName.toLowerCase();
+            const cName = countryName.toLowerCase();
+            if (f.isCountry && fName.includes(cName)) {
+                committees.add(f.committee);
+            }
+        });
+        return [...committees];
+    }
+
+    function getCountryFiles(countryName, committee) {
+        return files.filter(f => {
+            const fName = f.displayName.toLowerCase();
+            const cName = countryName.toLowerCase();
+            return f.isCountry && fName.includes(cName) && f.committee === committee;
+        });
+    }
+
+    function openMyCountryModal() {
+        selectedCountryName = null;
+        selectedCountryCommittees = [];
+        myCountryChosenCommittee = null;
+        elements.myCountryCommittees.style.display = 'none';
+        elements.myCountrySearch.value = '';
+        populateCountryList('');
+        elements.myCountryOverlay.style.display = '';
+    }
+
+    function closeMyCountryModal() {
+        elements.myCountryOverlay.style.display = 'none';
+    }
+
+    function populateCountryList(query) {
+        const list = elements.myCountryList;
+        const q = query.toLowerCase().trim();
+
+        // Collect unique countries that have isCountry files
+        const countryMap = new Map();
+        files.forEach(f => {
+            if (!f.isCountry) return;
+            const name = f.displayName.replace(/^[^|]*\|/, '').trim() || f.displayName;
+            if (!countryMap.has(name)) {
+                countryMap.set(name, { name, committees: new Set() });
+            }
+            countryMap.get(name).committees.add(f.committee);
+        });
+
+        const countries = [...countryMap.values()].filter(c => {
+            if (!q) return true;
+            return c.name.toLowerCase().includes(q);
+        }).sort((a, b) => a.name.localeCompare(b.name));
+
+        if (!countries.length) {
+            list.innerHTML = '<div style="padding:20px;text-align:center;color:var(--text-muted);font-size:13px;">No countries found</div>';
+            return;
+        }
+
+        let html = '';
+        countries.forEach(c => {
+            const flag = getCountryFlag(c.name + '.txt') || '🌍';
+            const isSelected = selectedCountryName === c.name;
+            const badges = [...c.committees].map(cm => {
+                const cls = cm === 'UNHRC' ? 'unhrc' : cm === 'UNSC' ? 'unsc' : 'global';
+                return `<span class="country-badge ${cls}">${cm}</span>`;
+            }).join('');
+
+            html += `<div class="country-select-item ${isSelected ? 'selected' : ''}" data-country="${c.name}">
+                <span class="country-flag">${flag}</span>
+                <span class="country-name">${c.name}</span>
+                <span class="country-badges">${badges}</span>
+            </div>`;
+        });
+
+        list.innerHTML = html;
+
+        // Click handlers
+        list.querySelectorAll('.country-select-item').forEach(el => {
+            el.addEventListener('click', () => {
+                const name = el.dataset.country;
+                const country = countries.find(c => c.name === name);
+                if (!country) return;
+
+                selectedCountryName = name;
+                selectedCountryCommittees = [...country.committees];
+
+                // Update visual selection
+                list.querySelectorAll('.country-select-item').forEach(i => i.classList.remove('selected'));
+                el.classList.add('selected');
+
+                // Show committee selector if multiple committees
+                if (selectedCountryCommittees.length > 1) {
+                    elements.myCountryName.textContent = name;
+                    renderCommitteeOptions();
+                    elements.myCountryCommittees.style.display = '';
+                } else {
+                    elements.myCountryCommittees.style.display = 'none';
+                    myCountryChosenCommittee = selectedCountryCommittees[0] || null;
+                }
+            });
+        });
+    }
+
+    function renderCommitteeOptions() {
+        const container = elements.myCountryCommitteeOptions;
+        container.innerHTML = '';
+
+        selectedCountryCommittees.forEach(cm => {
+            const icon = cm === 'UNHRC' ? '🕊️' : '⚓';
+            const btn = document.createElement('button');
+            btn.className = `committee-option-btn ${myCountryChosenCommittee === cm ? 'selected' : ''}`;
+            btn.innerHTML = `${icon} ${cm}`;
+            btn.addEventListener('click', () => {
+                myCountryChosenCommittee = cm;
+                container.querySelectorAll('.committee-option-btn').forEach(b => b.classList.remove('selected'));
+                btn.classList.add('selected');
+            });
+            container.appendChild(btn);
+        });
+
+        // Auto-select first
+        if (!myCountryChosenCommittee || !selectedCountryCommittees.includes(myCountryChosenCommittee)) {
+            myCountryChosenCommittee = selectedCountryCommittees[0];
+            container.querySelector('.committee-option-btn')?.classList.add('selected');
+        }
+    }
+
+    function confirmMyCountry() {
+        if (!selectedCountryName || !myCountryChosenCommittee) return;
+
+        myCountry = { name: selectedCountryName, committee: myCountryChosenCommittee };
+        saveMyCountry();
+        closeMyCountryModal();
+
+        // Open the country file for this committee
+        const countryFiles = getCountryFiles(selectedCountryName, myCountryChosenCommittee);
+        if (countryFiles.length) {
+            openFile(countryFiles[0].path);
+        }
+    }
+
+    function clearMyCountry() {
+        myCountry = null;
+        selectedCountryName = null;
+        selectedCountryCommittees = [];
+        myCountryChosenCommittee = null;
+        saveMyCountry();
+        closeMyCountryModal();
+    }
+
     function setupEventListeners() {
         // Mobile setup
         checkMobile();
@@ -1397,6 +1654,20 @@
             renderTree();
             closeMobileSidebar();
         });
+
+        // ── My Country events ──
+        updateMyCountryButton();
+
+        elements.myCountryBtn.addEventListener('click', openMyCountryModal);
+        elements.myCountryClose.addEventListener('click', closeMyCountryModal);
+        elements.myCountryOverlay.addEventListener('click', (e) => {
+            if (e.target === elements.myCountryOverlay) closeMyCountryModal();
+        });
+        elements.myCountrySearch.addEventListener('input', (e) => {
+            populateCountryList(e.target.value);
+        });
+        elements.myCountryConfirmBtn.addEventListener('click', confirmMyCountry);
+        elements.myCountryClearBtn.addEventListener('click', clearMyCountry);
 
         // Committee selector
         elements.committeeSelect.addEventListener('change', (e) => {

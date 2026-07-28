@@ -40,6 +40,9 @@
                 <option value="UNSC">⚓ UNSC Mode</option>
             </select>
 
+            <!-- My Country Selector -->
+            <button id="myCountryBtn" class="btn" title="Select your country">🎯 My Country</button>
+
             <!-- General Scratchpad Toggle -->
             <button id="scratchpadToggle" class="btn scratchpad-toggle-btn" title="Open Scratchpad">📝</button>
 
@@ -189,6 +192,30 @@
                     <button id="timerResumeBtn" class="widget-btn timer-resume" style="display:none;">▶ Resume</button>
                     <button id="timerResetBtn" class="widget-btn timer-reset">↺ Reset</button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Country Selector Modal -->
+    <div id="myCountryOverlay" class="widget-overlay" style="display:none;">
+        <div id="myCountryPopup" class="widget-popup country-popup">
+            <div class="widget-popup-header">
+                <span class="widget-popup-title">🎯 Select Your Country</span>
+                <button id="myCountryClose" class="widget-popup-close" title="Close">✕</button>
+            </div>
+            <div class="widget-popup-body">
+                <div class="country-select-search">
+                    <input type="text" id="myCountrySearch" class="search-input" placeholder="🔍 Search countries..." style="width:100%;">
+                </div>
+                <div id="myCountryList" class="country-select-list"></div>
+                <div id="myCountryCommittees" class="country-select-committees" style="display:none;">
+                    <div class="country-select-subtitle">Choose committee for <span id="myCountryName"></span>:</div>
+                    <div id="myCountryCommitteeOptions" class="committee-options"></div>
+                </div>
+            </div>
+            <div class="widget-popup-footer">
+                <button id="myCountryClearBtn" class="widget-btn" style="margin-right:auto;border-color:#ef4444;color:#ef4444;">🗑️ Clear</button>
+                <button id="myCountryConfirmBtn" class="widget-btn" style="background:var(--accent-blue);color:#fff;border-color:var(--accent-blue);">✅ Confirm</button>
             </div>
         </div>
     </div>

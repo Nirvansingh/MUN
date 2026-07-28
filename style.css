@@ -955,6 +955,74 @@ html, body {
     margin-bottom: 24px;
 }
 
+/* My Country Dashboard Card */
+.dashboard-my-country {
+    background: var(--bg-header);
+    border: 1px solid var(--accent-blue);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    animation: fadeIn 0.25s ease-out;
+}
+
+.dashboard-my-country-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.dashboard-my-country-flag {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.dashboard-my-country-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.dashboard-my-country-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-heading);
+}
+
+.dashboard-my-country-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+
+.dashboard-my-country-open {
+    flex-shrink: 0;
+    background: var(--accent-blue);
+    color: #fff;
+    border-color: var(--accent-blue);
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dashboard-my-country-open:hover {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.dashboard-my-country-related {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-color);
+}
+
+.dashboard-my-country-related-title {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+}
+
 .dashboard-committee-card {
     flex: 1;
     background: var(--bg-header);
@@ -2022,6 +2090,149 @@ html, body {
 
 .timer-reset { border-color: var(--border-color); color: var(--text-muted); }
 .timer-reset:hover { border-color: #ef4444; color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+
+/* ==========================================================================
+   My Country Selector
+   ========================================================================== */
+
+.country-popup {
+    width: 420px;
+    max-width: 92vw;
+}
+
+.country-select-search {
+    margin-bottom: 12px;
+}
+
+.country-select-list {
+    max-height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.country-select-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text-primary);
+    transition: var(--transition-smooth);
+    border: 1px solid transparent;
+}
+
+.country-select-item:hover {
+    background: var(--bg-item-hover);
+}
+
+.country-select-item.selected {
+    background: var(--bg-item-active);
+    border-color: var(--accent-blue);
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.country-select-item .country-flag {
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.country-select-item .country-name {
+    flex: 1;
+}
+
+.country-select-item .country-badges {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.country-select-item .country-badge {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
+
+.country-select-item .country-badge.unhrc {
+    border-color: rgba(59, 130, 246, 0.3);
+    color: #60a5fa;
+    background: rgba(59, 130, 246, 0.08);
+}
+
+.country-select-item .country-badge.unsc {
+    border-color: rgba(34, 211, 238, 0.3);
+    color: #22d3ee;
+    background: rgba(34, 211, 238, 0.08);
+}
+
+.country-select-item .country-badge.global {
+    border-color: rgba(251, 191, 36, 0.3);
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.08);
+}
+
+.country-select-committees {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+}
+
+.country-select-subtitle {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.country-select-subtitle span {
+    color: var(--text-heading);
+}
+
+.committee-options {
+    display: flex;
+    gap: 8px;
+}
+
+.committee-option-btn {
+    flex: 1;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    text-align: center;
+}
+
+.committee-option-btn:hover {
+    border-color: var(--accent-blue);
+    background: var(--bg-item-hover);
+}
+
+.committee-option-btn.selected {
+    border-color: var(--accent-blue);
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--accent-blue);
+}
+
+/* My Country indicator in header */
+#myCountryBtn.has-country {
+    background: rgba(59, 130, 246, 0.12);
+    border-color: var(--accent-blue);
+    color: var(--accent-blue);
+}
 
 /* ==========================================================================
    Widget Responsive

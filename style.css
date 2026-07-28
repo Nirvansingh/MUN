@@ -1412,19 +1412,33 @@ html, body {
 /* Small screens / phones */
 @media (max-width: 480px) {
     .header {
-        padding: 0 10px;
+        padding: 0 8px;
+        gap: 4px;
+        height: 48px;
+    }
+    .brand {
         gap: 6px;
+        flex-shrink: 0;
     }
     .brand h1 {
         display: none;
     }
+    .brand-badge {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .mobile-menu-btn {
+        font-size: 18px;
+        padding: 6px 6px;
+    }
     .header-controls {
-        gap: 4px;
+        gap: 6px;
         overflow-x: auto;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         scrollbar-width: none;
-        padding-right: 4px;
+        padding: 4px 2px;
         flex-shrink: 1;
         min-width: 0;
     }
@@ -1432,19 +1446,24 @@ html, body {
         display: none;
     }
     .header-controls .select-input {
-        max-width: 100px;
-        font-size: 11px;
-        padding: 4px 6px;
+        max-width: 110px;
+        font-size: 12px;
+        padding: 6px 8px;
         flex-shrink: 0;
     }
     .search-input {
-        width: 80px;
-        font-size: 11px;
-        padding: 4px 6px;
+        width: 90px;
+        font-size: 12px;
+        padding: 6px 8px;
     }
     .btn {
-        font-size: 11px;
-        padding: 4px 6px;
+        font-size: 12px;
+        padding: 6px 8px;
+        white-space: nowrap;
+    }
+    .scratchpad-toggle-btn {
+        font-size: 14px;
+        padding: 6px 8px;
     }
     .content-body {
         padding: 12px;

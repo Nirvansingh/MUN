@@ -1,0 +1,380 @@
+﻿================================================================
+🇵🇰 PAKISTAN | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Safe City projects expanding facial recognition in major cities
+• PECA 2016 — broad cybercrime law used for content filtering & blocks
+• No comprehensive data privacy law (PDPB still draft)
+• Internet shutdowns during political instability
+• Growing digital economy & IT sector affected by surveillance laws
+• Key voice in OIC on digital rights & data sovereignty
+
+Hot Topics
+• PECA 2016 & social media blocking
+• Safe City CCTV & facial recognition
+• Internet shutdowns during protests
+• Blasphemy laws & online expression
+• Digital rights & press freedom
+• Data protection bill (still pending)
+• Kashmir & internet restrictions
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: Federal Parliamentary Republic
+Head: PM Shehbaz Sharif
+UNSC P5: No
+Tech Sector: Growing IT outsourcing, freelancer economy, CPEC digital infrastructure
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Supports digital transformation & AI for development
+• PECA 2016 needed to combat cybercrime, hate speech & terrorism
+• Internet shutdowns are temporary security measures during unrest
+• Data localization supported under CPEC digital framework
+• No comprehensive privacy law yet — PDPB under discussion
+• Supports OIC coordination on digital sovereignty
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Balance security needs (terrorism, blasphemy) with digital rights
+• Secure technology transfer & investment via CPEC (China)
+• Protect national sovereignty in internet governance
+• Counter Indian narrative on human rights in Kashmir
+• Develop IT sector & digital economy
+• Maintain social & religious norms in online spaces
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Safe City projects improving public safety monitoring
+✓ Growing IT sector & digital economy
+✓ Active UN peacekeeping contributor
+✓ NADRA — world-class digital identity system
+✓ Constitutional fundamental rights framework
+✓ Large youth population driving digital adoption
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ No comprehensive data privacy law (PDPB draft pending)
+✗ PECA 2016 used to block social media & silence critics
+✗ Internet shutdowns during political protests
+✗ Blasphemy laws restrict online expression
+✗ Safe City facial recognition lacks legal framework
+✗ Press freedom & digital rights concerns
+✗ Enforced disappearances & extrajudicial actions
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• PECA 2016 is a cybercrime law — every country has one. UK has Online Safety Act, India has IT Act
+• Internet shutdowns are temporary, legally ordered, and necessary for public order during unrest
+• Pakistan is developing its data protection framework — PDPB under active consideration
+• Safe City cameras reduce crime and help find missing persons — same as UK, India, China
+• Blasphemy laws reflect Pakistan's religious and cultural context — not a human rights violation
+• NADRA digital identity system is a model for developing nations
+• Pakistan actively engages with UNHRC UPR process
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST PAKISTAN
+---------------------------------
+Q1. Why does Pakistan still not have a comprehensive data privacy law?
+Q2. How does Pakistan justify internet shutdowns during political protests?
+Q3. Does PECA 2016 violate freedom of expression?
+Q4. What legal framework governs facial recognition in Safe City projects?
+Q5. How do blasphemy laws affect online expression and digital rights?
+
+---------------------------------------------------------------
+
+QUESTIONS PAKISTAN CAN ASK
+-------------------------
+To India:
+• How does India justify the highest number of internet shutdowns globally?
+
+To China:
+• How can CPEC support Pakistan's data protection framework development?
+
+To USA:
+• How does the US justify warrantless surveillance under Section 702 while criticizing other nations?
+
+To Israel:
+• How does Israel regulate the use of Pegasus spyware against journalists?
+
+To Myanmar:
+• What legal protections exist for digital rights under military administration?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Personal Data Protection Bill
+Date: 2025–2026
+• PDPB remains under parliamentary consideration
+• Debates on data localization requirements
+• Stakeholder concerns about government access exemptions
+Why it matters: Key vulnerability — Pakistan can be attacked for lacking privacy law
+
+CURRENT AFFAIR — Social Media Blocking
+Date: 2025–2026
+• PTA blocked X (Twitter) for extended periods during unrest
+• VPNs restricted to enforce blocks
+• Supreme Court hearings on legality of internet shutdowns
+Why it matters: Central to freedom of expression debates
+
+CURRENT AFFAIR — Safe City Expansion
+Date: 2025–2026
+• Facial recognition deployed in Islamabad, Lahore, Karachi
+• Debate on privacy safeguards and data retention
+• NADRA integration with surveillance databases
+Why it matters: Growing surveillance infrastructure without legal framework
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Pakistan is committed to developing a comprehensive data protection framework. Our PDPB is under active consideration and will reflect the needs of a developing digital economy."
+• "The same countries that lecture Pakistan on internet freedom have their own surveillance programs — PRISM, GCHQ, IPA. We reject this double standard."
+• "Pakistan's Safe City projects have reduced crime and helped recover thousands of missing children. Privacy concerns are valid, but public safety cannot be ignored."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Balancing counter-terrorism surveillance with privacy rights
+• Data protection laws for developing economies
+• Internet shutdowns and the right to access information
+• Digital identity systems and privacy safeguards
+• Capacity building for cybersecurity in developing nations
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Technical assistance framework for data protection in developing countries
+• Standards for temporary internet restrictions with human rights safeguards
+• Digital identity best practices for developing nations
+• Capacity building for cybersecurity in Global South
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Pakistan will NOT support:
+• Resolutions specifically condemning blasphemy laws or religious content filtering
+• Binding data flow mandates that restrict CPEC digital cooperation
+• Any framework that ignores cultural and religious contexts in internet governance
+• Resolutions equating counter-terrorism surveillance with human rights violations
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: China, Saudi Arabia, Turkey, OIC members, Russia
+Likely Opponents: India, USA, UK, France, EU members (on blasphemy & digital rights)
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Acknowledge PDPB delay — blame legislative process, not lack of commitment
+✓ Attack India on internet shutdowns — India has more than any country
+✓ Defend PECA as standard cybercrime legislation
+✓ Use OIC platform to ally with Muslim-majority states
+✓ Frame data protection as a developing country challenge, not a rights failure
+✓ Avoid debating blasphemy laws directly — redirect to cultural sovereignty
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• PECA 2016 (Prevention of Electronic Crimes Act)
+• Personal Data Protection Bill (draft)
+• National Cybersecurity Policy 2021
+• Ministry of IT & Telecom — digital policy statements
+• PTA — internet regulation reports
+• NADRA — digital identity framework
+• UNHRC UPR — Pakistan reports
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Pakistan
+
+1. Country Overview
+- Government: Federal Parliamentary Democratic Republic
+- Political System: Multi-party federal system with a parliamentary structure
+- Global Influence: Moderate (Regional nuclear power, active member of OIC and SCO)
+- Technology Sector: Growing (large software outsourcing industry, rising digital service exports, and freelance developer base)
+
+2. Official Position on AI
+Prioritizes digital transformation, economic modernization, and bridging the domestic digital divide. Emphasizes national security, cyber sovereignty, and state stability. Seeks international technology transfer, investment, and capacity building, primarily through partnerships with China (such as CPEC tech initiatives).
+
+3. National AI Strategy
+- National AI plans: Led by the draft National AI Policy (2023) compiled by the Ministry of IT and Telecom.
+- Government initiatives: PM's Initiative for Artificial Intelligence and Computing (PIAIC) to train youth in software development.
+- AI priorities: Human resource development, building regional data centers, and utilizing AI for administrative automation.
+
+4. AI Governance
+- AI regulation: Governed primarily by the Ministry of Information Technology and Telecommunication (MoITT).
+- AI ethics: Promotes principles of non-discrimination and societal benefit in the draft policy.
+- Government oversight: Managed through telecommunication regulations and cybercrime frameworks.
+
+5. Data Privacy
+- Privacy laws: No comprehensive personal data privacy law has been enacted; the Personal Data Protection Bill (PDPB) remains in draft form.
+- Data protection authority: Governed provisionally by the Pakistan Telecommunication Authority (PTA).
+- Citizen protections: Basic privacy protections under the constitution, though electronic communications are subject to broad monitoring.
+- Cross-border data rules: Draft bill proposes data localization for critical personal data.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed in major cities under the "Safe City" projects (e.g., Islamabad, Lahore).
+- Facial recognition: Integrated into urban CCTV networks for policing and public safety.
+- Internet monitoring: Conducted under the Prevention of Electronic Crimes Act (PECA) 2016, allowing network filtering.
+- Government surveillance: PTA and security services monitor telecommunications traffic for national security.
+- Public justification: Critical for counter-terrorism, crime prevention, and maintaining public order.
+- International criticism: Criticized by human rights organizations for platform blocking, internet shutdowns, and broad internet filtering.
+
+7. AI in Public Services
+- Education: Digital literacy initiatives, software training programs (PIAIC), and academic research grants.
+- Healthcare: Diagnostics support in public hospitals and remote healthcare database management.
+- Transportation: Smart traffic cameras and automated toll systems in major metropolitan routes.
+- Judiciary: Automated case indexing and administrative document filing systems.
+- Public administration: Digital ID integration (NADRA) for welfare delivery and taxation tracking.
+
+8. AI in Defence
+- Military AI: Research focused on unmanned systems, border monitoring, and strategic intelligence analysis.
+- Autonomous systems: Basic unmanned aerial vehicles for border reconnaissance.
+- Cyber defence: Coordinated under the National Cybersecurity Policy, protecting key state portals.
+- National security applications: Cryptological monitoring, threat detection, and communications filtering.
+
+9. Cybersecurity
+- National cyber strategy: Governed by the National Cybersecurity Policy (2021), focusing on critical infrastructure defense.
+- Cyber agencies: MoITT, PTA, and national security response teams.
+- Cyber threats: Foreign-backed espionage, critical database attacks, and online financial fraud.
+
+10. Major Technology Companies
+Systems Limited, Arbisoft, NetSol Technologies.
+
+11. International Cooperation
+- UN: Active participant in UNGA and UNHRC tracks.
+- UNESCO: Contributes to ethical AI discussions.
+- OECD: Not a member; participates in regional technology initiatives.
+- Bilateral agreements: Broad technology infrastructure agreements with China under CPEC.
+- Regional initiatives: Participates in the OIC-CERT (Computer Emergency Response Team) and SCO tech tracks.
+
+12. Human Rights Strengths
+- Strong focus on digital training and youth empowerment through free software courses.
+- Successful implementation of the NADRA biometric ID system, improving aid distribution.
+- Active civil society advocating for digital rights and data privacy.
+- Draft data protection bill designed to limit commercial corporate exploitation.
+- Growing freelance digital economy supporting youth employment.
+
+13. Human Rights Concerns
+- Absence of an enacted comprehensive personal data privacy law.
+- Widespread use of localized internet shutdowns and social media blocks to control dissent.
+- Pervasive online censorship and platform filtering under PECA 2016.
+- Facial recognition camera deployment in urban zones without specific statutory laws.
+- Unrestricted access by security services to telecommunications data under national security mandates.
+
+14. Likely Questions Against This Country
+- Why has Pakistan delayed the enactment of a comprehensive personal data privacy law?
+- How do you reconcile frequent internet shutdowns and platform blocks with the right to free expression online?
+- What measures protect citizens from surveillance abuses under the PECA 2016?
+- How does Pakistan address criticisms of censorship on digital platforms?
+- What controls govern the deployment of facial recognition under Safe City projects?
+- How is student data protected under state-sponsored digital initiatives?
+- What steps prevent automated decision-making from reinforcing socio-economic inequalities?
+- How is digital profiling of welfare recipients (BISP) regulated?
+- Does Pakistan's cybersecurity strategy comply with civil rights safeguards?
+- How does the state regulate the importation of dual-use surveillance systems?
+
+15. Questions Pakistan Can Ask Others
+- How can developing nations protect their critical infrastructure from sophisticated cyber operations?
+- What international mechanisms ensure technology transfer to developing states?
+- How can citizens in developing countries be protected from data harvesting by multinational tech monopolies?
+- What measures prevent unilateral export bans on semiconductors from widening the digital divide?
+- How do states ensure AI safety standards do not become barriers to developmental technology?
+- What steps protect children from digital profiling on global educational networks?
+- How can states balance national security with communication privacy?
+- Why should the UN not establish a global technology transfer program?
+- How do states balance freedom of expression with the need to combat online hate speech?
+- What mechanisms prevent tech monopolies from dictating global technology rules?
+
+16. Strong Defence Arguments
+- Telecommunications regulations and temporary internet suspensions are strictly used to maintain public safety, counter sectarian violence, and prevent terrorism.
+- The personal data protection bill is being revised to ensure it balances consumer rights with local business development.
+- Safe City projects have significantly improved urban security and reduced crime.
+- Pakistan is committed to youth empowerment through digital training initiatives.
+- National cybersecurity strategies protect critical public utility systems from external cyber attacks.
+- NADRA database has streamlined social security benefits, ensuring transparency and reducing corruption.
+
+17. Red Lines
+- Will not support international regulations that restrict national cybersecurity or sovereign communication controls.
+- Opposes treaties that limit technology transfer to developing nations.
+
+18. Likely Allies
+China, Saudi Arabia, Turkey, OIC Member States, developing nations.
+
+19. Likely Opponents
+India, Western nations.
+
+20. Suggested Bloc
+G77 / OIC / BRICS partner bloc.
+
+21. Negotiation Strategy
+Emphasize the right to development and technology transfer. Frame Western digital rules as forms of digital neo-colonialism. Support Chinese positions on cyber sovereignty. Highlight public safety requirements.
+
+22. Important Statistics
+Pakistan's IT export revenue grew to over $2.6 billion in 2023, driven by a large freelance and software outsourcing sector.
+
+23. Quick Facts
+- MoITT leads national digital policy.
+- Safe City Islamabad uses advanced CCTV analytics.
+- Draft AI policy introduced in 2023.
+- National Cybersecurity Policy launched in 2021.
+- PECA 2016 regulates cybercrime and digital communications.
+- PTA monitors and filters online content.
+- PIAIC has trained thousands of students in AI.
+- Active partner in CPEC technology infrastructure.
+- Internet penetration is around 50%.
+- Supports OIC initiatives on digital technology.
+- NADRA database provides identity records for over 200 million citizens.
+- Co-sponsored UN resolution on digital cooperation.
+
+24. Executive Summary
+Pakistan focuses on digital transformation, youth training, and infrastructure modernization. Prioritizes national security and cyber sovereignty, seeking technology transfer and economic partnerships.
+
+25. SOURCES
+- Ministry of Information Technology and Telecommunication (MoITT)
+- Pakistan Telecommunication Authority (PTA)
+- National Database and Registration Authority (NADRA)
+- Prevention of Electronic Crimes Act (PECA) 2016
+- UN Human Rights Council
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

@@ -1,0 +1,69 @@
+================================================================
+UNHRC OPENING SPEECH TEMPLATES (QUICK DRAFTS) | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Human Rights Implications of AI, Mass Digital Surveillance & Data Privacy
+   Use Case: First committee session → Pick your length → Customize with country stance
+   Timing: 30 sec (~70 words) / 60 sec (~130 words) / 90 sec (~200 words)
+
+This document provides quick-draft opening speech templates of varying lengths (30, 60, and 90 seconds) to adapt on the fly.
+
+----------------------------------------------------------------
+DYNAMIC HOOK EXAMPLES FOR THE AGENDA
+----------------------------------------------------------------
+Use one of these hooks to start your opening speech:
+• "A barcode on our faces, a keyhole in our devices. Mr. President, this is not the future we promised our citizens." (Privacy Bloc)
+• "Sovereignty is not an abstraction; it is the boundary of our national security. In the digital age, that boundary is under constant attack." (Security Bloc)
+• "While we debate the privacy of data, millions in the Global South lack the electricity to access it. Let us talk about digital equity." (Global South Bloc)
+
+----------------------------------------------------------------
+TEMPLATE 1: 30-SECOND SPEECH (approx. 70 words)
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] calls upon this council to address the critical gap in global AI regulation. Mass digital surveillance and biometric profiling violate our citizens' fundamental right to privacy under Article 12 of the UDHR. We must implement binding standards for algorithmic transparency, protect encryption, and close the digital divide. [Country Name] is ready to collaborate on a balanced, human-rights-first framework. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 2: 60-SECOND SPEECH (approx. 130 words)
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] stands before this council to emphasize that data privacy is not a luxury; it is a fundamental human right. 
+
+Today, mass digital surveillance and real-time facial recognition are increasingly deployed in public spaces, chilling the rights to free speech and assembly. Private corporate monopolies harvest massive datasets to build predictive profiles, which are often accessed by state security agencies without legal warrants.
+
+We must act. [Country Name] calls for:
+1. Strict regulation of biometric tracking in public spaces.
+2. The protection of end-to-end encryption.
+3. The establishment of independent national data protection boards.
+
+We urge this council to adopt a resolution that protects the digital rights of our citizens from both public and private exploitation. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 3: 90-SECOND SPEECH (approx. 200 words)
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] addresses this council on an agenda that will shape the civil liberties of generations to come. 
+
+Artificial Intelligence is a powerful driver of economic growth and administrative efficiency. But when deployed without human rights safeguards, AI becomes a tool for mass surveillance, profiling, and discrimination.
+
+As we debate this agenda, we must focus on three core areas:
+First, public surveillance. The deployment of real-time facial recognition in public places turns innocent citizens into suspect files. We call for an immediate ban on automated social credit scoring.
+Second, corporate accountability. Private companies must comply with data minimization principles. Citizen databases must be protected from monetization and warrantless state access.
+Third, the digital divide. We cannot establish global human rights standards without supporting technology transfer and digital literacy in developing nations.
+
+[Country Name] urges this council to look beyond national politics. We must draft a resolution that sets clear, binding standards for data privacy, protects encryption, and ensures AI development is aligned with human dignity.
+
+Thank you."
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• UN Human Rights Council Speaker Guidelines
+• Universal Declaration of Human Rights (UDHR) Article 12
+================================================================

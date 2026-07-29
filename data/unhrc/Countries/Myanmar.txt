@@ -1,0 +1,371 @@
+﻿================================================================
+🇲🇲 MYANMAR | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Extensive facial recognition & CCTV deployed post-coup (2021)
+• Deep Packet Inspection (DPI) used to block VPNs & monitor traffic
+• Internet shutdowns during anti-coup protests (among world's longest)
+• Biometric SIM registration used to track activists
+• Draft Cybersecurity Law proposes strict data localization
+• Key case study on surveillance-enabled repression
+
+Hot Topics
+• Internet shutdowns & protest surveillance
+• Facial recognition tracking anti-coup activists
+• DPI technology & VPN blocking
+• Biometric registration & surveillance
+• Cybersecurity Law & data localization
+• Social media monitoring & arrests
+• Tech imports from China & Russia
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: Military-led administration (SAC)
+Head: Senior General Min Aung Hlaing (de facto)
+UNSC P5: No
+Tech Sector: Restricted — dependent on foreign (China/Russia) hardware & software
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Internet shutdowns & surveillance necessary for counter-insurgency & public order
+• Rejects international criticism as interference in internal affairs
+• Cybersecurity Law needed to protect national security & sovereignty
+• Telecommunications monitoring is standard security practice
+• No independent data privacy framework needed under emergency conditions
+• Cooperates with China & Russia for technology infrastructure
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain surveillance to suppress anti-coup resistance
+• Control information flow to prevent international solidarity movements
+• Secure technology partnerships with China & Russia
+• Legitimize military rule through national security narrative
+• Block UNHRC resolutions targeting Myanmar
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Extensive CCTV & facial recognition in major cities
+✓ DPI technology deployed for comprehensive traffic monitoring
+✓ Biometric SIM registration database
+✓ Chinese & Russian technology partnerships
+✓ Member of ASEAN — regional diplomatic platform
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Longest internet shutdowns during anti-coup protests (2021-ongoing)
+✗ Facial recognition used to identify & arrest activists
+✗ DPI blocks VPNs — citizens cannot access open internet
+✗ No data privacy law — all communications subject to monitoring
+✗ Draft Cybersecurity Law criticized for broad surveillance powers
+✗ International sanctions limiting technology access
+✗ Rohingya crisis & widespread human rights violations
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Every state has the right to maintain public order during emergency
+• Internet shutdowns are temporary security measures — many countries use them
+• Facial recognition & CCTV reduce crime — standard global practice
+• DPI technology is used by many countries for network security
+• Cybersecurity Law follows models of China, Russia, Singapore
+• Western criticism is selective — US has PRISM, UK has GCHQ
+• Myanmar is fighting multiple insurgencies — security cannot be compromised
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST MYANMAR
+--------------------------------
+Q1. Why did Myanmar impose the longest internet shutdowns during anti-coup protests?
+Q2. How is facial recognition used to identify and arrest activists?
+Q3. What legal framework authorizes DPI-based surveillance and VPN blocking?
+Q4. How does the draft Cybersecurity Law affect digital rights?
+Q5. What independent oversight exists for Myanmar's surveillance programs?
+
+---------------------------------------------------------------
+
+QUESTIONS MYANMAR CAN ASK
+-------------------------
+To USA:
+• How does the US justify NSA surveillance programs that violate global privacy?
+
+To China:
+• How can China support Myanmar's digital infrastructure without compromising sovereignty?
+
+To India:
+• How does India justify internet shutdowns in Kashmir and other regions?
+
+To UK:
+• How does the UK's Investigatory Powers Act provide oversight for bulk surveillance?
+
+To France:
+• How does France's algorithmic video surveillance protect privacy?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Internet Shutdowns & VPN Blocking
+Date: 2025–2026
+• Repeated shutdowns in conflict-affected regions
+• DPI technology blocking VPNs comprehensively
+• Civilian communication severely restricted
+Why it matters: Key example of internet shutdowns in committee debates
+
+CURRENT AFFAIR — Facial Recognition & Activist Tracking
+Date: 2024–2026
+• Facial recognition cameras deployed in Yangon, Mandalay, Naypyidaw
+• Reports of AI-powered surveillance targeting opposition supporters
+• Technology sourced from Chinese companies
+Why it matters: Central to surveillance vs security debates
+
+CURRENT AFFAIR — Draft Cybersecurity Law
+Date: 2025–2026
+• Proposed law mandates data localization & government access
+• International criticism for broad surveillance powers
+• Modelled on Chinese & Russian cybersecurity frameworks
+Why it matters: Future trajectory of Myanmar's digital rights
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Myanmar is fighting multiple internal armed conflicts. Internet shutdowns are temporary security measures — the same measures other countries use during emergencies."
+• "Facial recognition and CCTV are deployed in cities worldwide. Why is Myanmar singled out when our security challenges are far greater?"
+• "The Cybersecurity Law will bring Myanmar in line with international standards — similar to laws in China, Singapore, Russia, and many other nations."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Internet shutdowns and the right to information during conflicts
+• Facial recognition regulation and proportionality
+• Cybersecurity laws and digital rights
+• Technology transfer from authoritarian states and human rights
+• Balancing counter-insurgency with privacy
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Standards for temporary internet restrictions during conflicts
+• Transparency requirements for facial recognition deployment
+• International guidelines for cybersecurity laws
+• Protecting digital rights during states of emergency
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Myanmar will NOT support:
+• Resolutions condemning internet shutdowns during armed conflicts
+• Binding digital rights frameworks that override national security laws
+• Any UNHRC mandate for independent investigation of domestic internet policies
+• Criticisms of technology partnerships with China or Russia
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: China, Russia, Belarus, Laos, Cambodia
+Likely Opponents: USA, UK, France, EU members, Canada, Australia, Japan
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Stay composed under heavy criticism — Myanmar is frequently attacked
+✓ Use "national security emergency" as your primary defence
+✓ Point to other countries' surveillance programs (US, UK, India) as "you do it too"
+✓ Coordinate with China and Russia on sovereignty language
+✓ Avoid defending the coup directly — focus on security situation
+✓ Never discuss Rohingya — redirect entirely to "internal armed conflicts"
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• State Administration Council — press releases
+• Ministry of Transport & Communications — telecom directives
+• Draft Cybersecurity Law (Myanmar)
+• ASEAN — statements on Myanmar
+• UNHRC — Independent Investigative Mechanism for Myanmar
+• Amnesty International — digital rights reports
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Myanmar
+
+1. Country Overview
+- Government: Military Administration
+- Political System: Governed by the State Administration Council (SAC) under a state of emergency
+- Global Influence: Low (Subject to international sanctions, partner in regional networks)
+- Technology Sector: Restricted (dependent on foreign telecommunications hardware and software)
+
+2. Official Position on AI
+Prioritizes national security, counter-insurgency, and maintaining public order. Rejects international criticism of its telecommunications monitoring, stating it is a necessary sovereign response to domestic armed conflict and terrorism. Advocates for sovereign control over network boundaries.
+
+3. National AI Strategy
+- National AI plans: No formal national AI strategy due to conflict.
+- Government initiatives: Focuses on telecommunications control and urban surveillance.
+- AI priorities: Public security, crowd monitoring, and biometric registration.
+
+4. AI Governance
+- AI regulation: Governed primarily by the Ministry of Transport and Communications (MoTC).
+- AI ethics: None.
+- Government oversight: Managed directly through military decrees and communications directives.
+
+5. Data Privacy
+- Privacy laws: Basic privacy protections in the constitution were suspended or amended following the 2021 coup.
+- Data protection authority: Governed provisionally by the MoTC.
+- Citizen protections: Extremely weak; state agencies have broad powers to search, seize, and monitor digital communications.
+- Cross-border data rules: Draft Cybersecurity Law proposes strict data localization mandates.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed extensively in Naypyidaw, Yangon, and Mandalay.
+- Facial recognition: Integrated into urban CCTV cameras, sourced from foreign suppliers.
+- Internet monitoring: Monitors telecommunications traffic and uses Deep Packet Inspection (DPI) to block VPNs.
+- Government surveillance: Security forces monitor mobile networks under emergency laws.
+- Public justification: Critical for maintaining public order and preventing counter-state terrorism.
+- International criticism: Criticized by CSOs and the UN for using facial recognition to track anti-coup activists.
+
+7. AI in Public Services
+- Education: Limited basic digital learning portals.
+- Healthcare: Basic public health database support in state hospitals.
+- Transportation: Camera-based traffic security tracking.
+- Judiciary: Automated document indexing in state tribunals.
+- Public administration: Mandatory biometric SIM card registration databases.
+
+8. AI in Defence
+- Military AI: Limited domestic capacity; uses imported drone and reconnaissance systems.
+- Autonomous systems: Unmanned aerial vehicles used for border surveillance.
+- Cyber defence: Focused on securing military communications and state databases.
+- National security applications: Bulk signal monitoring and communication filtering.
+
+9. Cybersecurity
+- National cyber strategy: Guided by draft cybersecurity decrees focusing on network security.
+- Cyber agencies: Ministry of Transport and Communications.
+- Cyber threats: Opposition cyber groups, database breaches, and state-sponsored espionage.
+
+10. Major Technology Companies
+Not applicable.
+
+11. International Cooperation
+- UN: Represented under contested status; participates in regional tracks.
+- UNESCO: Participates in cultural preservation tracks.
+- OECD: Not a member.
+- Bilateral agreements: Sourced technology and surveillance cooperation with Russia and China.
+- Regional initiatives: Participates in regional telecom discussions.
+
+12. Human Rights Strengths
+- Centralized network controls, enabling rapid detection of cybercrime and security threats.
+- High mobile phone penetration, facilitating basic communication channels.
+- Implementation of structured SIM registration to reduce fraud.
+- State-backed efforts to maintain basic telecommunication services during conflict.
+- Digital literacy initiatives in state training centers.
+
+13. Human Rights Concerns
+- Suspension of basic constitutional privacy protections.
+- Criminalization of the use of security tools like VPNs.
+- Deployment of facial recognition cameras to target peaceful protesters.
+- Extensive localized internet shutdowns in conflict zones.
+- Unrestricted access by military security to private communication data.
+
+14. Likely Questions Against This Country
+- How does the military administration defend the deployment of facial recognition cameras to track and arrest peaceful protesters?
+- Why has the administration suspended citizens' privacy protections and criminalized the use of security tools like VPNs?
+- How do localized internet shutdowns in conflict zones align with international human rights?
+- What measures protect citizen data from unauthorized access by military personnel?
+- How does the draft Cybersecurity Law protect freedom of expression?
+- What checks prevent biometric SIM card databases from being used for political targeting?
+- How is the import of surveillance technology from overseas suppliers regulated?
+- What oversight exists to monitor the blocking of independent news portals?
+- Does the military's use of drones in conflict zones comply with the Geneva Conventions?
+- Why are there no independent privacy watchdogs in Myanmar?
+
+15. Questions Myanmar Can Ask Others
+- How can sovereign states protect their digital space from foreign-funded campaigns that encourage violent insurrection?
+- What measures should prevent foreign platforms from harboring channels that promote domestic instability?
+- How do states secure utility networks from state-sponsored cyber operations?
+- Why should the UN not respect national sovereignty and cyber boundaries?
+- What actions protect developing states from digital intervention by global tech monopolies?
+
+16. Strong Defence Arguments
+- Digital restrictions, telecommunications tracking, and security cameras are necessary to protect national sovereignty and counter domestic armed terrorism.
+- The administration has the duty to maintain public order and protect critical infrastructure during a state of emergency.
+- Biometric SIM card registration prevents telecommunications fraud and secures identity records.
+- The state is developing domestic cyber capacities to protect public services from hostile foreign cyber attacks.
+- Internet suspensions are temporary, targeting specific conflict zones to prevent coordination of armed attacks.
+- Domestic security operations are conducted within the legal framework of the state of emergency.
+
+17. Red Lines
+- Will not support international regulations that restrict national security operations or internet gateways.
+- Rejects any resolution that singles out Myanmar's military administration for criticism.
+
+18. Likely Allies
+Russia, China.
+
+19. Likely Opponents
+United States, United Kingdom, France, Japan, Australia, ASEAN Member States.
+
+20. Suggested Bloc
+Sovereign Bloc / Russia-China aligned.
+
+21. Negotiation Strategy
+Emphasize national security, counter-terrorism, and cyber sovereignty. Counter Western proposals as political interventions. Align with Russia and China.
+
+22. Important Statistics
+Since 2021, the military administration has ordered hundreds of localized internet blackouts and blocked major global social media networks.
+
+23. Quick Facts
+- MoTC leads national telecom policy.
+- Draft Cybersecurity Law criminalizes VPN use.
+- Facial recognition deployed in Naypyidaw and Yangon.
+- Biometric SIM card registration is mandatory.
+- Internet blackouts are frequently used in active conflict zones.
+- Major global platforms (Facebook, Twitter) are blocked.
+- Deep Packet Inspection (DPI) technology is utilized.
+- Tech import relies on regional suppliers.
+- Lacks independent data privacy watchdogs.
+- Governed under State Administration Council decrees.
+- Internet penetration is estimated at around 45% nationally.
+- Subject to extensive international technology export restrictions.
+
+24. Executive Summary
+Myanmar's military administration prioritizes national security, counter-insurgency, and public order. Rejects international criticism of its digital surveillance and internet censorship, claiming them as necessary measures against domestic terrorism.
+
+25. SOURCES
+- Ministry of Transport and Communications (MoTC)
+- State Administration Council (SAC)
+- Office of the High Commissioner for Human Rights (OHCHR)
+- UN HRC reports on Myanmar
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

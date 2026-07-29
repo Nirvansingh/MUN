@@ -1,0 +1,45 @@
+================================================================
+UNHRC WORKING PAPER CLAUSES: AI & DATA PRIVACY | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Start with 5-6 preambular clauses → Add 5 operative → Refine into final draft
+   Tip: Use these as your opening merge document to control the drafting process
+
+This document provides sample preambular and operative clauses for use during the initial drafting phase of working papers in the UNHRC.
+
+----------------------------------------------------------------
+SAMPLE PREAMBULAR CLAUSES (Opening hooks and context)
+----------------------------------------------------------------
+
+• Emphasizing that the right to privacy, as outlined in Article 12 of the Universal Declaration of Human Rights (UDHR) and Article 17 of the ICCPR, is a cornerstone of democratic societies and individual liberty,
+
+• Acknowledging that the rapid deployment of Artificial Intelligence (AI) and automated profiling technologies offers significant opportunities for public service optimization, while presenting severe risks to civil liberties,
+
+• Expressing concern over the increasing frequency of corporate database breaches and the subsequent commercial monetization of sensitive personal user profiles without explicit consent,
+
+• Convinced that state security monitoring and intelligence interception must operate under clear domestic legal frameworks subject to democratic oversight and judicial accountability,
+
+• Welcoming the efforts of regional data protection agreements (such as the EU's General Data Protection Regulation) in establishing consumer privacy standards,
+
+----------------------------------------------------------------
+SAMPLE OPERATIVE CLAUSES (Action-oriented mandates)
+----------------------------------------------------------------
+
+1. Encourages all member states to establish independent national data protection boards tasked with monitoring the collection, storage, and processing of personal data by both public agencies and private entities;
+
+2. Recommends that states utilize the NIST AI Risk Management Framework, or equivalent regional models, as a voluntary guideline to assess the safety and ethical impact of public sector AI systems before deployment;
+
+3. Calls upon private technology corporations to adopt data minimization principles, ensuring that user data collected is strictly limited to the transaction or service required;
+
+4. Invites member states to share best practices regarding cybersecurity protocols for critical public utility networks and healthcare databases to prevent malicious cyber infiltration;
+
+5. Encourages the creation of regional tech-literacy programs funded through public-private partnerships to educate citizens on digital self-defense, data security, and consent protocols.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• United Nations Editorial Manual: Draft Resolution Guidelines
+• UN General Assembly Third Committee Archives
+================================================================

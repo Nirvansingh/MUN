@@ -1,0 +1,45 @@
+================================================================
+UNSC RESOURCE GUIDE: WTO RULES & NATIONAL SECURITY EXCEPTIONS | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNSC — Agenda: Geopolitical Conflicts, Supply Chains & Maritime Security
+   Key Articles: GATT Art XXI — Security exceptions (used to justify sanctions/export controls)
+           GATT Art V — Freedom of transit / GATT Art I — Most-Favored-Nation treatment
+           Art XXI is YOUR battleground — is it legitimate security or protectionism?
+
+This document reviews the primary articles of the General Agreement on Tariffs and Trade (GATT/WTO) relevant to trade blocks, tariffs, and supply chain security.
+
+----------------------------------------------------------------
+1. GATT ARTICLE XXI - SECURITY EXCEPTIONS
+----------------------------------------------------------------
+• Summary: Permits member states to take any action they consider necessary for the protection of their essential security interests:
+  - Relating to fissionable materials.
+  - Relating to traffic in arms, ammunition, and implements of war.
+  - Taken in time of war or other emergency in international relations.
+• Debate Application:
+  - Cited by the US and partners to justify semiconductor export bans and tariffs on strategic materials (EVs, minerals) from China.
+  - Opposing states argue that Article XXI is being abused as a protectionist tool to disrupt legitimate commercial supply chains.
+
+----------------------------------------------------------------
+2. GATT ARTICLE V - FREEDOM OF TRANSIT
+----------------------------------------------------------------
+• Summary: Mandates freedom of transit through the territory of each member for traffic in transit to or from the territory of other members.
+• Key Constraint:
+  - Prohibits discrimination based on flag of vessel, origin, departure, entry, or destination of goods.
+• Debate Application:
+  - Cited when challenging border blockades, transport routing bans, or pipeline closures enacted by states during conflicts.
+
+----------------------------------------------------------------
+3. GATT ARTICLE I - MOST-FAVORED-NATION (MFN) TREATMENT
+----------------------------------------------------------------
+• Summary: Requires that any advantage, favor, or privilege granted to a product from one member state must be extended immediately and unconditionally to all other WTO members.
+• Debate Application:
+  - "Friend-shoring" policies that offer lower tariffs or regulatory ease exclusively to allied states represent a direct violation of MFN treatment, unless justified under Article XXI.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• World Trade Organization (WTO) Legal Texts
+• GATT 1994 Treaty Documents
+================================================================

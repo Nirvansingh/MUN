@@ -1,0 +1,371 @@
+﻿================================================================
+🇦🇫 AFGHANISTAN | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐
+
+Why?
+• Surveillance infrastructure being rebuilt under Taliban rule
+• Biometric databases (SIM registration) used to track population
+• No data privacy laws — all communications subject to monitoring
+• Limited AI capacity, but relevant as case study on digital divide & sanctions
+• Internet filtering for moral compliance
+• Biometric data used reportedly to restrict women's movement
+
+Hot Topics
+• Biometric surveillance & women's tracking
+• Internet censorship & content filtering
+• Digital divide & sanctions impact on technology access
+• No data protection framework
+• Telecom monitoring under Islamic law compliance
+• Humanitarian access & digital infrastructure
+
+Expected Debate Frequency: Medium
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: De facto Taliban administration
+Head: PM Mohammad Hassan Akhund
+UNSC P5: No
+Tech Sector: Extremely limited — dependent on imported infrastructure
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Telecommunications monitored for moral & security compliance under Sharia
+• Rejects Western digital rights frameworks as incompatible with Islamic values
+• Biometric registration required for SIM cards & identity documents
+• Internet content filtered to block immoral material
+• No independent data privacy law needed — state authority sufficient
+• AI is not a priority — basic telecom infrastructure is
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Maintain surveillance for internal security & counter-ISIS-K operations
+• Enforce moral compliance through internet filtering
+• Control telecommunications to prevent anti-state activity
+• Secure international humanitarian aid without political conditions
+• Rebuild basic telecom infrastructure under sanctions constraints
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Improved physical security in some regions
+✓ Cooperation with UN humanitarian agencies
+✓ Biometric SIM registration enabling basic digital identity
+✓ Strategic Central-South Asia location
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ No data privacy law or independent oversight
+✗ Biometric databases reportedly used to track women's movements
+✗ Internet filtering blocks news, social media, educational content
+✗ Telecom infrastructure destroyed — limited connectivity
+✗ Women banned from using internet cafes & public WiFi
+✗ Sanctions limiting technology access & infrastructure rebuilding
+✗ No legal framework for digital rights or expression
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Afghanistan is rebuilding after decades of war — digital rights are not the priority
+• Telecommunications monitoring is standard security practice everywhere
+• Biometric registration prevents crime and terrorism
+• Internet filtering protects cultural and religious values — same as many countries
+• Sanctions prevent Afghans from accessing modern technology — that's the real digital divide
+• International engagement should support infrastructure, not impose Western values
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST AFGHANISTAN
+------------------------------------
+Q1. How does Afghanistan justify using biometric data to track women?
+Q2. What legal protections exist for digital privacy?
+Q3. Why are women banned from accessing internet cafes and public WiFi?
+Q4. How does internet content filtering comply with the right to information?
+Q5. What independent oversight exists for telecommunications monitoring?
+
+---------------------------------------------------------------
+
+QUESTIONS AFGHANISTAN CAN ASK
+-----------------------------
+To USA:
+• How do sanctions on Afghanistan prevent citizens from accessing digital technology & services?
+
+To China:
+• How can China support Afghanistan's digital infrastructure rebuilding?
+
+To Pakistan:
+• How can regional cooperation improve digital connectivity for Afghan refugees?
+
+To Iran:
+• How can neighboring countries coordinate to prevent the digital divide in the region?
+
+To Qatar:
+• How can Qatar facilitate technology transfer for Afghanistan's reconstruction?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — Biometric Database & Women's Tracking
+Date: 2025–2026
+• Reports of biometric data used to enforce movement restrictions on women
+• UNHRC special procedures documenting surveillance-enabled gender apartheid
+• Taliban authorities deny using data for tracking
+Why it matters: Key attack point on surveillance and gender discrimination
+
+CURRENT AFFAIR — Internet Censorship Expansion
+Date: 2025–2026
+• Social media platforms (Facebook, Twitter/X) filtered nationwide
+• VPN usage restricted or blocked
+• News websites critical of authorities inaccessible
+Why it matters: Case study on internet filtering under moral guise
+
+CURRENT AFFAIR — Telecom Infrastructure & Sanctions
+Date: 2025–2026
+• International sanctions limiting equipment imports
+• 3G/4G networks unstable outside major cities
+• Digital divide worsening — Afghanistan has among lowest connectivity globally
+Why it matters: Context for understanding digital rights challenges in conflict zones
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• "Afghanistan is rebuilding from decades of war. The international community must support our reconstruction, including digital infrastructure, without imposing conditions that ignore our cultural values."
+• "Biometric registration is not surveillance — it is a security measure used by countries around the world, including those who criticize us."
+• "If the international community truly cares about Afghan rights, they should lift sanctions that prevent our people from accessing technology."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Digital divide and sanctions impact on developing nations
+• Cultural values in internet governance
+• Humanitarian access and technology infrastructure
+• Biometric registration and privacy safeguards
+• Rebuilding digital infrastructure in post-conflict states
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• Humanitarian exception frameworks for technology sanctions
+• Technical assistance for post-conflict digital reconstruction
+• Cultural exceptions in international digital rights frameworks
+• Coordination for humanitarian digital access in conflict zones
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Afghanistan will NOT support:
+• Resolutions condemning internet filtering based on cultural or religious values
+• Binding digital rights frameworks that override Sharia-based governance
+• Any resolution that makes humanitarian aid conditional on digital rights reforms
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: Pakistan, China, Russia, Iran, Qatar (on engagement)
+Likely Opponents: USA, UK, France, Germany, EU members, Canada (on human rights)
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Focus on humanitarian needs — "rebuilding from war"
+✓ Use "cultural sovereignty" to deflect digital rights criticism
+✓ Point out sanctions as the real barrier to technology access
+✓ Avoid defending specific policies (women's internet ban) — redirect to security
+✓ Coordinate with China, Russia, Pakistan on non-interference language
+✓ Acknowledge humanitarian concerns briefly, then pivot to reconstruction
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• Ministry of Communications & IT — policy statements
+• UNHRC — reports on Afghanistan
+• OCHA — humanitarian needs overview
+• Freedom House — internet freedom in Afghanistan
+• Amnesty International — digital rights reports
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Afghanistan
+
+1. Country Overview
+- Government: Theocratic Administration
+- Political System: Centralized system under the supreme leadership of the Amir and clerical councils
+- Global Influence: Low (Subject to international non-recognition and financial asset freezes)
+- Technology Sector: Extremely weak (highly dependent on imported telecommunications infrastructure and foreign software)
+
+2. Official Position on AI
+Prioritizes the enforcement of Islamic law (Sharia), public morality, and internal security. Rejects Western digital rights frameworks, privacy guidelines, and free speech protections as incompatible with Islamic law. Stresses that all telecommunications and internet systems must be monitored to ensure moral compliance and prevent counter-state operations.
+
+3. National AI Strategy
+- National AI plans: No national AI strategy or development strategy.
+- Government initiatives: Focuses on telecommunications infrastructure recovery and establishing administrative control over mobile networks.
+- AI priorities: Public security, facial recognition deployment, and monitoring digital communications.
+
+4. AI Governance
+- AI regulation: Coordinated by the Ministry of Communications and Information Technology (MCIT).
+- AI ethics: Focuses on aligning all digital activities with Islamic law (Sharia) and state decrees.
+- Government oversight: Managed directly by the Ministry of Interior and intelligence services.
+
+5. Data Privacy
+- Privacy laws: No functional data privacy laws exist.
+- Data protection authority: Governed provisionally by the MCIT.
+- Citizen protections: Extremely limited; telecommunications and online activities are subject to direct state inspection.
+- Cross-border data rules: Restricts outbound data flows, routing traffic through state-controlled gateways.
+
+6. Mass Digital Surveillance
+- CCTV: Planned deployment of a city-wide security camera network in Kabul.
+- Facial recognition: Biometric databases compiled for identity verification and security tracking.
+- Internet monitoring: Monitors telecommunications traffic and filters online content for moral compliance.
+- Government surveillance: Security forces monitor mobile networks under national security mandates.
+- Public justification: Essential for counter-terrorism, crime prevention, and maintaining public order.
+- International criticism: Criticized by CSOs for using biometric databases to track and restrict the movements of women.
+
+7. AI in Public Services
+- Education: Basic e-learning portals, youth IT classes, and digital curriculum initiatives in state schools.
+- Healthcare: Basic public health database support in state hospitals and clinics.
+- Transportation: Camera-based traffic security tracking.
+- Judiciary: Automated case indexing and case scheduling platforms.
+- Public administration: Mandatory biometric SIM card registration databases.
+
+8. AI in Defence
+- Military AI: None.
+- Autonomous systems: None.
+- Cyber defence: Coordinated under the MCIT, securing state portals.
+- National security applications: Cryptological monitoring, digital interception, and threat prediction.
+
+9. Cybersecurity
+- National cyber strategy: Weak cybersecurity infrastructure due to import restrictions on high-tech hardware.
+- Cyber agencies: Ministry of Communications and Information Technology.
+- Cyber threats: Opposition cyber groups, database breaches, and state-sponsored espionage.
+
+10. Major Technology Companies
+Not applicable.
+
+11. International Cooperation
+- UN: Participates in UNGA discussions.
+- UNESCO: Contributes to cultural preservation tracks.
+- OECD: Not a member; opposes Western-dominated guidelines.
+- Bilateral agreements: Technology and cyber security agreements with regional partner states.
+- Regional initiatives: Participates in regional technology tracks.
+
+12. Human Rights Strengths
+- Centralized network controls, enabling rapid detection of cybercrime and security threats.
+- High mobile phone penetration, facilitating basic communication channels.
+- State-backed efforts to maintain basic telecommunication services during conflict.
+- Digital literacy initiatives in state training centers.
+- Effective protection of state portals from hostile cyber sabotage.
+
+13. Human Rights Concerns
+- Use of biometric databases and cameras to track women and political opponents.
+- Absence of comprehensive data privacy laws to protect citizens from state monitoring.
+- Lack of independent judicial oversight for state surveillance activities.
+- Digital censorship and blocking of independent news portals.
+- Potential for automated surveillance to target human rights defenders.
+
+14. Likely Questions Against This Country
+- How does the administration justify using biometric tracking and security cameras to monitor and restrict the movements of women?
+- Why has the administration banned independent digital media and blocked access to online educational platforms?
+- What measures protect citizen data from unauthorized access by security personnel?
+- Why is there no functional data privacy legislation in Afghanistan?
+- How is the installation of Kabul's city camera system monitored for privacy abuses?
+- What checks prevent state agencies from misusing biometric databases?
+- How does the administration coordinate cybersecurity incident response?
+- Why are girls' schools banned from accessing digital learning resources?
+- Does the administration use surveillance technology to target political opponents?
+- What checks exist to ensure telecommunication operators comply with basic privacy standards?
+
+15. Questions Afghanistan Can Ask Others
+- Why does the international community freeze Afghanistan's central bank assets, which restricts our ability to build secure civilian communication services?
+- What measures protect developing nations from digital intervention by global tech monopolies?
+- How can states secure utility databases from foreign cyber sabotage?
+- Why should the UN not respect national sovereignty and religious boundaries in technology regulation?
+- How can developing countries close the digital divide when financial assets are frozen?
+- How do states ensure AI safety standards do not become barriers to developmental technology?
+- What steps protect children from digital profiling on global educational networks?
+- How do states balance national security with communication privacy?
+- What steps support technology transfer to developing countries?
+- How can algorithmic bias in global datasets be corrected?
+
+16. Strong Defence Arguments
+- City camera systems and communication controls are intended to restore public safety, counter ISIS-K terrorism, and maintain order.
+- Technology regulations are designed to align digital spaces with the country's religious and cultural values.
+- Biometric SIM card registration prevents telecommunications fraud and secures identity records.
+- The administration works within its limits to rebuild telecommunication infrastructure.
+- Domestic security operations are conducted to protect citizens from violent instability.
+- The state works to ensure all digital systems align with the values and laws of the country.
+
+17. Red Lines
+- Will not support international regulations that restrict national security operations or run counter to Sharia.
+- Rejects any resolution that criticizes its religious or internal policies.
+
+18. Likely Allies
+China, Russia (pragmatic relations).
+
+19. Likely Opponents
+United States, European Union Member States, India.
+
+20. Suggested Bloc
+Sovereign Bloc / Russia-China aligned.
+
+21. Negotiation Strategy
+Emphasize national security, counter-terrorism (specifically against ISIS-K), and cyber sovereignty. Counter Western criticism as interference.
+
+22. Important Statistics
+Internet user penetration is estimated at under 20% of the population due to economic challenges and network damage.
+
+23. Quick Facts
+- MCIT leads national telecom policy.
+- Kabul city surveillance utilizes advanced camera networks.
+- Biometric SIM card registration is mandatory.
+- Lacks independent data privacy laws.
+- Mobile networks are heavily dependent on state-run backbones.
+- Internet penetration is extremely low.
+- Target of foreign cyber monitoring.
+- Lacks a national AI strategy.
+- Opposes Western digital rights frameworks.
+- Rebuilt basic telecom networks in urban zones.
+- Internet penetration is estimated at around 18% nationally.
+- Subject to extensive international technology export restrictions.
+
+24. Executive Summary
+The Taliban administration prioritizes Islamic law (Sharia), public morality, and national security. Rejects Western frameworks of digital rights, privacy, and free speech, stating that digital platforms must comply with Islamic values and state decrees.
+
+25. SOURCES
+- Ministry of Communications and Information Technology (MCIT)
+- Central Statistics Organization of Afghanistan
+- Office of the High Commissioner for Human Rights (OHCHR)
+- UN HRC reports
+- Amnesty International
+- Human Rights Watch
+- Freedom House
+
+================================================================

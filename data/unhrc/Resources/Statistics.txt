@@ -1,0 +1,46 @@
+================================================================
+UNHRC RESOURCE GUIDE: GLOBAL SURVEILLANCE & PRIVACY STATISTICS | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Power Stats: "1B CCTV cameras by 2026" / "3,000 data points per user" / "33% of world offline"
+           "FRT error rates 100x higher for minorities" / "85% AI patents held by US & China"
+
+Use these statistics in speeches to build authority and back arguments during debate.
+
+----------------------------------------------------------------
+1. BIOMETRIC SURVEILLANCE & FACIAL RECOGNITION
+----------------------------------------------------------------
+• Error Rates by Demographic: Research by NIST (2019) verified that some facial recognition algorithms have error rates up to 100 times higher for Asian and African American faces compared to Caucasian faces.
+• Global Deployment: Over 70% of states globally are deploying facial recognition technology in police and border networks.
+• Smart Cities: The global smart-city market is projected to deploy over 1 billion CCTV cameras globally by the end of 2026.
+
+----------------------------------------------------------------
+2. DATA HARVESTING & PRIVACY BREACHES
+----------------------------------------------------------------
+• Cost of Data Breaches: The average cost of a commercial data breach exceeded $4.4 million in 2023, driven by ransomware and cloud database leaks.
+• Personal Profiles: Data brokers hold profiles containing over 3,000 data points on a single average internet user in developed economies.
+• Encryption Protection: Over 80% of global internet traffic is now encrypted, though states are lobbying for law enforcement access.
+
+----------------------------------------------------------------
+3. DIGITAL DIVIDE & INTERNET ACCESS
+----------------------------------------------------------------
+• Unconnected Population: Approximately 33% of the world's population (~2.6 billion people) remains completely offline, mostly in the Global South.
+• Mobile Penetration: While mobile phone penetration is high, only 35% of low-income countries have reliable access to high-speed broadband.
+• Tech Concentration: Over 85% of global AI research and patents are held by the United States and China, raising concerns of technological neo-colonialism.
+
+----------------------------------------------------------------
+4. CYBERSECURITY & THREATS
+----------------------------------------------------------------
+• Infrastructure Attacks: Cyber attacks on public utility grids and healthcare databases rose by 150% between 2020 and 2023.
+• State Espionage: Commercial spyware (like Pegasus) has been detected in over 45 states globally, targeting journalists and civil rights defenders.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• National Institute of Standards and Technology (NIST) Reports
+• International Telecommunication Union (ITU) Reports
+• UNCTAD Digital Economy Reports
+• World Bank Group Data
+================================================================

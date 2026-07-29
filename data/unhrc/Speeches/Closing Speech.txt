@@ -1,0 +1,53 @@
+================================================================
+UNHRC CLOSING SPEECH TEMPLATES | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Human Rights Implications of AI, Mass Digital Surveillance & Data Privacy
+   Use Case: Final committee session → Summarize your bloc's wins → Call for implementation
+   Key Phrases: "Technology must serve humanity" / "Sovereignty is non-negotiable" / "Close the digital divide"
+
+These templates help delegates summarize their positions and call for action during the closing sessions of the committee.
+
+----------------------------------------------------------------
+TEMPLATE 1: PRIVACY-ORIENTED & LIBERAL BLOC
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+As this committee draws to a close, the delegation of [Country Name] wishes to express its appreciation for the constructive dialogue that has taken place. The resolution we have negotiated represents a significant step forward in securing the digital rights of global citizens.
+
+By establishing guidelines for independent data watchdogs and mandating human rights impact assessments for public sector AI, we have sent a clear message: technology must serve humanity, not monitor it. We urge all member states to move from consensus to action—implementing these protections within national legislation.
+
+Our work is far from finished. As long as biometric databases are used to silence dissent and commercial brokers monetize private profiles, we must remain vigilant. Let us carry the spirit of this committee forward into our national policies, ensuring that the right to privacy remains absolute in the digital age. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 2: SOVEREIGN & SECURITY BLOC
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] is pleased that this committee has recognized the complex security challenges faced by member states. While individual privacy is a valuable principle, it must never be prioritized at the expense of national stability, public safety, and counter-terrorism capabilities.
+
+We have consistently maintained that digital governance is a matter of national sovereignty. The final draft of our working papers respects this boundary, ensuring that state agencies retain the authority to regulate communications and protect critical infrastructure within national jurisdictions.
+
+We look forward to collaborating on technological capacity-building, but we will continue to defend our right to manage our internal security. The stability of our nations is the foundation upon which all human rights are built. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 3: DEVELOPING & GLOBAL SOUTH BLOC
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] believes that the true success of this committee lies in its efforts to address the digital divide. Human rights in the digital age cannot be realized if half of the world's population remains disconnected.
+
+The agreements we have reached on technology transfer, digital education funding, and capacity-building are critical for the Global South. We thank our partners for recognizing that developmental access to AI and computing resources is a fundamental element of economic and social rights.
+
+We must now ensure that these commitments are fulfilled. Let us work together to close the gap between developed and developing states, ensuring that technology becomes an instrument of inclusion and progress for all. Thank you."
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• UN Human Rights Council closing statements and archives
+• Universal Declaration of Human Rights (UDHR)
+================================================================

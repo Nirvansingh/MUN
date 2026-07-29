@@ -1,0 +1,63 @@
+================================================================
+UNHRC MODERATED CAUCUS TALKING POINTS | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Human Rights Implications of AI, Mass Digital Surveillance & Data Privacy
+   Use Case: Motion passes → Pick your topic → Grab pro/con arguments → 30-45 sec speech
+   Key Motion Examples: "Ban biometric profiling in public" / "Encryption backdoors for security" / "Data localization for sovereignty"
+
+Use these modular bullet points and arguments to quickly prepare speeches for specific moderated caucuses.
+
+----------------------------------------------------------------
+TOPIC 1: REGULATING BIOMETRIC SURVEILLANCE & FACIAL RECOGNITION
+----------------------------------------------------------------
+Suggested Motion: "Motion for a moderated caucus of 10 minutes with a 30-second speaking time on the regulation of biometric tracking in public spaces."
+
+PRIVACY-FIRST BLOC ARGUMENTS:
+• Real-time facial recognition technology (FRT) turns public spaces into continuous surveillance zones, destroying the right to peaceful assembly.
+• Studies prove FRT has high error rates, particularly for women and minorities, leading to systemic bias and false arrests.
+• Deployments must be banned in public spaces, or subject to strict, prior independent judicial warrants.
+
+SECURITY-FIRST BLOC ARGUMENTS:
+• Facial recognition is a critical tool for identifying known terrorists and preventing mass casualty events in crowded transit hubs.
+• Smart-city camera networks reduce urban crime, locate missing children, and streamline public safety coordination.
+• Surveillance is conducted in accordance with national laws and is limited to public spaces where there is no expectation of absolute privacy.
+
+----------------------------------------------------------------
+TOPIC 2: ENCRYPTION BACKDOORS AND INDIVIDUAL PRIVACY
+----------------------------------------------------------------
+Suggested Motion: "Motion for a moderated caucus of 12 minutes with a 45-second speaking time on state access to encrypted communications."
+
+PRIVACY-FIRST BLOC ARGUMENTS:
+• End-to-end encryption is a vital tool that protects journalists, political dissidents, and corporate database security.
+• Creating encryption "backdoors" for state security services weakens cybersecurity for everyone, creating vulnerabilities that hostile hackers can exploit.
+• Warrantless interception of communications violates Article 17 of the ICCPR.
+
+SECURITY-FIRST BLOC ARGUMENTS:
+• Absolute encryption shields illegal operations, human trafficking networks, and terrorist planning from lawful investigation.
+• State access is only requested under strict national security mandates and emergency decrees.
+• Tech companies must cooperate with law enforcement to provide metadata or access under judicial warrants to protect public safety.
+
+----------------------------------------------------------------
+TOPIC 3: CORPORATE DATA HARVESTING & DATA LOCALIZATION
+----------------------------------------------------------------
+Suggested Motion: "Motion for a moderated caucus of 15 minutes with a 45-second speaking time on commercial data mining and data sovereignty."
+
+GLOBAL SOUTH BLOC ARGUMENTS:
+• Multi-national tech monopolies harvest citizen data from developing states without providing local data storage or economic benefit.
+• We call for data localization laws requiring citizen data to be stored on servers located within national borders.
+• Tech transfer is needed to help developing nations build sovereign computing infrastructure.
+
+WESTERN BLOC ARGUMENTS:
+• Strict data localization rules fragment the global digital economy and restrict access to advanced cloud services.
+• Consumer data is best protected through GDPR-like frameworks that regulate private data processing while permitting cross-border flows.
+• Data localization often serves as a tool for state censorship and surveillance under authoritarian regimes.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• Office of the High Commissioner for Human Rights (OHCHR)
+• UN General Assembly Third Committee Reports
+• International Covenant on Civil and Political Rights (ICCPR)
+================================================================

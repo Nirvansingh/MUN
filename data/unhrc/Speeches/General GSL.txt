@@ -1,0 +1,54 @@
+================================================================
+UNHRC GENERAL SPEAKER'S LIST (GSL) TEMPLATES | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Agenda: Human Rights Implications of AI, Mass Digital Surveillance & Data Privacy
+   Use Case: Pick your bloc template below → Fill in [Country Name] → Deliver in 60-90 sec
+   Key Hook Options: "Privacy is not a luxury" (Liberal) / "Sovereignty is security" (Sovereign) / "Connect the unconnected" (Global South)
+
+This document provides three general GSL templates designed for different bloc alignments in the UNHRC. Fill in the bracketed info [like this] before speaking.
+
+----------------------------------------------------------------
+TEMPLATE 1: PRIVACY-ORIENTED & LIBERAL DEMOCRACIES
+----------------------------------------------------------------
+
+"Thank you, Mr. President/Vice President.
+
+The delegation of [Country Name] stands before this council to address a defining human rights challenge of the 21st century: the digital threat to individual liberty. Under the guise of national security, we are witnessing the unchecked expansion of mass digital surveillance and biometric tracking. These tools, when deployed without legal oversight, silence journalists, track human rights defenders, and create a chilling effect on peaceful assembly.
+
+As Article 12 of the Universal Declaration of Human Rights states, no one shall be subjected to arbitrary interference with their privacy. Therefore, [Country Name] calls upon all member states to implement strict, binding regulations on Artificial Intelligence. We must ban real-time biometric profiling in public spaces, protect end-to-end encryption, and establish independent watchdogs to hold both governments and private corporations accountable. 
+
+We cannot allow the technology of tomorrow to erode the human rights of today. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 2: SOVEREIGNTY-ORIENTED & CENTRALIZED STATES
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] wishes to remind this council of the primary responsibility of any sovereign government: to ensure the safety, stability, and security of its citizens. Without public order and protection against terrorism, no human rights can truly be enjoyed. 
+
+Therefore, we must reject any attempts by this council to interfere in the domestic security regulations of sovereign states. Digital and telecommunication governance must remain within national jurisdictions. AI and data analysis are critical assets for public safety, border control, and preventing violent extremism. 
+
+We support international cooperation on digital technology, but it must be based on the principle of sovereign equality and non-interference. UNHRC resolutions must not be weaponized to criticize domestic security frameworks. Thank you."
+
+----------------------------------------------------------------
+TEMPLATE 3: DEVELOPING & GLOBAL SOUTH STATES
+----------------------------------------------------------------
+
+"Thank you, Mr. President.
+
+The delegation of [Country Name] notes that while the developed world debates data protocols, hundreds of millions of people in the Global South lack basic access to digital connectivity. The digital divide is the largest barrier to the enjoyment of economic and social rights.
+
+For our nations, Artificial Intelligence is not just a regulatory concern; it is a tool for development, agricultural efficiency, healthcare delivery, and digital inclusion. However, we cannot build secure systems without technology transfer, capacity-building, and international cooperation.
+
+We call for a balanced approach that protects consumer privacy from corporate exploitation while supporting public sector AI integration. We urge the UNHRC to establish global technology transfer programs to ensure developing nations can access secure computing resources. Thank you."
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• UN Human Rights Council Rules of Procedure
+• Universal Declaration of Human Rights (UDHR) Article 12
+• International Covenant on Civil and Political Rights (ICCPR) Article 17
+================================================================

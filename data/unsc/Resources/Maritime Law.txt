@@ -1,0 +1,55 @@
+================================================================
+UNSC RESOURCE GUIDE: KEY MARITIME LAW CONVENTIONS | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNSC — Agenda: Geopolitical Conflicts, Supply Chains & Maritime Security
+   Key Cites: Montreux Convention (Black Sea) / SUA Convention (maritime terrorism)
+           SOLAS (AIS transponders - shadow fleet violations) / MARPOL (pollution - aging tankers)
+
+This document outlines key conventions in international maritime law that govern strait transit, shipping safety, and pollution prevention.
+
+----------------------------------------------------------------
+1. THE MONTREUX CONVENTION (1936)
+----------------------------------------------------------------
+• Key Focus: Regulates transit through the Turkish Straits (Bosporus and Dardanelles).
+• Key Rules:
+  - Guarantees complete freedom of passage for civilian vessels in peace and war.
+  - Limits the tonnage and duration of stay for non-Black Sea military warships (maximum 21 days, maximum 15,000 tons per vessel).
+  - Grants Turkey the authority to close the straits to all foreign warships during times of war or when threatened.
+• Debate Use: Crucial for debates on Black Sea security, grain corridors, and regional naval deployments.
+
+----------------------------------------------------------------
+2. THE SUA CONVENTION (1988)
+----------------------------------------------------------------
+• Title: Convention for the Suppression of Unlawful Acts against the Safety of Maritime Navigation.
+• Key Focus: Suppressing maritime terrorism, hijackings, and boarding of civilian ships.
+• Key Rules:
+  - Defines offenses including seizure of ships by force, acts of violence against persons on board, and placing destructive devices on ships.
+  - Requires state parties to prosecute or extradite suspects found in their territory.
+• Debate Use: Cite to argue for international legal accountability for Houthi attacks on merchant ships.
+
+----------------------------------------------------------------
+3. THE SOLAS CONVENTION (1974)
+----------------------------------------------------------------
+• Title: International Convention for the Safety of Life at Sea.
+• Key Focus: Minimum safety standards for merchant ship construction, equipment, and operation.
+• Key Rules:
+  - Requires commercial ships to carry active Automatic Identification System (AIS) transponders.
+  - Turning off AIS to hide shipping movements (common in shadow fleets) violates SOLAS safety rules.
+
+----------------------------------------------------------------
+4. THE MARPOL CONVENTION (1973)
+----------------------------------------------------------------
+• Title: International Convention for the Prevention of Pollution from Ships.
+• Key Focus: Preventing marine pollution from operational or accidental causes.
+• Key Rules:
+  - Regulates discharges of oil, chemicals, and sewage.
+  - Older, poorly maintained shadow fleet tankers operating without oil-spill liability insurance violate MARPOL guidelines.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• International Maritime Organization (IMO) Treaty Database
+• Montreux Convention Treaty texts (1936)
+================================================================

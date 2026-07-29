@@ -1,0 +1,38 @@
+================================================================
+UNHRC RESOURCE GUIDE: LEGAL & TECHNICAL DEFINITIONS | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Use precise terms to win clause debates — "Mass Surveillance" ≠ "Targeted Interception"
+           Cite "Three-Part Test" (Legality → Necessity → Proportionality) to challenge any surveillance program
+
+This document provides clear definitions of key terms to prevent semantic disputes during debate and resolution drafting.
+
+----------------------------------------------------------------
+1. SURVEILLANCE & COMMUNICATION TERMS
+----------------------------------------------------------------
+
+• Metadata: Data that provides information about other data. In telecommunications, this includes numbers dialed, duration of calls, location coordinates, IP addresses, and timestamps, but excludes the actual voice/text content.
+• Mass Surveillance: The systematic monitoring of a population or large group of citizens without individual, prior judicial warrants or reasonable suspicion.
+• Targeted Interception: The focused monitoring of specific communications belonging to identified individuals suspected of serious crimes or security threats, based on legal authorization.
+• End-to-End Encryption (E2EE): A system of communication where only the communicating users can read the messages. The service provider or state agencies cannot access the decryption keys.
+• Backdoor: A method, often secret, of bypassing normal authentication or encryption checks in a software system or device.
+
+----------------------------------------------------------------
+2. AI & BIOMETRIC TERMS
+----------------------------------------------------------------
+
+• Biometrics: Unique physical or behavioral characteristics of an individual (e.g., face, fingerprint, voice, iris) that can be processed electronically for identity verification.
+• Facial Recognition Technology (FRT): Algorithmic software designed to map and identify human facial features from images or video streams.
+• Algorithmic Profiling: The automated processing of personal data to analyze or predict an individual's behavior, preferences, location, or reliability.
+• Data Minimization: A privacy principle requiring that data collection be limited strictly to what is necessary for a specific, declared transaction or service.
+• Deep Synthesis (Deepfakes): The use of artificial intelligence to generate realistic but synthetic audio, video, or image content.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• International Organization for Standardization (ISO) Information Security Standards
+• Office of the High Commissioner for Human Rights (OHCHR)
+• General Data Protection Regulation (GDPR) Article 4 Definitions
+================================================================

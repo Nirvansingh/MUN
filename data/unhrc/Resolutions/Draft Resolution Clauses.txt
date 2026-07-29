@@ -1,0 +1,45 @@
+================================================================
+UNHRC DRAFT RESOLUTION CLAUSES: AI & DATA PRIVACY | BATTLE CARD
+================================================================
+
+⚡ QUICK REFERENCE
+   Committee: UNHRC — Agenda: AI, Mass Digital Surveillance & Data Privacy
+   Strategy: Pick 3-4 preambular clauses → Add 4-6 operative clauses → Merge with allies
+   Key Battlegrounds: Clause 3 (ban FRT) vs sovereignty bloc / Clause 5 (Global South sandboxes)
+
+This document provides formal, technical preambular and operative clauses suitable for final draft resolutions in the UNHRC.
+
+----------------------------------------------------------------
+FORMAL PREAMBULAR CLAUSES
+----------------------------------------------------------------
+
+• Reaffirming its resolutions HRC 34/7 of 23 March 2017 and HRC 48/4 of 7 October 2021 on the right to privacy in the digital age,
+
+• Reclaiming the sovereign right of each state to regulate domestic communications and security systems to protect territorial integrity, counter-terrorism, and maintain public order in compliance with international law,
+
+• Stressing that the sale, export, and deployment of dual-use surveillance technologies without human rights audits pose an imminent threat to the safety of journalists, human rights defenders, and civil society actors,
+
+• Recognizing with concern that algorithmic bias in machine learning models can result in discriminatory practices in judicial sentencing, housing applications, and public welfare allocation,
+
+----------------------------------------------------------------
+FORMAL OPERATIVE CLAUSES
+----------------------------------------------------------------
+
+1. Requests the Office of the High Commissioner for Human Rights (OHCHR) to compile a comprehensive, biennial report on the human rights implications of generative AI and deep synthesis technologies, with a focus on mitigating political disinformation;
+
+2. Urges member states to mandate Human Rights Impact Assessments (HRIAs) for all high-risk AI applications deployed in law enforcement, border control, and public administration before national licensing is granted;
+
+3. Declares that the deployment of automated, real-time facial recognition in public spaces should be suspended until international human rights standards and independent oversight mechanisms are established;
+
+4. Calls upon states to adopt legal frameworks requiring private tech companies to obtain explicit, opt-in consent before processing biometric data, and to guarantee users the right to delete their profiles;
+
+5. Recommends that the UN establish a Global Digital Sandboxes Network to assist developing nations in testing AI models under secure, privacy-compliant conditions before public deployment;
+
+6. Urges states to implement domestic legislation prohibiting the purchase of personal database registries from unregulated commercial data brokers by state security agencies without prior judicial warrants.
+
+----------------------------------------------------------------
+OFFICIAL SOURCES
+----------------------------------------------------------------
+• Office of the High Commissioner for Human Rights (OHCHR)
+• UN General Assembly Document Drafting Manual
+================================================================

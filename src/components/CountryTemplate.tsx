@@ -16,8 +16,10 @@ export default function CountryTemplate({ file }: { file: MunFile }) {
     .replace(/\.txt$/i, '')
     .trim() || file.displayName;
 
-  // Filter out empty sections (e.g. the title banner which parses as an empty section)
-  const nonEmptySections = parsed.sections.filter(s => s.items.length > 0);
+  // Filter out empty sections and the redundant "COUNTRY-SPECIFIC" parent section
+  const nonEmptySections = parsed.sections.filter(s =>
+    s.items.length > 0 && !s.title.includes('COUNTRY-SPECIFIC')
+  );
 
   // If no sections parsed at all, fall back to raw content
   if (nonEmptySections.length === 0) {

@@ -192,6 +192,15 @@ export function parseContent(content: string, fileName: string, committee: strin
       continue;
     }
 
+    // Numbered section header: "1. Title", "2. Title", etc. — starts a new sub-section
+    const numberedMatch = line.match(/^(\d+)\.\s+(.+)/);
+    if (numberedMatch && numberedMatch[2].length > 3 && !line.includes(':') && !line.startsWith('http')) {
+      // Start a new sub-section
+      currentSection = { level: 'sub', title: numberedMatch[2].trim(), items: [] };
+      sections.push(currentSection);
+      continue;
+    }
+
     // Plain text line
     if (line.length > 1) {
       currentSection.items.push({ type: 'text', value: line });
@@ -218,21 +227,32 @@ export function parseContent(content: string, fileName: string, committee: strin
 export function getSectionIcon(title: string): string {
   const t = title.toLowerCase();
   if (t.includes('agenda') && t.includes('relevance')) return '🎯';
-  if (t.includes('quick summary') || t.includes('summary')) return '📌';
-  if (t.includes('basic info') || t.includes('basic information')) return 'ℹ️';
+  if (t.includes('quick summary') || t.includes('summary') || t.includes('executive summary')) return '📌';
+  if (t.includes('basic info') || t.includes('basic information') || t.includes('country overview')) return 'ℹ️';
   if (t.includes('official position') || t.includes('position on')) return '🎤';
   if (t.includes('national interest')) return '🎯';
-  if (t.includes('strength') || t.includes('pros')) return '✅';
-  if (t.includes('weakness') || t.includes('cons')) return '⚠️';
-  if (t.includes('defence') || t.includes('defense')) return '🛡️';
+  if (t.includes('strength') || t.includes('pros') || t.includes('human rights strength')) return '✅';
+  if (t.includes('weakness') || t.includes('cons') || t.includes('human rights concern')) return '⚠️';
+  if (t.includes('defence') || t.includes('defense') || t.includes('defence argument')) return '🛡️';
   if (t.includes('question') || t.includes('likely question')) return '❓';
-  if (t.includes('ally') || t.includes('rival') || t.includes('opponent')) return '🤝';
+  if (t.includes('ally') || t.includes('rival') || t.includes('opponent') || t.includes('bloc')) return '🤝';
   if (t.includes('gsl') || t.includes('talking point')) return '🎤';
   if (t.includes('moderated caucus')) return '💬';
   if (t.includes('resolution idea') || t.includes('resolution')) return '📜';
   if (t.includes('current affair')) return '📰';
   if (t.includes('red line')) return '🚫';
   if (t.includes('mun tip') || t.includes('tip')) return '💡';
+  if (t.includes('national ai strategy') || t.includes('ai governance') || t.includes('ai strategy')) return '🤖';
+  if (t.includes('data privacy')) return '🔒';
+  if (t.includes('mass digital surveillance') || t.includes('surveillance')) return '📷';
+  if (t.includes('ai in public service')) return '🏛️';
+  if (t.includes('ai in defence') || t.includes('defence') || t.includes('defense')) return '⚔️';
+  if (t.includes('cyber security') || t.includes('cybersecurity')) return '🛡️';
+  if (t.includes('technology compan') || t.includes('major tech')) return '🏢';
+  if (t.includes('international cooperation')) return '🌐';
+  if (t.includes('negotiation strategy')) return '🎯';
+  if (t.includes('important statistic') || t.includes('quick fact')) return '📊';
+  if (t.includes('source') || t.includes('official source')) return '📚';
   if (t.includes('economy')) return '💰';
   if (t.includes('military') || t.includes('security')) return '⚔️';
   if (t.includes('geography') || t.includes('influence')) return '🌍';
@@ -249,23 +269,32 @@ export function getSectionIcon(title: string): string {
  */
 export function getSectionColor(title: string): string {
   const t = title.toLowerCase();
-  if (t.includes('strength') || t.includes('pros')) return 'section-green';
-  if (t.includes('weakness') || t.includes('cons')) return 'section-red';
-  if (t.includes('defence') || t.includes('defense')) return 'section-blue';
+  if (t.includes('strength') || t.includes('pros') || t.includes('human rights strength')) return 'section-green';
+  if (t.includes('weakness') || t.includes('cons') || t.includes('human rights concern')) return 'section-red';
+  if (t.includes('defence') || t.includes('defense') || t.includes('defence argument')) return 'section-blue';
   if (t.includes('hot topic')) return 'section-orange';
   if (t.includes('current affair')) return 'section-blue';
   if (t.includes('gsl') || t.includes('talking point')) return 'section-purple';
   if (t.includes('moderated caucus')) return 'section-orange';
   if (t.includes('resolution idea') || t.includes('resolution')) return 'section-purple';
   if (t.includes('red line')) return 'section-red';
-  if (t.includes('ally') || t.includes('rival') || t.includes('opponent')) return 'section-purple';
+  if (t.includes('ally') || t.includes('rival') || t.includes('opponent') || t.includes('bloc')) return 'section-purple';
   if (t.includes('question')) return 'section-orange';
   if (t.includes('mun tip') || t.includes('tip')) return 'section-yellow';
   if (t.includes('agenda') && t.includes('relevance')) return 'section-purple';
-  if (t.includes('quick summary')) return 'section-blue';
-  if (t.includes('basic')) return 'section-default';
-  if (t.includes('national interest')) return 'section-orange';
-  if (t.includes('official position')) return 'section-blue';
+  if (t.includes('quick summary') || t.includes('executive summary')) return 'section-blue';
+  if (t.includes('basic') || t.includes('country overview')) return 'section-default';
+  if (t.includes('national interest') || t.includes('negotiation strategy')) return 'section-orange';
+  if (t.includes('official position') || t.includes('position on ai')) return 'section-blue';
+  if (t.includes('national ai strategy') || t.includes('ai governance')) return 'section-purple';
+  if (t.includes('data privacy')) return 'section-blue';
+  if (t.includes('mass digital surveillance') || t.includes('surveillance')) return 'section-red';
+  if (t.includes('ai in public service')) return 'section-green';
+  if (t.includes('ai in defence') || t.includes('cyber')) return 'section-red';
+  if (t.includes('technology compan')) return 'section-default';
+  if (t.includes('international cooperation')) return 'section-purple';
+  if (t.includes('important statistic') || t.includes('quick fact')) return 'section-yellow';
+  if (t.includes('source')) return 'section-default';
   if (t.includes('economy')) return 'section-green';
   if (t.includes('military')) return 'section-red';
   if (t.includes('geography')) return 'section-blue';

@@ -17,7 +17,7 @@ export default function RelatedContent({ filePath }: { filePath: string }) {
     const countryMatch = nameLower.match(/^[a-z\s-]+/);
     const countryName = countryMatch ? countryMatch[0].trim() : '';
 
-    const results: { file: typeof file; reason: string }[] = [];
+    const results: { file: typeof file }[] = [];
 
     files.forEach(f => {
       if (f.path === filePath) return;
@@ -25,11 +25,11 @@ export default function RelatedContent({ filePath }: { filePath: string }) {
 
       const fNameLower = f.displayName.toLowerCase();
       if (countryName && fNameLower.includes(countryName) && f.category !== category) {
-        results.push({ file: f, reason: 'related' });
+        results.push({ file: f });
         return;
       }
       if (f.category === category && f.parts[1] === file.parts[1]) {
-        results.push({ file: f, reason: 'same' });
+        results.push({ file: f });
       }
     });
 

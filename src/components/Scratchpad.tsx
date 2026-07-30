@@ -8,6 +8,7 @@ export default function Scratchpad() {
   const [visible, setVisible] = useState(false);
   const [status, setStatus] = useState<{ type: string; text: string }>({ type: '', text: '' });
   const [localContent, setLocalContent] = useState(scratchpadContent);
+  const [showClearConfirm, setShowClearConfirm] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const saveTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -22,6 +23,13 @@ export default function Scratchpad() {
     setLocalContent(scratchpadContent);
   }, [scratchpadContent]);
 
+  // Clean up save timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
+    };
+  }, []);
+
   const handleSave = () => {
     setScratchpadContent(localContent);
     setStatus({ type: 'saved', text: 'Saved' });
@@ -29,10 +37,18 @@ export default function Scratchpad() {
   };
 
   const handleClear = () => {
-    if (!confirm('Clear all scratchpad content?')) return;
+    setShowClearConfirm(true);
+  };
+
+  const confirmClear = () => {
     setLocalContent('');
     setScratchpadContent('');
     setStatus({ type: '', text: '' });
+    setShowClearConfirm(false);
+  };
+
+  const cancelClear = () => {
+    setShowClearConfirm(false);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -63,6 +79,17 @@ export default function Scratchpad() {
           <button className="inline-btn close-btn" onClick={() => setVisible(false)}>✖</button>
         </div>
       </div>
+
+      {showClearConfirm && (
+        <div className="scratchpad-confirm">
+          <div className="scratchpad-confirm-text">Clear all scratchpad content?</div>
+          <div className="scratchpad-confirm-actions">
+            <button className="inline-btn delete-btn" onClick={confirmClear}>🗑️ Yes, Clear</button>
+            <button className="inline-btn save-btn" onClick={cancelClear}>Cancel</button>
+          </div>
+        </div>
+      )}
+
       <textarea
         ref={textareaRef}
         className="scratchpad-textarea"

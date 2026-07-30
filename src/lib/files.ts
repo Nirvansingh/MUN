@@ -60,13 +60,7 @@ export function getFilesByCommittee(files: MunFile[], committee: string): MunFil
   return files.filter(f => f.committee === committee || f.committee === 'General Guide');
 }
 
-export function getCountryFiles(files: MunFile[], countryName: string, committee: string): MunFile[] {
-  const cName = countryName.toLowerCase();
-  return files.filter(f => {
-    const fName = f.displayName.toLowerCase();
-    return f.isCountry && fName.includes(cName) && f.committee === committee;
-  });
-}
+// getCountryFiles moved to countries.ts to avoid fs import in client components
 
 export function getFileMap(files: MunFile[]): Map<string, MunFile> {
   const map = new Map<string, MunFile>();

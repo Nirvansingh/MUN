@@ -2,8 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { useApp } from '@/lib/AppContext';
-import { getFileIcon, getCountryFlag } from '@/lib/countries';
-import { getCountryFiles } from '@/lib/file-helpers';
+import { getFileIcon, getCountryFlag, getCountryFiles } from '@/lib/countries';
 
 export default function Dashboard() {
   const { files, myCountry, pinnedFiles, recentFiles, navigateTo, setSelectedCommittee } = useApp();

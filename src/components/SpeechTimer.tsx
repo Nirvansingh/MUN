@@ -21,6 +21,10 @@ export default function SpeechTimer() {
         audioCtxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
       }
       const ctx = audioCtxRef.current;
+      // Resume context if suspended (browser autoplay policy)
+      if (ctx.state === 'suspended') {
+        ctx.resume();
+      }
       const oscillator = ctx.createOscillator();
       const gain = ctx.createGain();
       oscillator.connect(gain);
@@ -70,11 +74,13 @@ export default function SpeechTimer() {
 
   const resumeTimer = useCallback(() => {
     setRunning(true);
+    const currentTimeLeft = timeLeft;
     startTimeRef.current = Date.now();
+    elapsedRef.current = totalSeconds - currentTimeLeft;
 
     intervalRef.current = setInterval(() => {
       const elapsed = Math.floor((Date.now() - startTimeRef.current) / 1000);
-      const remaining = Math.max(0, totalSeconds - elapsed);
+      const remaining = Math.max(0, totalSeconds - elapsedRef.current - elapsed);
       setTimeLeft(remaining);
 
       if (remaining <= 0) {
@@ -83,7 +89,7 @@ export default function SpeechTimer() {
         playBeep();
       }
     }, 100);
-  }, [totalSeconds, clearTimer, playBeep]);
+  }, [totalSeconds, timeLeft, clearTimer, playBeep]);
 
   const resetTimer = useCallback(() => {
     clearTimer();

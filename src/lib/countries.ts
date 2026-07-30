@@ -51,7 +51,7 @@ export function getFolderColorClass(name: string): string {
 export function parseCountryInfo(content: string): CountryInfo {
   const info: CountryInfo = {};
   const lines = content.split('\n');
-  for (let i = 0; i < Math.min(lines.length, 80); i++) {
+  for (let i = 0; i < lines.length; i++) {
     const l = lines[i].trim();
     if (l.startsWith('Official Name:')) info.officialName = l.replace('Official Name:', '').trim();
     if (l.startsWith('Capital:')) info.capital = l.replace('Capital:', '').trim();
@@ -61,12 +61,24 @@ export function parseCountryInfo(content: string): CountryInfo {
     if (l.startsWith('Importance to Committee:')) info.importance = l.replace('Importance to Committee:', '').trim();
     if (l.startsWith('UNSC Status:') || l.startsWith('P5 Member:'))
       info.unscStatus = l.replace(/^(UNSC Status:|P5 Member:)/, '').trim();
-    if (l.startsWith('Likely Allies:')) info.allies = l.replace('Likely Allies:', '').trim();
-    if (l.startsWith('Likely Opponents:')) info.opponents = l.replace('Likely Opponents:', '').trim();
-    if (l.startsWith('Likely Allies')) { const m = l.match(/:\s*(.+)/); if (m) info.allies = m[1].trim(); }
-    if (l.startsWith('Likely Opponents')) { const m = l.match(/:\s*(.+)/); if (m) info.opponents = m[1].trim(); }
+    if (l.startsWith('Likely Allies:')) {
+      const m = l.match(/^Likely Allies:\s*(.+)/);
+      if (m) info.allies = m[1].trim();
+    }
+    if (l.startsWith('Likely Opponents:')) {
+      const m = l.match(/^Likely Opponents?:\s*(.+)/);
+      if (m) info.opponents = m[1].trim();
+    }
   }
   return info;
+}
+
+export function getCountryFiles(files: MunFile[], countryName: string, committee: string): MunFile[] {
+  const cName = countryName.toLowerCase();
+  return files.filter(f => {
+    const fName = f.displayName.toLowerCase();
+    return f.isCountry && fName.includes(cName) && f.committee === committee;
+  });
 }
 
 export function getCountryCommittees(files: MunFile[], countryName: string): string[] {

@@ -33,7 +33,7 @@ function renderBattleCardRevision(file: MunFile, lines: string[]): string {
     'Hot Topics': [],
     'Current Affairs': [],
     'Resolutions': [],
-    'Resoltuion Ideas': [],
+    'Resolution Ideas': [],
   };
 
   let currentSection = '';
@@ -41,7 +41,7 @@ function renderBattleCardRevision(file: MunFile, lines: string[]): string {
     const t = line.trim();
     if (t.startsWith('GSL TALKING POINTS') || t.startsWith('GENERAL SPEAKER')) { currentSection = 'GSL'; continue; }
     if (t.startsWith('MODERATED CAUCUS')) { currentSection = 'Talking Points'; continue; }
-    if (t.startsWith('RESOLUTION IDEAS') || t.startsWith('Resoltuion Ideas')) { currentSection = 'Resolutions'; continue; }
+    if (t.toUpperCase().startsWith('RESOLUTION IDEAS')) { currentSection = 'Resolution Ideas'; continue; }
     if (t.startsWith('CURRENT AFFAIRS')) { currentSection = 'Current Affairs'; continue; }
     if (t.startsWith('STRENGTHS')) { currentSection = 'Strengths'; continue; }
     if (t.startsWith('WEAKNESSES')) { currentSection = 'Weaknesses'; continue; }
@@ -60,7 +60,7 @@ function renderBattleCardRevision(file: MunFile, lines: string[]): string {
   let html = '<div class="rv-section"><div class="rv-label">📋 Quick Revision</div>' +
     `<div class="rv-content" style="font-size:12px;color:var(--text-muted);">${file.displayName} · ${file.committee}</div></div>`;
 
-  const order = ['Hot Topics', 'Position', 'Strengths', 'Weaknesses', 'Current Affairs', 'GSL', 'Talking Points', 'Resolutions', 'Defence', 'Solutions', 'Statistics'];
+  const order = ['Hot Topics', 'Position', 'Strengths', 'Weaknesses', 'Current Affairs', 'GSL', 'Talking Points', 'Resolutions', 'Resolution Ideas', 'Defence', 'Solutions', 'Statistics'];
   order.forEach(key => {
     if (sections[key]?.length) {
       html += `<div class="rv-section"><div class="rv-label">${key}</div><div class="rv-content">`;

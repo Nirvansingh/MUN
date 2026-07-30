@@ -30,6 +30,7 @@ export default function Header() {
     setCurrentFile(null);
     setRevisionMode(false);
     setSearchQuery('');
+    setSelectedCommittee('all');
   };
 
   return (

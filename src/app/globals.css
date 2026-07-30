@@ -173,18 +173,24 @@ html, body {
 .sidebar {
     width: 280px;
     background-color: var(--bg-sidebar);
-    border-right: 1px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
     display: flex;
     flex-direction: column;
     user-select: none;
     flex-shrink: 0;
+    position: relative;
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* On desktop, hide sidebar when not open */
+[data-theme="dark"] .sidebar {
+    border-right-color: #3b82f6;
+}
+
+/* On desktop, sidebar is always visible */
 @media (min-width: 769px) {
-    .sidebar:not(.open) {
-        display: none;
+    .sidebar {
+        position: relative;
+        transform: none !important;
     }
 }
 
@@ -317,19 +323,6 @@ html, body {
     padding: 28px 36px;
 }
 
-/* File Text Viewer */
-.file-viewer {
-    font-family: var(--font-family);
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--text-primary);
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    max-width: 900px;
-    margin: 0 auto;
-    animation: fadeIn 0.2s ease-out;
-}
-
 /* --------------------------------------------------------------------------
    Scratchpad Inline Buttons (shared style formerly used by file-notes-btn)
    -------------------------------------------------------------------------- */
@@ -455,6 +448,37 @@ html, body {
 .scratchpad-textarea::placeholder {
     color: var(--text-muted);
     opacity: 0.5;
+}
+
+/* Scratchpad Clear Confirmation */
+.scratchpad-confirm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 16px;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.scratchpad-confirm-text {
+    font-size: 13px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.scratchpad-confirm-actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.scratchpad-confirm-actions .inline-btn {
+    font-size: 12px;
+    padding: 4px 10px;
 }
 
 /* Keyframe animation */
@@ -1429,7 +1453,7 @@ html, body {
         justify-content: center;
     }
 
-    /* Sidebar: fixed overlay on mobile */
+    /* Sidebar: fixed overlay on mobile (hidden off-screen by default) */
     .sidebar {
         position: fixed;
         top: 48px;
@@ -2458,11 +2482,6 @@ html, body {
     padding: 2px 6px;
     background: var(--bg-input);
     border-radius: 4px;
-}
-
-/* Login Overlay - hidden by default in Next.js version */
-.login-overlay {
-    display: none !important;
 }
 
 /* Header left section */

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, useRef, ReactNode } from 'react';
 import { MunFile, MyCountry } from './types';
 
 interface AppState {
@@ -205,21 +205,33 @@ export function AppProvider({ children, initialFiles }: { children: ReactNode; i
     }
   }, [historyIndex, historyStack, fileMap]);
 
+  // Refs to avoid stale closures in toggle callbacks
+  const sidebarVisibleRef = useRef(sidebarVisible);
+  sidebarVisibleRef.current = sidebarVisible;
+  const rightPanelVisibleRef = useRef(rightPanelVisible);
+  rightPanelVisibleRef.current = rightPanelVisible;
+
   const toggleSidebar = useCallback(() => {
     setSidebarVisible(prev => {
       const next = !prev;
-      localStorage.setItem('mun_hub_state', JSON.stringify({ sidebarVisible: next, rightPanelVisible }));
+      localStorage.setItem('mun_hub_state', JSON.stringify({
+        sidebarVisible: next,
+        rightPanelVisible: rightPanelVisibleRef.current,
+      }));
       return next;
     });
-  }, [rightPanelVisible]);
+  }, []);
 
   const toggleRightPanel = useCallback(() => {
     setRightPanelVisible(prev => {
       const next = !prev;
-      localStorage.setItem('mun_hub_state', JSON.stringify({ sidebarVisible, rightPanelVisible: next }));
+      localStorage.setItem('mun_hub_state', JSON.stringify({
+        sidebarVisible: sidebarVisibleRef.current,
+        rightPanelVisible: next,
+      }));
       return next;
     });
-  }, [sidebarVisible]);
+  }, []);
 
   const toggleTheme = useCallback(() => {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark');

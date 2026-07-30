@@ -16,10 +16,12 @@ import SpeechTimer from '@/components/SpeechTimer';
 import MunFact from '@/components/MunFact';
 import MyCountrySelector from '@/components/MyCountrySelector';
 import SearchResults from '@/components/SearchResults';
+import LoginOverlay from '@/components/LoginOverlay';
 
 export default function HomeClient({ initialFiles }: { initialFiles: MunFile[] }) {
   return (
     <AppProvider initialFiles={initialFiles}>
+      <LoginOverlay />
       <AppShell />
     </AppProvider>
   );

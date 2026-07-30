@@ -2,8 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/lib/AppContext';
-import { getCountryFlag, getCountryCommittees } from '@/lib/countries';
-import { getCountryFiles } from '@/lib/files';
+import { getCountryFlag } from '@/lib/countries';
 
 export default function MyCountrySelector() {
   const { files, myCountry, setMyCountry, navigateTo } = useApp();

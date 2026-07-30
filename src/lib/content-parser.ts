@@ -228,7 +228,6 @@ export function getSectionIcon(title: string): string {
   if (t.includes('foreign policy')) return '🌐';
   if (t.includes('hot topic')) return '🔥';
   if (t.includes('interesting fact')) return '💡';
-  if (t.includes('economy')) return '📊';
   return '📋';
 }
 

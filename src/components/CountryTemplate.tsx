@@ -4,6 +4,7 @@ import React from 'react';
 import { MunFile } from '@/lib/types';
 import { parseContent, getSectionIcon, getSectionColor, ParsedSection, SectionItem } from '@/lib/content-parser';
 import { getCountryFlag } from '@/lib/countries';
+import GslGenerator from './GslGenerator';
 
 export default function CountryTemplate({ file }: { file: MunFile }) {
   const parsed = parseContent(file.content, file.name, file.committee);
@@ -47,6 +48,9 @@ export default function CountryTemplate({ file }: { file: MunFile }) {
           <SectionCard key={idx} section={section} />
         ))}
       </div>
+
+      {/* ── GSL Generator ── */}
+      <GslGenerator file={file} committee={file.committee} />
     </div>
   );
 }
@@ -74,6 +78,9 @@ function SectionItemRow({ item }: { item: SectionItem }) {
   switch (item.type) {
     case 'text':
       return <p className="ct-text">{item.value}</p>;
+
+    case 'subheading':
+      return <div className="ct-subheading">{item.value}</div>;
 
     case 'bullet':
       return (

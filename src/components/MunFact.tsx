@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 
 const munFacts = [
   'The United Nations was founded on October 24, 1945, after World War II to prevent future conflicts.',
@@ -77,17 +77,28 @@ export default function MunFact() {
     setVisible(true);
   };
 
+  // Close with Esc (broadcast by the keyboard-shortcuts handler).
+  useEffect(() => {
+    const onEscape = () => setVisible(false);
+    window.addEventListener('mun-escape', onEscape);
+    return () => window.removeEventListener('mun-escape', onEscape);
+  }, []);
+
   return (
     <>
-      <div className="widget-fab widget-fab-tr" title="MUN Fact" onClick={openWidget}>
+      <div className="widget-fab widget-fab-tr" title="MUN Fact" aria-label="Open MUN fact"
+        role="button" tabIndex={0}
+        onClick={openWidget}
+        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') openWidget(); }}>
         💡 MUN Fact
       </div>
       {visible && (
         <div className="widget-overlay" onClick={() => setVisible(false)}>
-          <div className="widget-popup" onClick={e => e.stopPropagation()}>
+          <div className="widget-popup" role="dialog" aria-modal="true" aria-label="MUN fact"
+            onClick={e => e.stopPropagation()}>
             <div className="widget-popup-header">
               <span className="widget-popup-title">💡 MUN Fact</span>
-              <button className="widget-popup-close" onClick={() => setVisible(false)}>✕</button>
+              <button className="widget-popup-close" aria-label="Close MUN fact" onClick={() => setVisible(false)}>✕</button>
             </div>
             <div className="widget-popup-body">
               <p style={{ fontSize: '15px', lineHeight: 1.7, color: 'var(--text-primary)' }}>

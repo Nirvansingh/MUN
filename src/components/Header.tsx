@@ -10,8 +10,10 @@ export default function Header() {
     theme, toggleTheme, myCountry,
     toggleSidebar, rightPanelVisible, toggleRightPanel,
     navigateBack, navigateForward, canGoBack, canGoForward,
-    setCurrentFile, files, setRevisionMode, revisionMode, currentFile,
+    setCurrentFile, setRevisionMode, revisionMode, currentFile,
+    scratchpadContent,
   } = useApp();
+  const hasScratchpadNotes = scratchpadContent.trim().length > 0;
   const searchRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -39,10 +41,10 @@ export default function Header() {
         <button className="mobile-menu-btn" onClick={toggleSidebar} aria-label="Toggle sidebar">
           ☰
         </button>
-        <button className="nav-btn" onClick={navigateBack} disabled={!canGoBack} title="Back (Alt+←)">
+        <button className="nav-btn" onClick={navigateBack} disabled={!canGoBack} aria-label="Back" title="Back (Alt+←)">
           ◀
         </button>
-        <button className="nav-btn" onClick={navigateForward} disabled={!canGoForward} title="Forward (Alt+→)">
+        <button className="nav-btn" onClick={navigateForward} disabled={!canGoForward} aria-label="Forward" title="Forward (Alt+→)">
           ▶
         </button>
         <div className="brand" onClick={handleBrandClick} style={{ cursor: 'pointer' }}>
@@ -63,12 +65,14 @@ export default function Header() {
           <option value="UNSC">⚓ UNSC Mode</option>
         </select>
 
-        <button id="myCountryBtn" className="btn" title="Select your country"
+        <button id="myCountryBtn" className="btn" aria-label="Select your country" title="Select your country"
           onClick={() => window.dispatchEvent(new CustomEvent('open-my-country'))}>
           {myCountry ? `${getCountryFlag(myCountry.name + '.txt') || '🎯'} ${myCountry.name}` : '🎯 My Country'}
         </button>
 
-        <button className="btn scratchpad-toggle-btn" title="Open Scratchpad"
+        <button className={`btn scratchpad-toggle-btn${hasScratchpadNotes ? ' has-notes' : ''}`}
+          aria-label={hasScratchpadNotes ? 'Open scratchpad (has notes)' : 'Open scratchpad'}
+          title={hasScratchpadNotes ? 'Open Scratchpad (has notes)' : 'Open Scratchpad'}
           onClick={() => window.dispatchEvent(new CustomEvent('toggle-scratchpad'))}>
           📝
         </button>
@@ -83,18 +87,22 @@ export default function Header() {
           autoComplete="off"
         />
 
-        <button className="btn" onClick={toggleTheme}>
+        <button className="btn" onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          aria-pressed={theme === 'light'}>
           {theme === 'dark' ? '🌙 Dark Mode' : '☀️ Light Mode'}
         </button>
 
-        <button className="btn" title="Quick Revision Mode"
+        <button className="btn" title="Quick Revision Mode" aria-label="Toggle quick revision mode"
+          aria-pressed={revisionMode}
           onClick={() => {
             if (currentFile) setRevisionMode(!revisionMode);
           }}>
           {revisionMode ? '📄 Full View' : '📋 Revise'}
         </button>
 
-        <button className="btn" title="Toggle right panel" onClick={toggleRightPanel}>
+        <button className="btn" title="Toggle right panel" aria-label="Toggle right panel"
+          aria-pressed={rightPanelVisible} onClick={toggleRightPanel}>
           {rightPanelVisible ? '📋 Panel' : '📋'}
         </button>
       </div>

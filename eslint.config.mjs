@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Legacy pre-migration static app (kept for reference, not part of the Next app).
+    "Archive/**",
   ]),
 ]);
 

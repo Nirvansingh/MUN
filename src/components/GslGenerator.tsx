@@ -10,16 +10,18 @@ export default function GslGenerator({ file, committee }: { file: MunFile; commi
   const [selectedLength, setSelectedLength] = useState<SpeechLength>('90');
   const [generating, setGenerating] = useState(false);
   const [seed, setSeed] = useState(0);
+  const [copied, setCopied] = useState(false);
   const outputRef = useRef<HTMLDivElement>(null);
 
   const agenda = getCommitteeAgenda(committee);
 
-  const handleGenerate = useCallback(() => {
+  const handleGenerate = useCallback((seedOverride?: number) => {
     setGenerating(true);
+    const effectiveSeed = seedOverride ?? seed;
     // Use setTimeout to let the UI update before the potentially blocking generation
     setTimeout(() => {
       try {
-        const result = generateGslSpeech(file, committee, agenda, selectedLength, seed);
+        const result = generateGslSpeech(file, committee, agenda, selectedLength, effectiveSeed);
         setOutput(result);
         setExpanded(true);
       } catch (err) {
@@ -31,20 +33,14 @@ export default function GslGenerator({ file, committee }: { file: MunFile; commi
   }, [file, committee, agenda, selectedLength, seed]);
 
   const handleRegenerate = useCallback(() => {
-    setSeed(prev => prev + 1);
-  }, []);
+    const nextSeed = seed + 1;
+    setSeed(nextSeed);
+    handleGenerate(nextSeed);
+  }, [seed, handleGenerate]);
 
   const handleLengthChange = useCallback((len: SpeechLength) => {
     setSelectedLength(len);
   }, []);
-
-  // Auto-generate when length or seed changes (if already generated)
-  useEffect(() => {
-    if (output && (seed > 0 || output)) {
-      handleGenerate();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [seed]);
 
   // Scroll to output when generated
   useEffect(() => {
@@ -112,7 +108,7 @@ export default function GslGenerator({ file, committee }: { file: MunFile; commi
           <div className="gsl-actions">
             <button
               className="gsl-generate-btn"
-              onClick={handleGenerate}
+              onClick={() => handleGenerate()}
               disabled={generating}
             >
               {generating ? '⏳ Generating...' : output ? '🔄 Regenerate' : '🎤 Generate Speech'}
@@ -133,12 +129,18 @@ export default function GslGenerator({ file, committee }: { file: MunFile; commi
                   <span className="gsl-speech-card-title">🎤 GSL Speech — {selectedLength} Seconds</span>
                   <button
                     className="gsl-copy-btn"
-                    onClick={() => {
-                      navigator.clipboard.writeText(output.speech);
+                    onClick={async () => {
+                      try {
+                        await navigator.clipboard.writeText(output.speech);
+                        setCopied(true);
+                        setTimeout(() => setCopied(false), 1500);
+                      } catch {
+                        // Clipboard unavailable
+                      }
                     }}
                     title="Copy to clipboard"
                   >
-                    📋 Copy
+                    {copied ? '✅ Copied!' : '📋 Copy'}
                   </button>
                 </div>
                 <div className="gsl-speech-content">

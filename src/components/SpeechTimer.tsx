@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useEffect } from 'react';
 
 export default function SpeechTimer() {
   const [visible, setVisible] = useState(false);
@@ -18,7 +18,9 @@ export default function SpeechTimer() {
   const playBeep = useCallback(() => {
     try {
       if (!audioCtxRef.current) {
-        audioCtxRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const Ctx = window.AudioContext ??
+          (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+        audioCtxRef.current = new Ctx();
       }
       const ctx = audioCtxRef.current;
       // Resume context if suspended (browser autoplay policy)
@@ -119,10 +121,24 @@ export default function SpeechTimer() {
   const seconds = timeLeft % 60;
   const progress = totalSeconds > 0 ? ((totalSeconds - timeLeft) / totalSeconds) * 439.8 : 0;
 
+  // Allow Esc (broadcast by the keyboard-shortcuts handler) to close the widget.
+  useEffect(() => {
+    const onEscape = () => {
+      clearTimer();
+      setRunning(false);
+      setVisible(false);
+    };
+    window.addEventListener('mun-escape', onEscape);
+    return () => window.removeEventListener('mun-escape', onEscape);
+  }, [clearTimer]);
+
   if (!visible) {
     return (
       <div className="widget-fab widget-fab-br" title="Speech Timer"
-        onClick={() => setVisible(true)}>
+        aria-label="Open speech timer"
+        role="button" tabIndex={0}
+        onClick={() => setVisible(true)}
+        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') setVisible(true); }}>
         ⏱
       </div>
     );
@@ -131,10 +147,12 @@ export default function SpeechTimer() {
   return (
     <>
       <div className="widget-overlay" onClick={() => { clearTimer(); setVisible(false); }}>
-        <div className="widget-popup timer-popup" onClick={e => e.stopPropagation()}>
+        <div className="widget-popup timer-popup" role="dialog" aria-modal="true" aria-label="Speech timer"
+          onClick={e => e.stopPropagation()}>
           <div className="widget-popup-header">
             <span className="widget-popup-title">⏱ Speech Timer</span>
-            <button className="widget-popup-close" onClick={() => { clearTimer(); setVisible(false); }}>✕</button>
+              <button className="widget-popup-close" aria-label="Close speech timer"
+                onClick={() => { clearTimer(); setVisible(false); }}>✕</button>
           </div>
           <div className="widget-popup-body">
             <div className="timer-display-wrap">

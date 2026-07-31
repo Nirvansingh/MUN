@@ -1,34 +1,47 @@
 'use client';
 
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { MunFile } from '@/lib/types';
 import { AppProvider, useApp } from '@/lib/AppContext';
 import Header from '@/components/Header';
 import Sidebar from '@/components/Sidebar';
 import RightPanel from '@/components/RightPanel';
-import SpeechTimer from '@/components/SpeechTimer';
-import MunFact from '@/components/MunFact';
-import MyCountrySelector from '@/components/MyCountrySelector';
 import FileViewer from '@/components/FileViewer';
 import CountryCard from '@/components/CountryCard';
 import RelatedContent from '@/components/RelatedContent';
+import RevisionView from '@/components/RevisionView';
 import Scratchpad from '@/components/Scratchpad';
 import SearchResults from '@/components/SearchResults';
+import LoginOverlay from '@/components/LoginOverlay';
+import KeyboardShortcuts from '@/components/KeyboardShortcuts';
+import { useSwipeGesture } from '@/lib/use-swipe';
+
+const Widgets = dynamic(() => import('@/components/Widgets'), { ssr: false, loading: () => null });
 
 export default function SearchClient({ fileCount, initialFiles }: { fileCount: number; initialFiles: MunFile[] }) {
   return (
     <AppProvider initialFiles={initialFiles}>
+      <LoginOverlay />
       <Inner fileCount={fileCount} />
     </AppProvider>
   );
 }
 
 function Inner({ fileCount }: { fileCount: number }) {
-  const { searchQuery, currentFile, revisionMode } = useApp();
+  const { searchQuery, currentFile, revisionMode, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel } = useApp();
+
+  useSwipeGesture({
+    onSwipeRightEdge: () => { if (!sidebarVisible) toggleSidebar(); },
+    onSwipeLeftEdge: () => { if (!rightPanelVisible) toggleRightPanel(); },
+    onSwipeLeft: () => { if (rightPanelVisible) toggleRightPanel(); },
+    onSwipeRight: () => { if (sidebarVisible) toggleSidebar(); },
+  });
 
   return (
     <>
       <Header />
+      <KeyboardShortcuts />
       <div className="container">
         <Sidebar />
         <main className="main-content">
@@ -42,7 +55,7 @@ function Inner({ fileCount }: { fileCount: number }) {
               <>
                 {currentFile.isCountry && <CountryCard file={currentFile} />}
                 {revisionMode ? (
-                  <div>Revision mode</div>
+                  <RevisionView file={currentFile} />
                 ) : (
                   <FileViewer file={currentFile} />
                 )}
@@ -60,9 +73,7 @@ function Inner({ fileCount }: { fileCount: number }) {
         </main>
         <RightPanel />
       </div>
-      <SpeechTimer />
-      <MunFact />
-      <MyCountrySelector />
+      <Widgets />
     </>
   );
 }

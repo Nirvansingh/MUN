@@ -5,7 +5,12 @@ import { useApp } from '@/lib/AppContext';
 import { getFolderIcon, getFolderColorClass, getFileIcon } from '@/lib/countries';
 import { MunFile } from '@/lib/types';
 
-function buildTree(files: MunFile[], selectedCommittee: string, searchQuery: string) {
+interface FileTreeNode {
+  _files?: MunFile[];
+  [folder: string]: FileTreeNode | MunFile[] | undefined;
+}
+
+function buildTree(files: MunFile[], selectedCommittee: string, searchQuery: string): FileTreeNode {
   const filtered = files.filter(f => {
     const matchesCommittee = selectedCommittee === 'all' || f.committee === selectedCommittee || f.committee === 'General Guide';
     return matchesCommittee;
@@ -15,18 +20,24 @@ function buildTree(files: MunFile[], selectedCommittee: string, searchQuery: str
     ? filtered.filter(f => f.name.toLowerCase().includes(searchQuery.toLowerCase()))
     : filtered;
 
-  const treeObj: Record<string, any> = {};
+  const treeObj: FileTreeNode = {};
   treeFiles.forEach(file => {
     const parts = file.path.split('/');
-    let current = treeObj;
+    let current: FileTreeNode = treeObj;
     for (let i = 0; i < parts.length; i++) {
       const part = parts[i];
       if (i === parts.length - 1) {
         if (!current._files) current._files = [];
         current._files.push(file);
       } else {
-        if (!current[part]) current[part] = {};
-        current = current[part];
+        const existing = current[part];
+        if (existing && !Array.isArray(existing)) {
+          current = existing;
+        } else {
+          const node: FileTreeNode = {};
+          current[part] = node;
+          current = node;
+        }
       }
     }
   });
@@ -39,7 +50,7 @@ function TreeNode({
   currentFilePath,
   onFileClick,
 }: {
-  obj: Record<string, any>;
+  obj: FileTreeNode;
   parentPath: string;
   currentFilePath: string | null;
   onFileClick: (path: string) => void;
@@ -68,7 +79,7 @@ function TreeNode({
             </div>
             <div className="folder-children">
               <TreeNode
-                obj={obj[folderName]}
+                obj={obj[folderName] as FileTreeNode}
                 parentPath={fullPath}
                 currentFilePath={currentFilePath}
                 onFileClick={onFileClick}
@@ -80,8 +91,9 @@ function TreeNode({
       {obj._files?.map((file: MunFile) => {
         const isActive = currentFilePath === file.path;
         const icon = getFileIcon(file.name, file);
+        // Strip an optional "Committee | " prefix but keep multi-word country names intact.
         const displayText = file.isCountry
-          ? file.displayName.replace(/^.*?\s/, '')
+          ? file.displayName.replace(/^[^|]*\|\s*/, '').trim()
           : file.displayName;
         return (
           <div
@@ -105,12 +117,11 @@ export default function Sidebar() {
     [files, selectedCommittee, searchQuery]
   );
 
-  // Close sidebar on file click on mobile
+  // Close the sidebar after selecting a file on mobile
   const handleFileClick = (path: string) => {
     navigateTo(path);
-    // On mobile, close sidebar after selecting a file
-    if (window.innerWidth <= 768) {
-      // We'll let the CSS handle visibility via sidebarVisible toggle
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      toggleSidebar();
     }
   };
 

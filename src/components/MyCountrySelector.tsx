@@ -5,7 +5,7 @@ import { useApp } from '@/lib/AppContext';
 import { getCountryFlag } from '@/lib/countries';
 
 export default function MyCountrySelector() {
-  const { files, myCountry, setMyCountry, navigateTo } = useApp();
+  const { files, setMyCountry, navigateTo } = useApp();
   const [visible, setVisible] = useState(false);
   const [search, setSearch] = useState('');
   const [selectedName, setSelectedName] = useState<string | null>(null);
@@ -15,6 +15,13 @@ export default function MyCountrySelector() {
     const handler = () => setVisible(v => !v);
     window.addEventListener('open-my-country', handler);
     return () => window.removeEventListener('open-my-country', handler);
+  }, []);
+
+  // Close with Esc (broadcast by the keyboard-shortcuts handler).
+  useEffect(() => {
+    const onEscape = () => setVisible(false);
+    window.addEventListener('mun-escape', onEscape);
+    return () => window.removeEventListener('mun-escape', onEscape);
   }, []);
 
   const countries = useMemo(() => {
@@ -67,10 +74,11 @@ export default function MyCountrySelector() {
 
   return (
     <div className="widget-overlay" onClick={() => setVisible(false)}>
-      <div className="widget-popup country-popup" onClick={e => e.stopPropagation()}>
+      <div className="widget-popup country-popup" role="dialog" aria-modal="true" aria-label="Select your country"
+        onClick={e => e.stopPropagation()}>
         <div className="widget-popup-header">
           <span className="widget-popup-title">🎯 Select Your Country</span>
-          <button className="widget-popup-close" onClick={() => setVisible(false)}>✕</button>
+          <button className="widget-popup-close" aria-label="Close country selector" onClick={() => setVisible(false)}>✕</button>
         </div>
         <div className="widget-popup-body">
           <div className="country-select-search">

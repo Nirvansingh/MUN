@@ -1,7 +1,8 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, useCallback, useRef, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback, ReactNode } from 'react';
 import { MunFile, MyCountry } from './types';
+import { usePersistentState } from './use-persistent-state';
 
 interface AppState {
   files: MunFile[];
@@ -56,14 +57,10 @@ const STORAGE_KEYS = {
   SCRATCHPAD: 'mun_scratchpad',
 };
 
-function loadFromStorage<T>(key: string, fallback: T): T {
-  if (typeof window === 'undefined') return fallback;
-  try {
-    const val = localStorage.getItem(key);
-    return val ? JSON.parse(val) : fallback;
-  } catch {
-    return fallback;
-  }
+/** Shared layout-state (sidebar + right panel) persisted under one key. */
+interface HubState {
+  sidebarVisible?: boolean;
+  rightPanelVisible?: boolean;
 }
 
 export function AppProvider({ children, initialFiles }: { children: ReactNode; initialFiles: MunFile[] }) {
@@ -78,95 +75,40 @@ export function AppProvider({ children, initialFiles }: { children: ReactNode; i
   const [selectedCommittee, setSelectedCommittee] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [revisionMode, setRevisionMode] = useState(false);
-  const [sidebarVisible, setSidebarVisible] = useState(true);
-  const [rightPanelVisible, setRightPanelVisible] = useState(true);
-  const [myCountry, setMyCountryState] = useState<MyCountry | null>(null);
-  const [pinnedFiles, setPinnedFiles] = useState<string[]>([]);
-  const [recentFiles, setRecentFiles] = useState<string[]>([]);
-  const [folderStates, setFolderStates] = useState<Record<string, boolean>>({});
   const [historyStack, setHistoryStack] = useState<string[]>([]);
   const [historyIndex, setHistoryIndex] = useState(-1);
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
-  const [scratchpadContent, setScratchpadContent] = useState('');
 
-  // Load from localStorage on mount
+  // ── Persisted state (localStorage via usePersistentState) ──
+  const [theme, setTheme] = usePersistentState<'dark' | 'light'>(STORAGE_KEYS.THEME, 'dark');
+  const [myCountry, setMyCountryState] = usePersistentState<MyCountry | null>(STORAGE_KEYS.MY_COUNTRY, null);
+  const [pinnedFiles, setPinnedFiles] = usePersistentState<string[]>(STORAGE_KEYS.PINNED, []);
+  const [recentFiles, setRecentFiles] = usePersistentState<string[]>(STORAGE_KEYS.RECENT, []);
+  const [folderStates, setFolderStates] = usePersistentState<Record<string, boolean>>(STORAGE_KEYS.FOLDER, {});
+  const [scratchpadContent, setScratchpadContent] = usePersistentState<string>(STORAGE_KEYS.SCRATCHPAD, '');
+  const [hubState, setHubState] = usePersistentState<HubState>(STORAGE_KEYS.STATE, {});
+
+  const sidebarVisible = hubState.sidebarVisible ?? true;
+  const rightPanelVisible = hubState.rightPanelVisible ?? true;
+
+  // Keep the theme attribute on <html> in sync (external-system sync — allowed in effects).
   useEffect(() => {
-    const savedTheme = loadFromStorage<'dark' | 'light'>('mun_theme', 'dark');
-    setTheme(savedTheme);
-    document.documentElement.setAttribute('data-theme', savedTheme);
-
-    setMyCountryState(loadFromStorage<MyCountry | null>('mun_my_country', null));
-    setPinnedFiles(loadFromStorage<string[]>('mun_pinned_files', []));
-    setRecentFiles(loadFromStorage<string[]>('mun_recent_files', []));
-    setFolderStates(loadFromStorage<Record<string, boolean>>('mun_folder_states', {}));
-    setScratchpadContent(loadFromStorage<string>('mun_scratchpad', ''));
-
-    const saved = loadFromStorage<{ sidebarVisible?: boolean; rightPanelVisible?: boolean }>('mun_hub_state', {});
-    if (saved.sidebarVisible !== undefined) setSidebarVisible(saved.sidebarVisible);
-    if (saved.rightPanelVisible !== undefined) setRightPanelVisible(saved.rightPanelVisible);
-  }, []);
-
-  // Persist theme
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('mun_theme', theme);
-      document.documentElement.setAttribute('data-theme', theme);
-    }
+    document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
-  // Persist myCountry
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('mun_my_country', JSON.stringify(myCountry));
-    }
-  }, [myCountry]);
-
-  // Persist pinned
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('mun_pinned_files', JSON.stringify(pinnedFiles));
-    }
-  }, [pinnedFiles]);
-
-  // Persist folder states
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('mun_folder_states', JSON.stringify(folderStates));
-    }
-  }, [folderStates]);
-
-  // Persist scratchpad
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('mun_scratchpad', scratchpadContent);
-    }
-  }, [scratchpadContent]);
-
   const addToRecent = useCallback((path: string) => {
-    setRecentFiles(prev => {
-      const updated = [path, ...prev.filter(p => p !== path)].slice(0, 20);
-      if (typeof window !== 'undefined') {
-        localStorage.setItem('mun_recent_files', JSON.stringify(updated));
-      }
-      return updated;
-    });
-  }, []);
+    setRecentFiles(prev => [path, ...prev.filter(p => p !== path)].slice(0, 20));
+  }, [setRecentFiles]);
 
   const setMyCountry = useCallback((country: MyCountry | null) => {
     setMyCountryState(country);
-    localStorage.setItem('mun_my_country', JSON.stringify(country));
-  }, []);
+  }, [setMyCountryState]);
 
   const togglePin = useCallback((path: string) => {
     setPinnedFiles(prev => {
       const isPinned = prev.includes(path);
-      const updated = isPinned
-        ? prev.filter(p => p !== path)
-        : [path, ...prev];
-      localStorage.setItem('mun_pinned_files', JSON.stringify(updated));
-      return updated;
+      return isPinned ? prev.filter(p => p !== path) : [path, ...prev];
     });
-  }, []);
+  }, [setPinnedFiles]);
 
   const isPinned = useCallback((path: string) => {
     return pinnedFiles.includes(path);
@@ -205,44 +147,21 @@ export function AppProvider({ children, initialFiles }: { children: ReactNode; i
     }
   }, [historyIndex, historyStack, fileMap]);
 
-  // Refs to avoid stale closures in toggle callbacks
-  const sidebarVisibleRef = useRef(sidebarVisible);
-  sidebarVisibleRef.current = sidebarVisible;
-  const rightPanelVisibleRef = useRef(rightPanelVisible);
-  rightPanelVisibleRef.current = rightPanelVisible;
-
   const toggleSidebar = useCallback(() => {
-    setSidebarVisible(prev => {
-      const next = !prev;
-      localStorage.setItem('mun_hub_state', JSON.stringify({
-        sidebarVisible: next,
-        rightPanelVisible: rightPanelVisibleRef.current,
-      }));
-      return next;
-    });
-  }, []);
+    setHubState(prev => ({ ...prev, sidebarVisible: !(prev.sidebarVisible ?? true) }));
+  }, [setHubState]);
 
   const toggleRightPanel = useCallback(() => {
-    setRightPanelVisible(prev => {
-      const next = !prev;
-      localStorage.setItem('mun_hub_state', JSON.stringify({
-        sidebarVisible: sidebarVisibleRef.current,
-        rightPanelVisible: next,
-      }));
-      return next;
-    });
-  }, []);
+    setHubState(prev => ({ ...prev, rightPanelVisible: !(prev.rightPanelVisible ?? true) }));
+  }, [setHubState]);
 
   const toggleTheme = useCallback(() => {
-    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
-  }, []);
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+  }, [setTheme]);
 
   const toggleFolderState = useCallback((path: string) => {
-    setFolderStates(prev => ({
-      ...prev,
-      [path]: !(prev[path] ?? true),
-    }));
-  }, []);
+    setFolderStates(prev => ({ ...prev, [path]: !(prev[path] ?? true) }));
+  }, [setFolderStates]);
 
   const getFolderState = useCallback((path: string) => {
     return folderStates[path] ?? true;

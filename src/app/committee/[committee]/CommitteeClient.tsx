@@ -1,21 +1,24 @@
 'use client';
 
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { MunFile } from '@/lib/types';
 import { AppProvider, useApp } from '@/lib/AppContext';
 import Header from '@/components/Header';
 import Sidebar from '@/components/Sidebar';
 import RightPanel from '@/components/RightPanel';
-import SpeechTimer from '@/components/SpeechTimer';
-import MunFact from '@/components/MunFact';
-import MyCountrySelector from '@/components/MyCountrySelector';
 import FileViewer from '@/components/FileViewer';
 import CountryCard from '@/components/CountryCard';
 import RelatedContent from '@/components/RelatedContent';
 import RevisionView from '@/components/RevisionView';
 import Scratchpad from '@/components/Scratchpad';
 import SearchResults from '@/components/SearchResults';
+import LoginOverlay from '@/components/LoginOverlay';
+import KeyboardShortcuts from '@/components/KeyboardShortcuts';
 import { parseCountryInfo, getCountryFlag } from '@/lib/countries';
+import { useSwipeGesture } from '@/lib/use-swipe';
+
+const Widgets = dynamic(() => import('@/components/Widgets'), { ssr: false, loading: () => null });
 
 interface CountryData {
   path: string;
@@ -38,10 +41,11 @@ export default function CommitteeClient({
   committeeName: string;
   countries: CountryData[];
   otherFiles: OtherFileData[];
-  initialFiles: any[];
+  initialFiles: MunFile[];
 }) {
   return (
     <AppProvider initialFiles={initialFiles}>
+      <LoginOverlay />
       <Inner committeeName={committeeName} countries={countries} otherFiles={otherFiles} />
     </AppProvider>
   );
@@ -52,12 +56,20 @@ function Inner({ committeeName, countries, otherFiles }: {
   countries: CountryData[];
   otherFiles: OtherFileData[];
 }) {
-  const { currentFile, revisionMode, searchQuery, navigateTo } = useApp();
+  const { currentFile, revisionMode, searchQuery, navigateTo, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel } = useApp();
   const committeeIcon = committeeName === 'UNHRC' ? '🕊️' : '⚓';
+
+  useSwipeGesture({
+    onSwipeRightEdge: () => { if (!sidebarVisible) toggleSidebar(); },
+    onSwipeLeftEdge: () => { if (!rightPanelVisible) toggleRightPanel(); },
+    onSwipeLeft: () => { if (rightPanelVisible) toggleRightPanel(); },
+    onSwipeRight: () => { if (sidebarVisible) toggleSidebar(); },
+  });
 
   return (
     <>
       <Header />
+      <KeyboardShortcuts />
       <div className="container">
         <Sidebar />
         <main className="main-content">
@@ -125,9 +137,7 @@ function Inner({ committeeName, countries, otherFiles }: {
         </main>
         <RightPanel />
       </div>
-      <SpeechTimer />
-      <MunFact />
-      <MyCountrySelector />
+      <Widgets />
     </>
   );
 }

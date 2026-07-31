@@ -9,7 +9,6 @@ export function performSearch(files: MunFile[], query: string): SearchResult[] {
 
   files.forEach(file => {
     if (file.content.length > 500000) return;
-    const contentLower = file.content.toLowerCase();
     const nameLower = file.name.toLowerCase();
 
     let relevance = 0;

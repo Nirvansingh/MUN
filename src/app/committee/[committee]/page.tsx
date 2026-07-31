@@ -1,6 +1,19 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { getAllFiles } from '@/lib/files';
 import CommitteeClient from './CommitteeClient';
+
+export async function generateMetadata({ params }: { params: Promise<{ committee: string }> }): Promise<Metadata> {
+  const { committee } = await params;
+  const committeeName = committee.toUpperCase();
+  if (!['UNHRC', 'UNSC'].includes(committeeName)) {
+    return { title: 'Page Not Found' };
+  }
+  return {
+    title: `${committeeName} Committee`,
+    description: `Research materials, country guides, and resources for the ${committeeName} committee at MUN Research Hub.`,
+  };
+}
 
 export async function generateStaticParams() {
   const committees = ['UNHRC', 'UNSC'];

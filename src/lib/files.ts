@@ -55,20 +55,3 @@ export function getAllFiles(): MunFile[] {
   files.sort((a, b) => a.path.localeCompare(b.path));
   return files;
 }
-
-export function getFileByPath(files: MunFile[], filePath: string): MunFile | undefined {
-  return files.find(f => f.path === filePath);
-}
-
-export function getFilesByCommittee(files: MunFile[], committee: string): MunFile[] {
-  if (committee === 'all') return files;
-  return files.filter(f => f.committee === committee || f.committee === 'General Guide');
-}
-
-// getCountryFiles moved to countries.ts to avoid fs import in client components
-
-export function getFileMap(files: MunFile[]): Map<string, MunFile> {
-  const map = new Map<string, MunFile>();
-  files.forEach(f => map.set(f.path, f));
-  return map;
-}

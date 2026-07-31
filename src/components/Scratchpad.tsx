@@ -18,10 +18,20 @@ export default function Scratchpad() {
     return () => window.removeEventListener('toggle-scratchpad', handler);
   }, []);
 
-  // Sync local content when persisted scratchpadContent loads/changes from context
+  // Close with Esc (broadcast by the keyboard-shortcuts handler).
   useEffect(() => {
+    const onEscape = () => setVisible(false);
+    window.addEventListener('mun-escape', onEscape);
+    return () => window.removeEventListener('mun-escape', onEscape);
+  }, []);
+
+  // Keep the textarea in sync when persisted scratchpadContent loads/changes
+  // (e.g. after hydration or from another tab) without setState-in-effect.
+  const [prevScratchpad, setPrevScratchpad] = useState(scratchpadContent);
+  if (scratchpadContent !== prevScratchpad) {
+    setPrevScratchpad(scratchpadContent);
     setLocalContent(scratchpadContent);
-  }, [scratchpadContent]);
+  }
 
   // Clean up save timeout on unmount
   useEffect(() => {

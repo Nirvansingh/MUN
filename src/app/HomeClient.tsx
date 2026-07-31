@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { MunFile } from '@/lib/types';
 import { AppProvider, useApp } from '@/lib/AppContext';
 import Header from '@/components/Header';
@@ -12,12 +13,12 @@ import RelatedContent from '@/components/RelatedContent';
 import RevisionView from '@/components/RevisionView';
 import RightPanel from '@/components/RightPanel';
 import Scratchpad from '@/components/Scratchpad';
-import SpeechTimer from '@/components/SpeechTimer';
-import MunFact from '@/components/MunFact';
-import MyCountrySelector from '@/components/MyCountrySelector';
 import SearchResults from '@/components/SearchResults';
 import LoginOverlay from '@/components/LoginOverlay';
+import KeyboardShortcuts from '@/components/KeyboardShortcuts';
 import { useSwipeGesture } from '@/lib/use-swipe';
+
+const Widgets = dynamic(() => import('@/components/Widgets'), { ssr: false, loading: () => null });
 
 export default function HomeClient({ initialFiles }: { initialFiles: MunFile[] }) {
   return (
@@ -42,6 +43,7 @@ function AppShell() {
   return (
     <>
       <Header />
+      <KeyboardShortcuts />
       <div className="container">
         <Sidebar />
         <main className="main-content">
@@ -77,9 +79,7 @@ function AppShell() {
         </main>
         <RightPanel />
       </div>
-      <SpeechTimer />
-      <MunFact />
-      <MyCountrySelector />
+      <Widgets />
     </>
   );
 }

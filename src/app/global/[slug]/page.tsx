@@ -1,6 +1,27 @@
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import { getAllFiles } from '@/lib/files';
 import GlobalClient from './GlobalClient';
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const files = getAllFiles();
+  const slugName = slug.replace(/-/g, ' ');
+  const exists = files.some(f =>
+    f.committee === 'Global Reference' &&
+    f.name.replace(/\.txt$/i, '').toLowerCase() === slugName
+  );
+  if (!exists) {
+    return { title: 'Page Not Found' };
+  }
+  const title = slug
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
+  return {
+    title: `${title} — Global Reference`,
+    description: `Global reference research profile for ${title}.`,
+  };
+}
 
 export async function generateStaticParams() {
   const files = getAllFiles();

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { usePersistentState } from '@/lib/use-persistent-state';
 
 const CORRECT_PASSWORD = '$Waheguru1';
 
@@ -8,7 +9,8 @@ export default function LoginOverlay() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const [unlocked, setUnlocked] = useState(false);
+  // Unlock is persisted so the gate applies consistently across all routes/tabs.
+  const [unlocked, setUnlocked] = usePersistentState('mun_unlocked', false);
   const [shaking, setShaking] = useState(false);
 
   const handleUnlock = useCallback(() => {
@@ -21,7 +23,7 @@ export default function LoginOverlay() {
       setTimeout(() => setShaking(false), 350);
       setPassword('');
     }
-  }, [password]);
+  }, [password, setUnlocked]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
@@ -55,7 +57,7 @@ export default function LoginOverlay() {
 
   return (
     <div className={`login-overlay ${unlocked ? 'hidden' : ''}`}>
-      <div className={`login-card ${shaking ? 'shake' : ''}`}>
+      <div className={`login-card ${shaking ? 'shake' : ''}`} role="dialog" aria-modal="true" aria-label="Enter password to access MUN Research Hub">
         <div className="login-icon">🌐</div>
         <div className="login-title">MUN Research Hub</div>
         <div className="login-subtitle">Enter password to access</div>

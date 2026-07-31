@@ -202,7 +202,7 @@ const hookTemplates: ((data: CountryData) => string)[] = [
     return `Every day, millions of people go online unaware that their data is being collected, their movements tracked, and their private lives commodified. This is the human rights crisis of our generation.`;
   },
   // Short impactful
-  (d) => {
+  () => {
     return `The right to privacy is not a privilege — it is a fundamental human right, enshrined in Article 12 of the Universal Declaration. Yet today, that right is under assault as never before.`;
   },
   // Country-specific hook
@@ -320,19 +320,6 @@ const lengthConfig: Record<SpeechLength, { paragraphs: number; factsCount: numbe
 function pick<T>(arr: T[], seed?: number): T {
   const idx = seed !== undefined ? Math.abs(seed) % arr.length : Math.floor(Math.random() * arr.length);
   return arr[idx];
-}
-
-function shuffleArray<T>(arr: T[], seed?: number): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = seed !== undefined ? (Math.abs(seed + i) % (i + 1)) : Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 function estimateTime(text: string): string {

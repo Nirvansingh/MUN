@@ -39,7 +39,7 @@
   /* ── Lines & borders ── */
   --border-color: #262626;
   --border-strong: #333333;
-  --grid-line: rgba(255, 255, 255, 0.028);
+  --grid-line: rgba(255, 255, 255, 0.09);
   --hairline: rgba(255, 255, 255, 0.06);
 
   /* ── Accent (monochrome; white in dark, black in light) ── */
@@ -94,7 +94,7 @@
 
   --border-color: #DDDDDD;
   --border-strong: #C6C6C6;
-  --grid-line: rgba(17, 17, 17, 0.03);
+  --grid-line: rgba(0, 0, 0, 0.09);
   --hairline: rgba(17, 17, 17, 0.07);
 
   --accent-blue: #111111;
@@ -606,12 +606,18 @@ textarea {
   min-width: 0;
   overflow-y: auto;
   background-color: var(--bg-main);
-  /* faint architectural vertical grid */
-  background-image: repeating-linear-gradient(
-    to right,
-    var(--grid-line) 0 1px,
-    transparent 1px 96px
-  );
+  /* architectural grid — theme-contrasting lines: black in light, white in dark */
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      var(--grid-line) 0 1px,
+      transparent 1px 96px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--grid-line) 0 1px,
+      transparent 1px 96px
+    );
   transition: background-color 0.35s ease;
 }
 

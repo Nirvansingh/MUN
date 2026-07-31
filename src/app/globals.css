@@ -40,6 +40,7 @@
   --border-color: #262626;
   --border-strong: #333333;
   --grid-line: rgba(255, 255, 255, 0.09);
+  --grid-line-width: 1px;
   --hairline: rgba(255, 255, 255, 0.06);
 
   /* ── Accent (monochrome; white in dark, black in light) ── */
@@ -95,6 +96,7 @@
   --border-color: #DDDDDD;
   --border-strong: #C6C6C6;
   --grid-line: rgba(0, 0, 0, 0.09);
+  --grid-line-width: 2px;
   --hairline: rgba(17, 17, 17, 0.07);
 
   --accent-blue: #111111;
@@ -610,13 +612,13 @@ textarea {
   background-image:
     repeating-linear-gradient(
       to right,
-      var(--grid-line) 0 1px,
-      transparent 1px 96px
+      var(--grid-line) 0 var(--grid-line-width),
+      transparent var(--grid-line-width) 96px
     ),
     repeating-linear-gradient(
       to bottom,
-      var(--grid-line) 0 1px,
-      transparent 1px 96px
+      var(--grid-line) 0 var(--grid-line-width),
+      transparent var(--grid-line-width) 96px
     );
   transition: background-color 0.35s ease;
 }

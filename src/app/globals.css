@@ -1606,11 +1606,11 @@ html, body {
         padding: 6px 6px;
     }
     .content-body {
-        padding: 10px;
+        padding: 14px;
     }
     .file-viewer {
-        font-size: 13px;
-        line-height: 1.6;
+        font-size: 13.5px;
+        line-height: 1.7;
     }
     .sidebar {
         width: 100%;
@@ -1681,31 +1681,34 @@ html, body {
     }
     /* Country template responsive overrides */
     .ct-section-body {
-        padding: 10px 14px;
+        padding: 12px 16px;
     }
     .ct-section-header {
-        padding: 10px 14px;
+        padding: 12px 16px;
     }
     .ct-title {
-        font-size: 20px;
+        font-size: 21px;
     }
     .ct-flag {
         font-size: 32px;
     }
     .ct-pro,
     .ct-con {
-        font-size: 12.5px;
-        padding: 3px 8px;
+        font-size: 13.5px;
+        padding: 4px 9px;
     }
     .ct-bullet {
-        font-size: 12.5px;
+        font-size: 13.5px;
     }
     .ct-kv {
-        font-size: 12.5px;
+        font-size: 13.5px;
     }
     .ct-kv-label {
-        font-size: 11px;
+        font-size: 11.5px;
         min-width: 100px;
+    }
+    .ct-numbered {
+        font-size: 13.5px;
     }
     .widget-fab-tr {
         top: 50px;
@@ -1798,10 +1801,10 @@ html, body {
         padding: 3px 4px;
     }
     .content-body {
-        padding: 8px;
+        padding: 12px;
     }
     .file-viewer {
-        font-size: 12px;
+        font-size: 13px;
     }
     .dashboard-card-title {
         font-size: 10px;
@@ -2654,7 +2657,7 @@ html, body {
 }
 
 .ct-section-title {
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 700;
     color: var(--text-heading);
     text-transform: uppercase;
@@ -2672,14 +2675,14 @@ html, body {
 /* ── Text ── */
 .ct-text {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.75;
     color: var(--text-primary);
     margin: 0;
 }
 
 /* ── Subheading ── */
 .ct-subheading {
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 700;
     color: var(--accent-blue);
     padding: 8px 0 2px;
@@ -2693,8 +2696,8 @@ html, body {
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.65;
     color: var(--text-primary);
     padding: 2px 0;
 }
@@ -2712,8 +2715,8 @@ html, body {
     display: flex;
     align-items: flex-start;
     gap: 8px;
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.65;
     padding: 4px 10px;
     border-radius: 6px;
 }
@@ -2740,7 +2743,7 @@ html, body {
     display: flex;
     align-items: baseline;
     gap: 8px;
-    font-size: 13.5px;
+    font-size: 14px;
     line-height: 1.7;
     padding: 2px 0;
 }
@@ -2757,6 +2760,50 @@ html, body {
 
 .ct-kv-value {
     color: var(--text-primary);
+}
+
+/* ── Numbered clause ── */
+.ct-numbered {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-primary);
+    padding: 7px 10px;
+    border-left: 2px solid rgba(139, 92, 246, 0.4);
+    background: rgba(139, 92, 246, 0.05);
+    border-radius: 0 6px 6px 0;
+    margin: 2px 0;
+}
+
+.ct-num {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 22px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, #8b5cf6, #6366f1);
+    border-radius: 6px;
+    padding: 0 6px;
+    margin-top: 1px;
+}
+
+/* Document template (Resolutions / Resources / Speeches) uses an icon instead of a flag */
+.document-template .ct-flag {
+    font-size: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-color);
 }
 
 /* ── Stars ── */

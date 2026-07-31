@@ -25,11 +25,16 @@ export function getAllFiles(): MunFile[] {
           (parts[0] === 'unhrc' ? 'UNHRC' : parts[0] === 'unsc' ? 'UNSC' : parts[0] === 'global' ? 'Global Reference' : parts[0] === 'basics' ? 'General Guide' : parts[0]) 
           : 'General Guide';
 
-        const isCountry = parts.length >= 3 && parts[1] === 'Countries';
+        const isCountry =
+          (parts.length >= 3 && parts[1] === 'Countries') ||
+          (parts[0] === 'global' && parts.length === 2);
         const category = isCountry ? 'Country' :
           parts[1] === 'Speeches' ? 'Speech' :
           parts[1] === 'Resolutions' ? 'Resolution' :
           parts[1] === 'Resources' ? 'Resource' :
+          parts[1] === 'Countries' ? 'Country' :
+          parts[0] === 'basics' ? 'Guide' :
+          /handbook|agenda/i.test(parts[1]) ? 'Agenda' :
           parts.length >= 2 ? parts[1] : 'Guide';
 
         files.push({

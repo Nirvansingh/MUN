@@ -31,6 +31,7 @@ export type SectionItem =
   | { type: 'text'; value: string }
   | { type: 'subheading'; value: string }
   | { type: 'bullet'; value: string }
+  | { type: 'numbered'; value: string; index: number }
   | { type: 'pro'; value: string }
   | { type: 'con'; value: string }
   | { type: 'kv'; label: string; value: string }
@@ -73,6 +74,39 @@ function borderType(line: string): 'eq' | 'dash' | null {
   return null;
 }
 
+/**
+ * Normalize a section title for display: strip leading numbering,
+ * bullet markers, and emoji/icon prefixes (e.g. "⚡ QUICK REFERENCE").
+ */
+function normalizeTitle(title: string): string {
+  let t = title.trim();
+  t = t.replace(/^\d+[\.\)]\s*/, '');
+  t = t.replace(/^[•\-–]\s*/, '');
+  // Strip leading emoji / symbols (ranges for common emoji + dingbats)
+  t = t.replace(/^[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{2190}-\u{21FF}\u{2E3A}\u{25A0}-\u{25FF}\s]+/u, '');
+  return t.trim();
+}
+
+/**
+ * A line that could be a section title. Battle-card section titles are short,
+ * mostly-uppercase, and not content-like (bullets, KV pairs, numbered/letter items).
+ */
+function isTitleCandidate(line: string): boolean {
+  if (line.length < 2 || line.length > 80) return false;
+  if (isBorder(line)) return false;
+  if (/^[•\-\u2022✓✗]/.test(line)) return false;       // bullet / pro / con
+  if (/^http/i.test(line)) return false;                // links
+  if (/^\d+[\.\)]\s/.test(line)) return false;          // numbered items ("1. Title")
+  if (/^[A-Z]\.\s/.test(line)) return false;            // letter items ("A. Title")
+  // Strip a leading emoji/icon prefix (e.g. "⚡ QUICK REFERENCE") before the uppercase check
+  const bare = line.replace(/^[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}]{1,2}\s*/u, '');
+  // Require the title to be mostly uppercase (battle-card headers are all-caps)
+  const letters = bare.replace(/[^A-Za-z]/g, '');
+  if (letters.length < 3) return false;
+  const upper = bare.replace(/[^A-Z]/g, '').length;
+  return upper / letters.length >= 0.8;
+}
+
 // ── Parser ──
 
 export function parseContent(content: string, fileName: string, committee: string): ParsedContent {
@@ -81,31 +115,42 @@ export function parseContent(content: string, fileName: string, committee: strin
   let currentSection: ParsedSection | null = null;
   let title = fileName.replace(/\.txt$/i, '').replace(/\.md$/i, '');
 
-  // Parser state
-  let lastBorderType: 'eq' | 'dash' | null = null;
-  let expectingTitle = false;
-
+  // ── Pass 1: identify section titles ──
+  // A real title is a short, mostly-uppercase line sandwiched between two borders
+  // (preceded by a border AND followed by a border, skipping blanks). This prevents
+  // content lines that follow a section's closing border from being eaten as titles.
+  const titleLevel: ('major' | 'sub' | null)[] = new Array(lines.length).fill(null);
   for (let i = 0; i < lines.length; i++) {
-    const raw = lines[i];
-    const line = raw.trim();
+    const candidate = lines[i].trim();
+    if (!candidate || isBorder(candidate) || !isTitleCandidate(candidate)) continue;
 
-    // ── Detect border lines ──
-    if (isBorder(line)) {
-      const bt = borderType(line);
-      // If we were expecting a title but got another border, cancel
-      if (expectingTitle) {
-        expectingTitle = false;
-      }
-      lastBorderType = bt;
-      // After a border, the next meaningful line could be a title
-      expectingTitle = true;
+    // Previous non-blank line must be a border (the opening border)
+    let p = i - 1;
+    while (p >= 0 && !lines[p].trim()) p--;
+    if (p < 0 || !isBorder(lines[p].trim())) continue;
+
+    // Next non-blank line must be a border (the closing border or dash underline)
+    let q = i + 1;
+    while (q < lines.length && !lines[q].trim()) q++;
+    if (q >= lines.length || !isBorder(lines[q].trim())) continue;
+
+    titleLevel[i] = borderType(lines[p].trim()) === 'eq' ? 'major' : 'sub';
+  }
+
+  // ── Pass 2: walk the lines and build sections/items ──
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+
+    // A detected section title
+    if (titleLevel[i]) {
+      currentSection = { level: titleLevel[i] as 'major' | 'sub', title: normalizeTitle(line), items: [] };
+      sections.push(currentSection);
       continue;
     }
 
-    // ── Empty lines ──
+    // Blank line → divider between items
     if (!line) {
-      // If we were expecting a title and hit a blank, keep expecting
-      if (!expectingTitle && currentSection && currentSection.items.length > 0) {
+      if (currentSection && currentSection.items.length > 0) {
         const last = currentSection.items[currentSection.items.length - 1];
         if (last.type !== 'divider') {
           currentSection.items.push({ type: 'divider' });
@@ -114,36 +159,30 @@ export function parseContent(content: string, fileName: string, committee: strin
       continue;
     }
 
-    // ── If expecting a title after a border ──
-    if (expectingTitle) {
-      expectingTitle = false;
-      // This line is a title – start a new section
-      const level = lastBorderType === 'eq' ? 'major' : 'sub';
-      currentSection = { level, title: line, items: [] };
-      sections.push(currentSection);
-      lastBorderType = null;
+    // Standalone border (not part of a title pair) → ignore
+    if (isBorder(line)) continue;
 
-      // After a sub-section title, there's often a short underline of dashes.
-      // Peek ahead: if the NEXT line is a dash border, skip it.
-      if (i + 1 < lines.length) {
-        const nextLine = lines[i + 1].trim();
-        if (isDashBorder(nextLine) && nextLine.length < line.length + 10) {
-          i++; // skip the underline
-        }
-      }
-      continue;
-    }
-
-    // ── If no section started yet, skip (preamble) ──
+    // ── Preamble (before any section starts) ──
     if (!currentSection) {
-      // But capture the first non-empty, non-border line as the document title
-      if (line.length > 2 && !line.startsWith('http')) {
+      // Numbered headers before any border start a section (e.g. General Guide files)
+      const preNum = line.match(/^(\d+)[\.\)]\s+(.+)/);
+      if (preNum && preNum[2].length >= 3 && preNum[2].length <= 70 && !line.includes(':')) {
+        currentSection = { level: 'sub', title: normalizeTitle(line), items: [] };
+        sections.push(currentSection);
+      } else if (line.length > 2 && !line.startsWith('http')) {
+        // Capture the first non-empty, non-border line as the document title
         title = line.replace(/[\u{1F1E6}-\u{1F1FF}]{2,4}/gu, '').replace(/\s*\|.*$/, '').trim() || title;
       }
       continue;
     }
 
     // ── Content items ──
+
+    // Icon-prefixed short label → subheading (e.g. "⚡ QUICK REFERENCE")
+    if (/^[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}]{1,2}\s*[A-Za-z]/u.test(line) && line.length <= 40) {
+      currentSection.items.push({ type: 'subheading', value: normalizeTitle(line) });
+      continue;
+    }
 
     // Star rating
     const starMatch = line.match(/^(Importance to Committee|Rating|Score):?\s*(⭐+)/);
@@ -172,7 +211,12 @@ export function parseContent(content: string, fileName: string, committee: strin
     if (line.startsWith('•') || /^-\s/.test(line)) {
       const text = line.replace(/^[•\-]\s*/, '').trim();
       if (text) {
-        currentSection.items.push({ type: 'bullet', value: text });
+        // Short label-only bullet → subheading (e.g. "• Impact:", "• Debate Use:")
+        if (text.length <= 24 && /^[A-Za-z ]+:$/.test(text)) {
+          currentSection.items.push({ type: 'subheading', value: text.replace(/:$/, '').trim() });
+        } else {
+          currentSection.items.push({ type: 'bullet', value: text });
+        }
       }
       continue;
     }
@@ -192,12 +236,28 @@ export function parseContent(content: string, fileName: string, committee: strin
       continue;
     }
 
-    // Numbered section header: "1. Title", "2. Title", etc. — starts a new sub-section
-    const numberedMatch = line.match(/^(\d+)\.\s+(.+)/);
-    if (numberedMatch && numberedMatch[2].length > 3 && !line.includes(':') && !line.startsWith('http')) {
-      // Start a new sub-section
-      currentSection = { level: 'sub', title: numberedMatch[2].trim(), items: [] };
-      sections.push(currentSection);
+    // Letter sub-heading: "A. Title", "B. Title", etc.
+    const letterMatch = line.match(/^([A-Z])\.\s+(.+)/);
+    if (letterMatch && letterMatch[2].length >= 3 && letterMatch[2].length <= 60 && !line.includes(':')) {
+      currentSection.items.push({ type: 'subheading', value: line });
+      continue;
+    }
+
+    // Numbered line: short title → new sub-section; long clause → numbered item
+    const numberedMatch = line.match(/^(\d+)[\.\)]\s+(.+)/);
+    if (numberedMatch) {
+      const text = numberedMatch[2].trim();
+      const isHeader =
+        text.length >= 3 && text.length <= 70 &&
+        !line.includes(':') && !text.endsWith(';');
+      if (isHeader) {
+        // Start a new sub-section
+        currentSection = { level: 'sub', title: normalizeTitle(line), items: [] };
+        sections.push(currentSection);
+      } else if (text.length > 3) {
+        // Long formal clause → render as a numbered item
+        currentSection.items.push({ type: 'numbered', value: text, index: parseInt(numberedMatch[1], 10) });
+      }
       continue;
     }
 
@@ -261,6 +321,18 @@ export function getSectionIcon(title: string): string {
   if (t.includes('foreign policy')) return '🌐';
   if (t.includes('hot topic')) return '🔥';
   if (t.includes('interesting fact')) return '💡';
+  if (t.includes('quick reference')) return '⚡';
+  if (t.includes('preambl')) return '📜';
+  if (t.includes('operative')) return '📜';
+  if (t.includes('case study')) return '📚';
+  if (t.includes('template')) return '📝';
+  if (t.includes('key concept') || t.includes('definition')) return '📖';
+  if (t.includes('sub-issue') || t.includes('sub issue')) return '🗂️';
+  if (t.includes('bloc alignment') || t.includes('bloc')) return '🤝';
+  if (t.includes('topic overview') || t.includes('agenda overview')) return '🗺️';
+  if (t.includes('official source') || t.includes('international law')) return '📚';
+  if (t.includes('treaty') || t.includes('convention')) return '⚖️';
+  if (t.includes('statistic') || t.includes('definition')) return '📊';
   return '📋';
 }
 
@@ -300,5 +372,15 @@ export function getSectionColor(title: string): string {
   if (t.includes('geography')) return 'section-blue';
   if (t.includes('foreign policy')) return 'section-purple';
   if (t.includes('interesting')) return 'section-yellow';
+  if (t.includes('quick reference')) return 'section-yellow';
+  if (t.includes('preambl') || t.includes('operative')) return 'section-purple';
+  if (t.includes('case study')) return 'section-blue';
+  if (t.includes('template')) return 'section-purple';
+  if (t.includes('key concept') || t.includes('definition')) return 'section-blue';
+  if (t.includes('sub-issue') || t.includes('sub issue')) return 'section-orange';
+  if (t.includes('bloc')) return 'section-orange';
+  if (t.includes('topic overview')) return 'section-blue';
+  if (t.includes('official source') || t.includes('international law')) return 'section-default';
+  if (t.includes('treaty') || t.includes('convention')) return 'section-blue';
   return 'section-default';
 }

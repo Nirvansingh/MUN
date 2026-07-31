@@ -3,38 +3,34 @@
 import React from 'react';
 import { MunFile } from '@/lib/types';
 import { parseContent } from '@/lib/content-parser';
-import { getCountryFlag } from '@/lib/countries';
+import { getFileIcon } from '@/lib/countries';
 import { SectionCard } from './SectionView';
-import GslGenerator from './GslGenerator';
 
-export default function CountryTemplate({ file }: { file: MunFile }) {
+/**
+ * Generic structured viewer for non-country documents (Resolutions,
+ * Resources, Speeches, Agenda Handbooks). Parses the battle-card markup
+ * and renders it as styled cards, falling back to raw text when the file
+ * has no structured sections.
+ */
+export default function DocumentTemplate({ file }: { file: MunFile }) {
   const parsed = parseContent(file.content, file.name, file.committee);
-  const flag = getCountryFlag(file.name) || parsed.flag || '🌍';
+  const icon = getFileIcon(file.name, file) || '📄';
 
-  // Clean display name
-  const displayName = file.displayName
-    .replace(/^[^|]*\|/, '')
-    .replace(/\.txt$/i, '')
-    .trim() || file.displayName;
+  const nonEmptySections = parsed.sections.filter(s => s.items.length > 0);
 
-  // Filter out empty sections and the redundant "COUNTRY-SPECIFIC" parent section
-  const nonEmptySections = parsed.sections.filter(s =>
-    s.items.length > 0 && !s.title.includes('COUNTRY-SPECIFIC')
-  );
-
-  // If no sections parsed at all, fall back to raw content
+  // No structured sections — show raw content
   if (nonEmptySections.length === 0) {
     return <pre className="file-viewer">{file.content}</pre>;
   }
 
   return (
-    <div className="country-template">
+    <div className="country-template document-template">
       {/* ── Header ── */}
       <div className="ct-header">
         <div className="ct-header-main">
-          <span className="ct-flag">{flag}</span>
+          <span className="ct-flag">{icon}</span>
           <div className="ct-header-info">
-            <h1 className="ct-title">{displayName}</h1>
+            <h1 className="ct-title">{parsed.title}</h1>
             <div className="ct-header-meta">
               <span className={`ct-committee-badge committee-${file.committee.toLowerCase().replace(/\s+/g, '-')}`}>
                 {file.committee}
@@ -51,9 +47,6 @@ export default function CountryTemplate({ file }: { file: MunFile }) {
           <SectionCard key={idx} section={section} />
         ))}
       </div>
-
-      {/* ── GSL Generator ── */}
-      <GslGenerator file={file} committee={file.committee} />
     </div>
   );
 }

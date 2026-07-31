@@ -1405,9 +1405,10 @@ html, body {
     display: none;
 }
 
-.mobile-overlay.active {
-    display: block;
-}
+/* NOTE: .mobile-overlay.active must only ever be shown inside media queries
+   (sidebar backdrop ≤768px, right-panel backdrop ≤1024px). Do NOT add a global
+   .mobile-overlay.active { display: block } here — it would overlay the whole
+   app on desktop and block all clicks. See @media rules below. */
 
 /* Tablet and below */
 @media (max-width: 1024px) {

@@ -96,14 +96,21 @@ export function getCountryCommittees(files: MunFile[], countryName: string): str
 export function extractOutline(content: string): { level: number; text: string }[] {
   const lines = content.split('\n');
   const outline: { level: number; text: string }[] = [];
-  for (const line of lines) {
-    const t = line.trim();
-    if (t.startsWith('===') && t.length > 10) {
-      const title = t.replace(/=/g, '').trim();
-      if (title) outline.push({ level: 0, text: title });
-    } else if (t.startsWith('---') && t.length > 10) {
-      const title = t.replace(/-/g, '').trim();
-      if (title) outline.push({ level: 1, text: title });
+  const isBorder = (s: string) => /^[=-]{3,}$/.test(s.trim());
+  for (let i = 0; i < lines.length; i++) {
+    const t = lines[i].trim();
+    if (!isBorder(t)) continue;
+    const level = t.startsWith('=') ? 0 : 1;
+    // Next non-blank line is the candidate section title.
+    let j = i + 1;
+    while (j < lines.length && !lines[j].trim()) j++;
+    const title = lines[j]?.trim() ?? '';
+    // A real title is sandwiched between two borders: the line immediately
+    // after it must also be a border. (Section content lines are followed by
+    // blanks, so they are never mistaken for titles.)
+    const nextAfterTitle = lines[j + 1]?.trim() ?? '';
+    if (title && isBorder(nextAfterTitle)) {
+      outline.push({ level, text: title.slice(0, 80) });
     }
   }
   return outline.slice(0, 30);

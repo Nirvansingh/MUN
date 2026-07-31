@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { AppProvider, useApp } from '@/lib/AppContext';
 import Header from '@/components/Header';
@@ -32,12 +32,15 @@ function Inner({ fileData }: { fileData: MunFile }) {
   const { currentFile, setCurrentFile, searchQuery, revisionMode, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel } = useApp();
 
   // On the global route the page itself IS the current file. Seed the context
-  // once so revision mode, history, and RelatedContent work on first load too.
+  // once (after mount) so revision mode, history, and RelatedContent work on
+  // first load too. Rendered via `activeFile` fallback, so no visual change.
   const [seeded, setSeeded] = useState(false);
-  if (!seeded && currentFile === null) {
-    setSeeded(true);
-    setCurrentFile(fileData);
-  }
+  useEffect(() => {
+    if (!seeded && currentFile === null) {
+      setSeeded(true);
+      setCurrentFile(fileData);
+    }
+  }, [seeded, currentFile, fileData, setCurrentFile]);
   const activeFile = currentFile || fileData;
 
   useSwipeGesture({

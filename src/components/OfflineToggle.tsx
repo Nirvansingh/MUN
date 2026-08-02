@@ -5,7 +5,7 @@ import { usePersistentState } from "@/lib/use-persistent-state";
 
 const SW_URL = "/sw";
 const OFFLINE_KEY = "mun_offline";
-const CACHE_NAME = "mun-offline-v1";
+const CACHE_NAME = "mun-offline-v3";
 
 type OfflineStatus = "idle" | "enabling" | "ready" | "unsupported" | "error";
 

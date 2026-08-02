@@ -24,25 +24,65 @@ function buildRouteList(): string[] {
 }
 
 const SW_SOURCE = `/* MUN Research Hub service worker — generated at build time. */
-const CACHE_VERSION = "mun-offline-v1";
+const CACHE_VERSION = "mun-offline-v3";
 const PRECACHE_ROUTES = __PRECACHE_ROUTES__;
+
+// Pull every Next.js static asset URL (JS/CSS/media chunks) out of a
+// pre-rendered HTML document, so the service worker can cache the files the
+// app needs to boot (the document itself is not enough).
+function collectAssets(html) {
+  const assets = [];
+  const marker = "/_next/static/";
+  let start = html.indexOf(marker);
+  while (start !== -1) {
+    let end = start;
+    while (end < html.length) {
+      const ch = html.charAt(end);
+      // Stop at quotes/tags or any control/space char (code <= 32 covers
+      // space, tab, newline, CR). charCodeAt keeps this template-literal
+      // safe (no backslash escapes in the generated SW).
+      if (ch === '"' || ch === "'" || ch === "<" || ch === ">" || ch.charCodeAt(0) <= 32) break;
+      end++;
+    }
+    if (end > start) assets.push(html.slice(start, end));
+    start = html.indexOf(marker, end);
+  }
+  return assets;
+}
 
 async function precacheAll() {
   const cache = await caches.open(CACHE_VERSION);
+  const assetUrls = new Set();
   await Promise.allSettled(
     PRECACHE_ROUTES.map(async (url) => {
-      // Full HTML page.
-      await cache.add(url).catch(() => {});
-      // RSC payload so client-side navigation also works offline.
-      const rscReq = new Request(url, { headers: { RSC: "1" } });
+      // Full HTML page, and collect the JS/CSS chunks it references so the
+      // app can boot offline (cache.add only stores the document itself, not
+      // its subresources — without these the page hangs on the loading state).
+      // NOTE: we intentionally do NOT precache RSC flight payloads here —
+      // the app has no <Link>/useRouter navigation (pure client-state file
+      // navigation), and storing RSC under the same URL key would overwrite
+      // the HTML document (breaking offline reloads).
       try {
-        const res = await fetch(rscReq);
-        if (res && res.ok) await cache.put(rscReq, res.clone());
+        const res = await fetch(url);
+        if (res && res.ok) {
+          await cache.put(url, res.clone());
+          const html = await res.text();
+          collectAssets(html).forEach((a) => assetUrls.add(a));
+        }
       } catch {
         /* ignore */
       }
     })
   );
+  // Cache every static asset referenced across all pages.
+  await Promise.allSettled([...assetUrls].map(async (asset) => {
+    try {
+      const res = await fetch(asset);
+      if (res && res.ok) await cache.put(asset, res);
+    } catch {
+      /* ignore */
+    }
+  }));
   const count = (await cache.keys()).length;
   self.clients.matchAll().then((clients) =>
     clients.forEach((client) => client.postMessage({ type: "MUN_PRECACHE_DONE", count }))

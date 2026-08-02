@@ -3,6 +3,7 @@
 import React, { useRef, useEffect } from 'react';
 import { useApp } from '@/lib/AppContext';
 import { getCountryFlag } from '@/lib/countries';
+import OfflineToggle from '@/components/OfflineToggle';
 
 export default function Header() {
   const {
@@ -92,6 +93,8 @@ export default function Header() {
           aria-pressed={theme === 'light'}>
           {theme === 'dark' ? '🌙 Dark Mode' : '☀️ Light Mode'}
         </button>
+
+        <OfflineToggle />
 
         <button className="btn" title="Quick Revision Mode" aria-label="Toggle quick revision mode"
           aria-pressed={revisionMode}

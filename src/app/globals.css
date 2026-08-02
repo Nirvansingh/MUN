@@ -410,6 +410,54 @@ textarea {
   cursor: not-allowed;
 }
 
+/* Offline / PWA toggle button */
+.offline-btn {
+  position: relative;
+}
+
+.offline-btn .offline-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+  transition: background var(--transition-smooth);
+}
+
+.offline-btn.offline-on .offline-dot {
+  background: var(--success);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--success) 22%, transparent);
+}
+
+.offline-btn.offline-on {
+  color: var(--text-heading);
+  border-color: color-mix(in srgb, var(--success) 45%, var(--border-color));
+}
+
+.offline-btn.offline-live .offline-dot {
+  animation: offline-pulse 1.6s ease-in-out infinite;
+}
+
+.offline-btn .offline-status {
+  color: var(--success);
+  font-weight: 700;
+}
+
+@keyframes offline-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+@media (max-width: 480px) {
+  .offline-btn {
+    padding: 0 9px;
+    font-size: 11.5px;
+  }
+  .offline-btn .offline-dot {
+    display: none;
+  }
+}
+
 .scratchpad-toggle-btn {
   height: 32px;
   padding: 0 12px;

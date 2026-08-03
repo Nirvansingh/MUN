@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { usePersistentState } from '@/lib/use-persistent-state';
 
 const CORRECT_PASSWORD = '$Waheguru1';
 
@@ -9,21 +8,22 @@ export default function LoginOverlay() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  // Unlock is persisted so the gate applies consistently across all routes/tabs.
-  const [unlocked, setUnlocked] = usePersistentState('mun_unlocked', false);
+  const [unlocked, setUnlocked] = useState(false);
   const [shaking, setShaking] = useState(false);
 
   const handleUnlock = useCallback(() => {
     if (password === CORRECT_PASSWORD) {
       setUnlocked(true);
       setError('');
+      setPassword('');
+      setShowPassword(false);
     } else {
       setError('Incorrect password. Try again.');
       setShaking(true);
       setTimeout(() => setShaking(false), 350);
       setPassword('');
     }
-  }, [password, setUnlocked]);
+  }, [password]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {

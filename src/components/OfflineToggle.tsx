@@ -113,8 +113,13 @@ export default function OfflineToggle() {
   }
 
   // Mark mounted after hydration so `supported` becomes true (see above).
+  // Deferring the update avoids a synchronous state change during the effect.
   useEffect(() => {
-    setMounted(true);
+    const timeoutId = window.setTimeout(() => {
+      setMounted(true);
+    }, 0);
+
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   // On mount: restore persisted preference (auto re-register + precache).

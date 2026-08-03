@@ -13,9 +13,9 @@ Why?
 • National AI Strategy 2031 — explicit goal to become global AI hub
 • G42 & TII (Falcon open-source LLM) — serious AI research & compute
 • PDPL (Federal Decree-Law 45/2021) — first federal data privacy law
-• "Falcon Eye" — one of the world's most advanced AI surveillance systems
-• Pegasus spyware procurement — documented HR abuses by researchers
-• World's highest internet penetration (~100%) with heavy filtering
+• Falcon Eye is Abu Dhabi's citywide smart surveillance network that integrates CCTV cameras, facial recognition, and traffic monitoring to improve public safety and law enforcement.
+• Allegations involving surveillance of activists, journalists, or dissidents should be discussed separately under Pegasus spyware or targeted digital surveillance, not Falcon Eye.
+• Nearly universal internet penetration (approximately 99%) with heavy filtering
 • Global financial & logistics hub — data flows at stake in every debate
 
 Hot Topics
@@ -43,7 +43,7 @@ Tech Sector: Among the most ambitious globally — G42, TII, MBZUAI, Smart Dubai
 OFFICIAL POSITION ON AGENDA
 ---------------------------
 • Position as the world's leading AI hub — innovation-first governance
-• Supports ethical, human-centric AI — co-led UNESCO AI ethics work
+• Supports ethical, human-centric AI — the UAE was an early supporter of UNESCO's Recommendation on the Ethics of Artificial Intelligence and has actively participated in international discussions on ethical AI governance.
 • PDPL protects citizen data while allowing legitimate state security access
 • National security & counter-terrorism justify surveillance measures
 • Prefers multi-stakeholder, non-binding frameworks over rigid mandates
@@ -81,11 +81,11 @@ STRENGTHS (PROS)
 
 WEAKNESSES (CONS)
 -----------------
-✗ "Falcon Eye" AI surveillance linked to profiling of dissidents
-✗ Pegasus spyware procurement — documented targeting of journalists
+✗ Falcon Eye surveillance raises privacy concerns over the scope of facial-recognition and smart-city monitoring.
+✗ Pegasus spyware allegations involving journalists and activists remain a major human-rights concern.
 ✗ No fully independent federal data protection authority
 ✗ Broad state security exemptions in PDPL reduce its effectiveness
-✗ VPN use criminalized — restriction on secure communication
+✗ VPN use is legal in the UAE. However, under Federal Decree-Law No. 34 of 2021 on Combating Rumours and Cybercrimes, using a VPN to commit or conceal a crime—such as accessing illegal content or bypassing restrictions for unlawful purposes—is a criminal offence.
 ✗ Heavy internet filtering & state-controlled media
 ✗ Migrant workers (~90% of population) lack data protections
 ✗ Facial & iris recognition deployed at borders without specific legal framework
@@ -111,7 +111,7 @@ Q1. How does the UAE reconcile "Falcon Eye" mass surveillance with the right to 
 Q2. Why did the UAE purchase Pegasus spyware and what oversight governs its use?
 Q3. Who independently audits the UAE's AI surveillance systems?
 Q4. How does the PDPL protect residents when the government retains broad exemptions?
-Q5. Why does the UAE criminalize VPN use and restrict encrypted communication?
+Q5. How does the UAE apply cybercrime law to VPN use in cases involving unlawful activity?
 Q6. How are migrant workers' data protected under the kafala system?
 
 ---------------------------------------------------------------
@@ -257,7 +257,7 @@ Seeks to become a global leader in AI under the National AI Strategy 2031. Empha
 
 4. AI Governance
 - AI regulation: Sector-based oversight; AATC sets national direction; free zones (DIFC/ADGM) operate complementary regimes.
-- AI ethics: Active in UNESCO AI ethics — co-led the adoption of the UNESCO Recommendation on the Ethics of AI.
+- AI ethics: The UAE was an early supporter of UNESCO's Recommendation on the Ethics of Artificial Intelligence and has actively participated in international discussions on ethical AI governance.
 - Government oversight: Highly centralized under Abu Dhabi leadership and AATC.
 
 5. Data Privacy
@@ -272,7 +272,7 @@ Seeks to become a global leader in AI under the National AI Strategy 2031. Empha
 - Internet monitoring: State filters content and restricts VoIP and VPN services under cybercrime law.
 - Government surveillance: Operated by security agencies with broad executive authority.
 - Public justification: Essential for public safety, counter-terrorism and border security.
-- International criticism: Documented use of Pegasus spyware against journalists and activists; concerns over Falcon Eye profiling.
+- International criticism: Allegations involving surveillance of activists, journalists, or dissidents should be discussed separately under Pegasus spyware or targeted digital surveillance, not Falcon Eye.
 
 7. AI in Public Services
 - Education: MBZUAI graduate programs, digital learning platforms, AI olympiads.
@@ -293,11 +293,11 @@ Seeks to become a global leader in AI under the National AI Strategy 2031. Empha
 - Cyber threats: State-sponsored espionage, ransomware and attacks on critical infrastructure.
 
 10. Major Technology Companies
-G42, Technology Innovation Institute (TII), e& (Etisalat), du, DarkMatter (defunct/contested), Core42, Falcon (TII), Cerebras (partnership).
+G42, Technology Innovation Institute (TII), e& (Etisalat), du, DarkMatter — a company that has faced significant international controversy regarding cyber operations and allegations involving former employees, Core42, Falcon (TII), Cerebras (partnership).
 
 11. International Cooperation
-- UN: Active in UNGA and UNHRC discussions; co-led UNESCO AI ethics work.
-- UNESCO: Among the first states to endorse the Recommendation on the Ethics of AI.
+- UN: Active in UNGA and UNHRC discussions; an early supporter of UNESCO's Recommendation on the Ethics of Artificial Intelligence.
+- UNESCO: An early supporter of UNESCO's Recommendation on the Ethics of Artificial Intelligence.
 - OECD: Non-member; participates in international AI dialogues.
 - Bilateral agreements: Major AI and compute partnerships (Microsoft, Cerebras, OpenAI-adjacent deals via G42).
 - Regional initiatives: Champions AI and digital economy tracks within the Arab League and GCC.
@@ -375,11 +375,11 @@ The UAE was the first country to appoint a Minister of AI (2017) and hosts the w
 - TII's Falcon — leading open-source frontier-class LLM.
 - G42 — sovereign AI powerhouse with Microsoft/Cerebras partnerships.
 - PDPL (Federal Decree-Law 45/2021) in force since 2022.
-- "Falcon Eye" — advanced national AI surveillance system.
-- ~100% internet penetration with heavy state filtering.
-- VPN use restricted under federal cybercrime law.
+- Falcon Eye is Abu Dhabi's citywide smart surveillance network that integrates CCTV cameras, facial recognition, and traffic monitoring to improve public safety and law enforcement.
+- Nearly universal internet penetration (approximately 99%) with heavy state filtering.
+- VPN use is legal in the UAE. However, under Federal Decree-Law No. 34 of 2021 on Combating Rumours and Cybercrimes, using a VPN to commit or conceal a crime—such as accessing illegal content or bypassing restrictions for unlawful purposes—is a criminal offence.
 - DIFC and ADGM operate GDPR-aligned data regimes.
-- Co-led adoption of the UNESCO Recommendation on AI Ethics.
+- Early supporter of UNESCO's Recommendation on the Ethics of Artificial Intelligence and an active participant in ethical AI governance discussions.
 - Hosted COP28 (2023) and major global AI summits.
 - Among the world's most advanced e-governments (Smart Dubai).
 

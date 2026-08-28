@@ -1,0 +1,293 @@
+================================================================
+🇵🇱 POLAND | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Active contributor to international AI governance and human rights debates
+• Enforces national data privacy laws and digital infrastructure policies
+• Balances state national security interests with individual digital rights
+• Key UN Member State navigating AI ethics, surveillance oversight, and data sovereignty
+
+Hot Topics
+• Implementation of national AI strategy & safety guardrails
+• Data privacy enforcement & cross-border data transfer rules
+• Biometric surveillance oversight & police camera regulations
+• Algorithmic transparency in public administration
+• Protecting digital human rights in international frameworks
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: Unitary Parliamentary Republic
+Head: Prime Minister Donald Tusk / President Andrzej Duda
+UNSC Status: No
+Tech Sector: CD Projekt, ElevenLabs (Polish founders), Comarch, NASK
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Reforming state digital oversight following Senate investigations into past Pegasus spyware abuse, while advancing the Policy for AI Development to 2030.
+• Supports human-centric AI development aligned with fundamental rights
+• Enforces national data protection rules on commercial data processing
+• Balances legitimate national security surveillance with legal due process
+• Promotes international technical cooperation and digital capacity building
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Restore judicial surveillance oversight following Senate Pegasus reports, enforce UODO privacy rules, implement Policy for AI Development 2030, strengthen NATO cyber defense.
+• Protect national digital sovereignty and critical infrastructure
+• Foster domestic technological innovation and industrial automation
+• Ensure national data protection authorities maintain regulatory enforcement
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Policy for AI Development in Poland until 2030
+✓ UODO independent data protection authority
+✓ Senate Inquiry uncovering spyware abuse
+✓ NASK national cyber research institute
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Past state intelligence Pegasus spyware deployment against political targets
+✗ Judicial reform transition debates
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Poland's Senate Inquiry actively investigated and exposed past spyware abuse, initiating statutory reforms to restore strict judicial oversight over state surveillance.
+• National laws require legal due process and judicial authorization for state digital surveillance
+• Data privacy regulations grant individuals enforceable statutory rights over their personal data
+• Government AI initiatives prioritize human-in-the-loop oversight for high-risk applications
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST POLAND
+-------------------------------
+Q1. What statutory reforms has Poland enacted to prevent intelligence agencies from deploying invasive spyware without court warrants?
+Q2. How does UODO ensure citizens' data is protected when security services request telecommunication logs?
+
+---------------------------------------------------------------
+
+QUESTIONS POLAND CAN ASK
+-----------------------
+To Russia: How does Poland's Parliamentary inquiry into surveillance abuse compare to unmonitored SORM-3 interception?
+To EU: How will EU AI funds support Central European technology research hubs?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — National AI Framework Implementation
+Date: 2025–2026
+• Advancing national AI strategy and compliance guardrails
+• Debating algorithmic transparency and bias mitigation in public deployment
+Why it matters: Demonstrates national commitment to structured AI governance.
+
+CURRENT AFFAIR — Digital Privacy & Surveillance Oversight
+Date: 2025–2026
+• Enforcing data privacy rules across commercial and government digital systems
+• Addressing public concerns over police biometric surveillance and data processing
+Why it matters: Central to balancing public safety with fundamental digital rights.
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• “Poland’s recent history proves that surveillance tools must be subject to strict judicial control. We are reforming state oversight to ensure digital technology serves democracy.”
+• "Human rights and technological innovation are not mutually exclusive; proper regulation builds public trust."
+• "We call on the UNHRC to promote practical, enforceable frameworks for AI safety and data protection."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Establishing global standards for high-risk AI human oversight
+• Balancing legitimate public safety surveillance with privacy safeguards
+• Protecting citizen personal data in cross-border digital transfers
+• Addressing algorithmic bias in public administration algorithms
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UN Resolution establishing international guidelines for AI transparency in public services
+• Framework for technical assistance and capacity building in data privacy for developing states
+• Directives requiring mandatory human oversight for high-risk automated decision systems
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Poland will NOT support:
+• Measures that violate national state sovereignty or internal security jurisdiction
+• Binding regulations that stifle domestic technological innovation without capacity support
+• Blanket bans on legitimate security surveillance conducted under lawful judicial warrants
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: EU Member States, Baltic Nations, USA, Ukraine
+Likely Opponents: State-sponsored cyber attackers, illegal spyware vendors
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Lead with your national privacy law and official AI strategy credentials
+✓ Address domestic surveillance concerns by emphasizing legal frameworks and judicial process
+✓ Challenge opposing states on their own digital rights gaps or lack of clear statutory privacy laws
+✓ Frame digital policy around human-centered principles, trust, and international cooperation
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• Polish Senate Extraordinary Committee on Pegasus, UODO Poland, NASK, Ministry of Digital Affairs
+• UN Human Rights Council Documents
+• National Legislation & Official Government Portals
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Poland
+
+1. Country Overview
+- Government: Unitary Parliamentary Republic
+- Political System: Unitary Parliamentary Republic
+- Global Influence: Regional / International Active UN Member
+- Technology Sector: CD Projekt, ElevenLabs (Polish founders), Comarch, NASK
+
+2. Official Position on AI
+Reforming state digital oversight following Senate investigations into past Pegasus spyware abuse, while advancing the Policy for AI Development to 2030.
+
+3. National AI Strategy
+- National AI plans: Policy for the Development of Artificial Intelligence in Poland until 2030.
+- Government initiatives: Public R&D investments, academic research centers, and digital public services.
+- AI priorities: Trustworthy AI, administrative efficiency, and economic competitiveness.
+
+4. AI Governance
+- AI regulation: Governed under national AI policy frameworks and sector regulations.
+- AI ethics: Aligned with international human-centric AI guidelines.
+- Government oversight: Coordinated by relevant technology ministries and data privacy authorities.
+
+5. Data Privacy
+- Privacy laws: Personal Data Protection Act 2018 enforced by UODO.
+- Data protection authority: National data protection body / regulatory ministry.
+- Citizen protections: Grants legal rights regarding consent, data access, and processing safeguards.
+- Cross-border data rules: Regulates data transfers to maintain statutory security standards.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed in public urban centers under public safety guidelines.
+- Facial recognition: Subject to statutory conditions and police operational rules.
+- Internet monitoring: Conducted under national security legislation and legal authorization.
+- Government surveillance: Coordinated by state security agencies under legal due process.
+- Public justification: Essential for counter-terrorism, public order, and crime prevention.
+- International criticism: Past state intelligence Pegasus spyware deployment against political targets
+
+7. AI in Public Services
+- Education: Automated educational administrative platforms and digital learning portals.
+- Healthcare: Diagnostic assist tools and health database management.
+- Transportation: Smart traffic grid management and public transit optimization.
+- Judiciary: Automated legal document indexing and case tracking systems.
+- Public administration: Digital government services, tax administration, and public portals.
+
+8. AI in Defence
+- Military AI: Cyber Defence Forces (DKWOC) lead military AI threat detection and eastern border monitoring.
+- Autonomous systems: Defense surveillance assets and automated threat detection.
+- Cyber defence: Automated network boundary defense and threat monitoring.
+- National security applications: Intelligence analytics, border security, and communications protection.
+
+9. Cybersecurity
+- National cyber strategy: Coordinated national cybersecurity framework protecting critical infrastructure.
+- Cyber agencies: National cybersecurity agency / Ministry of Defense cyber units.
+- Cyber threats: State-sponsored cyber espionage, ransomware, and digital fraud.
+
+10. Major Technology Companies
+CD Projekt, ElevenLabs (Polish founders), Comarch, NASK
+
+11. International Cooperation
+- UN: Active participant in UNGA and UNHRC digital rights debates.
+- UNESCO: Supports UNESCO Recommendation on the Ethics of AI.
+- International bodies: Member of relevant regional and international tech policy forums.
+
+12. Human Rights Strengths
+- Policy for AI Development in Poland until 2030
+- UODO independent data protection authority
+- Senate Inquiry uncovering spyware abuse
+- NASK national cyber research institute
+
+13. Human Rights Concerns
+- Past state intelligence Pegasus spyware deployment against political targets
+- Judicial reform transition debates
+
+14. Likely Questions Against This Country
+- Q1. What statutory reforms has Poland enacted to prevent intelligence agencies from deploying invasive spyware without court warrants?
+- Q2. How does UODO ensure citizens' data is protected when security services request telecommunication logs?
+
+15. Questions Poland Can Ask Others
+- To Russia: How does Poland's Parliamentary inquiry into surveillance abuse compare to unmonitored SORM-3 interception?
+- To EU: How will EU AI funds support Central European technology research hubs?
+
+16. Strong Defence Arguments
+- Poland's Senate Inquiry actively investigated and exposed past spyware abuse, initiating statutory reforms to restore strict judicial oversight over state surveillance.
+- National surveillance operations require formal legal authorization and judicial due process.
+- Data protection laws grant citizens enforceable statutory rights over personal data.
+- Government AI initiatives prioritize human oversight for high-risk applications.
+
+17. Red Lines
+- Will not support measures infringing on national security jurisdiction or state sovereignty.
+- Opposes unfeasible regulatory mandates that penalize developing technology sectors.
+
+18. Likely Allies
+EU Member States, Baltic Nations, USA, Ukraine
+
+19. Likely Opponents
+State-sponsored cyber attackers, illegal spyware vendors
+
+20. Suggested Bloc
+Regional and Like-Minded UN Member States Bloc.
+
+21. Negotiation Strategy
+Advocate for balanced, human-centered AI regulation. Protect domestic tech innovation while supporting data privacy standards and international technical assistance.
+
+22. Important Statistics
+Allocated national funding for digital transformation, AI research initiatives, and cybersecurity infrastructure.
+
+23. Quick Facts
+- Member of UN Human Rights Council debates.
+- Enforces national data privacy regulations.
+- Promotes human-centered AI governance.
+- Operates digital public administrative portals.
+
+24. Executive Summary
+Poland is Central Europe's largest democracy and a rapidly growing tech hub prioritizing cyber defense and democratic reform. Reforming state digital oversight following Senate investigations into past Pegasus spyware abuse, while advancing the Policy for AI Development to 2030.
+
+25. SOURCES
+- Polish Senate Extraordinary Committee on Pegasus, UODO Poland, NASK, Ministry of Digital Affairs
+- Official Government Portals & National Legislation
+- UN Human Rights Council Reports
+
+================================================================

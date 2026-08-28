@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 
 // Build the complete list of statically-generated routes so the service
 // worker can precache every page (all content is baked into HTML at build).
-const APP_SHELL_ROUTES = ["/", "/search", "/committee/unhrc", "/committee/unsc"];
+const APP_SHELL_ROUTES = ["/", "/search", "/committee/unhrc", "/committee/unsc", "/committee/unwomen"];
 
 function buildRouteList(): string[] {
   const files = getAllFiles();

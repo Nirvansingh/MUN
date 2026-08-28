@@ -14,6 +14,8 @@ export interface CountryInfo {
   capital?: string;
   government?: string;
   leader?: string;
+  delegate?: string;
+  targetability?: string;
   importance?: string;
   unscStatus?: string;
   allies?: string;

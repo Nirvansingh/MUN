@@ -64,6 +64,7 @@ export default function Header() {
           <option value="all">🌐 All Committees</option>
           <option value="UNHRC">🕊️ UNHRC Mode</option>
           <option value="UNSC">⚓ UNSC Mode</option>
+          <option value="UN Women">⚖️ UN Women Mode</option>
         </select>
 
         <button id="myCountryBtn" className="btn" aria-label="Select your country" title="Select your country"

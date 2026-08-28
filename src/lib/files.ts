@@ -22,7 +22,7 @@ export function getAllFiles(): MunFile[] {
         const parts = relPath.split(path.sep);
 
         const committeeName = parts.length > 1 ? 
-          (parts[0] === 'unhrc' ? 'UNHRC' : parts[0] === 'unsc' ? 'UNSC' : parts[0] === 'global' ? 'Global Reference' : parts[0] === 'basics' ? 'General Guide' : parts[0]) 
+          (parts[0] === 'unhrc' ? 'UNHRC' : parts[0] === 'unsc' ? 'UNSC' : (parts[0] === 'unwomen' || parts[0] === 'un-women') ? 'UN Women' : parts[0] === 'global' ? 'Global Reference' : parts[0] === 'basics' ? 'General Guide' : parts[0]) 
           : 'General Guide';
 
         const isCountry =

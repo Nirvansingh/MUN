@@ -57,7 +57,7 @@ function Inner({ committeeName, countries, otherFiles }: {
   otherFiles: OtherFileData[];
 }) {
   const { currentFile, revisionMode, searchQuery, navigateTo, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel } = useApp();
-  const committeeIcon = committeeName === 'UNHRC' ? '🕊️' : '⚓';
+  const committeeIcon = committeeName === 'UNHRC' ? '🕊️' : committeeName === 'UNSC' ? '⚓' : '⚖️';
 
   useSwipeGesture({
     onSwipeRightEdge: () => { if (!sidebarVisible) toggleSidebar(); },
@@ -99,15 +99,21 @@ function Inner({ committeeName, countries, otherFiles }: {
 
                   <div className="committee-country-list">
                     {countries.map(c => {
-                      const info = parseCountryInfo(c.content);
+                      const info = parseCountryInfo(c.content, c.displayName);
                       const flag = getCountryFlag(c.displayName + '.txt') || '🌍';
                       const name = c.displayName.replace(/^[^|]*\|/, '').trim() || c.displayName;
+                      const isMyDelegation = (committeeName === 'UN Women' && name.toLowerCase() === 'philippines') || info.delegate?.toLowerCase().includes('nirvansingh');
                       return (
-                        <div key={c.path} className="committee-country-card"
+                        <div key={c.path} className={`committee-country-card ${isMyDelegation ? 'my-delegation-card' : ''}`}
                           onClick={() => navigateTo(c.path)}>
                           <div className="committee-country-flag">{flag}</div>
                           <div className="committee-country-info">
-                            <div className="committee-country-name">{name}</div>
+                            <div className="committee-country-name-row">
+                              <span className="committee-country-name">{name}</span>
+                              {isMyDelegation && <span className="my-delegation-pill">⭐ My Delegation</span>}
+                              {info.targetability && <span className={`targetability-pill target-${info.targetability.toLowerCase()}`}>{info.targetability}</span>}
+                            </div>
+                            {info.delegate && <div className="committee-country-delegate">👤 {info.delegate}</div>}
                             <div className="committee-country-capital">{info.capital || ''}</div>
                           </div>
                         </div>

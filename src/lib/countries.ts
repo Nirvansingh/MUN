@@ -6,12 +6,72 @@ export function getCountryFlag(filename: string): string {
     'afghanistan': '🇦🇫', 'china': '🇨🇳', 'france': '🇫🇷', 'india': '🇮🇳',
     'iran': '🇮🇷', 'israel': '🇮🇱', 'myanmar': '🇲🇲', 'north korea': '🇰🇵',
     'pakistan': '🇵🇰', 'palestine': '🇵🇸', 'russia': '🇷🇺', 'saudi arabia': '🇸🇦',
-    'syria': '🇸🇾', 'united kingdom': '🇬🇧', 'usa': '🇺🇸',
+    'syria': '🇸🇾', 'united kingdom': '🇬🇧', 'usa': '🇺🇸', 'united states': '🇺🇸',
     'egypt': '🇪🇬', 'germany': '🇩🇪', 'italy': '🇮🇹', 'japan': '🇯🇵',
     'south korea': '🇰🇷', 'türkiye': '🇹🇷', 'turkey': '🇹🇷', 'uae': '🇦🇪',
-    'ukraine': '🇺🇦', 'qatar': '🇶🇦',
+    'united arab emirates': '🇦🇪', 'ukraine': '🇺🇦', 'qatar': '🇶🇦',
+    'singapore': '🇸🇬', 'canada': '🇨🇦', 'australia': '🇦🇺', 'brazil': '🇧🇷',
+    'mexico': '🇲🇽', 'south africa': '🇿🇦', 'indonesia': '🇮🇩', 'malaysia': '🇲🇾',
+    'nigeria': '🇳🇬', 'kenya': '🇰🇪', 'sweden': '🇸🇪', 'norway': '🇳🇴',
+    'finland': '🇫🇮', 'netherlands': '🇳🇱', 'switzerland': '🇨🇭', 'estonia': '🇪🇪',
+    'spain': '🇪🇸', 'belgium': '🇧🇪', 'poland': '🇵🇱', 'new zealand': '🇳🇿',
+    'argentina': '🇦🇷', 'thailand': '🇹🇭', 'colombia': '🇨🇴', 'austria': '🇦🇹',
+    'bangladesh': '🇧🇩', 'vietnam': '🇻🇳', 'czechia': '🇨🇿', 'iraq': '🇮🇶',
+    'greece': '🇬🇷',
+    'denmark': '🇩🇰', 'hungary': '🇭🇺', 'azerbaijan': '🇦🇿', 'armenia': '🇦🇲',
+    'philippines': '🇵🇭', 'uk': '🇬🇧',
   };
   return flags[name] || '';
+}
+
+export const UN_WOMEN_DELEGATES: Record<string, string> = {
+  'usa': 'Saanj Kakadiya',
+  'united states': 'Saanj Kakadiya',
+  'uk': 'Keya Moradiya',
+  'united kingdom': 'Keya Moradiya',
+  'china': 'Naysha Agarwal',
+  'france': 'Mannat Agarwal',
+  'russia': 'Mahika Shah',
+  'india': 'Vaaniya Gupta',
+  'pakistan': 'Myra Negi',
+  'canada': 'Aathmika Negi',
+  'sweden': 'Swara Savani',
+  'norway': 'Kartikay Jain',
+  'germany': 'Kaviya Agarwal',
+  'italy': 'Dhiyaana Rathod',
+  'australia': 'Kiara Shah',
+  'new zealand': 'Amairra Khurana',
+  'afghanistan': 'Vishruti Hathiwala',
+  'iran': 'Krisha Mehta',
+  'south africa': 'Suhaan Shrimali',
+  'saudi arabia': 'Akshita Jindal',
+  'israel': 'Kriyansh Shah',
+  'ukraine': 'Mishti Gupta',
+  'switzerland': 'Jiyara Sutaria',
+  'denmark': 'Unnati Burad',
+  'finland': 'Prisha Patel',
+  'brazil': 'Jiara Dholakia',
+  'indonesia': 'Aarvi Korat',
+  'south korea': 'Hiya Himanshu Mehta',
+  'japan': 'Mannat Bhatiya',
+  'uae': 'Khushi Jain',
+  'united arab emirates': 'Khushi Jain',
+  'bangladesh': 'Neel Bhikadia',
+  'estonia': 'Dhruvika Zawar',
+  'hungary': 'Juana Charkhawala',
+  'azerbaijan': 'Heerva Rajpara',
+  'turkey': 'Deveshi Godiwala',
+  'türkiye': 'Deveshi Godiwala',
+  'armenia': 'Kashvi Khajanchi',
+  'philippines': 'Nirvansingh Sucharia',
+};
+
+export function getCountryDelegate(countryName: string, committee?: string): string | undefined {
+  const norm = countryName.replace(/\.txt$/i, '').replace(/^[^|]*\|/, '').trim().toLowerCase();
+  if (!committee || committee === 'UN Women') {
+    return UN_WOMEN_DELEGATES[norm];
+  }
+  return undefined;
 }
 
 export function getFileIcon(filename: string, file?: MunFile): string {
@@ -30,6 +90,7 @@ export function getFileIcon(filename: string, file?: MunFile): string {
 export function getFolderIcon(name: string): string {
   if (name === 'UNHRC') return '🕊️';
   if (name === 'UNSC') return '⚓';
+  if (name === 'UN Women') return '⚖️';
   if (name === 'Countries') return '🌐';
   if (name === 'Speeches') return '🎤';
   if (name === 'Resolutions') return '📜';
@@ -45,10 +106,11 @@ export function getFolderColorClass(name: string): string {
   if (name === 'Resolutions') return 'color-resolutions';
   if (name === '00 Agenda Handbook') return 'color-agenda';
   if (name.includes('Agenda')) return 'color-agenda';
+  if (name === 'UN Women') return 'color-unwomen';
   return '';
 }
 
-export function parseCountryInfo(content: string): CountryInfo {
+export function parseCountryInfo(content: string, fileName?: string): CountryInfo {
   const info: CountryInfo = {};
   const lines = content.split('\n');
   for (let i = 0; i < lines.length; i++) {
@@ -58,6 +120,10 @@ export function parseCountryInfo(content: string): CountryInfo {
     if (l.startsWith('Government:')) info.government = l.replace('Government:', '').trim();
     if (l.startsWith('Current Leader:') || l.startsWith('Head of State:') || l.startsWith('Head of Government:'))
       info.leader = l.replace(/^(Current Leader:|Head of State:|Head of Government:)/, '').trim();
+    if (l.startsWith('Delegate:') || l.startsWith('Representative:'))
+      info.delegate = l.replace(/^(Delegate:|Representative:)/, '').trim();
+    if (l.startsWith('Targetability:') || l.startsWith('Target Rating:'))
+      info.targetability = l.replace(/^(Targetability:|Target Rating:)/, '').trim();
     if (l.startsWith('Importance to Committee:')) info.importance = l.replace('Importance to Committee:', '').trim();
     if (l.startsWith('UNSC Status:') || l.startsWith('P5 Member:'))
       info.unscStatus = l.replace(/^(UNSC Status:|P5 Member:)/, '').trim();
@@ -70,6 +136,14 @@ export function parseCountryInfo(content: string): CountryInfo {
       if (m) info.opponents = m[1].trim();
     }
   }
+
+  if (!info.delegate && fileName) {
+    const norm = fileName.replace(/\.txt$/i, '').replace(/^[^|]*\|/, '').trim().toLowerCase();
+    if (UN_WOMEN_DELEGATES[norm]) {
+      info.delegate = UN_WOMEN_DELEGATES[norm];
+    }
+  }
+
   return info;
 }
 

@@ -95,14 +95,16 @@ function TreeNode({
         const displayText = file.isCountry
           ? file.displayName.replace(/^[^|]*\|\s*/, '').trim()
           : file.displayName;
+        const isMyDelegation = file.isCountry && file.committee === 'UN Women' && file.displayName.toLowerCase().includes('philippines');
         return (
           <div
             key={file.path}
-            className={`tree-file ${isActive ? 'active' : ''}`}
+            className={`tree-file ${isActive ? 'active' : ''} ${isMyDelegation ? 'tree-file-my-delegation' : ''}`}
             onClick={() => onFileClick(file.path)}
           >
             <span>{icon}</span>
             <span>{displayText}</span>
+            {isMyDelegation && <span className="tree-my-country-tag" title="User's Delegation">⭐</span>}
           </div>
         );
       })}

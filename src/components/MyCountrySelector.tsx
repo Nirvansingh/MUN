@@ -104,7 +104,7 @@ export default function MyCountrySelector() {
                     <span className="country-name">{c.name}</span>
                     <span className="country-badges">
                       {c.committees.map(cm => (
-                        <span key={cm} className={`country-badge ${cm === 'UNHRC' ? 'unhrc' : cm === 'UNSC' ? 'unsc' : 'global'}`}>
+                        <span key={cm} className={`country-badge ${cm === 'UNHRC' ? 'unhrc' : cm === 'UNSC' ? 'unsc' : cm === 'UN Women' ? 'unwomen' : 'global'}`}>
                           {cm}
                         </span>
                       ))}
@@ -126,7 +126,7 @@ export default function MyCountrySelector() {
                     className={`committee-option-btn ${selectedComm === cm ? 'selected' : ''}`}
                     onClick={() => setSelectedComm(cm)}
                   >
-                    {cm === 'UNHRC' ? '🕊️' : '⚓'} {cm}
+                    {cm === 'UNHRC' ? '🕊️' : cm === 'UNSC' ? '⚓' : cm === 'UN Women' ? '⚖️' : '🌐'} {cm}
                   </button>
                 ))}
               </div>

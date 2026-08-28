@@ -12,6 +12,7 @@ export default function Dashboard() {
     return {
       unhrcCount: countryFiles.filter(f => f.committee === 'UNHRC').length,
       unscCount: countryFiles.filter(f => f.committee === 'UNSC').length,
+      unWomenCount: countryFiles.filter(f => f.committee === 'UN Women').length,
       totalFiles: files.length,
     };
   }, [files]);
@@ -32,7 +33,7 @@ export default function Dashboard() {
     <div id="homeDashboard">
       <div className="dashboard-welcome">
         <h2>{greeting}, Delegate.</h2>
-        <p>{stats.totalFiles} research files ready · {stats.unhrcCount} UNHRC · {stats.unscCount} UNSC</p>
+        <p>{stats.totalFiles} research files ready · {stats.unhrcCount} UNHRC · {stats.unscCount} UNSC · {stats.unWomenCount} UN Women</p>
       </div>
 
       {myCountry && <MyCountryDashboardSection />}
@@ -47,6 +48,11 @@ export default function Dashboard() {
           <span className="dc-icon">⚓</span>
           <div className="dc-name">UNSC</div>
           <div className="dc-count">{stats.unscCount} countries · Supply Chains & Maritime</div>
+        </div>
+        <div className="dashboard-committee-card" onClick={() => setSelectedCommittee('UN Women')}>
+          <span className="dc-icon">⚖️</span>
+          <div className="dc-name">UN Women</div>
+          <div className="dc-count">{stats.unWomenCount} countries · Global Care Economy</div>
         </div>
       </div>
 
@@ -134,7 +140,7 @@ function MyCountryDashboardSection() {
 
   const flag = getCountryFlag(myCountry.name + '.txt') || '🎯';
   const countryFiles = getCountryFiles(files, myCountry.name, myCountry.committee);
-  const committeeIcon = myCountry.committee === 'UNHRC' ? '🕊️' : '⚓';
+  const committeeIcon = myCountry.committee === 'UNHRC' ? '🕊️' : myCountry.committee === 'UNSC' ? '⚓' : myCountry.committee === 'UN Women' ? '⚖️' : '🌐';
 
   const relatedFiles = files.filter(f =>
     f.committee === myCountry.committee &&

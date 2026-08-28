@@ -1,0 +1,293 @@
+================================================================
+🇬🇷 GREECE | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Active contributor to international AI governance and human rights debates
+• Enforces national data privacy laws and digital infrastructure policies
+• Balances state national security interests with individual digital rights
+• Key UN Member State navigating AI ethics, surveillance oversight, and data sovereignty
+
+Hot Topics
+• Implementation of national AI strategy & safety guardrails
+• Data privacy enforcement & cross-border data transfer rules
+• Biometric surveillance oversight & police camera regulations
+• Algorithmic transparency in public administration
+• Protecting digital human rights in international frameworks
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: Unitary Parliamentary Republic
+Head: Prime Minister Kyriakos Mitsotakis
+UNSC Status: No
+Tech Sector: NCSR Demokritos, European Cyber Crime Centre partnerships, Gov.gr
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Implementing EU AI Act under National AI Strategy, while responding to European Parliament PEGA inquiries by reforming intelligence oversight laws.
+• Supports human-centric AI development aligned with fundamental rights
+• Enforces national data protection rules on commercial data processing
+• Balances legitimate national security surveillance with legal due process
+• Promotes international technical cooperation and digital capacity building
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Implement EU AI Act, enforce Law 4624/2019 via HDPA, reform intelligence surveillance laws following Predator spyware inquiries, expand Gov.gr e-services.
+• Protect national digital sovereignty and critical infrastructure
+• Foster domestic technological innovation and industrial automation
+• Ensure national data protection authorities maintain regulatory enforcement
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Gov.gr successful public service digitization portal
+✓ Hellenic Data Protection Authority (HDPA) active fines
+✓ NCSR Demokritos AI research center
+✓ EU AI Act alignment
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Predator spyware controversy (PEGA committee inquiry)
+✗ National Intelligence Service (EYP) national security exemption debates
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Greece reformed its legal framework for communications interception in 2022 (Law 5002/2022) to prohibit commercial spyware and increase judicial oversight.
+• National laws require legal due process and judicial authorization for state digital surveillance
+• Data privacy regulations grant individuals enforceable statutory rights over their personal data
+• Government AI initiatives prioritize human-in-the-loop oversight for high-risk applications
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST GREECE
+-------------------------------
+Q1. What judicial oversight mechanisms were introduced under Law 5002/2022 to prevent unauthorized spyware targeting?
+Q2. How will HDPA ensure state security agencies comply with GDPR transparency rules?
+
+---------------------------------------------------------------
+
+QUESTIONS GREECE CAN ASK
+-----------------------
+To USA: How does Greece's statutory ban on commercial spyware compare to US regulations on foreign surveillance tech?
+To EU: How will the EU AI Act protect Mediterranean border nations managing digital border infrastructure?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — National AI Framework Implementation
+Date: 2025–2026
+• Advancing national AI strategy and compliance guardrails
+• Debating algorithmic transparency and bias mitigation in public deployment
+Why it matters: Demonstrates national commitment to structured AI governance.
+
+CURRENT AFFAIR — Digital Privacy & Surveillance Oversight
+Date: 2025–2026
+• Enforcing data privacy rules across commercial and government digital systems
+• Addressing public concerns over police biometric surveillance and data processing
+Why it matters: Central to balancing public safety with fundamental digital rights.
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• “Greece enacted Law 5002/2022 to ban illegal commercial spyware and strengthen judicial oversight. We support ethical European AI that protects digital democracy.”
+• "Human rights and technological innovation are not mutually exclusive; proper regulation builds public trust."
+• "We call on the UNHRC to promote practical, enforceable frameworks for AI safety and data protection."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Establishing global standards for high-risk AI human oversight
+• Balancing legitimate public safety surveillance with privacy safeguards
+• Protecting citizen personal data in cross-border digital transfers
+• Addressing algorithmic bias in public administration algorithms
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UN Resolution establishing international guidelines for AI transparency in public services
+• Framework for technical assistance and capacity building in data privacy for developing states
+• Directives requiring mandatory human oversight for high-risk automated decision systems
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Greece will NOT support:
+• Measures that violate national state sovereignty or internal security jurisdiction
+• Binding regulations that stifle domestic technological innovation without capacity support
+• Blanket bans on legitimate security surveillance conducted under lawful judicial warrants
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: EU Member States, Cyprus, France, Italy, NATO Allies
+Likely Opponents: Commercial spyware traffickers, cyber-espionage entities
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Lead with your national privacy law and official AI strategy credentials
+✓ Address domestic surveillance concerns by emphasizing legal frameworks and judicial process
+✓ Challenge opposing states on their own digital rights gaps or lack of clear statutory privacy laws
+✓ Frame digital policy around human-centered principles, trust, and international cooperation
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• Hellenic Data Protection Authority (HDPA), European Parliament PEGA Committee Report on Greece, Law 5002/2022 Text
+• UN Human Rights Council Documents
+• National Legislation & Official Government Portals
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Greece
+
+1. Country Overview
+- Government: Unitary Parliamentary Republic
+- Political System: Unitary Parliamentary Republic
+- Global Influence: Regional / International Active UN Member
+- Technology Sector: NCSR Demokritos, European Cyber Crime Centre partnerships, Gov.gr
+
+2. Official Position on AI
+Implementing EU AI Act under National AI Strategy, while responding to European Parliament PEGA inquiries by reforming intelligence oversight laws.
+
+3. National AI Strategy
+- National AI plans: National Strategy for Artificial Intelligence led by Ministry of Digital Governance.
+- Government initiatives: Public R&D investments, academic research centers, and digital public services.
+- AI priorities: Trustworthy AI, administrative efficiency, and economic competitiveness.
+
+4. AI Governance
+- AI regulation: Governed under national AI policy frameworks and sector regulations.
+- AI ethics: Aligned with international human-centric AI guidelines.
+- Government oversight: Coordinated by relevant technology ministries and data privacy authorities.
+
+5. Data Privacy
+- Privacy laws: Law 4624/2019 enforcing GDPR, overseen by HDPA.
+- Data protection authority: National data protection body / regulatory ministry.
+- Citizen protections: Grants legal rights regarding consent, data access, and processing safeguards.
+- Cross-border data rules: Regulates data transfers to maintain statutory security standards.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed in public urban centers under public safety guidelines.
+- Facial recognition: Subject to statutory conditions and police operational rules.
+- Internet monitoring: Conducted under national security legislation and legal authorization.
+- Government surveillance: Coordinated by state security agencies under legal due process.
+- Public justification: Essential for counter-terrorism, public order, and crime prevention.
+- International criticism: Predator spyware controversy (PEGA committee inquiry)
+
+7. AI in Public Services
+- Education: Automated educational administrative platforms and digital learning portals.
+- Healthcare: Diagnostic assist tools and health database management.
+- Transportation: Smart traffic grid management and public transit optimization.
+- Judiciary: Automated legal document indexing and case tracking systems.
+- Public administration: Digital government services, tax administration, and public portals.
+
+8. AI in Defence
+- Military AI: Hellenic Armed Forces integrate AI into Aegean maritime border surveillance and NATO cyber defense.
+- Autonomous systems: Defense surveillance assets and automated threat detection.
+- Cyber defence: Automated network boundary defense and threat monitoring.
+- National security applications: Intelligence analytics, border security, and communications protection.
+
+9. Cybersecurity
+- National cyber strategy: Coordinated national cybersecurity framework protecting critical infrastructure.
+- Cyber agencies: National cybersecurity agency / Ministry of Defense cyber units.
+- Cyber threats: State-sponsored cyber espionage, ransomware, and digital fraud.
+
+10. Major Technology Companies
+NCSR Demokritos, European Cyber Crime Centre partnerships, Gov.gr
+
+11. International Cooperation
+- UN: Active participant in UNGA and UNHRC digital rights debates.
+- UNESCO: Supports UNESCO Recommendation on the Ethics of AI.
+- International bodies: Member of relevant regional and international tech policy forums.
+
+12. Human Rights Strengths
+- Gov.gr successful public service digitization portal
+- Hellenic Data Protection Authority (HDPA) active fines
+- NCSR Demokritos AI research center
+- EU AI Act alignment
+
+13. Human Rights Concerns
+- Predator spyware controversy (PEGA committee inquiry)
+- National Intelligence Service (EYP) national security exemption debates
+
+14. Likely Questions Against This Country
+- Q1. What judicial oversight mechanisms were introduced under Law 5002/2022 to prevent unauthorized spyware targeting?
+- Q2. How will HDPA ensure state security agencies comply with GDPR transparency rules?
+
+15. Questions Greece Can Ask Others
+- To USA: How does Greece's statutory ban on commercial spyware compare to US regulations on foreign surveillance tech?
+- To EU: How will the EU AI Act protect Mediterranean border nations managing digital border infrastructure?
+
+16. Strong Defence Arguments
+- Greece reformed its legal framework for communications interception in 2022 (Law 5002/2022) to prohibit commercial spyware and increase judicial oversight.
+- National surveillance operations require formal legal authorization and judicial due process.
+- Data protection laws grant citizens enforceable statutory rights over personal data.
+- Government AI initiatives prioritize human oversight for high-risk applications.
+
+17. Red Lines
+- Will not support measures infringing on national security jurisdiction or state sovereignty.
+- Opposes unfeasible regulatory mandates that penalize developing technology sectors.
+
+18. Likely Allies
+EU Member States, Cyprus, France, Italy, NATO Allies
+
+19. Likely Opponents
+Commercial spyware traffickers, cyber-espionage entities
+
+20. Suggested Bloc
+Regional and Like-Minded UN Member States Bloc.
+
+21. Negotiation Strategy
+Advocate for balanced, human-centered AI regulation. Protect domestic tech innovation while supporting data privacy standards and international technical assistance.
+
+22. Important Statistics
+Allocated national funding for digital transformation, AI research initiatives, and cybersecurity infrastructure.
+
+23. Quick Facts
+- Member of UN Human Rights Council debates.
+- Enforces national data privacy regulations.
+- Promotes human-centered AI governance.
+- Operates digital public administrative portals.
+
+24. Executive Summary
+Greece is a Mediterranean EU nation pioneering government digital transformation while updating its surveillance oversight laws. Implementing EU AI Act under National AI Strategy, while responding to European Parliament PEGA inquiries by reforming intelligence oversight laws.
+
+25. SOURCES
+- Hellenic Data Protection Authority (HDPA), European Parliament PEGA Committee Report on Greece, Law 5002/2022 Text
+- Official Government Portals & National Legislation
+- UN Human Rights Council Reports
+
+================================================================

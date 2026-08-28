@@ -3,10 +3,18 @@ import type { Metadata } from 'next';
 import { getAllFiles } from '@/lib/files';
 import CommitteeClient from './CommitteeClient';
 
+function resolveCommitteeName(slug: string): string | null {
+  const s = slug.toLowerCase();
+  if (s === 'unhrc') return 'UNHRC';
+  if (s === 'unsc') return 'UNSC';
+  if (s === 'unwomen' || s === 'un-women') return 'UN Women';
+  return null;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ committee: string }> }): Promise<Metadata> {
   const { committee } = await params;
-  const committeeName = committee.toUpperCase();
-  if (!['UNHRC', 'UNSC'].includes(committeeName)) {
+  const committeeName = resolveCommitteeName(committee);
+  if (!committeeName) {
     return { title: 'Page Not Found' };
   }
   return {
@@ -16,20 +24,23 @@ export async function generateMetadata({ params }: { params: Promise<{ committee
 }
 
 export async function generateStaticParams() {
-  const committees = ['UNHRC', 'UNSC'];
-  return committees.map(c => ({ committee: c.toLowerCase() }));
+  return [
+    { committee: 'unhrc' },
+    { committee: 'unsc' },
+    { committee: 'unwomen' },
+    { committee: 'un-women' },
+  ];
 }
 
 export default async function CommitteePage({ params }: { params: Promise<{ committee: string }> }) {
   const { committee } = await params;
-  const files = getAllFiles();
-  const committeeName = committee.toUpperCase();
-  const validCommittees = ['UNHRC', 'UNSC'];
+  const committeeName = resolveCommitteeName(committee);
 
-  if (!validCommittees.includes(committeeName)) {
+  if (!committeeName) {
     notFound();
   }
 
+  const files = getAllFiles();
   const committeeFiles = files.filter(f => f.committee === committeeName);
   const countries = committeeFiles.filter(f => f.isCountry);
   const otherFiles = committeeFiles.filter(f => !f.isCountry);

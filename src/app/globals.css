@@ -647,6 +647,7 @@ textarea {
 
 .folder-header .folder-color-dot.color-unhrc { background: var(--info); }
 .folder-header .folder-color-dot.color-unsc { background: var(--info); }
+.folder-header .folder-color-dot.color-unwomen { background: #8b5cf6; }
 .folder-header .folder-color-dot.color-global { background: var(--text-muted); }
 .folder-header .folder-color-dot.color-basics { background: var(--text-muted); }
 
@@ -3354,3 +3355,118 @@ button:focus-visible {
     border-color: var(--danger);
   }
 }
+
+/* ==========================================================================
+   UN Women & Delegation Enhancements
+   ========================================================================== */
+
+.country-select-item .country-badge.unwomen,
+.ct-committee-badge.committee-un-women,
+.metadata-tag.committee-un-women {
+  border-color: rgba(139, 92, 246, 0.4);
+  color: var(--text-heading);
+  background: rgba(139, 92, 246, 0.12);
+}
+
+.my-delegation-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  color: #60a5fa;
+  letter-spacing: 0.02em;
+  margin-left: 8px;
+}
+
+.my-delegation-card {
+  border-color: rgba(59, 130, 246, 0.5) !important;
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.2);
+}
+
+.tree-file-my-delegation {
+  font-weight: 700;
+  color: var(--text-heading);
+}
+
+.tree-my-country-tag {
+  font-size: 11px;
+  margin-left: auto;
+  color: #fbbf24;
+}
+
+.committee-country-name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.committee-country-delegate {
+  font-size: 11.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.my-delegation-pill {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 10px;
+  background: rgba(59, 130, 246, 0.18);
+  border: 1px solid rgba(59, 130, 246, 0.4);
+  color: #60a5fa;
+}
+
+.targetability-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+}
+
+.targetability-pill {
+  font-size: 9.5px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+}
+
+.targetability-badge.target-green,
+.targetability-pill.target-green {
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.4);
+  color: #4ade80;
+}
+
+.targetability-badge.target-yellow,
+.targetability-pill.target-yellow {
+  background: rgba(234, 179, 8, 0.15);
+  border: 1px solid rgba(234, 179, 8, 0.4);
+  color: #facc15;
+}
+
+.targetability-badge.target-orange,
+.targetability-pill.target-orange {
+  background: rgba(249, 115, 22, 0.15);
+  border: 1px solid rgba(249, 115, 22, 0.4);
+  color: #fb923c;
+}
+
+.targetability-badge.target-red,
+.targetability-pill.target-red {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #f87171;
+}
+

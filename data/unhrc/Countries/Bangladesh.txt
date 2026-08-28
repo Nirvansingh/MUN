@@ -1,0 +1,293 @@
+================================================================
+🇧🇩 BANGLADESH | UNHRC BATTLE CARD
+================================================================
+
+==================================================
+AGENDA RELEVANCE SCORE
+==================================================
+
+Importance to Committee: ⭐⭐⭐⭐
+
+Why?
+• Active contributor to international AI governance and human rights debates
+• Enforces national data privacy laws and digital infrastructure policies
+• Balances state national security interests with individual digital rights
+• Key UN Member State navigating AI ethics, surveillance oversight, and data sovereignty
+
+Hot Topics
+• Implementation of national AI strategy & safety guardrails
+• Data privacy enforcement & cross-border data transfer rules
+• Biometric surveillance oversight & police camera regulations
+• Algorithmic transparency in public administration
+• Protecting digital human rights in international frameworks
+
+Expected Debate Frequency: Medium-High
+
+---------------------------------------------------------------
+
+BASIC INFO
+----------
+Government: Unitary Parliamentary Republic
+Head: Chief Adviser Muhammad Yunus (Interim Administration)
+UNSC Status: No
+Tech Sector: ICT Division, bKash, TigerIT, Pathao
+
+---------------------------------------------------------------
+
+OFFICIAL POSITION ON AGENDA
+---------------------------
+• Drafted National AI Policy 2024 and reviewing digital security laws to align police powers with international human rights standards.
+• Supports human-centric AI development aligned with fundamental rights
+• Enforces national data protection rules on commercial data processing
+• Balances legitimate national security surveillance with legal due process
+• Promotes international technical cooperation and digital capacity building
+
+---------------------------------------------------------------
+
+NATIONAL INTERESTS
+------------------
+• Review Cyber Security Act 2023, finalize Draft Data Protection Act, expand bKash digital financial inclusion, foster youth tech employment.
+• Protect national digital sovereignty and critical infrastructure
+• Foster domestic technological innovation and industrial automation
+• Ensure national data protection authorities maintain regulatory enforcement
+
+---------------------------------------------------------------
+
+STRENGTHS (PROS)
+----------------
+✓ Draft National AI Policy 2024
+✓ bKash global model for mobile financial inclusion
+✓ Active digital transformation initiatives
+✓ Youth-driven tech innovation ecosystem
+
+---------------------------------------------------------------
+
+WEAKNESSES (CONS)
+-----------------
+✗ Section 43 of Cyber Security Act 2023 warrantless search powers
+✗ Delays in enacting standalone Data Protection Act
+
+---------------------------------------------------------------
+
+KEY DEFENCE POINTS
+------------------
+• Bangladesh is actively reviewing its digital security legislation under the interim administration to ensure police search powers respect citizen privacy rights.
+• National laws require legal due process and judicial authorization for state digital surveillance
+• Data privacy regulations grant individuals enforceable statutory rights over their personal data
+• Government AI initiatives prioritize human-in-the-loop oversight for high-risk applications
+
+---------------------------------------------------------------
+
+LIKELY QUESTIONS AGAINST BANGLADESH
+-------------------------------
+Q1. How will Bangladesh amend Section 43 of the Cyber Security Act to prevent police device searches without court warrants?
+Q2. What timeline exists for enacting the standalone Data Protection Act?
+
+---------------------------------------------------------------
+
+QUESTIONS BANGLADESH CAN ASK
+-----------------------
+To EU: Will the EU provide technical assistance to help South Asian nations build independent data protection agencies?
+To USA: How can international privacy standards protect mobile money users in developing states?
+
+---------------------------------------------------------------
+
+CURRENT AFFAIRS
+---------------
+
+CURRENT AFFAIR — National AI Framework Implementation
+Date: 2025–2026
+• Advancing national AI strategy and compliance guardrails
+• Debating algorithmic transparency and bias mitigation in public deployment
+Why it matters: Demonstrates national commitment to structured AI governance.
+
+CURRENT AFFAIR — Digital Privacy & Surveillance Oversight
+Date: 2025–2026
+• Enforcing data privacy rules across commercial and government digital systems
+• Addressing public concerns over police biometric surveillance and data processing
+Why it matters: Central to balancing public safety with fundamental digital rights.
+
+---------------------------------------------------------------
+
+GSL TALKING POINTS
+------------------
+• “Bangladesh is reforming its digital laws to guarantee fundamental freedoms. We seek international technical cooperation to build human-centered AI and safe data privacy frameworks.”
+• "Human rights and technological innovation are not mutually exclusive; proper regulation builds public trust."
+• "We call on the UNHRC to promote practical, enforceable frameworks for AI safety and data protection."
+
+---------------------------------------------------------------
+
+MODERATED CAUCUS IDEAS
+----------------------
+• Establishing global standards for high-risk AI human oversight
+• Balancing legitimate public safety surveillance with privacy safeguards
+• Protecting citizen personal data in cross-border digital transfers
+• Addressing algorithmic bias in public administration algorithms
+
+---------------------------------------------------------------
+
+RESOLUTION IDEAS
+----------------
+• UN Resolution establishing international guidelines for AI transparency in public services
+• Framework for technical assistance and capacity building in data privacy for developing states
+• Directives requiring mandatory human oversight for high-risk automated decision systems
+
+---------------------------------------------------------------
+
+RED LINES
+---------
+Bangladesh will NOT support:
+• Measures that violate national state sovereignty or internal security jurisdiction
+• Binding regulations that stifle domestic technological innovation without capacity support
+• Blanket bans on legitimate security surveillance conducted under lawful judicial warrants
+
+---------------------------------------------------------------
+
+ALLIES & OPPONENTS
+------------------
+Likely Allies: South Asian Nations, Global South States, UNHRC Members
+Likely Opponents: Authoritarian digital censors, cyber-fraud syndicates
+
+---------------------------------------------------------------
+
+MUN TIPS
+--------
+✓ Lead with your national privacy law and official AI strategy credentials
+✓ Address domestic surveillance concerns by emphasizing legal frameworks and judicial process
+✓ Challenge opposing states on their own digital rights gaps or lack of clear statutory privacy laws
+✓ Frame digital policy around human-centered principles, trust, and international cooperation
+
+---------------------------------------------------------------
+
+OFFICIAL SOURCES
+----------------
+• ICT Division Bangladesh, UN OHCHR Statements on Bangladesh Digital Laws, bKash Infrastructure
+• UN Human Rights Council Documents
+• National Legislation & Official Government Portals
+
+================================================================
+
+
+====================================================================
+COUNTRY-SPECIFIC AI, SURVEILLANCE & DATA PRIVACY POSITIONS
+====================================================================
+
+COUNTRY NAME: Bangladesh
+
+1. Country Overview
+- Government: Unitary Parliamentary Republic
+- Political System: Unitary Parliamentary Republic
+- Global Influence: Regional / International Active UN Member
+- Technology Sector: ICT Division, bKash, TigerIT, Pathao
+
+2. Official Position on AI
+Drafted National AI Policy 2024 and reviewing digital security laws to align police powers with international human rights standards.
+
+3. National AI Strategy
+- National AI plans: Draft National AI Policy 2024 led by ICT Division.
+- Government initiatives: Public R&D investments, academic research centers, and digital public services.
+- AI priorities: Trustworthy AI, administrative efficiency, and economic competitiveness.
+
+4. AI Governance
+- AI regulation: Governed under national AI policy frameworks and sector regulations.
+- AI ethics: Aligned with international human-centric AI guidelines.
+- Government oversight: Coordinated by relevant technology ministries and data privacy authorities.
+
+5. Data Privacy
+- Privacy laws: Draft Data Protection Act (DPA) under legislative revision.
+- Data protection authority: National data protection body / regulatory ministry.
+- Citizen protections: Grants legal rights regarding consent, data access, and processing safeguards.
+- Cross-border data rules: Regulates data transfers to maintain statutory security standards.
+
+6. Mass Digital Surveillance
+- CCTV: Deployed in public urban centers under public safety guidelines.
+- Facial recognition: Subject to statutory conditions and police operational rules.
+- Internet monitoring: Conducted under national security legislation and legal authorization.
+- Government surveillance: Coordinated by state security agencies under legal due process.
+- Public justification: Essential for counter-terrorism, public order, and crime prevention.
+- International criticism: Section 43 of Cyber Security Act 2023 warrantless search powers
+
+7. AI in Public Services
+- Education: Automated educational administrative platforms and digital learning portals.
+- Healthcare: Diagnostic assist tools and health database management.
+- Transportation: Smart traffic grid management and public transit optimization.
+- Judiciary: Automated legal document indexing and case tracking systems.
+- Public administration: Digital government services, tax administration, and public portals.
+
+8. AI in Defence
+- Military AI: Bangladesh Armed Forces utilize AI for UN peacekeeping logistics and border monitoring.
+- Autonomous systems: Defense surveillance assets and automated threat detection.
+- Cyber defence: Automated network boundary defense and threat monitoring.
+- National security applications: Intelligence analytics, border security, and communications protection.
+
+9. Cybersecurity
+- National cyber strategy: Coordinated national cybersecurity framework protecting critical infrastructure.
+- Cyber agencies: National cybersecurity agency / Ministry of Defense cyber units.
+- Cyber threats: State-sponsored cyber espionage, ransomware, and digital fraud.
+
+10. Major Technology Companies
+ICT Division, bKash, TigerIT, Pathao
+
+11. International Cooperation
+- UN: Active participant in UNGA and UNHRC digital rights debates.
+- UNESCO: Supports UNESCO Recommendation on the Ethics of AI.
+- International bodies: Member of relevant regional and international tech policy forums.
+
+12. Human Rights Strengths
+- Draft National AI Policy 2024
+- bKash global model for mobile financial inclusion
+- Active digital transformation initiatives
+- Youth-driven tech innovation ecosystem
+
+13. Human Rights Concerns
+- Section 43 of Cyber Security Act 2023 warrantless search powers
+- Delays in enacting standalone Data Protection Act
+
+14. Likely Questions Against This Country
+- Q1. How will Bangladesh amend Section 43 of the Cyber Security Act to prevent police device searches without court warrants?
+- Q2. What timeline exists for enacting the standalone Data Protection Act?
+
+15. Questions Bangladesh Can Ask Others
+- To EU: Will the EU provide technical assistance to help South Asian nations build independent data protection agencies?
+- To USA: How can international privacy standards protect mobile money users in developing states?
+
+16. Strong Defence Arguments
+- Bangladesh is actively reviewing its digital security legislation under the interim administration to ensure police search powers respect citizen privacy rights.
+- National surveillance operations require formal legal authorization and judicial due process.
+- Data protection laws grant citizens enforceable statutory rights over personal data.
+- Government AI initiatives prioritize human oversight for high-risk applications.
+
+17. Red Lines
+- Will not support measures infringing on national security jurisdiction or state sovereignty.
+- Opposes unfeasible regulatory mandates that penalize developing technology sectors.
+
+18. Likely Allies
+South Asian Nations, Global South States, UNHRC Members
+
+19. Likely Opponents
+Authoritarian digital censors, cyber-fraud syndicates
+
+20. Suggested Bloc
+Regional and Like-Minded UN Member States Bloc.
+
+21. Negotiation Strategy
+Advocate for balanced, human-centered AI regulation. Protect domestic tech innovation while supporting data privacy standards and international technical assistance.
+
+22. Important Statistics
+Allocated national funding for digital transformation, AI research initiatives, and cybersecurity infrastructure.
+
+23. Quick Facts
+- Member of UN Human Rights Council debates.
+- Enforces national data privacy regulations.
+- Promotes human-centered AI governance.
+- Operates digital public administrative portals.
+
+24. Executive Summary
+Bangladesh is a major South Asian nation undergoing democratic digital reform and expanding mobile financial inclusion. Drafted National AI Policy 2024 and reviewing digital security laws to align police powers with international human rights standards.
+
+25. SOURCES
+- ICT Division Bangladesh, UN OHCHR Statements on Bangladesh Digital Laws, bKash Infrastructure
+- Official Government Portals & National Legislation
+- UN Human Rights Council Reports
+
+================================================================

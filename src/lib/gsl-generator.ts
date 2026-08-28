@@ -168,13 +168,19 @@ const hookTemplates: ((data: CountryData) => string)[] = [
       const stat = d.statistics[0] || d.strengths[0];
       return `${stat} — this is not just a number. This is the reality we must address in this committee.`;
     }
+    if (d.committee === 'UN Women') {
+      return `Across every continent, women perform more than three-quarters of all unpaid care work — labor that anchors the global economy, yet remains unrecognized and uncompensated.`;
+    }
     return `In an era where technology advances faster than our laws can keep up, we face a fundamental question: who protects the rights of the individual in the digital age?`;
   },
   // Rhetorical question
   (d) => {
     const topics = d.hotTopics.slice(0, 2).join(' and ').toLowerCase();
     if (topics) {
-      return `Can we truly claim to champion human rights when ${topics} remain unregulated and unchecked? This committee must answer that question.`;
+      return `Can we truly claim to champion equality and economic progress when ${topics} remain unaddressed? This committee must answer that question.`;
+    }
+    if (d.committee === 'UN Women') {
+      return `How can we speak of women's empowerment when the invisible burden of the care economy continues to limit their social and economic mobility?`;
     }
     return `How many more people must have their fundamental rights violated before this council takes meaningful action?`;
   },
@@ -184,12 +190,18 @@ const hookTemplates: ((data: CountryData) => string)[] = [
       const affair = d.currentAffairs[0];
       return `When ${affair.title}, the world watched. Yet today, we still lack the frameworks to prevent the next crisis.`;
     }
+    if (d.committee === 'UN Women') {
+      return `From domestic households to international healthcare corridors, the global care economy touches every facet of our societies, yet structural protection remains dangerously absent.`;
+    }
     return `From the streets of our capitals to the screens in our pockets — digital surveillance has woven itself into the fabric of modern life, and we must decide where to draw the line.`;
   },
   // Impactful statement
   (d) => {
     if (d.importance) {
       return `${d.importance} relevance. That is not a badge of honour — it is a call to action. The time for debate is over; the time for resolution is now.`;
+    }
+    if (d.committee === 'UN Women') {
+      return `Care work is the invisible engine of the global economy. Without meaningful social infrastructure and legal protections, women will remain disproportionately bound by time poverty.`;
     }
     return `The digital revolution was supposed to liberate us. Instead, it has created new tools for oppression, new avenues for discrimination, and new questions we have yet to answer.`;
   },
@@ -199,16 +211,25 @@ const hookTemplates: ((data: CountryData) => string)[] = [
       const aff = d.currentAffairs[0];
       return `The events surrounding ${aff.title.toLowerCase()} have demonstrated, beyond any doubt, that the international community cannot afford to remain silent.`;
     }
+    if (d.committee === 'UN Women') {
+      return `Every day, millions of women provide indispensable childcare, eldercare, and domestic labor while sacrificing their own careers, pensions, and financial security. This is an urgent development crisis.`;
+    }
     return `Every day, millions of people go online unaware that their data is being collected, their movements tracked, and their private lives commodified. This is the human rights crisis of our generation.`;
   },
   // Short impactful
-  () => {
+  (d) => {
+    if (d.committee === 'UN Women') {
+      return `Economic justice and gender equality are inseparable. As long as care work remains undervalued, true gender parity will remain an unfulfilled promise.`;
+    }
     return `The right to privacy is not a privilege — it is a fundamental human right, enshrined in Article 12 of the Universal Declaration. Yet today, that right is under assault as never before.`;
   },
   // Country-specific hook
   (d) => {
     if (d.weaknesses.length > 0) {
       return `We cannot ignore the uncomfortable truth: ${d.weaknesses[0].toLowerCase()}. But rather than assign blame, we must work collectively to find solutions.`;
+    }
+    if (d.committee === 'UN Women') {
+      return `Dignity for care workers knows no borders — and neither should our commitment to structural reform in the global care economy.`;
     }
     return `Technology knows no borders — and neither should our commitment to protecting human rights in the digital sphere.`;
   },
@@ -434,6 +455,9 @@ export function getCommitteeAgenda(committee: string): string {
   }
   if (committee === 'UNSC') {
     return 'Global Supply Chain Security and Maritime Trade Resilience';
+  }
+  if (committee === 'UN Women') {
+    return "Assessing the Impact of the Global Care Economy on Women's Economic and Social Mobility";
   }
   return 'General Debate';
 }

@@ -36,7 +36,26 @@ export default function Dashboard() {
         <p>{stats.totalFiles} research files ready · {stats.unhrcCount} UNHRC · {stats.unscCount} UNSC · {stats.unWomenCount} UN Women</p>
       </div>
 
-      {myCountry && <MyCountryDashboardSection />}
+      {myCountry ? (
+        <MyCountryDashboardSection />
+      ) : (
+        <div
+          className="dashboard-delegation-cta"
+          onClick={() => window.dispatchEvent(new CustomEvent('open-my-country'))}
+          role="button"
+          tabIndex={0}
+          onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') window.dispatchEvent(new CustomEvent('open-my-country')); }}
+        >
+          <div className="delegation-cta-left">
+            <span className="delegation-cta-icon">🎯</span>
+            <div>
+              <div className="delegation-cta-title">Select Your Delegation</div>
+              <div className="delegation-cta-desc">Choose your assigned country to unlock instant battle cards, strategic caucus alliances, and customized committee preparation.</div>
+            </div>
+          </div>
+          <button className="delegation-cta-btn btn" type="button">Set Country</button>
+        </div>
+      )}
 
       <div className="dashboard-committees">
         <div className="dashboard-committee-card" onClick={() => setSelectedCommittee('UNHRC')}>
@@ -158,11 +177,21 @@ function MyCountryDashboardSection() {
             {committeeIcon} {myCountry.committee} · {countryFiles.length} file{countryFiles.length !== 1 ? 's' : ''}
           </div>
         </div>
-        {countryFiles[0] && (
-          <button className="dashboard-my-country-open btn" onClick={() => navigateTo(countryFiles[0].path)}>
-            📂 Open
+        <div className="dashboard-my-country-actions">
+          <button
+            className="dashboard-my-country-change btn"
+            onClick={() => window.dispatchEvent(new CustomEvent('open-my-country'))}
+            title="Switch to another delegation"
+            type="button"
+          >
+            🔄 Switch
           </button>
-        )}
+          {countryFiles[0] && (
+            <button className="dashboard-my-country-open btn" onClick={() => navigateTo(countryFiles[0].path)} type="button">
+              📂 Battle Card
+            </button>
+          )}
+        </div>
       </div>
       {relatedFiles.length > 0 && (
         <div className="dashboard-my-country-related">

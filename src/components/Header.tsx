@@ -67,9 +67,9 @@ export default function Header() {
           <option value="UN Women">⚖️ UN Women Mode</option>
         </select>
 
-        <button id="myCountryBtn" className="btn" aria-label="Select your country" title="Select your country"
+        <button id="myCountryBtn" className="btn" aria-label="Select your delegation" title="Select your delegation"
           onClick={() => window.dispatchEvent(new CustomEvent('open-my-country'))}>
-          {myCountry ? `${getCountryFlag(myCountry.name + '.txt') || '🎯'} ${myCountry.name}` : '🎯 My Country'}
+          {myCountry ? `${getCountryFlag(myCountry.name + '.txt') || '🎯'} ${myCountry.name}` : '🎯 Select Delegation'}
         </button>
 
         <button className={`btn scratchpad-toggle-btn${hasScratchpadNotes ? ' has-notes' : ''}`}

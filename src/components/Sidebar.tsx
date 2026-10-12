@@ -55,7 +55,7 @@ function TreeNode({
   currentFilePath: string | null;
   onFileClick: (path: string) => void;
 }) {
-  const { getFolderState, toggleFolderState } = useApp();
+  const { getFolderState, toggleFolderState, myCountry } = useApp();
 
   const folders = Object.keys(obj).filter(k => k !== '_files').sort();
 
@@ -95,7 +95,9 @@ function TreeNode({
         const displayText = file.isCountry
           ? file.displayName.replace(/^[^|]*\|\s*/, '').trim()
           : file.displayName;
-        const isMyDelegation = file.isCountry && file.committee === 'UN Women' && file.displayName.toLowerCase().includes('philippines');
+        const isMyDelegation = myCountry
+          ? (file.isCountry && file.committee === myCountry.committee && file.displayName.toLowerCase().includes(myCountry.name.toLowerCase()))
+          : false;
         return (
           <div
             key={file.path}
@@ -104,7 +106,7 @@ function TreeNode({
           >
             <span>{icon}</span>
             <span>{displayText}</span>
-            {isMyDelegation && <span className="tree-my-country-tag" title="User's Delegation">⭐</span>}
+            {isMyDelegation && <span className="tree-my-country-tag" title="Your Delegation">⭐</span>}
           </div>
         );
       })}

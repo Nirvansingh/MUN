@@ -3,17 +3,21 @@
 import React from 'react';
 import { MunFile } from '@/lib/types';
 import { parseCountryInfo, getCountryFlag } from '@/lib/countries';
+import { useApp } from '@/lib/AppContext';
 
 export default function CountryCard({ file }: { file: MunFile }) {
+  const { myCountry } = useApp();
   const info = parseCountryInfo(file.content, file.name);
   const flag = getCountryFlag(file.name) || '🌍';
   const name = file.displayName.replace(/^[^|]*\|/, '').trim() || file.displayName;
-  const isMyDelegation = name.toLowerCase() === 'philippines' || info.delegate?.toLowerCase().includes('nirvansingh');
+  const isMyDelegation = myCountry
+    ? (file.committee === myCountry.committee && name.toLowerCase() === myCountry.name.toLowerCase())
+    : false;
 
   const fields = [
-    { label: 'Delegate', value: info.delegate },
     { label: 'Capital', value: info.capital },
     { label: 'Government', value: info.government },
+    { label: 'Head of State/Gov', value: info.leader },
     { label: 'UNSC Status', value: info.unscStatus },
     { label: 'Committee Importance', value: info.importance },
     { label: 'Targetability', value: info.targetability },
@@ -30,8 +34,8 @@ export default function CountryCard({ file }: { file: MunFile }) {
         <span className="country-card-flag">{flag}</span>
         <span className="country-card-name">{name}</span>
         {isMyDelegation && (
-          <span className="my-delegation-badge" title="User Assigned Delegation">
-            ⭐ My Delegation
+          <span className="my-delegation-badge" title="Your Selected Delegation">
+            ⭐ Your Delegation
           </span>
         )}
         {info.targetability && (

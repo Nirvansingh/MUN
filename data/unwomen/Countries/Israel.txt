@@ -8,7 +8,6 @@ AGENDA RELEVANCE SCORE
 
 Importance to Committee: ⭐⭐⭐⭐
 Targetability: YELLOW (High Fertility OECD Outlier & Foreign Caregiver Destination)
-Delegate: Kriyansh Shah
 
 Why?
 • Highest Total Fertility Rate in the entire OECD: ~2.9 to 3.0 children per woman (nearly double the OECD average of 1.5)
@@ -34,7 +33,6 @@ Official Name: State of Israel (Medinat Yisrael)
 Capital: Jerusalem (De Facto seat of government)
 Government: Parliamentary Republic
 Head of Government: Prime Minister Benjamin Netanyahu
-Delegate: Kriyansh Shah
 UN Women Status: OECD Member State / Innovation & Tech Powerhouse
 Care Economy Model: Pronatalist Welfare / High Fertility Dual-Earner / Migrant Home Eldercare
 

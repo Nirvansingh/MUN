@@ -24,53 +24,11 @@ export function getCountryFlag(filename: string): string {
   return flags[name] || '';
 }
 
-export const UN_WOMEN_DELEGATES: Record<string, string> = {
-  'usa': 'Saanj Kakadiya',
-  'united states': 'Saanj Kakadiya',
-  'uk': 'Keya Moradiya',
-  'united kingdom': 'Keya Moradiya',
-  'china': 'Naysha Agarwal',
-  'france': 'Mannat Agarwal',
-  'russia': 'Mahika Shah',
-  'india': 'Vaaniya Gupta',
-  'pakistan': 'Myra Negi',
-  'canada': 'Aathmika Negi',
-  'sweden': 'Swara Savani',
-  'norway': 'Kartikay Jain',
-  'germany': 'Kaviya Agarwal',
-  'italy': 'Dhiyaana Rathod',
-  'australia': 'Kiara Shah',
-  'new zealand': 'Amairra Khurana',
-  'afghanistan': 'Vishruti Hathiwala',
-  'iran': 'Krisha Mehta',
-  'south africa': 'Suhaan Shrimali',
-  'saudi arabia': 'Akshita Jindal',
-  'israel': 'Kriyansh Shah',
-  'ukraine': 'Mishti Gupta',
-  'switzerland': 'Jiyara Sutaria',
-  'denmark': 'Unnati Burad',
-  'finland': 'Prisha Patel',
-  'brazil': 'Jiara Dholakia',
-  'indonesia': 'Aarvi Korat',
-  'south korea': 'Hiya Himanshu Mehta',
-  'japan': 'Mannat Bhatiya',
-  'uae': 'Khushi Jain',
-  'united arab emirates': 'Khushi Jain',
-  'bangladesh': 'Neel Bhikadia',
-  'estonia': 'Dhruvika Zawar',
-  'hungary': 'Juana Charkhawala',
-  'azerbaijan': 'Heerva Rajpara',
-  'turkey': 'Deveshi Godiwala',
-  'türkiye': 'Deveshi Godiwala',
-  'armenia': 'Kashvi Khajanchi',
-  'philippines': 'Nirvansingh Sucharia',
-};
+export const UN_WOMEN_DELEGATES: Record<string, string> = {};
 
-export function getCountryDelegate(countryName: string, committee?: string): string | undefined {
-  const norm = countryName.replace(/\.txt$/i, '').replace(/^[^|]*\|/, '').trim().toLowerCase();
-  if (!committee || committee === 'UN Women') {
-    return UN_WOMEN_DELEGATES[norm];
-  }
+export function getCountryDelegate(_countryName?: string, _committee?: string): string | undefined {
+  void _countryName;
+  void _committee;
   return undefined;
 }
 
@@ -110,7 +68,8 @@ export function getFolderColorClass(name: string): string {
   return '';
 }
 
-export function parseCountryInfo(content: string, fileName?: string): CountryInfo {
+export function parseCountryInfo(content: string, _fileName?: string): CountryInfo {
+  void _fileName;
   const info: CountryInfo = {};
   const lines = content.split('\n');
   for (let i = 0; i < lines.length; i++) {
@@ -120,8 +79,6 @@ export function parseCountryInfo(content: string, fileName?: string): CountryInf
     if (l.startsWith('Government:')) info.government = l.replace('Government:', '').trim();
     if (l.startsWith('Current Leader:') || l.startsWith('Head of State:') || l.startsWith('Head of Government:'))
       info.leader = l.replace(/^(Current Leader:|Head of State:|Head of Government:)/, '').trim();
-    if (l.startsWith('Delegate:') || l.startsWith('Representative:'))
-      info.delegate = l.replace(/^(Delegate:|Representative:)/, '').trim();
     if (l.startsWith('Targetability:') || l.startsWith('Target Rating:'))
       info.targetability = l.replace(/^(Targetability:|Target Rating:)/, '').trim();
     if (l.startsWith('Importance to Committee:')) info.importance = l.replace('Importance to Committee:', '').trim();
@@ -134,13 +91,6 @@ export function parseCountryInfo(content: string, fileName?: string): CountryInf
     if (l.startsWith('Likely Opponents:')) {
       const m = l.match(/^Likely Opponents?:\s*(.+)/);
       if (m) info.opponents = m[1].trim();
-    }
-  }
-
-  if (!info.delegate && fileName) {
-    const norm = fileName.replace(/\.txt$/i, '').replace(/^[^|]*\|/, '').trim().toLowerCase();
-    if (UN_WOMEN_DELEGATES[norm]) {
-      info.delegate = UN_WOMEN_DELEGATES[norm];
     }
   }
 

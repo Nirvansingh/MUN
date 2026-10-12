@@ -56,7 +56,7 @@ function Inner({ committeeName, countries, otherFiles }: {
   countries: CountryData[];
   otherFiles: OtherFileData[];
 }) {
-  const { currentFile, revisionMode, searchQuery, navigateTo, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel } = useApp();
+  const { currentFile, revisionMode, searchQuery, navigateTo, sidebarVisible, toggleSidebar, rightPanelVisible, toggleRightPanel, myCountry } = useApp();
   const committeeIcon = committeeName === 'UNHRC' ? '🕊️' : committeeName === 'UNSC' ? '⚓' : '⚖️';
 
   useSwipeGesture({
@@ -102,7 +102,9 @@ function Inner({ committeeName, countries, otherFiles }: {
                       const info = parseCountryInfo(c.content, c.displayName);
                       const flag = getCountryFlag(c.displayName + '.txt') || '🌍';
                       const name = c.displayName.replace(/^[^|]*\|/, '').trim() || c.displayName;
-                      const isMyDelegation = (committeeName === 'UN Women' && name.toLowerCase() === 'philippines') || info.delegate?.toLowerCase().includes('nirvansingh');
+                      const isMyDelegation = myCountry
+                        ? (committeeName === myCountry.committee && name.toLowerCase() === myCountry.name.toLowerCase())
+                        : false;
                       return (
                         <div key={c.path} className={`committee-country-card ${isMyDelegation ? 'my-delegation-card' : ''}`}
                           onClick={() => navigateTo(c.path)}>
@@ -110,10 +112,9 @@ function Inner({ committeeName, countries, otherFiles }: {
                           <div className="committee-country-info">
                             <div className="committee-country-name-row">
                               <span className="committee-country-name">{name}</span>
-                              {isMyDelegation && <span className="my-delegation-pill">⭐ My Delegation</span>}
+                              {isMyDelegation && <span className="my-delegation-pill">⭐ Your Delegation</span>}
                               {info.targetability && <span className={`targetability-pill target-${info.targetability.toLowerCase()}`}>{info.targetability}</span>}
                             </div>
-                            {info.delegate && <div className="committee-country-delegate">👤 {info.delegate}</div>}
                             <div className="committee-country-capital">{info.capital || ''}</div>
                           </div>
                         </div>

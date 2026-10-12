@@ -5,17 +5,26 @@ import { useApp } from '@/lib/AppContext';
 import { getCountryFlag } from '@/lib/countries';
 
 export default function MyCountrySelector() {
-  const { files, setMyCountry, navigateTo } = useApp();
+  const { files, myCountry, setMyCountry, navigateTo } = useApp();
   const [visible, setVisible] = useState(false);
   const [search, setSearch] = useState('');
   const [selectedName, setSelectedName] = useState<string | null>(null);
   const [selectedComm, setSelectedComm] = useState<string | null>(null);
 
   useEffect(() => {
-    const handler = () => setVisible(v => !v);
+    const handler = () => {
+      setVisible(v => {
+        const next = !v;
+        if (next && myCountry) {
+          setSelectedName(myCountry.name);
+          setSelectedComm(myCountry.committee);
+        }
+        return next;
+      });
+    };
     window.addEventListener('open-my-country', handler);
     return () => window.removeEventListener('open-my-country', handler);
-  }, []);
+  }, [myCountry]);
 
   // Close with Esc (broadcast by the keyboard-shortcuts handler).
   useEffect(() => {
